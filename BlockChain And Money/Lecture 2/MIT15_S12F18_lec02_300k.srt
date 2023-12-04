@@ -1,0 +1,6705 @@
+﻿1
+00:00:00,720 --> 00:00:04,290
+The following content is provided under a Creative Commons license
+
+2
+00:00:04,300 --> 00:00:10,510
+Your support will help MIT Open courseware continue to offer high quality educational resources for free
+
+3
+00:00:10,670 --> 00:00:15,120
+To make a donation or to view additional materials from hundreds of MIT courses
+
+4
+00:00:15,470 --> 00:00:20,280
+visit MIT Open Courseware at ocw.mit.edu
+
+5
+00:00:22,260 --> 00:00:25,700
+So today what we're going to be doing is
+
+6
+00:00:25,800 --> 00:00:28,570
+Last week, you gave us some feedback
+
+7
+00:00:28,580 --> 00:00:30,410
+What you wanted to do in the class
+
+8
+00:00:30,420 --> 00:00:33,060
+We're gonna go through that and talk about the readings
+
+9
+00:00:33,340 --> 00:00:35,520
+I'm going to do a little calling on you
+
+10
+00:00:35,560 --> 00:00:38,130
+and helping you take the class through the readings
+
+11
+00:00:38,130 --> 00:00:43,140
+and then the 6 or 7 things I'm going to do： history of money
+
+12
+00:00:43,140 --> 00:00:44,190
+ledgers
+
+13
+00:00:44,200 --> 00:00:45,310
+fiat currency
+
+14
+00:00:45,310 --> 00:00:47,190
+central banks and credit cards
+
+15
+00:00:47,200 --> 00:00:48,690
+and the role of money
+
+16
+00:00:49,490 --> 00:00:51,970
+Some early digital money
+
+17
+00:00:52,040 --> 00:00:55,670
+You had the Clark reading as to a bunch of failed attempts
+
+18
+00:00:55,730 --> 00:00:58,000
+Just all the way through a little bit of mobile money
+
+19
+00:00:58,000 --> 00:01:03,820
+All the way up to Starbucks and ali pay and yet the riddle remains
+
+20
+00:01:03,820 --> 00:01:07,750
+We're going to get really deep into Bitcoin in the next three classes
+
+21
+00:01:07,760 --> 00:01:15,830
+But this is to give some foundational bits of money and ledgers and central banking and technology
+
+22
+00:01:16,230 --> 00:01:17,050
+And then of course
+
+23
+00:01:17,050 --> 00:01:22,770
+I always like to finish the class talking a little bit about why we're doing what we're doing between now and then
+
+24
+00:01:23,030 --> 00:01:24,770
+even though the readings are required
+
+25
+00:01:24,770 --> 00:01:25,750
+I know you're all busy
+
+26
+00:01:25,750 --> 00:01:28,400
+I know that you've all got a bunch of classes and
+
+27
+00:01:28,820 --> 00:01:32,990
+like good business students and business people, you optimize
+
+28
+00:01:32,990 --> 00:01:35,750
+So I'm trying to give you a sense of why you might read it
+
+29
+00:01:35,750 --> 00:01:38,290
+Rather than it's required at the end of each class
+
+30
+00:01:38,300 --> 00:01:41,520
+and how it fits into the coarse narrative
+
+31
+00:01:42,520 --> 00:01:44,720
+And then we'll do a little bit of conclusions
+
+32
+00:01:44,860 --> 00:01:46,090
+So the survey results
+
+33
+00:01:46,100 --> 00:01:47,250
+What did you want to learn
+
+34
+00:01:47,260 --> 00:01:49,680
+This is really your class
+
+35
+00:01:49,690 --> 00:01:52,180
+And I'm going to learn as much from you
+
+36
+00:01:52,390 --> 00:01:54,440
+But hopefully we're going to cover what you want
+
+37
+00:01:54,690 --> 00:01:58,530
+So here's a list of those things who are at least written by two of you
+
+38
+00:01:58,540 --> 00:02:00,360
+First was technical things
+
+39
+00:02:01,220 --> 00:02:04,510
+18 of you said understanding blockchain technology
+
+40
+00:02:04,510 --> 00:02:06,230
+Hopefully we get to that
+
+41
+00:02:06,890 --> 00:02:10,470
+But you might find that you'll want to do more after this class
+
+42
+00:02:10,480 --> 00:02:14,918
+The ecosystem and being able to have an educated discussion
+
+43
+00:02:14,910 --> 00:02:18,320
+sort of the dinner party conversation around blockchain
+
+44
+00:02:18,330 --> 00:02:19,720
+I think will be successful
+
+45
+00:02:19,720 --> 00:02:21,400
+But at the end of the semester
+
+46
+00:02:21,410 --> 00:02:22,980
+we're going to pull these slides up again
+
+47
+00:02:22,980 --> 00:02:24,700
+and we'll see how we did as a group
+
+48
+00:02:25,880 --> 00:02:28,370
+You all talked a lot about applications
+
+49
+00:02:29,520 --> 00:02:31,230
+How can you actually apply it
+
+50
+00:02:32,500 --> 00:02:34,771
+Learning it in the venture space
+
+51
+00:02:34,771 --> 00:02:38,850
+and thinking about where it really works in the world
+
+52
+00:02:39,130 --> 00:02:41,970
+And I think we're going to spend a lot of time on that in the second half
+
+53
+00:02:41,980 --> 00:02:42,900
+But all throughout
+
+54
+00:02:43,340 --> 00:02:45,240
+we're going to be talking about the economics
+
+55
+00:02:45,250 --> 00:02:48,750
+And what's the reality versus the hype
+
+56
+00:02:50,510 --> 00:02:53,480
+You also wanted to understand its impact
+
+57
+00:02:54,340 --> 00:02:55,890
+on people's lives
+
+58
+00:02:56,320 --> 00:02:57,620
+The regulation
+
+59
+00:02:58,110 --> 00:03:00,960
+About 6 of you said something about regulation
+
+60
+00:03:01,290 --> 00:03:04,740
+I'm glad because we're only doing one lecture on that
+
+61
+00:03:05,440 --> 00:03:11,428
+but we're going to spread it out because as we talked about in our first class
+
+62
+00:03:11,428 --> 00:03:13,673
+and I'm honored Larry's here again
+
+63
+00:03:13,673 --> 00:03:18,164
+But we're going to always be thinking about Larry's four ways
+
+64
+00:03:18,164 --> 00:03:20,410
+And I see -- is it Jihee?
+
+65
+00:03:20,500 --> 00:03:21,910
+Where are Larry Lessig's
+
+66
+00:03:23,100 --> 00:03:24,160
+Yeah, you shook your head
+
+67
+00:03:24,160 --> 00:03:24,970
+Yes, so
+
+68
+00:03:25,390 --> 00:03:26,010
+I know
+
+69
+00:03:29,410 --> 00:03:33,430
+It is code and architecture, market, law, and norms
+
+70
+00:03:34,830 --> 00:03:35,380
+You got it
+
+71
+00:03:36,270 --> 00:03:38,560
+Does anybody want to say how that relates to blockchain
+
+72
+00:03:38,570 --> 00:03:39,780
+Why we're chatting about that
+
+73
+00:03:44,500 --> 00:03:45,250
+Oh my God
+
+74
+00:03:45,250 --> 00:03:47,340
+I'm going to have to cold call fast, right
+
+75
+00:03:47,870 --> 00:03:49,450
+You are from R3
+
+76
+00:03:51,660 --> 00:03:53,652
+Joe? -- Yeah
+
+77
+00:03:53,855 --> 00:03:57,480
+No, I remember we saw it last class
+
+78
+00:03:57,480 --> 00:03:59,450
+but I can't relate it now to blockchain
+
+79
+00:04:00,780 --> 00:04:02,180
+Can you relate to anything in life
+
+80
+00:04:03,180 --> 00:04:05,053
+Maybe not.  Alan
+
+81
+00:04:05,053 --> 00:04:07,675
+Help your your table made out
+
+82
+00:04:07,675 --> 00:04:10,000
+I'm waiting for my moment to shine
+
+83
+00:04:11,400 --> 00:04:12,920
+This isn't it? -- This isn't it
+
+84
+00:04:13,660 --> 00:04:15,140
+I'm having fun you know
+
+85
+00:04:15,180 --> 00:04:16,460
+this is what I'm going to do
+
+86
+00:04:16,500 --> 00:04:17,170
+I'm just gonna have
+
+87
+00:04:17,220 --> 00:04:18,300
+it's don't worry about it. Ha
+
+88
+00:04:19,530 --> 00:04:23,850
+so why do markets, code, law
+
+89
+00:04:23,860 --> 00:04:24,820
+Did, did I hear
+
+90
+00:04:24,850 --> 00:04:26,390
+Did I? I can't see your name
+
+91
+00:04:26,390 --> 00:04:28,320
+but is it Dar?
+
+92
+00:04:29,150 --> 00:04:29,540
+Yeah
+
+93
+00:04:29,550 --> 00:04:30,050
+why
+
+94
+00:04:30,060 --> 00:04:31,600
+Why is that relate to all this
+
+95
+00:04:32,720 --> 00:04:34,340
+Can you repeat the question?
+
+96
+00:04:36,110 --> 00:04:37,000
+Jihee
+
+97
+00:04:37,830 --> 00:04:40,420
+you're going to repeat the question cause you went through it
+
+98
+00:04:40,670 --> 00:04:46,830
+So how does Larry's four forces relate to
+
+99
+00:04:47,500 --> 00:04:49,739
+our topic of blockchains
+
+100
+00:04:49,739 --> 00:04:52,600
+And the four forces, again, are market
+
+101
+00:04:52,610 --> 00:04:57,780
+So business, law, code or architecture
+
+102
+00:04:57,870 --> 00:05:00,760
+Call it technology and social norms
+
+103
+00:05:02,110 --> 00:05:05,789
+So I think it's because it brings like a new way
+
+104
+00:05:05,789 --> 00:05:11,350
+of doing those things like a new tool in order to-- so
+
+105
+00:05:11,470 --> 00:05:15,960
+what I got from the reading is like, these ledgers already existed
+
+106
+00:05:16,210 --> 00:05:19,480
+but given that now we have, like big data
+
+107
+00:05:19,580 --> 00:05:23,660
+for example,  then like more things going on helps our society
+
+108
+00:05:23,670 --> 00:05:25,270
+roll it out better.
+
+109
+00:05:25,990 --> 00:05:26,840
+Good way to say
+
+110
+00:05:26,850 --> 00:05:28,430
+look it's unfair of me
+
+111
+00:05:28,440 --> 00:05:29,590
+It wasn't one of the readings
+
+112
+00:05:29,590 --> 00:05:31,610
+I'm just saying in everything in life
+
+113
+00:05:31,620 --> 00:05:34,930
+I find these things grind up against each other
+
+114
+00:05:35,000 --> 00:05:39,210
+I spent a lot of time in Washington in politics
+
+115
+00:05:39,580 --> 00:05:43,159
+But the markets and how the commercial enterprise
+
+116
+00:05:43,159 --> 00:05:46,663
+and the economy grinds up against technology
+
+117
+00:05:46,663 --> 00:05:50,720
+and sort of grinds up against the law
+
+118
+00:05:50,810 --> 00:05:51,490
+And then of course
+
+119
+00:05:51,490 --> 00:05:53,560
+just social normative behavior
+
+120
+00:05:53,570 --> 00:05:57,440
+These four forces in almost everything one does in life
+
+121
+00:05:57,440 --> 00:05:58,600
+you will find
+
+122
+00:05:59,160 --> 00:06:01,678
+And so I just ask you to always
+
+123
+00:06:01,678 --> 00:06:03,546
+whether it's one reading or another reading
+
+124
+00:06:03,546 --> 00:06:06,560
+bring that to your thought process of this class
+
+125
+00:06:06,580 --> 00:06:08,880
+I'm not going to assign Larry's assignment
+
+126
+00:06:08,880 --> 00:06:10,390
+I didn't know he was even going to be here
+
+127
+00:06:10,390 --> 00:06:14,110
+But I've always thought these, it's a good discipline to think
+
+128
+00:06:14,110 --> 00:06:16,280
+Okay what are the commercial realities
+
+129
+00:06:16,320 --> 00:06:17,350
+The markets
+
+130
+00:06:18,040 --> 00:06:19,500
+What's the technology
+
+131
+00:06:21,000 --> 00:06:23,433
+Even if it's in an earlier day
+
+132
+00:06:23,433 --> 00:06:27,030
+and it's a technology of the car replacing the horse and carriage
+
+133
+00:06:29,215 --> 00:06:32,509
+How does government or the official sector
+
+134
+00:06:32,509 --> 00:06:36,820
+put it into a set of standards that are required
+
+135
+00:06:36,820 --> 00:06:38,460
+And then how do we as society
+
+136
+00:06:38,460 --> 00:06:40,864
+even if it's not required just to have our behaviors
+
+137
+00:06:41,350 --> 00:06:43,049
+those are the four forces
+
+138
+00:06:43,049 --> 00:06:44,020
+So that's why
+
+139
+00:06:45,280 --> 00:06:47,670
+and I probably just failed Larry's class
+
+140
+00:06:47,670 --> 00:06:49,770
+But that's how I thought about it
+
+141
+00:06:50,310 --> 00:06:51,470
+I did probably right
+
+142
+00:06:51,850 --> 00:06:52,460
+And now he's
+
+143
+00:06:52,460 --> 00:06:53,530
+he's shaking his head
+
+144
+00:06:53,800 --> 00:06:56,450
+But regulation is just one of those four forces
+
+145
+00:06:56,450 --> 00:06:58,250
+And that's why I pause there
+
+146
+00:06:58,290 --> 00:06:59,920
+And so we'll have it in every class
+
+147
+00:06:59,930 --> 00:07:01,340
+But only one lecture
+
+148
+00:07:02,600 --> 00:07:03,460
+Money and markets
+
+149
+00:07:03,460 --> 00:07:04,960
+That's one of the other forces
+
+150
+00:07:04,960 --> 00:07:06,550
+Five of you said you want to make money
+
+151
+00:07:06,800 --> 00:07:09,870
+And I applaud those who said that because, why won't they?
+
+152
+00:07:10,340 --> 00:07:11,500
+You're in a business school
+
+153
+00:07:11,500 --> 00:07:12,170
+Why not
+
+154
+00:07:13,860 --> 00:07:16,270
+But investing in trends
+
+155
+00:07:16,270 --> 00:07:18,400
+Now, there was a bunch of other miscellaneous topics
+
+156
+00:07:18,400 --> 00:07:19,610
+I'm not going to go through them
+
+157
+00:07:19,620 --> 00:07:22,158
+I kind of thought the last two were interesting
+
+158
+00:07:22,158 --> 00:07:24,170
+anecdotes from my past
+
+159
+00:07:24,230 --> 00:07:25,830
+I'm not sure who said that
+
+160
+00:07:27,270 --> 00:07:30,140
+I'm not sure what you want to know about, my three daughters
+
+161
+00:07:30,140 --> 00:07:31,690
+my running or this you know
+
+162
+00:07:31,870 --> 00:07:33,940
+Wall Street stuff and finance
+
+163
+00:07:34,280 --> 00:07:38,580
+And I'd like to understand hyperbitcoinization as well
+
+164
+00:07:38,590 --> 00:07:40,670
+But I don't know who asks that question
+
+165
+00:07:41,200 --> 00:07:42,310
+I don't know what it is
+
+166
+00:07:42,310 --> 00:07:44,848
+So I'll try to figure out what hyper...
+
+167
+00:07:44,848 --> 00:07:48,580
+does anyone want to own up to that question? They were anonymous
+
+168
+00:07:48,590 --> 00:07:49,140
+All right
+
+169
+00:07:49,840 --> 00:07:50,350
+All right
+
+170
+00:07:50,360 --> 00:07:53,160
+So today's study questions
+
+171
+00:07:55,280 --> 00:07:58,200
+What's the role of money historically
+
+172
+00:07:58,230 --> 00:08:01,430
+and in today's digital economy
+
+173
+00:08:02,150 --> 00:08:04,760
+And this is what I'm going to look for discussion
+
+174
+00:08:04,760 --> 00:08:07,180
+So is anybody who want to tell me what the role of money
+
+175
+00:08:07,360 --> 00:08:12,040
+what would be your answer to this? Anton?
+
+176
+00:08:12,800 --> 00:08:13,430
+Umm.. The
+
+177
+00:08:14,550 --> 00:08:18,060
+The medium of the transaction and enn
+
+178
+00:08:18,190 --> 00:08:21,520
+and the unit of... like a counting unit
+
+179
+00:08:21,564 --> 00:08:25,380
+And also, like the state of the value.
+
+180
+00:08:25,700 --> 00:08:30,500
+So the three classic rolls of money that people talk about.
+
+181
+00:08:30,610 --> 00:08:33,460
+Kelly, you want to repeat what he just said
+
+182
+00:08:33,460 --> 00:08:36,619
+That was quite a question, but I think historically
+
+183
+00:08:36,619 --> 00:08:39,215
+it was pay off debts, starting, you know
+
+184
+00:08:39,215 --> 00:08:41,810
+and conquering various lands awards
+
+185
+00:08:41,810 --> 00:08:44,740
+and then also funding trade wars, cutting taxes
+
+186
+00:08:44,960 --> 00:08:49,200
+So a lot of societal things that drove civilization forward
+
+187
+00:08:51,280 --> 00:08:53,116
+And what we'll discuss today and
+
+188
+00:08:53,116 --> 00:08:55,820
+what it is is that money is a social construct
+
+189
+00:08:55,820 --> 00:08:58,100
+It's something that societies came together
+
+190
+00:08:58,100 --> 00:09:01,457
+whether it's hard to tell whether it was 5000 years ago
+
+191
+00:09:01,457 --> 00:09:05,040
+or 8,000 or 10,000 years ago, that it's really
+
+192
+00:09:05,040 --> 00:09:07,740
+it's a social consensus mechanism
+
+193
+00:09:09,560 --> 00:09:13,050
+But we're going to chat about the readings in a minute
+
+194
+00:09:13,090 --> 00:09:14,540
+and come back to that question
+
+195
+00:09:15,240 --> 00:09:16,690
+What is fiat currency
+
+196
+00:09:16,690 --> 00:09:17,780
+Is anybody wanna... Tom
+
+197
+00:09:17,780 --> 00:09:19,780
+You want to tell us what fiat currency is
+
+198
+00:09:20,000 --> 00:09:20,570
+Umm
+
+199
+00:09:21,550 --> 00:09:22,200
+It's a shame, tom
+
+200
+00:09:22,260 --> 00:09:23,500
+See I recognize you
+
+201
+00:09:23,510 --> 00:09:25,330
+So it's... -- My website
+
+202
+00:09:27,228 --> 00:09:30,787
+So this is like a established currency
+
+203
+00:09:30,787 --> 00:09:34,740
+by a central publishing item and a market
+
+204
+00:09:36,280 --> 00:09:40,630
+Right, so you said it's a central currency and it's by government
+
+205
+00:09:41,040 --> 00:09:42,820
+Anybody else want to add some things
+
+206
+00:09:43,420 --> 00:09:44,350
+Is it Kyle?
+
+207
+00:09:45,410 --> 00:09:48,620
+I would just add that it's not backed by any physical commodity
+
+208
+00:09:48,640 --> 00:09:51,520
+So it's not backed by any physical commodity
+
+209
+00:09:51,570 --> 00:09:53,360
+Yeah. Really just the good faith
+
+210
+00:09:53,860 --> 00:09:55,810
+and credit of the nation that issues it
+
+211
+00:09:56,370 --> 00:09:58,277
+Daniel, did you want to add anything
+
+212
+00:09:58,277 --> 00:10:01,520
+I just want to say somewhere that it's not gold backed or anything like that.
+
+213
+00:10:02,470 --> 00:10:03,900
+But was it always that way
+
+214
+00:10:04,460 --> 00:10:06,260
+It wasn't originally that way
+
+215
+00:10:06,810 --> 00:10:10,210
+A fiat currency might be backed by something physical
+
+216
+00:10:10,620 --> 00:10:11,950
+Was there other
+
+217
+00:10:12,540 --> 00:10:13,310
+Remind me your name
+
+218
+00:10:13,390 --> 00:10:15,110
+I'm sorry...  -- Josh  -- Josh
+
+219
+00:10:15,460 --> 00:10:16,670
+I mean specifically
+
+220
+00:10:16,680 --> 00:10:18,450
+we used to settle debts
+
+221
+00:10:19,460 --> 00:10:21,300
+And specifically those to the government
+
+222
+00:10:21,430 --> 00:10:21,940
+So taxes
+
+223
+00:10:22,520 --> 00:10:24,000
+All right so for me is for taxes
+
+224
+00:10:24,010 --> 00:10:25,250
+And remind me your name
+
+225
+00:10:25,260 --> 00:10:26,430
+Cause I can't see a card
+
+226
+00:10:26,430 --> 00:10:28,430
+What ? --Sean --Sean
+
+227
+00:10:28,780 --> 00:10:31,600
+So basically, there's no inherent value in fiat currency
+
+228
+00:10:32,840 --> 00:10:36,410
+So, so basically, there's no one recognize
+
+229
+00:10:37,070 --> 00:10:39,540
+that specific currency itself. There's no government
+
+230
+00:10:39,980 --> 00:10:42,500
+So here is a question for the class
+
+231
+00:10:42,510 --> 00:10:46,580
+Is there inherent value to non fiat currencies
+
+232
+00:10:46,696 --> 00:10:49,699
+Because Sean saying that maybe a distinguishing
+
+233
+00:10:49,699 --> 00:10:52,430
+characteristic of fiat is it has no inherent value
+
+234
+00:10:52,440 --> 00:10:54,623
+Terry -- Terry
+
+235
+00:10:54,932 --> 00:10:56,167
+Well actually
+
+236
+00:10:56,167 --> 00:11:02,033
+the same applies to any commodity that's used to as..., the back
+
+237
+00:11:02,960 --> 00:11:04,503
+currency in general
+
+238
+00:11:04,503 --> 00:11:10,678
+because it's just the scarcity of some specific resource and the social
+
+239
+00:11:10,987 --> 00:11:15,310
+common agreement that that's going to be the  parameter
+
+240
+00:11:16,590 --> 00:11:20,570
+So, how many people or more in line with Eric
+
+241
+00:11:20,580 --> 00:11:22,890
+Or there's not one
+
+242
+00:11:22,890 --> 00:11:23,780
+right answer to this
+
+243
+00:11:23,780 --> 00:11:27,670
+This is this is a question that's been debated for decades or centuries
+
+244
+00:11:28,260 --> 00:11:32,260
+But, how many are more on Shawn's camp that...
+
+245
+00:11:32,270 --> 00:11:33,890
+Well I think it depends that for example
+
+246
+00:11:33,900 --> 00:11:36,530
+gold is definitely like a social construct
+
+247
+00:11:36,600 --> 00:11:38,420
+We decide that as a human society
+
+248
+00:11:38,430 --> 00:11:40,960
+the goal is going to be something valuable
+
+249
+00:11:41,120 --> 00:11:42,250
+But like if it's like
+
+250
+00:11:42,260 --> 00:11:42,590
+you know
+
+251
+00:11:42,600 --> 00:11:44,350
+grains that humans can eat
+
+252
+00:11:44,550 --> 00:11:46,790
+And you know that I think have the inherent values
+
+253
+00:11:47,020 --> 00:11:51,560
+So I think there are non-hierarchical currencies that does have inherent values
+
+254
+00:11:51,560 --> 00:11:54,210
+And that does not have inherent values
+
+255
+00:11:54,720 --> 00:11:55,380
+Anybody
+
+256
+00:11:55,460 --> 00:11:56,980
+And what's your... Jihee, yeah
+
+257
+00:11:57,890 --> 00:11:58,400
+Tom
+
+258
+00:11:58,410 --> 00:11:59,080
+Tomas？-- Tomas
+
+259
+00:11:59,930 --> 00:12:01,020
+I just want to say that
+
+260
+00:12:01,100 --> 00:12:03,350
+the characters there is another component
+
+261
+00:12:03,550 --> 00:12:08,184
+which, the fact that it is a legal thing for development
+
+262
+00:12:08,432 --> 00:12:10,172
+in some, in some counties
+
+263
+00:12:10,421 --> 00:12:12,658
+forced the society to use the
+
+264
+00:12:12,906 --> 00:12:14,646
+the currency which makes
+
+265
+00:12:14,895 --> 00:12:18,126
+more comfortable for people to use as a...
+
+266
+00:12:18,126 --> 00:12:22,750
+Also Tomas is saying that fiat currency is legal tender
+
+267
+00:12:22,780 --> 00:12:25,294
+So first we have to discuss what is legal tender
+
+268
+00:12:25,294 --> 00:12:29,290
+is anybody want to knock that one out of the ballpark
+
+269
+00:12:29,290 --> 00:12:32,150
+who hasn't raised their hand yet now
+
+270
+00:12:32,960 --> 00:12:33,500
+All right
+
+271
+00:12:33,840 --> 00:12:36,220
+Well I think that's maybe my earlier comment
+
+272
+00:12:38,220 --> 00:12:41,320
+It can be used to settle debts and enn...
+
+273
+00:12:41,740 --> 00:12:42,525
+and specifically
+
+274
+00:12:42,525 --> 00:12:44,687
+specifically those to the government
+
+275
+00:12:44,687 --> 00:12:46,455
+So you can use gold as a money
+
+276
+00:12:46,455 --> 00:12:48,223
+It can be a store of value
+
+277
+00:12:48,223 --> 00:12:50,188
+It can be a means of exchange
+
+278
+00:12:50,188 --> 00:12:52,350
+but you can't pay your taxes in gold right
+
+279
+00:12:52,680 --> 00:12:54,086
+Or is that correct
+
+280
+00:12:54,086 --> 00:12:55,212
+So 19th century
+
+281
+00:12:55,212 --> 00:12:59,995
+could you pay your taxes in gold in the US and in Britain
+
+282
+00:12:59,995 --> 00:13:03,090
+in other countries that had gold currency
+
+283
+00:13:05,420 --> 00:13:06,550
+Is it just a yes or no
+
+284
+00:13:06,570 --> 00:13:07,000
+But James
+
+285
+00:13:07,550 --> 00:13:09,882
+It's yes, but up to 1970s
+
+286
+00:13:09,882 --> 00:13:11,366
+the gold the currency
+
+287
+00:13:11,366 --> 00:13:14,758
+the paper currency is attached to the gold standard
+
+288
+00:13:14,758 --> 00:13:15,606
+So inherently
+
+289
+00:13:15,606 --> 00:13:21,118
+there is an exchange of value that is pegged by the government or bank or the central bank
+
+290
+00:13:21,118 --> 00:13:25,782
+So it's almost one of the same thing at the at that time until more recent years
+
+291
+00:13:25,782 --> 00:13:28,962
+James is saying you could use gold as legal tender
+
+292
+00:13:28,962 --> 00:13:30,234
+legal tender, again
+
+293
+00:13:30,234 --> 00:13:34,050
+is something that a society comes together and creates a law
+
+294
+00:13:34,540 --> 00:13:36,100
+You know back to the Lessig four
+
+295
+00:13:36,100 --> 00:13:37,970
+that's a... you know society together
+
+296
+00:13:37,980 --> 00:13:41,760
+It says it's not just a social normative behavior
+
+297
+00:13:41,760 --> 00:13:42,520
+it's a law
+
+298
+00:13:42,910 --> 00:13:49,030
+One must accept this in the US and the UK In many countries
+
+299
+00:13:49,030 --> 00:13:50,850
+it says for all debts
+
+300
+00:13:50,850 --> 00:13:51,860
+public and private
+
+301
+00:13:52,300 --> 00:13:59,130
+So a debt to the government or a debt in a store
+
+302
+00:13:59,390 --> 00:14:05,330
+We're going to get to later as to when is it true that somebody has to take your cash
+
+303
+00:14:05,330 --> 00:14:07,858
+But I'm going to hold off on that in a minute
+
+304
+00:14:08,126 --> 00:14:10,004
+And talk about it
+
+305
+00:14:10,004 --> 00:14:11,613
+But I think also Jihee
+
+306
+00:14:11,613 --> 00:14:15,137
+said it was somewhere between Sean and Eric
+
+307
+00:14:15,650 --> 00:14:17,704
+Both physically in the class
+
+308
+00:14:17,704 --> 00:14:20,272
+And in terms of her articulation that
+
+309
+00:14:20,272 --> 00:14:25,150
+fiat currency might not have anything inherently behind it
+
+310
+00:14:25,590 --> 00:14:30,650
+And but gold mostly doesn't have anything inherently behind it
+
+311
+00:14:30,660 --> 00:14:34,520
+And then some forms of currency like grain
+
+312
+00:14:35,150 --> 00:14:35,910
+had more
+
+313
+00:14:35,910 --> 00:14:37,710
+So maybe it's a continuum
+
+314
+00:14:38,240 --> 00:14:39,470
+Maybe it's not, you know
+
+315
+00:14:39,480 --> 00:14:40,700
+black and white
+
+316
+00:14:40,880 --> 00:14:42,800
+100% or 0%
+
+317
+00:14:43,060 --> 00:14:46,230
+And then we're going to talk a little bit about how Bitcoin fits into it
+
+318
+00:14:46,770 --> 00:14:51,610
+And our next three classes are going to be really into the technology of Bitcoin
+
+319
+00:14:51,610 --> 00:14:56,270
+but just just a little bit of teasing out before I go through some lecture slides
+
+320
+00:14:56,270 --> 00:15:00,410
+Who wants to talk about how Bitcoin might fit into this history of money
+
+321
+00:15:00,840 --> 00:15:05,820
+And then I'm going to return to that question in about 45 minutes and ask you again
+
+322
+00:15:06,860 --> 00:15:10,510
+But does anybody want to say from the readings and if you remind me your name
+
+323
+00:15:10,600 --> 00:15:12,040
+Isabelle -- Isabel.
+
+324
+00:15:12,050 --> 00:15:15,790
+So with Bitcoin is kind of the same where the value is given by society
+
+325
+00:15:15,920 --> 00:15:17,070
+except with Bitcoin
+
+326
+00:15:17,080 --> 00:15:18,900
+it's not backed by any kind of central bank
+
+327
+00:15:19,060 --> 00:15:21,490
+So people don't think that there is an inherent value
+
+328
+00:15:21,510 --> 00:15:22,250
+but it like
+
+329
+00:15:22,590 --> 00:15:24,273
+but the readings pointed out that
+
+330
+00:15:24,273 --> 00:15:27,000
+they're sort of that same history, except it doesn't have...
+
+331
+00:15:27,170 --> 00:15:29,812
+So Isabel was saying that Bitcoin fits
+
+332
+00:15:29,812 --> 00:15:31,547
+into the history of money because
+
+333
+00:15:31,547 --> 00:15:35,500
+like fiat currencies and like Jihee said about gold
+
+334
+00:15:35,540 --> 00:15:40,230
+it doesn't necessarily have any inherent monetary value
+
+335
+00:15:40,470 --> 00:15:45,350
+but it's a societal set of norms that people are accepting it as having value
+
+336
+00:15:45,550 --> 00:15:49,450
+But the key distinction that Isabel said was that it's no central
+
+337
+00:15:49,840 --> 00:15:52,001
+It's not backed by any kind of central bank
+
+338
+00:15:52,001 --> 00:15:54,530
+It's not backed by a central bank or a central authority
+
+339
+00:15:54,840 --> 00:15:55,280
+Alan?
+
+340
+00:15:56,000 --> 00:15:58,841
+Yes, so bitcoin,  in my opinion, is unique
+
+341
+00:15:58,841 --> 00:16:03,290
+because I think the value of bitcoin changes over time
+
+342
+00:16:03,310 --> 00:16:07,270
+not the fluctuation that we see like $6000 or $19000
+
+343
+00:16:07,290 --> 00:16:11,440
+but in terms of the power for the utility of the point itself
+
+344
+00:16:11,640 --> 00:16:13,600
+And, so today, for example
+
+345
+00:16:13,600 --> 00:16:15,370
+we might be able to buy pizza
+
+346
+00:16:15,860 --> 00:16:17,710
+or coffee or whatever with Bitcoin
+
+347
+00:16:17,720 --> 00:16:21,210
+So there is an inherent value in terms of minimum exchange
+
+348
+00:16:21,650 --> 00:16:24,840
+And it will change as society adopts it more and more
+
+349
+00:16:24,840 --> 00:16:29,410
+So I think it's hard to define if there is an inherent folly or not
+
+350
+00:16:29,910 --> 00:16:32,690
+So Alan is raising that Bitcoin
+
+351
+00:16:33,230 --> 00:16:35,444
+If I can put some words in your mouth
+
+352
+00:16:35,444 --> 00:16:36,879
+and tell me if I'm correct
+
+353
+00:16:36,879 --> 00:16:40,149
+that Bitcoin might have some distinguishing features
+
+354
+00:16:40,149 --> 00:16:45,730
+from even fiat currency that its value is shifting over time with adoption
+
+355
+00:16:45,740 --> 00:16:47,140
+And is that, I mean
+
+356
+00:16:47,140 --> 00:16:48,350
+you didn't use that word
+
+357
+00:16:51,390 --> 00:16:53,550
+Please let me know your name again
+
+358
+00:16:54,670 --> 00:16:55,220
+Brotish
+
+359
+00:16:55,220 --> 00:16:56,200
+right, like British
+
+360
+00:16:56,210 --> 00:16:56,850
+but with an o
+
+361
+00:16:56,850 --> 00:16:57,710
+you told me earlier
+
+362
+00:16:57,710 --> 00:16:58,060
+Brotish
+
+363
+00:16:59,125 --> 00:17:00,890
+So I think
+
+364
+00:17:00,940 --> 00:17:06,938
+Another way is thinking of the thing that is is the evolution of the ledger technology
+
+365
+00:17:06,938 --> 00:17:10,901
+like accounting and the evolution of money along with it
+
+366
+00:17:10,901 --> 00:17:14,155
+So initially that we saw in the reading the
+
+367
+00:17:14,155 --> 00:17:16,618
+how it happened in the previous four occasions
+
+368
+00:17:16,618 --> 00:17:19,784
+And at the end of the three layers and then distributed layer
+
+369
+00:17:19,784 --> 00:17:24,964
+which is kind of the fundamental, four of the fundamental blocks of bitcoin -- Right
+
+370
+00:17:24,964 --> 00:17:30,130
+so that is another way of kind of a natural progression of how money evolved
+
+371
+00:17:30,130 --> 00:17:31,505
+So, Brotish?
+
+372
+00:17:31,505 --> 00:17:32,091
+Yeah
+
+373
+00:17:32,091 --> 00:17:36,872
+So what brotish is raised is also Bitcoin fits into the history of ledgers
+
+374
+00:17:36,872 --> 00:17:41,343
+whether it's double entry ledgers as recognized through tea accounts
+
+375
+00:17:41,343 --> 00:17:47,450
+or other forms of ledgers that it adds to this whole long history of ledgers
+
+376
+00:17:47,450 --> 00:17:49,652
+I agree with that
+
+377
+00:17:50,460 --> 00:17:53,422
+And it's a new form of keeping ledgers, Elan
+
+378
+00:17:53,422 --> 00:17:56,702
+So Bitcoin is also similar to gold
+
+379
+00:17:56,702 --> 00:17:58,460
+There is an element of scarcity
+
+380
+00:17:58,770 --> 00:17:59,856
+Of scarcity
+
+381
+00:17:59,856 --> 00:18:00,400
+Yeah
+
+382
+00:18:00,680 --> 00:18:03,999
+So we cannot generate that many Bitcoin -- Correct
+
+383
+00:18:03,999 --> 00:18:06,235
+and only generate Bitcoin every 10 minutes
+
+384
+00:18:06,235 --> 00:18:08,460
+keeps happening every four years
+
+385
+00:18:09,590 --> 00:18:10,390
+So scarcity
+
+386
+00:18:10,390 --> 00:18:14,980
+it seems like scarcity and ledgers are important components of ... Viva
+
+387
+00:18:15,300 --> 00:18:17,197
+So it does have a fixed demand
+
+388
+00:18:17,197 --> 00:18:19,095
+Like, umm sorry, a fixed supply
+
+389
+00:18:19,095 --> 00:18:19,728
+like you said
+
+390
+00:18:19,728 --> 00:18:21,204
+in terms of scarcity
+
+391
+00:18:21,204 --> 00:18:22,680
+but the more we adopt it
+
+392
+00:18:22,680 --> 00:18:25,632
+the more it becomes divisible in terms of units
+
+393
+00:18:25,632 --> 00:18:27,530
+And so we can increase its use
+
+394
+00:18:27,890 --> 00:18:29,620
+Because now you can divide, you know
+
+395
+00:18:29,620 --> 00:18:31,494
+you can divide them up to
+
+396
+00:18:31,494 --> 00:18:35,644
+This is good. So divisibility is another characteristic of money
+
+397
+00:18:36,000 --> 00:18:37,233
+Scarcity
+
+398
+00:18:37,233 --> 00:18:39,140
+Adoption as Alan said
+
+399
+00:18:39,390 --> 00:18:40,970
+Ledgers
+
+400
+00:18:40,970 --> 00:18:42,371
+Sorry, Tomas
+
+401
+00:18:42,371 --> 00:18:44,240
+We mention decentralization
+
+402
+00:18:44,240 --> 00:18:46,130
+because this implementation
+
+403
+00:18:47,380 --> 00:18:51,413
+make feasible the Bitcoin and makes feasible
+
+404
+00:18:51,413 --> 00:18:55,017
+to implement this kind of thing in the decentralized environment
+
+405
+00:18:55,017 --> 00:18:58,366
+So without any central power to do
+
+406
+00:18:58,865 --> 00:19:03,360
+define or dictate the supply and other aspects of the concept
+
+407
+00:19:04,760 --> 00:19:05,990
+I will take one more
+
+408
+00:19:06,000 --> 00:19:07,790
+and then I'll start to talk about history
+
+409
+00:19:07,790 --> 00:19:10,410
+Why don't we go here to remind me your name
+
+410
+00:19:10,940 --> 00:19:12,000
+Alexis -- Alexis
+
+411
+00:19:13,800 --> 00:19:16,290
+...money and like other forms of currency
+
+412
+00:19:16,890 --> 00:19:20,120
+Even if it's not controlled by like central government or central bank
+
+413
+00:19:20,630 --> 00:19:26,130
+like there is no fixed exchange rate fluctuate extremely quickly
+
+414
+00:19:26,210 --> 00:19:27,820
+We have other type of appearances
+
+415
+00:19:27,820 --> 00:19:28,300
+So I mean
+
+416
+00:19:28,500 --> 00:19:29,660
+it's still very different
+
+417
+00:19:30,300 --> 00:19:31,460
+So, Alexis
+
+418
+00:19:31,460 --> 00:19:36,400
+if I understand Alexis's point is that there is no fixed exchange rate
+
+419
+00:19:36,410 --> 00:19:38,890
+About Bitcoin we're talking about
+
+420
+00:19:40,380 --> 00:19:44,560
+but couldn't we really broaden that to all forms of currency
+
+421
+00:19:45,290 --> 00:19:45,830
+I mean
+
+422
+00:19:45,840 --> 00:19:53,580
+what really is the exchange rate between an ounce of gold and a bushel of corn
+
+423
+00:19:54,030 --> 00:19:54,560
+Yes and no
+
+424
+00:19:54,890 --> 00:19:56,000
+I mean yes
+
+425
+00:19:56,010 --> 00:19:57,180
+but like for example
+
+426
+00:19:57,180 --> 00:19:58,270
+like some state do control
+
+427
+00:19:58,430 --> 00:20:01,000
+stainless steel with other tenants
+
+428
+00:20:01,430 --> 00:20:02,050
+Alright good point
+
+429
+00:20:02,250 --> 00:20:04,040
+So Alexis is saying yes and no
+
+430
+00:20:04,040 --> 00:20:07,080
+because some governments try to fix
+
+431
+00:20:07,530 --> 00:20:08,870
+Now back to markets
+
+432
+00:20:08,870 --> 00:20:12,630
+How well has that worked when governments try to fix an exchange rate
+
+433
+00:20:13,450 --> 00:20:16,760
+I mean just a sense of the class
+
+434
+00:20:16,760 --> 00:20:18,490
+Does that work well
+
+435
+00:20:18,970 --> 00:20:22,705
+so it sort of might work well in temporal short periods
+
+436
+00:20:22,705 --> 00:20:26,890
+works less well for you know decades on end
+
+437
+00:20:27,060 --> 00:20:28,540
+I'll take one more, and then I'm just
+
+438
+00:20:28,550 --> 00:20:29,778
+I want to go through a couple...
+
+439
+00:20:29,778 --> 00:20:32,381
+Just one comment. That way you can teach hours of work
+
+440
+00:20:32,381 --> 00:20:37,114
+That's how economies define it previously, right
+
+441
+00:20:37,114 --> 00:20:39,607
+But I just want to ask
+
+442
+00:20:39,607 --> 00:20:41,020
+what is a ledger?
+
+443
+00:20:41,540 --> 00:20:42,810
+What is a ledger
+
+444
+00:20:42,820 --> 00:20:44,030
+Very good question
+
+445
+00:20:45,520 --> 00:20:47,380
+I'm gonna be chatting of it that in a minute
+
+446
+00:20:47,380 --> 00:20:48,320
+But does anybody wanna
+
+447
+00:20:50,230 --> 00:20:51,090
+hit that
+
+448
+00:20:52,969 --> 00:20:53,644
+I'm sorry
+
+449
+00:20:53,869 --> 00:20:54,994
+No, over here
+
+450
+00:20:54,994 --> 00:21:00,842
+...It's just a numerical record of everything recorded, in a fashion
+
+451
+00:21:00,842 --> 00:21:02,641
+So it's... -- A numerical record
+
+452
+00:21:02,641 --> 00:21:04,890
+I think that's a good thing
+
+453
+00:21:04,890 --> 00:21:07,590
+A ledger is basically a way to record
+
+454
+00:21:09,270 --> 00:21:16,210
+Economic activity or social relationships or financial relationships
+
+455
+00:21:16,210 --> 00:21:20,330
+I would say it's both a way to record economic activity
+
+456
+00:21:20,800 --> 00:21:25,050
+And it's a system of recording financial relationships
+
+457
+00:21:25,940 --> 00:21:30,372
+And while I didn't assign these readings
+
+458
+00:21:30,372 --> 00:21:35,277
+some very good academic research suggests that the first
+
+459
+00:21:35,277 --> 00:21:39,315
+methods of writing and symbols of writing had to do with
+
+460
+00:21:39,315 --> 00:21:44,740
+numbers and had to do with ledgers rather than words and communication
+
+461
+00:21:46,370 --> 00:21:50,125
+Because it's so fundamental to society to record
+
+462
+00:21:50,125 --> 00:21:57,600
+various economic transactions or to record the financial relationships amongst
+
+463
+00:21:57,600 --> 00:21:59,890
+between members of a community
+
+464
+00:21:59,890 --> 00:22:03,872
+whether it was a small village or when society burst out of villages
+
+465
+00:22:03,872 --> 00:22:07,010
+thousands of years ago. Is that help?
+
+466
+00:22:07,660 --> 00:22:10,212
+We'll be back to it
+
+467
+00:22:10,212 --> 00:22:14,050
+and better that you ask that here than in your accounting fundamentals class
+
+468
+00:22:15,660 --> 00:22:16,110
+I don't know
+
+469
+00:22:16,660 --> 00:22:20,622
+So the readings we've sort of talked about the readings
+
+470
+00:22:20,622 --> 00:22:23,080
+have any of you actually watched the little 3 minute video
+
+471
+00:22:23,090 --> 00:22:24,710
+did you
+
+472
+00:22:24,710 --> 00:22:27,360
+what do you think? Just, I mean, just as a...
+
+473
+00:22:27,560 --> 00:22:30,420
+I'm sorry, here, we haven't chatted yet
+
+474
+00:22:30,460 --> 00:22:32,768
+I think the blog based principle was
+
+475
+00:22:32,768 --> 00:22:35,250
+that any currency or anything for that matter
+
+476
+00:22:35,260 --> 00:22:38,214
+has value equivalent to what the socity assigns to it
+
+477
+00:22:38,214 --> 00:22:38,616
+Right
+
+478
+00:22:38,616 --> 00:22:40,976
+Because the video basically just showed the guy
+
+479
+00:22:40,976 --> 00:22:44,843
+who created his own galaxy and was just selling into the public
+
+480
+00:22:44,843 --> 00:22:47,583
+And his whole claim was that it is real if you believe it is real
+
+481
+00:22:47,583 --> 00:22:48,484
+Right,  so it was just
+
+482
+00:22:48,484 --> 00:22:50,386
+it was a nice little ditty, in a way
+
+483
+00:22:50,386 --> 00:22:51,253
+Matthew, I'm sorry?
+
+484
+00:22:51,253 --> 00:22:52,654
+I would have given him $1 for it
+
+485
+00:22:52,654 --> 00:22:54,590
+You would have given him $1? Great
+
+486
+00:22:54,590 --> 00:22:56,892
+Seeing how much the pizzas went for
+
+487
+00:22:56,892 --> 00:22:58,300
+You know... -- Who knows
+
+488
+00:22:58,340 --> 00:23:00,780
+Would anybody else have given him a dollar for it
+
+489
+00:23:01,420 --> 00:23:02,164
+No, maybe
+
+490
+00:23:02,164 --> 00:23:03,901
+Oh, oh. But you would have
+
+491
+00:23:03,901 --> 00:23:04,150
+Yeah
+
+492
+00:23:04,430 --> 00:23:05,318
+I actually
+
+493
+00:23:05,318 --> 00:23:07,540
+I am working with local currencies
+
+494
+00:23:07,940 --> 00:23:09,605
+It is kind of the same
+
+495
+00:23:09,605 --> 00:23:10,715
+but they are just
+
+496
+00:23:10,992 --> 00:23:12,935
+you can use it just locally
+
+497
+00:23:12,935 --> 00:23:17,713
+And I mean, it keeps the money inside the community
+
+498
+00:23:17,713 --> 00:23:20,150
+that decides to use that way of transaction
+
+499
+00:23:20,790 --> 00:23:24,730
+We're going to refer back to each of these ratings as we go through the next 45 minutes
+
+500
+00:23:24,730 --> 00:23:25,320
+But yeah
+
+501
+00:23:25,410 --> 00:23:27,723
+I was wondering if he was actually breaking the law
+
+502
+00:23:27,723 --> 00:23:30,670
+by launching his own competing currency for the US dollar?
+
+503
+00:23:30,770 --> 00:23:34,820
+Is that a legitimate-- Obviously, it didn't compete with the US dollar
+
+504
+00:23:34,830 --> 00:23:35,250
+but... -- You know
+
+505
+00:23:35,250 --> 00:23:36,490
+you raised a very good question
+
+506
+00:23:36,670 --> 00:23:41,970
+I'm not aware of any statute federal or state
+
+507
+00:23:41,970 --> 00:23:48,177
+that says there's an absolute monopoly
+
+508
+00:23:48,177 --> 00:23:51,340
+or in forms of currency as there is and other things
+
+509
+00:23:51,340 --> 00:23:51,940
+like you know
+
+510
+00:23:51,940 --> 00:23:54,230
+that slot in the door
+
+511
+00:23:54,230 --> 00:23:59,350
+that's called the where you can put a letter through the door or a mailbox
+
+512
+00:23:59,360 --> 00:24:03,230
+There's actually a law that says that the US Postal Service has a monopoly
+
+513
+00:24:03,330 --> 00:24:05,030
+And that's why UPS
+
+514
+00:24:05,030 --> 00:24:10,080
+is not allowed to put their boxes or anything in there
+
+515
+00:24:10,360 --> 00:24:12,860
+There is a government fiat monopoly
+
+516
+00:24:14,260 --> 00:24:16,120
+but you raise a very good question
+
+517
+00:24:17,180 --> 00:24:20,108
+what we've found in the last 10 years with Bitcoin
+
+518
+00:24:20,108 --> 00:24:23,712
+without with really oversimplifying is
+
+519
+00:24:23,712 --> 00:24:28,884
+that it is legal to create your own form of money
+
+520
+00:24:28,884 --> 00:24:33,050
+as Bitcoin is possibly this money
+
+521
+00:24:33,940 --> 00:24:36,325
+But you have to comply with all the other laws
+
+522
+00:24:36,325 --> 00:24:40,310
+and all those other laws that we'll talk about in other lectures in essence
+
+523
+00:24:40,310 --> 00:24:43,130
+fall into buckets of guarding against illicit activity
+
+524
+00:24:43,130 --> 00:24:48,300
+So the bank secrecy act and all the laws related to any money laundering and terrorism
+
+525
+00:24:48,300 --> 00:24:49,630
+finance and so forth
+
+526
+00:24:50,050 --> 00:24:52,307
+That one still has to pay your taxes
+
+527
+00:24:52,307 --> 00:24:55,844
+if you're gaining or losing on this investment
+
+528
+00:24:55,844 --> 00:25:01,283
+that the Federal Reserve and other authorities around the globe still
+
+529
+00:25:01,283 --> 00:25:03,310
+want to ensure for financial stability
+
+530
+00:25:03,950 --> 00:25:05,880
+the fellow on the streets of
+
+531
+00:25:05,910 --> 00:25:10,560
+I don't remember what city New York selling his dollars when Matthew bought it for a dollar
+
+532
+00:25:10,930 --> 00:25:14,200
+And I think over here, Brianna?
+
+533
+00:25:14,650 --> 00:25:16,400
+What's that -- My name?
+
+534
+00:25:16,920 --> 00:25:17,610
+Yes
+
+535
+00:25:17,780 --> 00:25:19,320
+Priscilla, bought it
+
+536
+00:25:19,340 --> 00:25:23,290
+It's probably we're going to have the society is still going to be stable
+
+537
+00:25:23,480 --> 00:25:24,770
+It's gonna be alright
+
+538
+00:25:25,430 --> 00:25:29,580
+But if millions of people were buying it then people might worry
+
+539
+00:25:29,580 --> 00:25:31,947
+And then there's the third big bucket that
+
+540
+00:25:31,947 --> 00:25:34,180
+we look at as investor and consumer protection
+
+541
+00:25:34,400 --> 00:25:35,950
+But I think it's allowed
+
+542
+00:25:36,850 --> 00:25:39,170
+So we'll refer to these, Joaquin
+
+543
+00:25:39,170 --> 00:25:39,970
+and then I'm gonna go on
+
+544
+00:25:39,980 --> 00:25:41,230
+Can you legally pay
+
+545
+00:25:41,290 --> 00:25:42,300
+for example, salaries
+
+546
+00:25:42,440 --> 00:25:44,680
+in bitcoin in the US ?
+
+547
+00:25:45,490 --> 00:25:53,270
+Yes, and why is it that you can legally pay for wages in Bitcoin in the US
+
+548
+00:25:53,600 --> 00:25:54,610
+So anybody
+
+549
+00:25:54,610 --> 00:25:55,830
+I know it's outside of the readings
+
+550
+00:25:55,840 --> 00:26:01,180
+but why do you think it is allowed in this society
+
+551
+00:26:02,080 --> 00:26:03,390
+Is it, Kyle
+
+552
+00:26:03,960 --> 00:26:07,850
+Wouldn't those compensation phones be allowed under a new contract
+
+553
+00:26:09,120 --> 00:26:15,300
+So, most things you could pay somebody in these placards
+
+554
+00:26:15,300 --> 00:26:18,391
+I doubt really that you're going to value of that much
+
+555
+00:26:18,391 --> 00:26:20,976
+but you could pay somebody in this
+
+556
+00:26:20,976 --> 00:26:24,336
+You could pay somebody in gold, euros, bitcoin
+
+557
+00:26:24,336 --> 00:26:26,921
+And there are firms that are pegged
+
+558
+00:26:26,921 --> 00:26:30,540
+Usually they are developing blockchain applications
+
+559
+00:26:31,590 --> 00:26:33,070
+And interestingly
+
+560
+00:26:34,550 --> 00:26:37,179
+they have to compute the value of the wages
+
+561
+00:26:37,179 --> 00:26:39,281
+to do withholding taxes
+
+562
+00:26:39,281 --> 00:26:42,890
+because the US government will not accept taxes in Bitcoin
+
+563
+00:26:43,620 --> 00:26:47,340
+So they figure out the fair market value
+
+564
+00:26:47,340 --> 00:26:50,440
+And there are companies in the US that pay people in Bitcoin
+
+565
+00:26:51,140 --> 00:26:53,900
+who are doing development work around blockchain applications
+
+566
+00:26:54,120 --> 00:27:00,560
+But the taxes need to be computed and analyzed and then paid in US dollars because
+
+567
+00:27:00,590 --> 00:27:04,206
+and there was a legislative initiative in Arizona
+
+568
+00:27:04,206 --> 00:27:07,442
+earlier this year where a state legislature wanted to
+
+569
+00:27:07,442 --> 00:27:11,830
+have Arizona be the first state in the land to accept Bitcoin for taxes
+
+570
+00:27:11,840 --> 00:27:13,690
+but it failed in committee
+
+571
+00:27:13,690 --> 00:27:15,330
+It didn't even get a full vote of it
+
+572
+00:27:15,340 --> 00:27:15,920
+I can't remember
+
+573
+00:27:16,040 --> 00:27:19,860
+It was the Arizona Senate or the Arizona House of Delegates
+
+574
+00:27:19,910 --> 00:27:26,010
+but, so just a little walk through the history
+
+575
+00:27:26,010 --> 00:27:28,530
+I was going to do a little history of money and have some fun
+
+576
+00:27:29,810 --> 00:27:31,480
+So in Ethiopia
+
+577
+00:27:31,480 --> 00:27:33,040
+people put together salt bars
+
+578
+00:27:33,250 --> 00:27:35,150
+This is not that long ago
+
+579
+00:27:36,060 --> 00:27:38,470
+Salt, as Jihei have said earlier
+
+580
+00:27:38,480 --> 00:27:40,470
+is really valuable in society
+
+581
+00:27:40,470 --> 00:27:43,740
+And they standardize the shape and size and said
+
+582
+00:27:43,740 --> 00:27:45,330
+here is salt bars
+
+583
+00:27:46,270 --> 00:27:48,190
+We're going to get to a little bit later
+
+584
+00:27:48,300 --> 00:27:50,330
+All the characteristics of money
+
+585
+00:27:50,450 --> 00:27:51,580
+But what else do you think
+
+586
+00:27:51,580 --> 00:27:53,360
+A salt bar in Ethiopia
+
+587
+00:27:53,360 --> 00:27:55,370
+as opposed to maybe some other country
+
+588
+00:27:56,920 --> 00:28:00,228
+What did it have as well as to why people might use that
+
+589
+00:28:01,420 --> 00:28:03,020
+Oil -- What's that?
+
+590
+00:28:03,040 --> 00:28:05,390
+Crude oil -- Crude oil, all right
+
+591
+00:28:05,390 --> 00:28:06,450
+I hadn't thought of that
+
+592
+00:28:06,920 --> 00:28:08,250
+I'm going to keep thinking about that
+
+593
+00:28:08,250 --> 00:28:10,480
+It's not a, it's not a common characteristic of money
+
+594
+00:28:10,480 --> 00:28:15,060
+But why salt bars? what else might it have in Ethiopia
+
+595
+00:28:17,270 --> 00:28:17,890
+Are you gonna say that
+
+596
+00:28:17,890 --> 00:28:21,590
+You can use salt to preserve or... -- You can preserve food
+
+597
+00:28:21,600 --> 00:28:23,640
+But because it was mined
+
+598
+00:28:23,650 --> 00:28:28,550
+there was some scarcity as well as and a lot of currencies
+
+599
+00:28:28,550 --> 00:28:32,540
+a lot of moneys over time have that fundamental issue
+
+600
+00:28:32,550 --> 00:28:36,540
+Cowie shells from West Africa
+
+601
+00:28:37,500 --> 00:28:40,001
+Does anyone know the history of when Cowie shells
+
+602
+00:28:40,001 --> 00:28:44,570
+got really debased and stopped being used from the readings
+
+603
+00:28:44,570 --> 00:28:47,490
+I can't remember that was in the readings or not
+
+604
+00:28:49,730 --> 00:28:55,330
+They got debased when Europeans started to realize that they were accepted as a value
+
+605
+00:28:55,330 --> 00:28:57,770
+And it was a very sad and terrible history too
+
+606
+00:28:57,780 --> 00:29:00,180
+because it's related to the whole slave trade
+
+607
+00:29:00,540 --> 00:29:05,760
+but that the Europeans could figure out that societies accepted
+
+608
+00:29:05,760 --> 00:29:07,240
+This is something of value
+
+609
+00:29:07,390 --> 00:29:09,598
+But they also debase that currency
+
+610
+00:29:09,598 --> 00:29:12,480
+and they debase the land and capture people as slaves
+
+611
+00:29:12,480 --> 00:29:18,210
+I mean, it was a quite a collection of not particularly good things going on
+
+612
+00:29:18,930 --> 00:29:20,530
+Talley sticks in England
+
+613
+00:29:20,960 --> 00:29:22,511
+So anybody from the readings
+
+614
+00:29:22,511 --> 00:29:24,379
+because there was a little bit of the debate
+
+615
+00:29:24,379 --> 00:29:26,982
+in the first reading about the history of money
+
+616
+00:29:26,982 --> 00:29:32,053
+and wanna chat and I'll pull up the rye stones for me
+
+617
+00:29:32,053 --> 00:29:37,125
+how this fits into that first reading and the debate between
+
+618
+00:29:37,125 --> 00:29:39,740
+has the money come from a history of border
+
+619
+00:29:40,090 --> 00:29:44,640
+Or did money come from a history of ledgers and credit
+
+620
+00:29:45,190 --> 00:29:48,050
+which is kind of a setup of that first
+
+621
+00:29:48,080 --> 00:29:50,420
+I think the first reading
+
+622
+00:29:52,470 --> 00:29:53,600
+Any thoughts
+
+623
+00:29:55,760 --> 00:29:56,760
+Which ones are these
+
+624
+00:29:56,770 --> 00:29:58,110
+These four bits of money
+
+625
+00:29:58,110 --> 00:30:00,420
+Early money or more about maybe border
+
+626
+00:30:02,930 --> 00:30:08,020
+So there are two... two theory, right
+
+627
+00:30:08,870 --> 00:30:10,670
+That which corresponds to this one
+
+628
+00:30:10,710 --> 00:30:13,295
+And it was a way to measure that
+
+629
+00:30:13,295 --> 00:30:13,730
+Which one?
+
+630
+00:30:14,130 --> 00:30:16,440
+The sticks -- The sticks
+
+631
+00:30:16,440 --> 00:30:17,730
+The tally sticks, yes,  correct
+
+632
+00:30:18,010 --> 00:30:21,290
+Which is the second one on here that has to do with debts actually
+
+633
+00:30:21,300 --> 00:30:22,850
+And credits -- The stones
+
+634
+00:30:22,850 --> 00:30:24,770
+The stone, the Rai stones
+
+635
+00:30:26,770 --> 00:30:27,720
+So it's remarkable
+
+636
+00:30:27,720 --> 00:30:31,810
+The Rai stones were so that on this island of Yap
+
+637
+00:30:32,450 --> 00:30:35,570
+they couldn't possibly lug it around and use it
+
+638
+00:30:35,580 --> 00:30:37,900
+You know, in traditional medium of exchange
+
+639
+00:30:37,920 --> 00:30:39,780
+but it was viewed as, well
+
+640
+00:30:39,780 --> 00:30:42,290
+I have 1/6 of this bride's stone
+
+641
+00:30:42,290 --> 00:30:43,520
+You have 1/16
+
+642
+00:30:43,650 --> 00:30:45,400
+And then if I make an exchange
+
+643
+00:30:45,400 --> 00:30:46,630
+we'd remember
+
+644
+00:30:46,640 --> 00:30:50,130
+And the society was small enough to keep a form of ledgers
+
+645
+00:30:50,540 --> 00:30:54,790
+even to the extent that when a Rai stone was lost in a river
+
+646
+00:30:55,120 --> 00:30:57,250
+they said, you know, the river Rai stone
+
+647
+00:30:57,260 --> 00:30:58,380
+we each have this piece
+
+648
+00:31:00,100 --> 00:31:01,870
+So on the island of Yap
+
+649
+00:31:02,470 --> 00:31:06,440
+I can assure you these stones could not be used for anything else
+
+650
+00:31:07,440 --> 00:31:09,040
+Does anyone know
+
+651
+00:31:09,040 --> 00:31:10,360
+Because it was outside the readings
+
+652
+00:31:10,360 --> 00:31:12,480
+What made these stones so scarce
+
+653
+00:31:15,450 --> 00:31:20,740
+So Rai stones required on an island about 200 km away from the app
+
+654
+00:31:21,650 --> 00:31:25,810
+So were they exceedingly hard to get, like gold
+
+655
+00:31:25,920 --> 00:31:27,380
+Like mining of gold
+
+656
+00:31:27,820 --> 00:31:29,730
+What else's mind these days
+
+657
+00:31:29,730 --> 00:31:30,972
+That might be a money
+
+658
+00:31:30,972 --> 00:31:32,080
+Lithium
+
+659
+00:31:32,210 --> 00:31:32,620
+What's that?
+
+660
+00:31:32,720 --> 00:31:33,860
+Can I hear everybody
+
+661
+00:31:34,230 --> 00:31:35,560
+I'm saying lithium
+
+662
+00:31:35,680 --> 00:31:36,370
+What's that
+
+663
+00:31:36,380 --> 00:31:39,560
+The batteries... for batteries, is gonna be
+
+664
+00:31:39,850 --> 00:31:43,385
+very difficult in the future for electric batteries and whatnot
+
+665
+00:31:43,385 --> 00:31:44,740
+And what is mind right now
+
+666
+00:31:44,740 --> 00:31:46,454
+That's at the center of this class
+
+667
+00:31:46,454 --> 00:31:48,530
+Bitcoin -- Bitcoin, right
+
+668
+00:31:48,540 --> 00:31:50,760
+The Yap stone was, in essence,  quarried
+
+669
+00:31:50,770 --> 00:31:52,310
+a couple of hundred kilometers away
+
+670
+00:31:53,110 --> 00:31:58,230
+And what debased that currency was when sailors from England came
+
+671
+00:31:58,230 --> 00:31:59,470
+there's a specific sailor
+
+672
+00:31:59,470 --> 00:32:02,090
+I think his name was O'keefe in the late 19th century
+
+673
+00:32:02,090 --> 00:32:05,200
+And he realized that these stones were valuable
+
+674
+00:32:05,370 --> 00:32:06,710
+And he went to the other island
+
+675
+00:32:06,710 --> 00:32:09,210
+and he started quarrying and came back and forth
+
+676
+00:32:09,250 --> 00:32:10,450
+And within a few years
+
+677
+00:32:10,450 --> 00:32:13,150
+the whole economic system collapsed
+
+678
+00:32:14,800 --> 00:32:16,210
+We moved to metal money
+
+679
+00:32:16,210 --> 00:32:16,820
+At first
+
+680
+00:32:16,830 --> 00:32:18,290
+it wasn't really stamped
+
+681
+00:32:18,290 --> 00:32:19,170
+It was just heavy
+
+682
+00:32:19,170 --> 00:32:22,680
+It was hard to quarry bronze in Rome
+
+683
+00:32:23,260 --> 00:32:25,140
+There's some China's in Sweden
+
+684
+00:32:25,570 --> 00:32:28,640
+These were starting to be stamped by the official sector
+
+685
+00:32:29,450 --> 00:32:31,399
+And then we had minted money
+
+686
+00:32:31,399 --> 00:32:34,490
+starting somewhere around 2500 years ago
+
+687
+00:32:34,910 --> 00:32:38,610
+And there's debates as to whether it started in Greece or in China
+
+688
+00:32:39,870 --> 00:32:41,060
+And but
+
+689
+00:32:41,070 --> 00:32:47,980
+but where an official emblem was placed upon a scarce resource that was used
+
+690
+00:32:50,510 --> 00:32:53,860
+Paper money came along in a sense
+
+691
+00:32:53,860 --> 00:32:55,080
+for what reason?
+
+692
+00:32:55,110 --> 00:32:55,840
+Why, why did
+
+693
+00:32:55,840 --> 00:32:59,850
+why did society first tip into paper money
+
+694
+00:33:02,070 --> 00:33:04,560
+Cause there's not enough gold to back it up
+
+695
+00:33:04,730 --> 00:33:05,780
+I mean, like because there's
+
+696
+00:33:05,810 --> 00:33:06,430
+One reason
+
+697
+00:33:06,610 --> 00:33:07,810
+Not enough gold
+
+698
+00:33:08,240 --> 00:33:08,990
+I'm sorry, I haven't
+
+699
+00:33:09,960 --> 00:33:13,430
+I think it's just easy to... -- Easy to use
+
+700
+00:33:13,750 --> 00:33:14,720
+It's kind of heavy
+
+701
+00:33:14,860 --> 00:33:16,820
+especially if there wasn't gold
+
+702
+00:33:17,100 --> 00:33:18,970
+And if it was copper bronze
+
+703
+00:33:18,970 --> 00:33:19,990
+it was just heavy
+
+704
+00:33:20,240 --> 00:33:21,130
+Or if it was wheat
+
+705
+00:33:21,320 --> 00:33:23,180
+you have to put it in a storage unit
+
+706
+00:33:23,300 --> 00:33:29,060
+So the first paper money's from China were basically warehouse receipts
+
+707
+00:33:29,060 --> 00:33:33,490
+And I spent five years running something called commodity Futures trading Commission
+
+708
+00:33:33,680 --> 00:33:37,510
+And so I guess I learned a lot about warehouse receipts, commodity receipts
+
+709
+00:33:37,510 --> 00:33:39,870
+where you put a commodity in a warehouse
+
+710
+00:33:40,450 --> 00:33:42,420
+And then you got a piece of paper that said
+
+711
+00:33:42,420 --> 00:33:44,360
+yes, you have that commodity there
+
+712
+00:33:44,380 --> 00:33:48,443
+So the first paper moneys were basically warehouse receipts in China
+
+713
+00:33:48,443 --> 00:33:53,060
+because whatever it was, grain or gold
+
+714
+00:33:54,290 --> 00:33:56,130
+And then you had a piece of paper backing it
+
+715
+00:33:56,650 --> 00:34:00,100
+These are £5 notes from England and the continental notes in the US
+
+716
+00:34:00,110 --> 00:34:03,890
+But between so that that note in China is about 700 years old
+
+717
+00:34:04,130 --> 00:34:09,220
+But before between that first paper money and the 18th century
+
+718
+00:34:09,230 --> 00:34:14,724
+Who do you think we're kind of the first bankers in the 7th
+
+719
+00:34:14,724 --> 00:34:17,076
+late 17th century, early 18th century
+
+720
+00:34:17,076 --> 00:34:21,520
+Who were, what craft had they been in before they were in banking
+
+721
+00:34:22,500 --> 00:34:26,648
+--Trading...  --Alpha --International trading
+
+722
+00:34:26,648 --> 00:34:27,800
+International trade
+
+723
+00:34:27,800 --> 00:34:29,590
+They actually did something more local
+
+724
+00:34:33,990 --> 00:34:36,261
+I talked... just talked about this
+
+725
+00:34:36,261 --> 00:34:39,027
+like the ones that have lands and all the...
+
+726
+00:34:39,027 --> 00:34:42,397
+the ones that have lands and all the...
+
+727
+00:34:42,397 --> 00:34:45,371
+Lanes? -- Lands...
+
+728
+00:34:45,371 --> 00:34:49,270
+Land. Land. No, they had something else that they were doing
+
+729
+00:34:49,830 --> 00:34:52,280
+Tom? -- Printmakers --They were printmakers
+
+730
+00:34:52,620 --> 00:34:53,550
+I like that
+
+731
+00:34:53,560 --> 00:34:54,720
+We're not there yet
+
+732
+00:34:55,550 --> 00:34:56,945
+Money lenders?
+
+733
+00:34:56,945 --> 00:34:57,779
+What's that?
+
+734
+00:34:57,779 --> 00:34:59,080
+They're underwriting insurance
+
+735
+00:34:59,080 --> 00:35:01,710
+A little bit later
+
+736
+00:35:03,200 --> 00:35:04,440
+They were doing agriculture?
+
+737
+00:35:04,440 --> 00:35:06,310
+It's definitely outside of the reading
+
+738
+00:35:06,500 --> 00:35:07,740
+They're goldsmiths
+
+739
+00:35:10,470 --> 00:35:15,110
+The... Some of the first dominant bankers in London
+
+740
+00:35:16,280 --> 00:35:18,920
+They were small goldsmiths and they took the gold
+
+741
+00:35:19,090 --> 00:35:20,820
+They gave you a piece of paper
+
+742
+00:35:20,830 --> 00:35:22,440
+And then they went from there
+
+743
+00:35:22,450 --> 00:35:23,210
+And then all of a sudden
+
+744
+00:35:23,210 --> 00:35:25,260
+they figured out how to do credit
+
+745
+00:35:25,280 --> 00:35:26,110
+Later in the semester
+
+746
+00:35:26,110 --> 00:35:27,940
+we're going to talk about Bitcoin credit
+
+747
+00:35:28,750 --> 00:35:30,130
+It's not there yet, by the way
+
+748
+00:35:30,270 --> 00:35:33,260
+I think in the next 18 to 36 months
+
+749
+00:35:33,260 --> 00:35:39,300
+we're going to start seeing crypto lending and crypto finance in the form
+
+750
+00:35:39,310 --> 00:35:43,760
+similar to what the goldsmiths were doing in the early 17 hundreds in England
+
+751
+00:35:44,960 --> 00:35:45,640
+Nolan
+
+752
+00:35:45,780 --> 00:35:49,380
+Is that scalable with the finite number of frequent
+
+753
+00:35:49,840 --> 00:35:50,270
+in your opinion
+
+754
+00:35:50,690 --> 00:35:51,640
+So very good question
+
+755
+00:35:51,640 --> 00:35:55,650
+Is it scalable to land against a finite currency
+
+756
+00:35:57,006 --> 00:35:59,870
+I think so
+
+757
+00:35:59,880 --> 00:36:01,140
+but it's not
+
+758
+00:36:01,150 --> 00:36:02,210
+it's not done yet
+
+759
+00:36:02,220 --> 00:36:02,840
+right
+
+760
+00:36:05,190 --> 00:36:05,490
+Yeah
+
+761
+00:36:05,640 --> 00:36:06,220
+because when you
+
+762
+00:36:06,230 --> 00:36:08,130
+when you run money to someone
+
+763
+00:36:10,250 --> 00:36:12,120
+I guess it couldn't be in the form of a Bitcoin
+
+764
+00:36:12,120 --> 00:36:13,410
+but you can lend someone dollars
+
+765
+00:36:14,140 --> 00:36:16,540
+they could redeem in bitcoin
+
+766
+00:36:16,540 --> 00:36:18,250
+You'd be increasing kind of the
+money supply
+
+767
+00:36:18,700 --> 00:36:19,460
+So you don't need
+
+768
+00:36:20,180 --> 00:36:21,700
+you're not moving money around directions
+
+769
+00:36:22,010 --> 00:36:24,940
+So this is exactly the central of commercial banking today
+
+770
+00:36:25,040 --> 00:36:27,530
+It's called fractional banking, we will be talking about that in a bit
+
+771
+00:36:27,670 --> 00:36:30,350
+But is to.... yes, you could
+
+772
+00:36:30,650 --> 00:36:34,110
+you could land and then have a multiplier effect
+
+773
+00:36:35,560 --> 00:36:39,550
+You also had that banks come up and started to issue private bank notes
+
+774
+00:36:39,550 --> 00:36:40,530
+private bank notes
+
+775
+00:36:40,560 --> 00:36:43,451
+Effectively a liability of that bank
+
+776
+00:36:43,451 --> 00:36:45,787
+and saying it would trade
+
+777
+00:36:45,787 --> 00:36:49,524
+and the history of private bank notes is usually what
+
+778
+00:36:49,524 --> 00:36:52,470
+you know, good until it's really bad
+
+779
+00:36:54,030 --> 00:36:55,760
+And the history of money
+
+780
+00:36:55,810 --> 00:36:57,620
+a lot of private banks
+
+781
+00:36:57,930 --> 00:37:04,500
+went bust in this country around the revolutionary period again around the civil war
+
+782
+00:37:05,930 --> 00:37:07,030
+And in essence
+
+783
+00:37:07,030 --> 00:37:11,490
+that's what we have now with 1600 different cryptocurrencies
+
+784
+00:37:11,490 --> 00:37:16,550
+we have a sort of a new period of a little bit of private property currencies
+
+785
+00:37:17,110 --> 00:37:22,220
+And I only ask you to remember that as we start to look at Icos
+
+786
+00:37:22,220 --> 00:37:24,510
+initial coin offerings and so forth
+
+787
+00:37:26,450 --> 00:37:28,500
+So ledgers, the earlier question is
+
+788
+00:37:28,500 --> 00:37:32,810
+what was a Ledger? Chermo
+
+789
+00:37:32,820 --> 00:37:35,070
+You asked it can you remember what's a ledger
+
+790
+00:37:35,800 --> 00:37:38,300
+It's a way to record economic transaction
+
+791
+00:37:39,480 --> 00:37:47,201
+Yeah, principal recordings of accounts and 5000 years ago
+
+792
+00:37:47,201 --> 00:37:49,145
+you had a little reading on this
+
+793
+00:37:49,145 --> 00:37:54,350
+Just a medium post It wasn't meant to be a deep back economic academic paper
+
+794
+00:37:54,350 --> 00:37:55,840
+but it was to try to get
+
+795
+00:37:56,250 --> 00:37:57,640
+get the class thinking about
+
+796
+00:37:59,760 --> 00:38:00,860
+ledgers
+
+797
+00:38:00,870 --> 00:38:03,300
+This is the personal ledger of George Washington
+
+798
+00:38:03,920 --> 00:38:05,120
+our first president
+
+799
+00:38:05,260 --> 00:38:07,935
+He was 15 years old when he kept this ledger
+
+800
+00:38:07,935 --> 00:38:11,220
+and he apparently kept ledgers until his death
+
+801
+00:38:11,220 --> 00:38:14,110
+And let's see
+
+802
+00:38:14,720 --> 00:38:16,190
+52 years later
+
+803
+00:38:18,930 --> 00:38:23,670
+But so ledgers could be kept just to record the transactions of the day
+
+804
+00:38:24,860 --> 00:38:26,120
+He's got one up there
+
+805
+00:38:26,130 --> 00:38:27,060
+Mary Washington
+
+806
+00:38:27,060 --> 00:38:28,050
+it must have been a cousin
+
+807
+00:38:28,060 --> 00:38:29,820
+Or I can't remember if it was his mother was
+
+808
+00:38:31,540 --> 00:38:36,320
+so if they're the principal recordings of accounts and I've already sort of said this
+
+809
+00:38:36,320 --> 00:38:40,600
+they record economic activity and financial relationships
+
+810
+00:38:41,550 --> 00:38:45,650
+economic activity in a sense of transactions
+
+811
+00:38:45,650 --> 00:38:47,430
+financial relationships
+
+812
+00:38:47,440 --> 00:38:50,390
+What's the key financial relationship
+
+813
+00:38:50,390 --> 00:38:52,420
+And a ledger might record on
+
+814
+00:38:53,420 --> 00:38:54,150
+I'm sorry
+
+815
+00:38:54,510 --> 00:38:54,890
+Debt
+
+816
+00:38:54,900 --> 00:39:01,890
+Kelly said it, debt, and it goes back to the debate you had in the reading is money history of border
+
+817
+00:39:01,900 --> 00:39:02,940
+Did it come out of border
+
+818
+00:39:02,940 --> 00:39:09,440
+Did it come out of a sense of debts and credit and store of value for this purpose
+
+819
+00:39:09,440 --> 00:39:10,910
+Today, It doesn't really matter
+
+820
+00:39:10,920 --> 00:39:12,090
+It may have come from both
+
+821
+00:39:12,710 --> 00:39:16,290
+but know that it has both sides and ledgers have both sides too
+
+822
+00:39:16,290 --> 00:39:18,573
+and when we're talking about Bitcoin
+
+823
+00:39:18,573 --> 00:39:20,120
+Bitcoin, you will see is a
+
+824
+00:39:20,130 --> 00:39:23,640
+is a mechanism to store transactions
+
+825
+00:39:24,170 --> 00:39:25,600
+Some other blockchains
+
+826
+00:39:25,600 --> 00:39:28,800
+like Ethereum stores balances
+
+827
+00:39:29,370 --> 00:39:31,280
+So even in the blockchain world
+
+828
+00:39:31,280 --> 00:39:33,921
+you will see some that are balanced ledgers
+
+829
+00:39:33,921 --> 00:39:36,780
+and some which are transaction ledgers
+
+830
+00:39:37,600 --> 00:39:39,570
+not to lose you and confuse you
+
+831
+00:39:40,070 --> 00:39:43,780
+It's an important part of of what is blockchain technology
+
+832
+00:39:45,650 --> 00:39:47,220
+Some types of ledgers
+
+833
+00:39:47,230 --> 00:39:50,440
+I just mentioned one transactions versus balance
+
+834
+00:39:51,900 --> 00:39:54,040
+George Washington's ledger
+
+835
+00:39:54,050 --> 00:39:54,630
+by the way
+
+836
+00:39:54,630 --> 00:39:56,350
+I think, was a transaction ledger
+
+837
+00:39:56,360 --> 00:39:57,350
+He was just keeping, you know
+
+838
+00:39:57,350 --> 00:40:00,940
+a list of sales and movements
+
+839
+00:40:00,950 --> 00:40:05,020
+But I haven't studied President George Washington's ledger close enough
+
+840
+00:40:06,450 --> 00:40:09,023
+Does anybody know enough accounting
+
+841
+00:40:09,023 --> 00:40:11,926
+to tell me the difference between a general ledger and a subledger
+
+842
+00:40:11,926 --> 00:40:14,200
+or a general ledger and a supporting ledger
+
+843
+00:40:15,170 --> 00:40:17,440
+I mean, I don't want to do the whole lecture myself
+
+844
+00:40:18,450 --> 00:40:20,170
+How many of you have taken accounting
+
+845
+00:40:23,840 --> 00:40:26,290
+I taught undergraduate accounting ones
+
+846
+00:40:27,040 --> 00:40:27,780
+Sorry
+
+847
+00:40:28,460 --> 00:40:30,490
+So those of you who just put up your hand
+
+848
+00:40:30,500 --> 00:40:32,550
+who took accounting
+
+849
+00:40:32,560 --> 00:40:33,970
+did I see in the back of the room
+
+850
+00:40:33,980 --> 00:40:35,100
+Did you take accounting
+
+851
+00:40:35,100 --> 00:40:36,120
+And that's Aviva
+
+852
+00:40:36,584 --> 00:40:37,940
+I'm an accountant, actually
+
+853
+00:40:39,480 --> 00:40:40,560
+all right, all right
+
+854
+00:40:41,290 --> 00:40:42,890
+Did you pass the CPA
+
+855
+00:40:43,640 --> 00:40:45,827
+Oh we have a Certified Public Accountant who's
+
+856
+00:40:45,827 --> 00:40:48,500
+going to tell us the difference between a general ledger and a sub ledger
+
+857
+00:40:48,940 --> 00:40:52,600
+General Ledger is one that that records all kinds of transactions
+
+858
+00:40:52,610 --> 00:40:57,700
+any kind of activity that takes place to record in the general ledger and sub ledgers
+
+859
+00:40:57,700 --> 00:40:59,760
+You can call them as like a specialization
+
+860
+00:40:59,760 --> 00:41:02,930
+So let's say if there's a salary or to be paid
+
+861
+00:41:03,010 --> 00:41:04,690
+there will be a salary subledger
+
+862
+00:41:05,090 --> 00:41:06,960
+But it will also go in the general legend
+
+863
+00:41:06,960 --> 00:41:12,490
+and the other part of the transactions in the salary legend, or if there's capital
+
+864
+00:41:12,490 --> 00:41:16,670
+Or if there is some new stuff that you buy
+
+865
+00:41:16,680 --> 00:41:19,100
+So all of that goes specifically in the general legend
+
+866
+00:41:19,120 --> 00:41:21,350
+Each of them have their own specific letters
+
+867
+00:41:21,350 --> 00:41:23,320
+If you wanna say how much you spend on
+
+868
+00:41:24,810 --> 00:41:27,280
+salaries for the month and you go to your salary legacy
+
+869
+00:41:27,550 --> 00:41:30,670
+But if you wanna see over how much money you spend and how much is moved around
+
+870
+00:41:30,670 --> 00:41:32,880
+then you look at your general ledger
+
+871
+00:41:32,990 --> 00:41:35,600
+Aviva clearly said it better than I could have
+
+872
+00:41:36,100 --> 00:41:36,890
+Thank you
+
+873
+00:41:37,930 --> 00:41:40,490
+Now we know we have one CPA in the class
+
+874
+00:41:41,420 --> 00:41:42,910
+But the importance
+
+875
+00:41:42,950 --> 00:41:44,790
+it's not just a passing note
+
+876
+00:41:44,800 --> 00:41:50,640
+the importance of a general ledger and sub ledgers is there's a hierarchy as well
+
+877
+00:41:50,670 --> 00:41:52,727
+Subledgers have more detail
+
+878
+00:41:52,727 --> 00:41:56,130
+and maybe the net numbers kept on the general ledger
+
+879
+00:41:56,130 --> 00:42:00,501
+that is at the heart of our system of banking
+
+880
+00:42:00,501 --> 00:42:03,971
+and is at the heart of our system of financial markets
+
+881
+00:42:03,971 --> 00:42:08,610
+where the central bank is like a general ledger for money
+
+882
+00:42:09,240 --> 00:42:14,350
+and every commercial bank, all 9,000 of them or so in the US
+
+883
+00:42:14,360 --> 00:42:16,760
+in essence keep a sub ledger for money
+
+884
+00:42:17,290 --> 00:42:21,923
+But they do not have control of what I will call the master ledger
+
+885
+00:42:21,923 --> 00:42:25,270
+or general Ledger at the Federal Reserve
+
+886
+00:42:28,270 --> 00:42:30,110
+Then a third distinction about ledgers
+
+887
+00:42:30,110 --> 00:42:32,333
+A single entry a little
+
+888
+00:42:32,333 --> 00:42:37,580
+young, 15 year old George Washington was keeping a single entry ledger
+
+889
+00:42:37,580 --> 00:42:40,060
+just a list of things that were going on
+
+890
+00:42:40,460 --> 00:42:43,844
+And I didn't think I was going to bore the class with readings
+
+891
+00:42:43,844 --> 00:42:46,350
+about double entry bookkeeping because you've taken accounting
+
+892
+00:42:46,350 --> 00:42:48,350
+But does anybody want to tell me other than Aviva
+
+893
+00:42:48,350 --> 00:42:49,620
+What double entry bookkeeping
+
+894
+00:42:49,620 --> 00:42:52,830
+And she'll bail you out...
+
+895
+00:42:53,460 --> 00:42:57,850
+Double-entry bookkeeping basically means that any transaction has two places in the letter
+
+896
+00:42:58,060 --> 00:43:00,220
+One on the credit side and one on the standard side
+
+897
+00:43:00,500 --> 00:43:03,320
+because every transaction was one person lending
+
+898
+00:43:03,820 --> 00:43:06,160
+whereas the other person is getting... the thing
+
+899
+00:43:06,770 --> 00:43:09,503
+Yeah, it works for me
+
+900
+00:43:09,503 --> 00:43:11,490
+Anybody else wanted a different view
+
+901
+00:43:14,360 --> 00:43:22,780
+In other words,  ...asset and liability... two sites and then... to balance each other...
+
+902
+00:43:23,570 --> 00:43:26,370
+There's a balancing between assets and liabilities
+
+903
+00:43:26,380 --> 00:43:29,824
+And then the resulting bit of capitalism in it
+
+904
+00:43:29,824 --> 00:43:31,710
+Is if assets are more than liabilities
+
+905
+00:43:31,710 --> 00:43:33,180
+the rest is capitol
+
+906
+00:43:33,800 --> 00:43:35,690
+So at the heart of capitalism
+
+907
+00:43:35,690 --> 00:43:36,320
+in a sense
+
+908
+00:43:36,320 --> 00:43:38,050
+is double entry bookkeeping
+
+909
+00:43:38,060 --> 00:43:39,050
+And in fact
+
+910
+00:43:39,060 --> 00:43:43,404
+while it probably goes back a little over 1000 years
+
+911
+00:43:43,404 --> 00:43:47,080
+when it was truly written up by the Italians in the 13 hundreds
+
+912
+00:43:47,520 --> 00:43:49,170
+it start started to help
+
+913
+00:43:49,180 --> 00:43:51,220
+You are come out of the dark ages
+
+914
+00:43:51,600 --> 00:43:55,590
+I mean, the commercial renaissance of the middle ages
+
+915
+00:43:55,600 --> 00:43:58,300
+Some would say was in part not entirely
+
+916
+00:43:58,320 --> 00:44:00,780
+but in part, on the backs of double entry bookkeeping
+
+917
+00:44:01,450 --> 00:44:04,190
+So ledgers matter is my point
+
+918
+00:44:04,560 --> 00:44:06,580
+They're not going to be the heart and soul of this class
+
+919
+00:44:06,580 --> 00:44:07,330
+But Bitcoin
+
+920
+00:44:07,330 --> 00:44:09,480
+which is a transaction ledger
+
+921
+00:44:09,540 --> 00:44:10,280
+Ethereum
+
+922
+00:44:10,280 --> 00:44:11,890
+which is a balance ledger
+
+923
+00:44:13,580 --> 00:44:14,770
+our financial system
+
+924
+00:44:14,770 --> 00:44:16,970
+which is all set up on ledgers
+
+925
+00:44:17,080 --> 00:44:19,770
+is a relevant sort of subtext
+
+926
+00:44:19,780 --> 00:44:22,680
+You don't have to be afraid of it just as you don't have to be afraid of
+
+927
+00:44:22,690 --> 00:44:26,920
+of hashing power that we'll be talking about on Thursday and cryptography
+
+928
+00:44:27,080 --> 00:44:28,670
+But you'd have to have some you know
+
+929
+00:44:28,670 --> 00:44:30,840
+sort of basic sense of where's
+
+930
+00:44:30,850 --> 00:44:33,421
+where's Bitcoin fitted in terms of ledgers
+
+931
+00:44:33,421 --> 00:44:37,660
+does anybody, I didn't fill this slide in
+
+932
+00:44:37,660 --> 00:44:39,010
+You'll find out it's blank
+
+933
+00:44:39,020 --> 00:44:42,310
+Does anybody want to tell me what some characteristics of a good ledger
+
+934
+00:44:42,730 --> 00:44:43,550
+Because again
+
+935
+00:44:43,560 --> 00:44:46,850
+as you start to think about your blockchain projects later in the semester
+
+936
+00:44:46,850 --> 00:44:51,003
+it's like what makes a good ledger that I don't have any answers here
+
+937
+00:44:51,871 --> 00:44:55,000
+The bitcoin were immutable
+
+938
+00:44:55,000 --> 00:44:56,645
+So you want it to be immutable, maybe
+
+939
+00:44:58,000 --> 00:45:00,030
+Thalita, can you do me a favor and keep these
+
+940
+00:45:00,030 --> 00:45:02,100
+We'll put them on the slides, when we put
+
+941
+00:45:02,100 --> 00:45:05,542
+we'll keep the classes list and we'll put them in the slides, immutable
+
+942
+00:45:05,542 --> 00:45:06,193
+I like that
+
+943
+00:45:06,193 --> 00:45:09,090
+that anybody else want to grab something
+
+944
+00:45:09,090 --> 00:45:10,180
+which is a good ledger
+
+945
+00:45:10,324 --> 00:45:11,550
+Time stamped
+
+946
+00:45:11,610 --> 00:45:12,380
+What is that?
+
+947
+00:45:13,150 --> 00:45:13,600
+Time stamped
+
+948
+00:45:13,950 --> 00:45:14,740
+All right So that
+
+949
+00:45:14,740 --> 00:45:16,720
+you know when you made your entry
+
+950
+00:45:17,330 --> 00:45:18,160
+Kelly
+
+951
+00:45:18,440 --> 00:45:19,870
+Ownership -- Ownership
+
+952
+00:45:19,870 --> 00:45:20,960
+What do you mean by ownership
+
+953
+00:45:21,770 --> 00:45:24,780
+Essentially the receiver and the person giving
+
+954
+00:45:25,870 --> 00:45:26,670
+So essentially
+
+955
+00:45:26,680 --> 00:45:28,170
+who's taking what he's giving
+
+956
+00:45:28,310 --> 00:45:30,250
+So it was a transaction
+
+957
+00:45:30,270 --> 00:45:32,690
+the two counterparties to the transaction
+
+958
+00:45:33,220 --> 00:45:33,540
+right
+
+959
+00:45:33,620 --> 00:45:37,290
+And if it's a balance than who owns the balance
+
+960
+00:45:37,300 --> 00:45:39,410
+I was just adding a little bit to
+
+961
+00:45:39,740 --> 00:45:42,620
+Let's see if we have a new name or face back here on the
+
+962
+00:45:43,080 --> 00:45:43,980
+on the back table
+
+963
+00:45:43,980 --> 00:45:45,660
+I haven't chatted with you yet
+
+964
+00:45:46,200 --> 00:45:46,820
+What is that
+
+965
+00:45:46,840 --> 00:45:48,260
+Ross -- Ross
+
+966
+00:45:48,270 --> 00:45:48,670
+Thank you
+
+967
+00:45:48,670 --> 00:45:48,940
+Ross
+
+968
+00:45:48,940 --> 00:45:49,590
+Good to meet you
+
+969
+00:45:50,220 --> 00:45:51,990
+Pleasure to meet you, as well. Accuracy
+
+970
+00:45:52,620 --> 00:45:53,000
+Accuracy
+
+971
+00:45:53,000 --> 00:45:55,310
+So Ross says accuracy
+
+972
+00:45:55,320 --> 00:45:56,500
+And could we take one or two more
+
+973
+00:45:56,510 --> 00:45:58,540
+Just a description of the transaction
+
+974
+00:45:58,800 --> 00:46:01,500
+So Andrew says a description of the transaction
+
+975
+00:46:01,500 --> 00:46:05,410
+And last, Mr... -- Comprehensive
+
+976
+00:46:05,420 --> 00:46:07,140
+What's that? Comprehensive
+
+977
+00:46:07,680 --> 00:46:11,352
+So all good attributes of a characteristics
+
+978
+00:46:11,352 --> 00:46:15,122
+somebody's burning desire that we missed one or two?
+
+979
+00:46:16,257 --> 00:46:17,520
+Jihei? All right
+
+980
+00:46:17,520 --> 00:46:20,240
+I just was curious on consistency maybe
+
+981
+00:46:20,400 --> 00:46:21,440
+but I don't know if that's...
+
+982
+00:46:21,790 --> 00:46:24,340
+Well, I think that's inside of immutability
+
+983
+00:46:24,680 --> 00:46:25,470
+that in essence
+
+984
+00:46:25,470 --> 00:46:27,120
+that it's valid that you can't
+
+985
+00:46:27,510 --> 00:46:28,940
+you can't change it
+
+986
+00:46:29,690 --> 00:46:32,760
+You can't counterfeit it and the like
+
+987
+00:46:32,970 --> 00:46:36,410
+And what you'll find is the characteristics of a good ledger
+
+988
+00:46:36,410 --> 00:46:40,210
+is also in some part similar to the characters of good money
+
+989
+00:46:40,220 --> 00:46:41,320
+They're not identical
+
+990
+00:46:41,510 --> 00:46:43,317
+but they overlap a lot
+
+991
+00:46:43,317 --> 00:46:44,620
+payment systems
+
+992
+00:46:44,620 --> 00:46:46,540
+I'm just going to say one line about it
+
+993
+00:46:47,200 --> 00:46:49,490
+It's a method basically
+
+994
+00:46:49,610 --> 00:46:52,750
+to amend and record changes in a ledger for money
+
+995
+00:46:53,200 --> 00:46:55,990
+I know it's not what you usually think about a payment system
+
+996
+00:46:55,990 --> 00:46:58,165
+but if you go into Starbucks
+
+997
+00:46:58,165 --> 00:47:00,434
+and buy a cup of coffee
+
+998
+00:47:01,430 --> 00:47:04,360
+and use your cell phone
+
+999
+00:47:04,530 --> 00:47:07,670
+aren't you really just amending a set of ledgers
+
+1000
+00:47:08,400 --> 00:47:09,340
+Starbucks is
+
+1001
+00:47:09,340 --> 00:47:10,780
+ledger goes up
+
+1002
+00:47:11,850 --> 00:47:12,410
+And yep
+
+1003
+00:47:12,420 --> 00:47:13,890
+your ledger goes down
+
+1004
+00:47:14,380 --> 00:47:15,250
+Well
+
+1005
+00:47:15,260 --> 00:47:17,260
+your monetary ledger goes up
+
+1006
+00:47:17,840 --> 00:47:19,250
+Your utility
+
+1007
+00:47:19,260 --> 00:47:22,770
+your fulfillment from that latte might go up
+
+1008
+00:47:23,460 --> 00:47:25,320
+I'm talking about the financial ledger
+
+1009
+00:47:26,170 --> 00:47:30,510
+So I just wanted to ground when we talk about payment systems to think about
+
+1010
+00:47:31,050 --> 00:47:33,030
+it's really just a way to amend
+
+1011
+00:47:33,050 --> 00:47:35,060
+Usually two parties ledgers
+
+1012
+00:47:35,060 --> 00:47:36,130
+one going up
+
+1013
+00:47:36,140 --> 00:47:37,438
+one going down
+
+1014
+00:47:37,438 --> 00:47:40,240
+Now in an earlier time
+
+1015
+00:47:40,250 --> 00:47:42,376
+it was handing somebody a bit of gold
+
+1016
+00:47:42,376 --> 00:47:44,690
+or a bit of silver
+
+1017
+00:47:45,380 --> 00:47:47,840
+and it was not recorded on central ledgers
+
+1018
+00:47:47,850 --> 00:47:50,560
+But we already live in an age of electronics
+
+1019
+00:47:50,570 --> 00:47:54,340
+So this is really what a payment system largely is
+
+1020
+00:47:54,380 --> 00:47:55,370
+It's not entirely
+
+1021
+00:47:55,410 --> 00:47:58,430
+There's still some other ways to do finance
+
+1022
+00:48:00,270 --> 00:48:04,980
+So what were some early forms of payment systems that did just that
+
+1023
+00:48:04,990 --> 00:48:07,550
+That moved and changed ledgers
+
+1024
+00:48:08,860 --> 00:48:10,590
+They're called negotiable orders
+
+1025
+00:48:10,950 --> 00:48:14,241
+I would dare say that most of you probably have not
+
+1026
+00:48:14,241 --> 00:48:17,511
+used negotiable orders of withdrawal that much
+
+1027
+00:48:17,511 --> 00:48:19,610
+in the last week or the last month
+
+1028
+00:48:20,270 --> 00:48:25,450
+Is anybody here written a personal check in the last week
+
+1029
+00:48:28,430 --> 00:48:29,690
+But in an earlier era
+
+1030
+00:48:29,690 --> 00:48:31,492
+it would have been the whole class
+
+1031
+00:48:31,492 --> 00:48:33,520
+anybody in the class
+
+1032
+00:48:33,520 --> 00:48:34,960
+not even have a checkbook
+
+1033
+00:48:37,030 --> 00:48:38,800
+Three quarters of the class
+
+1034
+00:48:38,810 --> 00:48:41,520
+Larry how's that make you feel -- Getting old
+
+1035
+00:48:44,170 --> 00:48:46,836
+But a checkbook is, in essence
+
+1036
+00:48:48,032 --> 00:48:50,740
+with a... what do you put on a check?
+
+1037
+00:48:50,740 --> 00:48:53,295
+What's... These are... this is all about Bitcoin now
+
+1038
+00:48:53,295 --> 00:48:55,349
+I'm not doing this just as a
+
+1039
+00:48:55,349 --> 00:48:58,319
+walk down memory lane for Larry and myself
+
+1040
+00:48:58,558 --> 00:49:03,103
+What's the... what are the important pieces of a negotiable order
+
+1041
+00:49:03,103 --> 00:49:04,300
+Withdrawal or check
+
+1042
+00:49:05,520 --> 00:49:06,360
+Put your signature on it
+
+1043
+00:49:06,760 --> 00:49:08,300
+So there's a signature
+
+1044
+00:49:08,310 --> 00:49:09,470
+What else is there
+
+1045
+00:49:10,290 --> 00:49:13,060
+I want to get to people I haven't talked to, in the back
+
+1046
+00:49:13,100 --> 00:49:14,060
+I can't remember your name
+
+1047
+00:49:14,530 --> 00:49:15,930
+Me? I'm Dana
+
+1048
+00:49:15,930 --> 00:49:19,010
+You put who you're paying to, how much, and what it's for
+
+1049
+00:49:19,010 --> 00:49:19,890
+All right
+
+1050
+00:49:19,900 --> 00:49:20,890
+so there is a bunch
+
+1051
+00:49:20,990 --> 00:49:23,150
+So a signature
+
+1052
+00:49:23,160 --> 00:49:24,310
+a payee
+
+1053
+00:49:24,370 --> 00:49:26,850
+how much and what it was for
+
+1054
+00:49:26,860 --> 00:49:27,320
+what else
+
+1055
+00:49:27,820 --> 00:49:29,590
+There is an account number and routing numbers
+
+1056
+00:49:30,530 --> 00:49:32,050
+Account numbers and routing numbers
+
+1057
+00:49:32,080 --> 00:49:36,023
+So think about account numbers and routing numbers is to
+
+1058
+00:49:36,023 --> 00:49:40,520
+just say, in essence
+
+1059
+00:49:41,120 --> 00:49:43,510
+what ledger is this coming from
+
+1060
+00:49:44,330 --> 00:49:47,060
+And the payee is the ledger
+
+1061
+00:49:47,060 --> 00:49:48,750
+It's to whom it's going
+
+1062
+00:49:48,760 --> 00:49:49,820
+And I'm sorry, Dan?
+
+1063
+00:49:50,310 --> 00:49:52,150
+Also a date -- And a date
+
+1064
+00:49:52,420 --> 00:49:53,720
+So there's a time stamp
+
+1065
+00:49:54,160 --> 00:49:55,290
+a signature
+
+1066
+00:49:55,300 --> 00:49:56,060
+a payee
+
+1067
+00:49:56,880 --> 00:50:01,115
+the payor in the form of the account number
+
+1068
+00:50:01,115 --> 00:50:02,480
+and an amount
+
+1069
+00:50:02,480 --> 00:50:04,340
+Those five are really critical
+
+1070
+00:50:04,340 --> 00:50:08,390
+and you'll find them are going to be right in the middle of all this Bitcoin
+
+1071
+00:50:09,180 --> 00:50:10,910
+And then the reason why you're
+
+1072
+00:50:10,920 --> 00:50:11,250
+you know
+
+1073
+00:50:11,260 --> 00:50:13,190
+some other information
+
+1074
+00:50:13,230 --> 00:50:14,862
+I'm sorry, was there something else
+
+1075
+00:50:14,862 --> 00:50:18,080
+Kyle -- Kyle -- I just have a question
+
+1076
+00:50:18,080 --> 00:50:20,200
+Would you consider something like PayPal
+
+1077
+00:50:20,200 --> 00:50:22,620
+or Venmo like a negotiable order?
+
+1078
+00:50:23,860 --> 00:50:24,880
+They may be
+
+1079
+00:50:24,890 --> 00:50:26,490
+They may be new forms
+
+1080
+00:50:26,490 --> 00:50:28,680
+They're certainly parts of the payment system
+
+1081
+00:50:29,540 --> 00:50:33,290
+Why they might not be negotiable orders or withdrawal
+
+1082
+00:50:33,290 --> 00:50:38,752
+They might not be a direct authorization for a bank
+
+1083
+00:50:38,752 --> 00:50:41,790
+with one ledger to move money to another ledger
+
+1084
+00:50:42,010 --> 00:50:46,680
+They might be moving it on their own ledger, that's a...
+
+1085
+00:50:47,200 --> 00:50:49,250
+but you're asking the right question
+
+1086
+00:50:49,650 --> 00:50:52,130
+So some early money that we already talked about
+
+1087
+00:50:52,130 --> 00:50:52,930
+that was Ledger
+
+1088
+00:50:52,940 --> 00:50:55,520
+Were the tally sticks in England and the Yap stone
+
+1089
+00:50:55,530 --> 00:50:58,570
+These were ledger types and forms of money
+
+1090
+00:50:58,580 --> 00:51:00,330
+and was kind of interesting
+
+1091
+00:51:00,330 --> 00:51:04,700
+So ledgers didn't just come with electricity and computers
+
+1092
+00:51:05,180 --> 00:51:07,750
+So now let's get back to fiat currency
+
+1093
+00:51:07,760 --> 00:51:09,580
+The heart of a earlier question
+
+1094
+00:51:10,860 --> 00:51:13,170
+And we already talked about it
+
+1095
+00:51:13,170 --> 00:51:14,920
+So let's see how the professor did
+
+1096
+00:51:14,920 --> 00:51:17,391
+Cause you already said some of the things that you said
+
+1097
+00:51:17,391 --> 00:51:21,858
+were fiat currency. One social and economic consensus
+
+1098
+00:51:22,454 --> 00:51:27,220
+I don't... I'm in this school that it's just part of the history
+
+1099
+00:51:27,630 --> 00:51:31,105
+It's not that different than everything that came
+
+1100
+00:51:31,105 --> 00:51:35,576
+even though it built on that promissory note from China 700 years ago
+
+1101
+00:51:35,576 --> 00:51:37,000
+in the private bank notes
+
+1102
+00:51:37,360 --> 00:51:40,400
+it got in the goldsmiths in the 17 hundreds
+
+1103
+00:51:40,580 --> 00:51:44,485
+But ultimately governments took control
+
+1104
+00:51:44,485 --> 00:51:47,300
+That represents central bank liabilities
+
+1105
+00:51:47,300 --> 00:51:48,160
+And that's important
+
+1106
+00:51:48,180 --> 00:51:51,740
+It's a liability of a central bank
+
+1107
+00:51:51,810 --> 00:51:53,020
+It's not an asset
+
+1108
+00:51:53,030 --> 00:51:54,930
+It's their liability side
+
+1109
+00:51:56,340 --> 00:51:57,660
+But it's also
+
+1110
+00:51:57,670 --> 00:51:58,220
+guess what
+
+1111
+00:51:58,220 --> 00:51:59,990
+There's a second form of money
+
+1112
+00:52:00,650 --> 00:52:02,810
+And that's when you make a
+
+1113
+00:52:02,960 --> 00:52:05,260
+you have a deposit in a bank
+
+1114
+00:52:05,260 --> 00:52:07,450
+That's a liability of a commercial bank
+
+1115
+00:52:09,170 --> 00:52:13,680
+Central bank is the top gold standard of sense using the word gold
+
+1116
+00:52:13,680 --> 00:52:15,450
+But it's the top ledger
+
+1117
+00:52:15,460 --> 00:52:18,720
+Commercial banks are like subledgers in a sense
+
+1118
+00:52:19,170 --> 00:52:19,960
+Please, Alan?
+
+1119
+00:52:19,960 --> 00:52:21,750
+Sure. I'm not an economist or anything
+
+1120
+00:52:21,760 --> 00:52:23,524
+but what does it mean to be
+
+1121
+00:52:23,524 --> 00:52:26,790
+for a coin or a note to be a liability of the central bank?
+
+1122
+00:52:26,790 --> 00:52:28,240
+What does that actually mean?
+
+1123
+00:52:29,380 --> 00:52:32,480
+So before I answer
+
+1124
+00:52:32,480 --> 00:52:34,520
+does anybody want to try to answer what it is?
+
+1125
+00:52:36,640 --> 00:52:37,337
+Eric?
+
+1126
+00:52:37,337 --> 00:52:44,077
+Liability is basically an obligation, to, in this case, pay someone an amount
+
+1127
+00:52:44,077 --> 00:52:46,880
+So because it's a social consensus
+
+1128
+00:52:46,880 --> 00:52:49,940
+it's a very good question that Alan asked is
+
+1129
+00:52:50,340 --> 00:52:54,087
+what does it mean to be a liability of a central bank
+
+1130
+00:52:54,087 --> 00:52:57,680
+when it's just the currency in our pocket
+
+1131
+00:52:58,290 --> 00:53:00,180
+This Federal Reserve note
+
+1132
+00:53:00,220 --> 00:53:02,240
+this says Federal Reserve note on it
+
+1133
+00:53:03,110 --> 00:53:03,770
+And
+
+1134
+00:53:05,950 --> 00:53:06,420
+Right
+
+1135
+00:53:07,070 --> 00:53:08,130
+We can pass it around
+
+1136
+00:53:08,420 --> 00:53:09,990
+I'm not afraid it's only a dollar
+
+1137
+00:53:09,990 --> 00:53:11,340
+but, you know, right
+
+1138
+00:53:12,630 --> 00:53:15,310
+You want me to pass around 20s and then I want them back
+
+1139
+00:53:15,540 --> 00:53:19,050
+But it says better reserve note, right?
+
+1140
+00:53:19,050 --> 00:53:22,270
+So it's a liability of the commercial bank
+
+1141
+00:53:24,510 --> 00:53:26,160
+in a earlier day
+
+1142
+00:53:26,170 --> 00:53:29,060
+it was said you could exchange it for gold or silver
+
+1143
+00:53:29,070 --> 00:53:30,550
+Right, so that's what I don't understand...
+
+1144
+00:53:30,550 --> 00:53:36,260
+But by the 1930s for retail deposits in the middle of the depression
+
+1145
+00:53:36,300 --> 00:53:38,080
+President Roosevelt said, no more
+
+1146
+00:53:38,080 --> 00:53:38,810
+You can not
+
+1147
+00:53:38,820 --> 00:53:40,950
+You could not redeem gold and silver
+
+1148
+00:53:40,970 --> 00:53:45,138
+And then President Nixon in the 1970 said in the official sector
+
+1149
+00:53:45,138 --> 00:53:48,980
+that he was going off of the... until that point in time
+
+1150
+00:53:49,440 --> 00:53:51,770
+other governments could redeem in gold
+
+1151
+00:53:53,270 --> 00:53:54,790
+But when paper money started
+
+1152
+00:53:54,790 --> 00:53:56,320
+it was not backed by gold
+
+1153
+00:53:56,780 --> 00:54:00,580
+We had a period of the gold standard we were on and off of it
+
+1154
+00:54:00,580 --> 00:54:03,940
+We fell off of it after World War... during World War I
+
+1155
+00:54:03,940 --> 00:54:05,120
+We went back on it
+
+1156
+00:54:05,470 --> 00:54:09,196
+It would be a false narrative to say that we were on
+
+1157
+00:54:09,196 --> 00:54:12,140
+the gold standard for our first 140 years
+
+1158
+00:54:13,090 --> 00:54:15,280
+I just wanted to clear that up
+
+1159
+00:54:15,290 --> 00:54:17,350
+I mean, we sort of went on the gold standard
+
+1160
+00:54:17,350 --> 00:54:18,310
+We went off
+
+1161
+00:54:18,320 --> 00:54:20,560
+we went back on and so forth
+
+1162
+00:54:20,950 --> 00:54:23,560
+But it is a liability on the books and records
+
+1163
+00:54:23,570 --> 00:54:26,760
+So as a matter of accounting and double entry bookkeeping
+
+1164
+00:54:27,760 --> 00:54:29,000
+I will show you in a minute
+
+1165
+00:54:29,010 --> 00:54:30,800
+The balance sheet of the Federal Reserve
+
+1166
+00:54:30,800 --> 00:54:32,530
+And I'll come back to this question
+
+1167
+00:54:32,580 --> 00:54:33,220
+Is that all right
+
+1168
+00:54:33,230 --> 00:54:35,360
+Can you clarify what is the bank liable for?
+
+1169
+00:54:35,360 --> 00:54:37,524
+So before, it gave me a dollar
+
+1170
+00:54:37,524 --> 00:54:40,127
+and I could go to the dollar and get back to the gold, right?
+
+1171
+00:54:40,127 --> 00:54:40,494
+Right
+
+1172
+00:54:40,494 --> 00:54:42,220
+Now, what is it liable for now
+
+1173
+00:54:43,800 --> 00:54:45,740
+It is, in essence, a social
+
+1174
+00:54:45,740 --> 00:54:46,690
+It's the first point
+
+1175
+00:54:46,910 --> 00:54:49,420
+the... I'm going to separate it
+
+1176
+00:54:49,420 --> 00:54:54,480
+The central bank is liable that they will move on its ledgers
+
+1177
+00:54:54,800 --> 00:54:57,220
+If you want to move that to somewhere else
+
+1178
+00:54:57,540 --> 00:55:00,740
+So you could take that physical $1 in and say
+
+1179
+00:55:00,740 --> 00:55:02,949
+I want to deposit this in a bank
+
+1180
+00:55:02,949 --> 00:55:06,130
+and they have to record it on the ledger of that bank
+
+1181
+00:55:06,140 --> 00:55:08,240
+That is what they're... that is
+
+1182
+00:55:08,250 --> 00:55:09,670
+And the US government
+
+1183
+00:55:09,670 --> 00:55:13,193
+which is technically separate from the central bank
+
+1184
+00:55:13,193 --> 00:55:16,350
+or the UK government or the Chinese government
+
+1185
+00:55:16,350 --> 00:55:19,300
+They are all technically separate from their banks
+
+1186
+00:55:19,310 --> 00:55:21,510
+People's Bank of China or the Bank of England
+
+1187
+00:55:22,680 --> 00:55:27,490
+Their governments are saying they will accept it for payments against taxes
+
+1188
+00:55:28,050 --> 00:55:31,170
+So there's a so... set of social constructs
+
+1189
+00:55:32,580 --> 00:55:33,490
+It relies on a...
+
+1190
+00:55:33,820 --> 00:55:35,620
+I'm going to just go through this to answer your question
+
+1191
+00:55:35,620 --> 00:55:37,700
+It relies on a system of ledgers
+
+1192
+00:55:39,320 --> 00:55:42,189
+and it's an integration of those ledgers between the
+
+1193
+00:55:42,189 --> 00:55:44,291
+banking system and the commercial banks
+
+1194
+00:55:44,291 --> 00:55:46,800
+In the US we have about 9000 commercial banks
+
+1195
+00:55:48,990 --> 00:55:50,810
+And what the Federal Reserve is saying
+
+1196
+00:55:50,820 --> 00:55:53,070
+But it's true about the People's Bank of China
+
+1197
+00:55:53,140 --> 00:55:57,330
+It's true about the European Central Bank
+
+1198
+00:55:57,340 --> 00:56:00,260
+Each of these central banks are basically saying
+
+1199
+00:56:00,270 --> 00:56:02,880
+if you bring your paper money in
+
+1200
+00:56:03,500 --> 00:56:06,513
+we will record it on the ledger of a commercial bank
+
+1201
+00:56:06,513 --> 00:56:11,160
+and you can pay your taxes to our sister over here called the government
+
+1202
+00:56:13,380 --> 00:56:15,060
+That's... I'm sorry to let you down
+
+1203
+00:56:15,170 --> 00:56:16,750
+It's not more than that
+
+1204
+00:56:16,760 --> 00:56:17,380
+Sorry, Alan
+
+1205
+00:56:17,390 --> 00:56:18,640
+I have a potential answer
+
+1206
+00:56:18,640 --> 00:56:19,830
+I might be totally wrong
+
+1207
+00:56:19,830 --> 00:56:20,120
+Please, go
+
+1208
+00:56:20,320 --> 00:56:26,032
+I think it's a legal and sustainable way to conduct a Ponzi scheme
+
+1209
+00:56:27,390 --> 00:56:31,240
+With, yeah, with a proper Ponzi scheme
+
+1210
+00:56:31,240 --> 00:56:34,158
+where the value will increase by 1% to 3%
+
+1211
+00:56:34,158 --> 00:56:38,420
+If you.. if a central bank reaches the goal of inflation
+
+1212
+00:56:39,150 --> 00:56:40,910
+Right, any other points of view in that
+
+1213
+00:56:41,560 --> 00:56:42,030
+I saw
+
+1214
+00:56:42,040 --> 00:56:42,500
+I saw
+
+1215
+00:56:43,220 --> 00:56:43,480
+I don't
+
+1216
+00:56:43,580 --> 00:56:43,900
+I don't
+
+1217
+00:56:43,900 --> 00:56:44,800
+I don't know your name
+
+1218
+00:56:44,810 --> 00:56:45,040
+Oh
+
+1219
+00:56:45,050 --> 00:56:45,250
+no
+
+1220
+00:56:45,250 --> 00:56:46,710
+you don't want to say anything
+
+1221
+00:56:46,720 --> 00:56:46,930
+No
+
+1222
+00:56:46,960 --> 00:56:47,520
+all right
+
+1223
+00:56:48,700 --> 00:56:51,406
+I think it will go back to point one, right
+
+1224
+00:56:51,406 --> 00:56:55,154
+So it's a construct that someone would give you something
+
+1225
+00:56:55,154 --> 00:56:57,236
+So your dollar where the central bank
+
+1226
+00:56:57,236 --> 00:57:00,534
+the central bank owes you that dollars worth of whatever you desire
+
+1227
+00:57:00,534 --> 00:57:03,203
+and someone will happily take that dollar
+
+1228
+00:57:03,203 --> 00:57:05,981
+from the central bank and give you the goods that you want
+
+1229
+00:57:05,981 --> 00:57:08,064
+So it's a roundabout way of...
+
+1230
+00:57:08,064 --> 00:57:11,645
+it's a way of transacting something
+
+1231
+00:57:11,645 --> 00:57:14,000
+whetever the dollar has...
+
+1232
+00:57:14,181 --> 00:57:16,149
+It's also central bank liability
+
+1233
+00:57:16,149 --> 00:57:18,985
+Because like whenever the government has sovereign debt
+
+1234
+00:57:18,985 --> 00:57:20,140
+it can just issue new notes
+
+1235
+00:57:20,765 --> 00:57:22,189
+It's liable
+
+1236
+00:57:22,189 --> 00:57:25,325
+So that's why it's a liability because you can only issue notes
+
+1237
+00:57:25,325 --> 00:57:27,220
+against a certain amount of reserves that you...
+
+1238
+00:57:27,510 --> 00:57:28,500
+So that's why it...
+
+1239
+00:57:28,800 --> 00:57:31,097
+That's why you repudiate as a liability
+
+1240
+00:57:31,097 --> 00:57:33,370
+because you can't just issue new notes whenever you need them
+
+1241
+00:57:34,520 --> 00:57:36,780
+You can't just make new money out of thin air
+
+1242
+00:57:36,930 --> 00:57:38,360
+So you're liable for every new note
+
+1243
+00:57:39,500 --> 00:57:41,575
+I'm gonna take one more comment on this
+
+1244
+00:57:41,575 --> 00:57:43,300
+and then give a couple more things, here
+
+1245
+00:57:44,150 --> 00:57:46,820
+The currency is actually a small part of the
+
+1246
+00:57:47,160 --> 00:57:48,080
+the total reserves
+
+1247
+00:57:48,870 --> 00:57:49,600
+the federal reserve system
+
+1248
+00:57:50,150 --> 00:57:52,630
+I think maybe the bank reserves
+
+1249
+00:57:52,750 --> 00:57:55,455
+or maybe a more applicable application
+
+1250
+00:57:55,455 --> 00:57:59,020
+because the bank can actually require the Fed to print money by making more loans
+
+1251
+00:58:00,460 --> 00:58:05,020
+So in that way, is that mechanism to ensure that liability
+
+1252
+00:58:05,700 --> 00:58:07,550
+So I'm very pleased with this discussion
+
+1253
+00:58:07,550 --> 00:58:12,040
+Even Alan's contributions about the schemes
+
+1254
+00:58:12,050 --> 00:58:14,490
+This is the debate
+
+1255
+00:58:14,520 --> 00:58:15,910
+If Jay Powell were here
+
+1256
+00:58:15,920 --> 00:58:17,760
+how many of you know who Jay Powell is
+
+1257
+00:58:19,360 --> 00:58:20,430
+Who is Jay Powell
+
+1258
+00:58:20,800 --> 00:58:24,620
+It's a lab  -- Jay powell
+
+1259
+00:58:25,020 --> 00:58:26,750
+No, who's Jay powell
+
+1260
+00:58:26,953 --> 00:58:27,580
+Head of the...
+
+1261
+00:58:27,610 --> 00:58:28,630
+Head of the Federal Reserve
+
+1262
+00:58:28,650 --> 00:58:31,240
+Thank you, sorry
+
+1263
+00:58:32,770 --> 00:58:34,870
+But if Jay Powell were here
+
+1264
+00:58:35,640 --> 00:58:38,540
+he'd have a laugh along with what Alan just said
+
+1265
+00:58:40,430 --> 00:58:41,835
+But, he would say, also
+
+1266
+00:58:41,835 --> 00:58:46,800
+the liability is a social liability as well
+
+1267
+00:58:46,810 --> 00:58:48,174
+that a central banker
+
+1268
+00:58:48,174 --> 00:58:51,378
+to their core beliefs of what they are trying to do
+
+1269
+00:58:51,378 --> 00:58:56,983
+is ensure for the stability of this social thing we call money
+
+1270
+00:58:56,983 --> 00:59:01,690
+and to make sure that it doesn't get debased and it has some value
+
+1271
+00:59:01,810 --> 00:59:05,200
+And so it's accepted for taxes
+
+1272
+00:59:05,200 --> 00:59:08,660
+We talked about notes and coins are legal tender for all debts
+
+1273
+00:59:08,660 --> 00:59:09,770
+Public and private
+
+1274
+00:59:10,890 --> 00:59:16,320
+I walk into a Starbucks and I say I'd like a cup of coffee
+
+1275
+00:59:16,330 --> 00:59:21,308
+Here's my $5 or whatever it costs these days
+
+1276
+00:59:21,308 --> 00:59:25,060
+does the person behind the counter have to brew the coffee
+
+1277
+00:59:25,070 --> 00:59:26,480
+Is just a yes or no?
+
+1278
+00:59:26,510 --> 00:59:29,380
+Can I see?
+
+1279
+00:59:29,380 --> 00:59:31,480
+Who wants to go for it?
+
+1280
+00:59:32,170 --> 00:59:34,720
+There's a no from Christopher
+
+1281
+00:59:35,070 --> 00:59:36,540
+What, Chris? Alright
+
+1282
+00:59:36,590 --> 00:59:38,850
+there's a no from Chris, who agrees with Chris
+
+1283
+00:59:39,730 --> 00:59:40,520
+Okay
+
+1284
+00:59:41,350 --> 00:59:43,000
+they brew the cup of coffee
+
+1285
+00:59:43,000 --> 00:59:44,640
+I go to the other side of the counter
+
+1286
+00:59:44,640 --> 00:59:48,090
+The coffee sitting there, now
+
+1287
+00:59:48,100 --> 00:59:50,570
+Do they have to accept my $5 at that point
+
+1288
+00:59:51,580 --> 00:59:52,490
+Yes
+
+1289
+00:59:53,510 --> 00:59:54,800
+before they brew the coffee
+
+1290
+00:59:54,800 --> 00:59:56,580
+nobody has to take dollars
+
+1291
+00:59:57,160 --> 00:59:59,480
+But once a debt is established
+
+1292
+01:00:01,000 --> 01:00:02,360
+they produced the good
+
+1293
+01:00:02,400 --> 01:00:03,660
+They provided the service
+
+1294
+01:00:03,660 --> 01:00:05,050
+They have to take it
+
+1295
+01:00:05,180 --> 01:00:06,760
+Just a small little thing
+
+1296
+01:00:06,770 --> 01:00:08,400
+That's what legal tender is
+
+1297
+01:00:08,690 --> 01:00:11,658
+So there's many establishments around the globe
+
+1298
+01:00:11,658 --> 01:00:14,730
+that are basically now putting little signs out
+
+1299
+01:00:14,730 --> 01:00:17,060
+We don't take Swedish corona
+
+1300
+01:00:17,060 --> 01:00:18,140
+We don't take this
+
+1301
+01:00:18,140 --> 01:00:19,410
+We don't take that
+
+1302
+01:00:20,490 --> 01:00:21,770
+In paper form
+
+1303
+01:00:22,090 --> 01:00:24,261
+they'll still take it electronically
+
+1304
+01:00:24,261 --> 01:00:25,096
+And there's sort of
+
+1305
+01:00:25,096 --> 01:00:28,770
+there's a new little bit of definition thing going on about legal tender
+
+1306
+01:00:29,560 --> 01:00:31,390
+There's also some unique tax treatments
+
+1307
+01:00:31,390 --> 01:00:34,100
+but I'm not going to go through the currency
+
+1308
+01:00:34,180 --> 01:00:35,730
+So central banking and money
+
+1309
+01:00:35,730 --> 01:00:36,990
+We talked about a little bit
+
+1310
+01:00:37,000 --> 01:00:39,670
+This is a kind of chart that I borrowed from
+
+1311
+01:00:39,680 --> 01:00:42,330
+from a... somebody else's paper
+
+1312
+01:00:42,460 --> 01:00:45,750
+But the central banks at the top is at the center
+
+1313
+01:00:47,960 --> 01:00:51,950
+And if Alice and Bob and we'll be talking about Alice and Bob in Bitcoin time
+
+1314
+01:00:51,950 --> 01:00:54,030
+so you can pull this chart down later
+
+1315
+01:00:54,040 --> 01:00:55,760
+I want to transact
+
+1316
+01:00:56,300 --> 01:00:59,610
+And they're at the same commercial bank, bank number one
+
+1317
+01:00:59,620 --> 01:01:02,580
+then commercial bank number one has to change their ledgers
+
+1318
+01:01:02,590 --> 01:01:04,900
+moving money from Alice to Bob
+
+1319
+01:01:04,910 --> 01:01:05,420
+In essence
+
+1320
+01:01:05,420 --> 01:01:08,170
+if you're both two people at Bank of America
+
+1321
+01:01:08,170 --> 01:01:11,070
+you can move the your balance at Bank of America
+
+1322
+01:01:12,210 --> 01:01:15,810
+But if you're a bank of America going over to Citicorp
+
+1323
+01:01:16,480 --> 01:01:21,900
+then something has to go between two ledgers
+
+1324
+01:01:21,910 --> 01:01:24,720
+Bank of America's Ledger and City Corpse Ledger
+
+1325
+01:01:24,730 --> 01:01:30,403
+And the only way to transact between 2 bank's ledgers
+
+1326
+01:01:30,403 --> 01:01:33,440
+is some balancing act has to happen
+
+1327
+01:01:33,440 --> 01:01:36,550
+at the top ledger called the central bank
+
+1328
+01:01:38,500 --> 01:01:39,090
+And later
+
+1329
+01:01:39,090 --> 01:01:40,540
+when we talk about payment systems
+
+1330
+01:01:41,030 --> 01:01:43,280
+I'm going to use this slide again later in the semester
+
+1331
+01:01:43,280 --> 01:01:45,600
+That's why I'm not going to spend as much time now on it
+
+1332
+01:01:45,820 --> 01:01:47,800
+We're going to talk about ledgers
+
+1333
+01:01:48,440 --> 01:01:50,800
+And when you move money between 2 banks
+
+1334
+01:01:50,810 --> 01:01:53,126
+it's all within one closed system
+
+1335
+01:01:53,126 --> 01:01:58,480
+that countries or that they society's central banking system
+
+1336
+01:01:59,370 --> 01:02:03,570
+But then it gets really a little bit more iffy and woolly
+
+1337
+01:02:03,570 --> 01:02:07,310
+when you are moving from one currency to another currency
+
+1338
+01:02:09,000 --> 01:02:13,330
+Because how do you make two closed ledger systems operable?
+
+1339
+01:02:13,480 --> 01:02:14,270
+Not for today
+
+1340
+01:02:14,560 --> 01:02:20,353
+but we'll go through that later when we do payment systems and the like
+
+1341
+01:02:20,353 --> 01:02:22,840
+The central bank
+
+1342
+01:02:22,850 --> 01:02:23,950
+The US central bank
+
+1343
+01:02:23,950 --> 01:02:25,610
+This was the only good slide I could find
+
+1344
+01:02:25,610 --> 01:02:27,280
+which was about a year old
+
+1345
+01:02:27,290 --> 01:02:30,950
+Its liabilities and assets are about 4 and 1/4 trillion dollars
+
+1346
+01:02:30,950 --> 01:02:36,340
+$4.3 trillion. $1.7 trillion of that is in currency
+
+1347
+01:02:36,850 --> 01:02:38,370
+Do I get my $1 back
+
+1348
+01:02:38,370 --> 01:02:39,200
+By the way I mean
+
+1349
+01:02:39,200 --> 01:02:40,020
+my liability
+
+1350
+01:02:40,020 --> 01:02:40,740
+Yeah
+
+1351
+01:02:40,750 --> 01:02:48,010
+So $1.7 trillion of those greenbacks are in circulation
+
+1352
+01:02:49,215 --> 01:02:50,530
+And remarkably
+
+1353
+01:02:50,920 --> 01:02:54,580
+even though half of you probably don't use cash that much
+
+1354
+01:02:54,580 --> 01:02:56,890
+you don't even have checking accounts
+
+1355
+01:02:56,890 --> 01:03:00,226
+The amount of cash in circulation is growing faster
+
+1356
+01:03:00,226 --> 01:03:03,210
+than the economy in most developed nations
+
+1357
+01:03:03,970 --> 01:03:06,299
+Why do you think that is?
+
+1358
+01:03:08,310 --> 01:03:09,702
+Probably one word
+
+1359
+01:03:09,702 --> 01:03:13,590
+The amount of 2008 crisis...
+
+1360
+01:03:13,880 --> 01:03:16,810
+Oh that's more than one word
+
+1361
+01:03:16,810 --> 01:03:17,677
+Drugs
+
+1362
+01:03:17,677 --> 01:03:18,311
+Trust
+
+1363
+01:03:18,311 --> 01:03:19,750
+Oh trust
+
+1364
+01:03:19,760 --> 01:03:21,380
+I thought you said drugs
+
+1365
+01:03:23,030 --> 01:03:23,910
+Trust
+
+1366
+01:03:23,920 --> 01:03:25,650
+Well it does have to do a trust
+
+1367
+01:03:25,650 --> 01:03:27,370
+but it also has to do with drugs
+
+1368
+01:03:27,940 --> 01:03:33,510
+Paper currency is a wonderful method of of money laundering
+
+1369
+01:03:33,520 --> 01:03:35,720
+drug running and a store of value
+
+1370
+01:03:35,730 --> 01:03:38,131
+So there's certain segments of our economy
+
+1371
+01:03:38,131 --> 01:03:40,033
+and segments of the worldwide economy
+
+1372
+01:03:40,033 --> 01:03:42,760
+that does not want to be in the electronic banking system
+
+1373
+01:03:45,280 --> 01:03:47,020
+I'm going to slip through these quickly
+
+1374
+01:03:47,020 --> 01:03:50,470
+but there's another piece that we need for this whole class
+
+1375
+01:03:50,470 --> 01:03:54,330
+and for the semester is credit and credit intermediation
+
+1376
+01:03:54,360 --> 01:03:56,000
+But just a little thing
+
+1377
+01:03:56,010 --> 01:03:59,890
+Credit cards started only 60 or 70 years ago
+
+1378
+01:03:59,890 --> 01:04:03,240
+But they go back to a book a little over 100 years ago
+
+1379
+01:04:03,620 --> 01:04:08,290
+The word credit cards used 18 times in this book where
+
+1380
+01:04:09,130 --> 01:04:12,340
+a science fiction writer in 1887 said
+
+1381
+01:04:12,340 --> 01:04:14,690
+what would the world be like in the year 2000
+
+1382
+01:04:15,150 --> 01:04:17,610
+And it was the first we used the word credit card
+
+1383
+01:04:17,900 --> 01:04:18,920
+and he said they would
+
+1384
+01:04:19,080 --> 01:04:21,900
+society would have a form of money
+
+1385
+01:04:21,900 --> 01:04:23,570
+And you could have credit against it
+
+1386
+01:04:23,980 --> 01:04:27,640
+And it's a fascinating thing that somebody could be that visionary
+
+1387
+01:04:27,650 --> 01:04:29,680
+But there were merchant cards starting
+
+1388
+01:04:29,680 --> 01:04:32,110
+So maybe he wasn't so visionary
+
+1389
+01:04:32,710 --> 01:04:35,020
+Oil companies in the 1920s
+
+1390
+01:04:35,370 --> 01:04:37,340
+charge cards were starting
+
+1391
+01:04:37,350 --> 01:04:39,730
+but they were single merchant cards
+
+1392
+01:04:39,740 --> 01:04:42,095
+You could have credit from that merchant
+
+1393
+01:04:43,062 --> 01:04:46,680
+In 1946 in a bank in Brooklyn
+
+1394
+01:04:46,740 --> 01:04:50,070
+a guy named Biggins, started with that
+
+1395
+01:04:50,090 --> 01:04:51,830
+That was the first real charge it
+
+1396
+01:04:51,840 --> 01:04:57,270
+You could charge things in a few dozen places in Brooklyn
+
+1397
+01:04:58,390 --> 01:04:59,070
+literally
+
+1398
+01:05:00,490 --> 01:05:02,682
+And then all of a sudden it took off
+
+1399
+01:05:02,682 --> 01:05:05,230
+Diners Club started in the early 1950s
+
+1400
+01:05:05,230 --> 01:05:07,590
+They found that they could get a bunch of restaurants to say
+
+1401
+01:05:07,590 --> 01:05:09,490
+wouldn't you want to extend credit
+
+1402
+01:05:09,500 --> 01:05:14,100
+And we'll back at American Express in the mid 1950s
+
+1403
+01:05:14,210 --> 01:05:16,460
+And then finally in the mid 1960s
+
+1404
+01:05:16,460 --> 01:05:19,432
+Bank America, which is that time was a California bank
+
+1405
+01:05:19,432 --> 01:05:26,680
+figured out they would create a co-operative with a bunch of other US banks to extend credit
+
+1406
+01:05:26,750 --> 01:05:30,280
+And the credit boom took off
+
+1407
+01:05:30,290 --> 01:05:31,350
+And what was interesting
+
+1408
+01:05:31,350 --> 01:05:35,160
+the laws to regulate all this didn't come until the 1970s
+
+1409
+01:05:35,170 --> 01:05:36,490
+at least in the US
+
+1410
+01:05:36,530 --> 01:05:39,510
+the Fair Credit Reporting Act and all the other laws
+
+1411
+01:05:39,510 --> 01:05:41,610
+There's three big ones in the 1970s
+
+1412
+01:05:41,770 --> 01:05:46,010
+So those who... I go to conferences sometime to talk about Bitcoin regulation
+
+1413
+01:05:46,010 --> 01:05:48,910
+and they say, well, why can't the government solve this now
+
+1414
+01:05:48,920 --> 01:05:56,140
+I sort of remind them that it took 15 to 20 years from the introduction of credit cards
+
+1415
+01:05:56,150 --> 01:05:58,370
+kind of in the early to mid 1950s
+
+1416
+01:05:58,370 --> 01:06:00,900
+And the real takeoff in the 1960s
+
+1417
+01:06:00,910 --> 01:06:04,250
+It was 1974 1977
+
+1418
+01:06:04,250 --> 01:06:06,650
+The three big credit laws
+
+1419
+01:06:06,770 --> 01:06:10,049
+So if you're going to be an entrepreneur in Bitcoin
+
+1420
+01:06:10,049 --> 01:06:12,318
+know that it could be 15 years
+
+1421
+01:06:12,318 --> 01:06:16,222
+until there's some crypto loss in the future
+
+1422
+01:06:16,222 --> 01:06:20,740
+that was the processing machine from the 1950s
+
+1423
+01:06:20,750 --> 01:06:22,210
+I know I made it too small
+
+1424
+01:06:22,210 --> 01:06:23,070
+Sorry
+
+1425
+01:06:23,920 --> 01:06:25,810
+Visa made it better
+
+1426
+01:06:26,430 --> 01:06:27,310
+And then of course
+
+1427
+01:06:27,310 --> 01:06:29,160
+that's what we all see today
+
+1428
+01:06:29,170 --> 01:06:30,860
+how your cards get processed
+
+1429
+01:06:32,280 --> 01:06:34,480
+So the role of money we've talked about
+
+1430
+01:06:34,770 --> 01:06:36,610
+So I'm going to skip over that
+
+1431
+01:06:37,050 --> 01:06:39,440
+But now the characteristics of money
+
+1432
+01:06:39,450 --> 01:06:43,660
+what makes a good money, we talked about some of this earlier
+
+1433
+01:06:43,670 --> 01:06:44,610
+it's durable
+
+1434
+01:06:44,620 --> 01:06:49,640
+meaning that, that salt cube wasn't the greatest because of a lot of rain came
+
+1435
+01:06:49,640 --> 01:06:51,580
+That would be kind of wash away
+
+1436
+01:06:51,590 --> 01:06:54,210
+Gold and silver metals are durable
+
+1437
+01:06:54,310 --> 01:06:55,350
+They are portable
+
+1438
+01:06:55,520 --> 01:06:56,530
+The heavier it is
+
+1439
+01:06:56,530 --> 01:06:57,770
+the less portable it is
+
+1440
+01:06:57,770 --> 01:07:01,634
+And that's why gold was a better money than silver
+
+1441
+01:07:01,634 --> 01:07:02,630
+you could move it
+
+1442
+01:07:02,730 --> 01:07:04,600
+And better than copper bronze
+
+1443
+01:07:05,600 --> 01:07:07,430
+It was divisible, easily
+
+1444
+01:07:07,430 --> 01:07:09,290
+You could slice things up
+
+1445
+01:07:11,060 --> 01:07:12,840
+uniform and fungible
+
+1446
+01:07:13,160 --> 01:07:15,940
+And anyone who is down the rabbit hole on this stuff
+
+1447
+01:07:15,940 --> 01:07:17,980
+If you really want to learn about money
+
+1448
+01:07:18,380 --> 01:07:21,930
+read about Crawford versus Royal Bank in 1749
+
+1449
+01:07:24,310 --> 01:07:32,070
+There was a gentleman at the early part of paper money that mailed two £20 notes
+
+1450
+01:07:32,190 --> 01:07:33,690
+And he wrote his name on them
+
+1451
+01:07:34,680 --> 01:07:36,536
+They got lost in the mail
+
+1452
+01:07:36,536 --> 01:07:39,972
+and he took the banks to court
+
+1453
+01:07:39,972 --> 01:07:42,230
+to say those were mine when they were found
+
+1454
+01:07:43,160 --> 01:07:48,460
+And there was no law in Scotland or in England at the time as to what to do about it
+
+1455
+01:07:48,550 --> 01:07:52,070
+But if you lose or somebody stole a piece of art
+
+1456
+01:07:52,180 --> 01:07:53,420
+you get it back
+
+1457
+01:07:54,230 --> 01:07:58,490
+And the law was settled in 1749 that you actually don't get your money back
+
+1458
+01:07:59,480 --> 01:08:02,780
+Does anybody want to guess as to why the courts
+
+1459
+01:08:02,780 --> 01:08:05,164
+It was a matter of first interpretation
+
+1460
+01:08:05,164 --> 01:08:06,065
+the courts had no
+
+1461
+01:08:06,065 --> 01:08:11,030
+they had no jurisprudence on this before 1749
+
+1462
+01:08:11,030 --> 01:08:12,638
+Why did the courts decide
+
+1463
+01:08:12,638 --> 01:08:16,790
+that a piece of art was different than currency
+
+1464
+01:08:17,340 --> 01:08:21,560
+And it goes to the fundamental of what money is, fiat money is
+
+1465
+01:08:21,910 --> 01:08:24,947
+Anybody want to take a guess as to why the courts
+
+1466
+01:08:24,947 --> 01:08:26,533
+They could've gone the other way
+
+1467
+01:08:26,533 --> 01:08:29,530
+How could you tell if someone really owned money?
+
+1468
+01:08:30,000 --> 01:08:30,960
+He signed it
+
+1469
+01:08:30,990 --> 01:08:33,120
+It was actually... the facts were clear
+
+1470
+01:08:33,130 --> 01:08:34,760
+It was the currency he signed
+
+1471
+01:08:36,110 --> 01:08:39,590
+I'm just helping you out so that... that's a good point
+
+1472
+01:08:39,650 --> 01:08:40,860
+But he signed it
+
+1473
+01:08:42,030 --> 01:08:44,990
+It can't be used as a medium of exchange if you
+
+1474
+01:08:45,610 --> 01:08:47,740
+if it doesn't belong to the person...
+
+1475
+01:08:47,740 --> 01:08:49,950
+In essence, if you were to go back and read
+
+1476
+01:08:49,960 --> 01:08:52,910
+there is some history on this, and read the court cases
+
+1477
+01:08:54,090 --> 01:08:55,020
+This was the point
+
+1478
+01:08:55,030 --> 01:08:57,860
+The court basically said we have to make this a medium of exchange
+
+1479
+01:08:58,600 --> 01:09:00,890
+This is a greater social good
+
+1480
+01:09:00,900 --> 01:09:02,340
+It has to be fungible
+
+1481
+01:09:02,600 --> 01:09:05,530
+And the Royal Bank of Scotland was
+
+1482
+01:09:05,540 --> 01:09:06,500
+of course
+
+1483
+01:09:06,510 --> 01:09:07,770
+the kind of
+
+1484
+01:09:07,970 --> 01:09:08,530
+you know
+
+1485
+01:09:08,540 --> 01:09:10,710
+closer to the courts than this gentleman
+
+1486
+01:09:10,980 --> 01:09:11,830
+Crawford
+
+1487
+01:09:11,910 --> 01:09:15,530
+but the banks were also saying that we can't keep track of this
+
+1488
+01:09:15,540 --> 01:09:17,020
+So it was a mixture of the two
+
+1489
+01:09:17,020 --> 01:09:17,950
+but it made it fungible
+
+1490
+01:09:17,960 --> 01:09:18,270
+Eric
+
+1491
+01:09:19,280 --> 01:09:22,930
+Was it those specific notes that he had signed?
+
+1492
+01:09:23,040 --> 01:09:23,570
+Yeah
+
+1493
+01:09:24,990 --> 01:09:26,460
+and in 1749
+
+1494
+01:09:26,460 --> 01:09:29,960
+they all had serial numbers and they were signed in a way that not today
+
+1495
+01:09:30,780 --> 01:09:31,310
+of course
+
+1496
+01:09:31,310 --> 01:09:32,730
+they're acceptable
+
+1497
+01:09:32,840 --> 01:09:34,080
+And they're stable
+
+1498
+01:09:34,210 --> 01:09:36,370
+And we're going to talk a lot about the last point
+
+1499
+01:09:36,490 --> 01:09:38,650
+They're stable because they're hard to mine
+
+1500
+01:09:38,660 --> 01:09:41,794
+And Bitcoin has that embedded in it as well
+
+1501
+01:09:42,762 --> 01:09:45,220
+the design of money is really important as well
+
+1502
+01:09:45,230 --> 01:09:46,710
+You can make it a token
+
+1503
+01:09:46,720 --> 01:09:49,168
+A token is like something physical
+
+1504
+01:09:49,168 --> 01:09:51,370
+or a count based
+
+1505
+01:09:51,370 --> 01:09:52,320
+We are, of course
+
+1506
+01:09:52,330 --> 01:09:54,707
+now living in a world of account based money
+
+1507
+01:09:54,707 --> 01:09:57,270
+and its digital not physical
+
+1508
+01:09:59,330 --> 01:10:03,549
+It can be issued by the private sector just like bank notes in the 18th century
+
+1509
+01:10:03,549 --> 01:10:07,210
+or private sector like Bitcoin or it can be central
+
+1510
+01:10:07,940 --> 01:10:10,850
+It can be widely acceptable or just wholesale
+
+1511
+01:10:10,850 --> 01:10:12,770
+There are forms of wholesale money
+
+1512
+01:10:13,300 --> 01:10:16,130
+One of the biggest forms of wholesale money is the central banks'
+
+1513
+01:10:16,140 --> 01:10:19,450
+Reserves are only available to the commercial banking system
+
+1514
+01:10:20,830 --> 01:10:23,040
+We're going to study this money flower later
+
+1515
+01:10:23,040 --> 01:10:26,480
+but I put it in the slides because, this
+
+1516
+01:10:26,490 --> 01:10:28,340
+I didn't create this flower
+
+1517
+01:10:28,800 --> 01:10:32,612
+You have a reading later in the semester from the Bank of International Settlement
+
+1518
+01:10:32,612 --> 01:10:34,390
+that has this money flower in it
+
+1519
+01:10:34,910 --> 01:10:37,683
+But it's basically across these four things
+
+1520
+01:10:37,683 --> 01:10:42,924
+is a token or account based physical or digital private or central or widely accessible
+
+1521
+01:10:42,924 --> 01:10:46,298
+And then all monies fall into one piece of this money flower
+
+1522
+01:10:46,298 --> 01:10:49,462
+There's a Professor Garrett that came up with this flower
+
+1523
+01:10:49,462 --> 01:10:53,680
+And there is an optional reading later in the semester from him
+
+1524
+01:10:57,360 --> 01:10:58,770
+You had a reading from Clark
+
+1525
+01:10:58,770 --> 01:10:59,990
+There's not enough time
+
+1526
+01:11:00,000 --> 01:11:02,460
+but all this stuff failed
+
+1527
+01:11:02,500 --> 01:11:05,511
+Does anybody want to give me a flavor for one or two reasons
+
+1528
+01:11:05,511 --> 01:11:07,260
+why a bunch of digital cash failed
+
+1529
+01:11:07,270 --> 01:11:10,100
+Did anybody read the clerk reading the history of some DigiCash
+
+1530
+01:11:10,390 --> 01:11:11,820
+Oh, Alan read it
+
+1531
+01:11:11,840 --> 01:11:12,880
+Anybody else read it
+
+1532
+01:11:12,890 --> 01:11:14,360
+Over here
+
+1533
+01:11:14,360 --> 01:11:15,300
+I can't... --Zhan
+
+1534
+01:11:15,354 --> 01:11:17,005
+Don. So what did you
+
+1535
+01:11:17,005 --> 01:11:18,192
+Zhan -- What?
+
+1536
+01:11:18,192 --> 01:11:19,525
+zhan -- zhan, zhan
+
+1537
+01:11:19,525 --> 01:11:20,660
+what did you take from the reading?
+
+1538
+01:11:20,660 --> 01:11:21,860
+Why did these all fail?
+
+1539
+01:11:21,860 --> 01:11:24,730
+What's like the one or two biggest reasons they failed
+
+1540
+01:11:24,730 --> 01:11:28,088
+Most of them still relied on kind of some form of a central authority
+
+1541
+01:11:28,088 --> 01:11:30,202
+All right, they relied on central...
+
+1542
+01:11:30,202 --> 01:11:33,906
+DigiCash certainly did it, David Chaum's case, and some of the others
+
+1543
+01:11:33,906 --> 01:11:36,230
+Any other big reason? Alan, did you have--
+
+1544
+01:11:37,350 --> 01:11:39,680
+There wasn't enough adoption by merchants, I recall
+
+1545
+01:11:39,870 --> 01:11:41,480
+Definitely not adoption by merchants
+
+1546
+01:11:41,480 --> 01:11:41,880
+Very good
+
+1547
+01:11:42,410 --> 01:11:44,040
+Third reason why they failed one
+
+1548
+01:11:44,040 --> 01:11:46,340
+That's at the core of what Bitcoin solved
+
+1549
+01:11:49,860 --> 01:11:53,640
+Incentivizing like a decentralized network to keep that ledger, maintain the ledger
+
+1550
+01:11:53,950 --> 01:11:56,400
+Alright, and standardizing the ledger, behind her
+
+1551
+01:11:57,660 --> 01:11:59,398
+They couldn't solve the double spend Problem
+
+1552
+01:11:59,398 --> 01:12:02,040
+That's it, couldn't spend the double spend problem
+
+1553
+01:12:02,080 --> 01:12:04,790
+Could a currency be spent not just once, but twice
+
+1554
+01:12:04,790 --> 01:12:06,630
+So there's 4 things that were raised
+
+1555
+01:12:06,780 --> 01:12:09,130
+Four things that about centralization
+
+1556
+01:12:09,140 --> 01:12:10,670
+The double spend
+
+1557
+01:12:10,860 --> 01:12:12,920
+They couldn't get merchants to adopt it
+
+1558
+01:12:13,140 --> 01:12:14,500
+And there was a couldn't
+
+1559
+01:12:14,510 --> 01:12:17,470
+Some form of consensus as to what the ledger was
+
+1560
+01:12:17,480 --> 01:12:19,190
+I'm going to flip through these quickly
+
+1561
+01:12:19,190 --> 01:12:21,100
+but digital and mobile money did happen
+
+1562
+01:12:21,100 --> 01:12:22,640
+We were asked about PayPal earlier
+
+1563
+01:12:22,640 --> 01:12:26,810
+It was 1998 in Norway
+
+1564
+01:12:27,050 --> 01:12:30,629
+Eriksen and Telenor had the first mobile app
+
+1565
+01:12:30,629 --> 01:12:33,680
+and it was to get movies on your mobile phone
+
+1566
+01:12:35,400 --> 01:12:38,270
+1999, Alipay comes along that
+
+1567
+01:12:38,270 --> 01:12:40,800
+We'll talk a lot about when we do payments later
+
+1568
+01:12:41,080 --> 01:12:41,970
+And of course
+
+1569
+01:12:42,330 --> 01:12:45,644
+M-pesa so that we talked about a little last week in Kenya
+
+1570
+01:12:45,644 --> 01:12:51,350
+where Safaricom noticed that a bunch of money... near money
+
+1571
+01:12:51,360 --> 01:12:55,190
+It was mobile minutes that was being used as money in Kenya
+
+1572
+01:12:55,190 --> 01:12:58,040
+And now there's 20 million users of that
+
+1573
+01:12:58,180 --> 01:12:58,620
+And of course
+
+1574
+01:12:58,620 --> 01:13:01,030
+there's a bunch of regulations now and so forth
+
+1575
+01:13:02,780 --> 01:13:04,370
+Starbucks started in 2011
+
+1576
+01:13:05,840 --> 01:13:07,210
+And then, of course
+
+1577
+01:13:07,720 --> 01:13:10,420
+it's now off to the races in mobile money
+
+1578
+01:13:10,750 --> 01:13:13,120
+One of the key things about mobile money
+
+1579
+01:13:13,120 --> 01:13:16,500
+we will discuss and learn together is the question
+
+1580
+01:13:16,510 --> 01:13:20,290
+Each one of these is where is the stored value
+
+1581
+01:13:21,290 --> 01:13:22,380
+And I have to tell you
+
+1582
+01:13:22,380 --> 01:13:25,570
+sometimes I get quite confused when I research a new app
+
+1583
+01:13:26,090 --> 01:13:28,053
+Are they storing the value
+
+1584
+01:13:28,053 --> 01:13:33,030
+or are they just a processing provider to move...
+
+1585
+01:13:33,880 --> 01:13:34,990
+As we said earlier
+
+1586
+01:13:34,990 --> 01:13:38,798
+payment systems move and change and amend other ledgers
+
+1587
+01:13:38,798 --> 01:13:42,020
+in a number of these like M-Pesa
+
+1588
+01:13:42,090 --> 01:13:44,403
+Initially they were storing the value
+
+1589
+01:13:44,403 --> 01:13:47,150
+and mobile app Starbucks stores the value
+
+1590
+01:13:47,180 --> 01:13:50,200
+but many of them are just applications
+
+1591
+01:13:50,310 --> 01:13:53,040
+computer code to move the ledger somewhere else
+
+1592
+01:13:54,220 --> 01:13:55,720
+But the riddle remained
+
+1593
+01:13:57,000 --> 01:13:58,840
+You remember that riddle
+
+1594
+01:13:58,870 --> 01:13:59,760
+How to move money
+
+1595
+01:13:59,760 --> 01:14:01,840
+Peer to peer without a central authority
+
+1596
+01:14:03,180 --> 01:14:09,630
+And that's what I'm asking for next class, Thursday, to actually read
+
+1597
+01:14:11,190 --> 01:14:15,250
+I wouldn't win it, and I wouldn't be afraid of it
+
+1598
+01:14:15,850 --> 01:14:19,690
+Satoshi Nakamoto wrote a paper that everybody in this class
+
+1599
+01:14:19,690 --> 01:14:22,430
+If you were at MIT and a fewer viewer at Harvard
+
+1600
+01:14:23,120 --> 01:14:25,060
+I'm telling you can read it
+
+1601
+01:14:25,440 --> 01:14:28,140
+You'll understand maybe a half to two-thirds of it
+
+1602
+01:14:28,140 --> 01:14:29,990
+It's not deeply technical
+
+1603
+01:14:30,650 --> 01:14:34,560
+It's, and it's only 8 or 9 pages
+
+1604
+01:14:35,020 --> 01:14:39,050
+I've also assigned National Institute of Science Technology
+
+1605
+01:14:39,060 --> 01:14:41,570
+about 20 pages of reading from Nest
+
+1606
+01:14:42,620 --> 01:14:44,920
+The question is whether that's Bitcoin
+
+1607
+01:14:44,930 --> 01:14:46,780
+I'm going to skip through the study questions
+
+1608
+01:14:46,780 --> 01:14:49,735
+but the study questions are really about cryptography
+
+1609
+01:14:49,735 --> 01:14:51,730
+and how append only time stamping
+
+1610
+01:14:51,850 --> 01:14:55,410
+We are going to get into the nitty gritty over three lectures
+
+1611
+01:14:55,430 --> 01:14:58,740
+I couldn't commit the whole play, the course the whole semester
+
+1612
+01:14:58,750 --> 01:15:02,800
+And but I think three lectures, Thursday and the two next week
+
+1613
+01:15:02,850 --> 01:15:04,690
+anytime you want to come to see me
+
+1614
+01:15:05,240 --> 01:15:07,960
+Sabrina is somewhere here, on the floor
+
+1615
+01:15:08,110 --> 01:15:09,655
+Who's one of our Tas
+
+1616
+01:15:09,655 --> 01:15:14,026
+is a computer science master student and knows more
+
+1617
+01:15:14,026 --> 01:15:17,220
+about all of this. Madores, who was here last week
+
+1618
+01:15:17,220 --> 01:15:18,860
+I don't know if Madores is here
+
+1619
+01:15:18,870 --> 01:15:21,020
+He was part of the digital currency initiative
+
+1620
+01:15:21,540 --> 01:15:22,860
+Over three lectures
+
+1621
+01:15:22,860 --> 01:15:24,970
+We're going to try to work through
+
+1622
+01:15:24,970 --> 01:15:28,040
+what's the cryptography and why is that matter
+
+1623
+01:15:28,960 --> 01:15:31,060
+How does the time stamping happen
+
+1624
+01:15:31,610 --> 01:15:33,000
+How does this look like money
+
+1625
+01:15:33,000 --> 01:15:34,380
+And how do the transactions kept
+
+1626
+01:15:34,390 --> 01:15:34,830
+Yes
+
+1627
+01:15:34,840 --> 01:15:36,740
+You get to close it out, almost
+
+1628
+01:15:36,880 --> 01:15:41,170
+Can you just answer the question posed about the longest running blockchain?
+
+1629
+01:15:41,480 --> 01:15:42,660
+I can answer that
+
+1630
+01:15:42,660 --> 01:15:45,350
+but the assignment was to answer it by Thursday, right?
+
+1631
+01:15:46,180 --> 01:15:48,180
+So by Thursday
+
+1632
+01:15:48,430 --> 01:15:49,540
+what's your first name?
+
+1633
+01:15:49,990 --> 01:15:50,820
+Caroline
+
+1634
+01:15:50,830 --> 01:15:53,570
+Did I say I was going to answer it today...
+
+1635
+01:15:53,780 --> 01:15:55,160
+Oh did I say today？
+
+1636
+01:15:55,590 --> 01:15:58,080
+No, is there a mutable record of what I said?
+
+1637
+01:15:58,530 --> 01:16:00,290
+I'll answer it now if you want
+
+1638
+01:16:00,520 --> 01:16:04,490
+But who... does anyone have the answer in the whole class?
+
+1639
+01:16:05,970 --> 01:16:11,379
+Yeah. It's a service called Surety that Gillespie begun
+
+1640
+01:16:11,379 --> 01:16:16,040
+begun working in 1995, was a time stamp
+
+1641
+01:16:17,040 --> 01:16:19,160
+service for digital documents
+
+1642
+01:16:19,160 --> 01:16:25,190
+And the way they did was use a hash function to create a seal
+
+1643
+01:16:25,860 --> 01:16:28,167
+with a timestamp of the document
+
+1644
+01:16:28,167 --> 01:16:31,750
+and then process the weekly batch of seals
+
+1645
+01:16:32,100 --> 01:16:36,900
+And they actually published it in the New York Times in its homes
+
+1646
+01:16:37,560 --> 01:16:40,300
+So Carolyn, is good to raise the question
+
+1647
+01:16:40,300 --> 01:16:41,490
+I thought it was for Thursday
+
+1648
+01:16:41,490 --> 01:16:42,490
+But thank you
+
+1649
+01:16:42,570 --> 01:16:46,685
+Stewart Haber, a cryptographer
+
+1650
+01:16:46,685 --> 01:16:51,300
+and a colleague at Bell Labs in the early 90s, said
+
+1651
+01:16:51,300 --> 01:16:55,240
+how do we notarize information digitally notarize
+
+1652
+01:16:55,240 --> 01:16:57,390
+And we're going to be talking about this Thursday a lot
+
+1653
+01:16:57,460 --> 01:17:01,150
+They used a cryptographic method called hash functions
+
+1654
+01:17:02,800 --> 01:17:06,390
+And they were just trying to notarize information
+
+1655
+01:17:06,470 --> 01:17:08,470
+And by 1995, they took
+
+1656
+01:17:08,470 --> 01:17:09,680
+they were entrepreneurs
+
+1657
+01:17:09,680 --> 01:17:11,670
+They created a company called Surety
+
+1658
+01:17:12,090 --> 01:17:15,540
+And once a week they publish in the New York Times
+
+1659
+01:17:15,540 --> 01:17:16,800
+and they still do it
+
+1660
+01:17:17,010 --> 01:17:18,660
+You can get a New York Times
+
+1661
+01:17:18,660 --> 01:17:20,700
+I believe it's on Saturday or Sunday
+
+1662
+01:17:20,710 --> 01:17:21,720
+and they take
+
+1663
+01:17:21,730 --> 01:17:26,140
+it's in the classified section and they have the hash function
+
+1664
+01:17:26,150 --> 01:17:28,500
+which you'll read about between now and Thursday
+
+1665
+01:17:28,510 --> 01:17:33,000
+They have the hash of all the preexisting information
+
+1666
+01:17:33,260 --> 01:17:36,450
+And so they time stamp it by using the New York Times
+
+1667
+01:17:36,570 --> 01:17:38,330
+And they use cryptography
+
+1668
+01:17:38,590 --> 01:17:40,990
+And it's currently 23 years and running
+
+1669
+01:17:41,473 --> 01:17:43,409
+So that's the longest in terms of time
+
+1670
+01:17:43,409 --> 01:17:46,470
+not the longest with how many ledgers, or how many...
+
+1671
+01:17:46,720 --> 01:17:48,060
+Correct, because
+
+1672
+01:17:48,190 --> 01:17:51,450
+Bitcoin is about 550000 blocks
+
+1673
+01:17:51,450 --> 01:17:52,630
+And this would be whatever
+
+1674
+01:17:52,630 --> 01:17:57,350
+23 years times 52 is,  longest in time
+
+1675
+01:17:57,360 --> 01:17:58,000
+Thank you
+
+1676
+01:17:58,010 --> 01:17:59,430
+I look forward to seeing you
+

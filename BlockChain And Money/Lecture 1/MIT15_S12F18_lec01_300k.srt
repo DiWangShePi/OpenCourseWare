@@ -1,0 +1,5248 @@
+﻿1
+00:00:00,830 --> 00:00:04,390
+The following content is provided under a Creative Commons license
+
+2
+00:00:04,400 --> 00:00:10,610
+Your support will help MIT Open courseware continue to offer high quality educational resources for free
+
+3
+00:00:10,780 --> 00:00:15,230
+To make a donation or to view additional materials from hundreds of MIT courses
+
+4
+00:00:15,590 --> 00:00:18,810
+visit MIT Open Courseware at OC W Dot M
+
+5
+00:00:18,810 --> 00:00:20,390
+I T E D U
+
+6
+00:00:22,450 --> 00:00:23,300
+Welcome
+
+7
+00:00:23,670 --> 00:00:24,440
+welcome
+
+8
+00:00:25,040 --> 00:00:31,800
+If you have a desire to learn a little bit about blockchain and its intersection with the world of finance and money
+
+9
+00:00:31,950 --> 00:00:35,670
+And you're looking for 15 dot s 12
+
+10
+00:00:35,680 --> 00:00:37,600
+You are in the right place
+
+11
+00:00:37,620 --> 00:00:41,940
+If you're here to not do that and just hang out and have a good time
+
+12
+00:00:42,490 --> 00:00:47,000
+I guess you still hopefully are in the right place because we're going to have a good time this semester
+
+13
+00:00:47,610 --> 00:00:49,390
+My name is Gary Gensler
+
+14
+00:00:49,400 --> 00:00:52,380
+I'm a senior lecturer here at MIT Sloan
+
+15
+00:00:52,710 --> 00:00:56,290
+I'm also an advisor over at the MIT media lab
+
+16
+00:00:56,840 --> 00:01:03,850
+and I've spent a lifetime around the world of finance and money and public policy
+
+17
+00:01:04,400 --> 00:01:07,380
+And I bid at MIT this last eight months
+
+18
+00:01:07,410 --> 00:01:12,040
+And we're going to learn a lot together about blockchain and money
+
+19
+00:01:12,630 --> 00:01:15,090
+We're going to have a little bit of fun here and see what we're gonna do
+
+20
+00:01:15,100 --> 00:01:17,100
+So we're talking about blockchain money
+
+21
+00:01:17,480 --> 00:01:18,890
+That's where we are
+
+22
+00:01:19,280 --> 00:01:20,350
+By the way
+
+23
+00:01:21,040 --> 00:01:22,710
+I do cold call
+
+24
+00:01:22,720 --> 00:01:24,880
+I do call on you if you want to leave
+
+25
+00:01:24,880 --> 00:01:25,180
+Now
+
+26
+00:01:25,180 --> 00:01:26,010
+I understand
+
+27
+00:01:27,740 --> 00:01:31,630
+Because I want to have an interaction a little bit about it
+
+28
+00:01:31,630 --> 00:01:33,270
+So my first question for the class
+
+29
+00:01:33,270 --> 00:01:33,910
+for everyone
+
+30
+00:01:34,020 --> 00:01:35,300
+whether registered or not
+
+31
+00:01:35,300 --> 00:01:38,110
+how many of you have ever owned a cryptocurrency
+
+32
+00:01:39,190 --> 00:01:39,550
+Wait
+
+33
+00:01:39,550 --> 00:01:39,740
+wait
+
+34
+00:01:39,750 --> 00:01:42,070
+Let's see the odds
+
+35
+00:01:42,550 --> 00:01:46,990
+It seems like it's about 45% of you or so
+
+36
+00:01:47,350 --> 00:01:48,850
+All right
+
+37
+00:01:48,960 --> 00:01:49,360
+Excuse me
+
+38
+00:01:50,140 --> 00:01:52,100
+The line You want to keep your hand up long
+
+39
+00:01:52,300 --> 00:01:52,990
+You need to make
+
+40
+00:01:55,880 --> 00:02:03,700
+and how many of you have ever worked on any blockchain related projects in an entrepreneurial setting or corporate setting anywhere
+
+41
+00:02:05,450 --> 00:02:05,770
+Alright
+
+42
+00:02:05,780 --> 00:02:06,140
+good
+
+43
+00:02:06,320 --> 00:02:08,440
+So about a third in the room
+
+44
+00:02:10,700 --> 00:02:10,930
+Good
+
+45
+00:02:11,260 --> 00:02:11,790
+all right
+
+46
+00:02:12,090 --> 00:02:14,570
+So you all know probably more than I do
+
+47
+00:02:15,010 --> 00:02:16,380
+but I'm going to give it a shot
+
+48
+00:02:17,900 --> 00:02:21,190
+I'm going to always start every week with what are the study questions for the week
+
+49
+00:02:22,000 --> 00:02:23,900
+How many of you actually got the syllabus
+
+50
+00:02:23,900 --> 00:02:25,640
+This is not going to be greater to Simon
+
+51
+00:02:25,690 --> 00:02:28,890
+I just have to have a sense of who's who actually got this syllabus
+
+52
+00:02:28,900 --> 00:02:29,830
+So good many of
+
+53
+00:02:30,740 --> 00:02:33,080
+And how many of you actually did the two readings
+
+54
+00:02:33,090 --> 00:02:34,110
+It's not graded
+
+55
+00:02:34,110 --> 00:02:35,810
+I just got to gauge the class
+
+56
+00:02:35,820 --> 00:02:36,360
+Oh
+
+57
+00:02:36,370 --> 00:02:37,170
+thank you
+
+58
+00:02:37,570 --> 00:02:38,060
+Thank you
+
+59
+00:02:38,070 --> 00:02:39,120
+Write those grades down
+
+60
+00:02:39,130 --> 00:02:39,330
+by the way
+
+61
+00:02:39,430 --> 00:02:39,880
+no
+
+62
+00:02:40,670 --> 00:02:41,230
+All right
+
+63
+00:02:41,250 --> 00:02:48,840
+So the two main questions for this week's lecture really is what is blockchain and why might it be a catalyst
+
+64
+00:02:48,950 --> 00:02:50,550
+And I emphasize the word
+
+65
+00:02:50,560 --> 00:02:53,840
+might it be a catalyst for change in the world of finance
+
+66
+00:02:53,840 --> 00:03:01,680
+We could talk about a lot about things outside of the world of finance and blockchain may indeed have a lot of applications outside of finance
+
+67
+00:03:01,950 --> 00:03:05,470
+but I've chosen to try to just narrow the scope a bit
+
+68
+00:03:05,480 --> 00:03:06,590
+So this semester
+
+69
+00:03:06,630 --> 00:03:10,730
+really about blockchain and money or blockchain and finance
+
+70
+00:03:11,620 --> 00:03:12,600
+And secondly
+
+71
+00:03:12,600 --> 00:03:16,500
+you will see index cards on every one of these round tables
+
+72
+00:03:16,920 --> 00:03:19,940
+One assignment by the end of the class
+
+73
+00:03:20,360 --> 00:03:22,020
+you could do it now or later
+
+74
+00:03:22,030 --> 00:03:28,530
+I would like each of you to anonymously write on the court what you want to achieve this semester
+
+75
+00:03:29,410 --> 00:03:31,730
+It can be anything from this class
+
+76
+00:03:31,760 --> 00:03:33,130
+from learning about blockchain
+
+77
+00:03:33,130 --> 00:03:35,370
+from making money on Bitcoin from
+
+78
+00:03:35,380 --> 00:03:38,900
+I don't care if you tell me it's meeting your future spouse
+
+79
+00:03:38,910 --> 00:03:39,590
+I just like
+
+80
+00:03:39,590 --> 00:03:42,130
+what do you want to achieve in this class
+
+81
+00:03:42,140 --> 00:03:44,350
+I can't help you on the third
+
+82
+00:03:44,900 --> 00:03:47,830
+but I will try to help you on the things I can help you out
+
+83
+00:03:48,520 --> 00:03:51,790
+And Sabrina and Toledo will collect them later
+
+84
+00:03:51,840 --> 00:03:54,060
+And next Tuesday will tell you the results
+
+85
+00:03:54,070 --> 00:03:57,370
+What is it that you want to achieve in this class
+
+86
+00:03:57,800 --> 00:04:00,600
+And then we'll see at the end of the semester if we've done that
+
+87
+00:04:01,070 --> 00:04:03,990
+So that's just a way to help guide me
+
+88
+00:04:05,030 --> 00:04:05,820
+help you
+
+89
+00:04:07,150 --> 00:04:09,120
+So that's that's what we're trying to do
+
+90
+00:04:09,810 --> 00:04:11,370
+And so what were the two readings
+
+91
+00:04:11,370 --> 00:04:12,820
+One was a little thing I did
+
+92
+00:04:13,750 --> 00:04:17,010
+And one was a thing I did with some of my colleagues
+
+93
+00:04:17,280 --> 00:04:18,620
+And Tom
+
+94
+00:04:18,630 --> 00:04:20,930
+since I know you would you take out of the readings
+
+95
+00:04:21,980 --> 00:04:28,530
+that watching potential to improve the profitability or the the second one
+
+96
+00:04:30,150 --> 00:04:31,220
+Did you have a good summer
+
+97
+00:04:32,080 --> 00:04:32,290
+Yeah
+
+98
+00:04:32,300 --> 00:04:33,110
+did you raise your head
+
+99
+00:04:33,110 --> 00:04:34,560
+Did you own Bitcoin
+
+100
+00:04:34,570 --> 00:04:34,680
+No
+
+101
+00:04:37,360 --> 00:04:40,700
+Who in the class read the readings and took something different than Tom
+
+102
+00:04:41,540 --> 00:04:43,910
+He said there was potential in your first name
+
+103
+00:04:43,970 --> 00:04:44,190
+Alex
+
+104
+00:04:46,620 --> 00:04:46,880
+Well
+
+105
+00:04:47,160 --> 00:04:48,360
+I'm coming from the technical side
+
+106
+00:04:48,360 --> 00:04:49,300
+So from the technical side
+
+107
+00:04:49,300 --> 00:04:50,600
+all I see is a bunch of hype
+
+108
+00:04:51,020 --> 00:04:55,940
+And 10 years have passed since the launch of Bitcoin is very little show for it other than height
+
+109
+00:04:57,540 --> 00:04:57,800
+So I just got
+
+110
+00:04:59,000 --> 00:04:59,680
+okay
+
+111
+00:05:00,070 --> 00:05:01,770
+how many agreed with Elon
+
+112
+00:05:04,520 --> 00:05:10,730
+This isn't a vote or just two or three have any grid with Tom says more
+
+113
+00:05:11,280 --> 00:05:14,210
+And how many of you are too shy on the first day to put your hands up
+
+114
+00:05:16,780 --> 00:05:19,460
+So I'm going to start and go back the internet
+
+115
+00:05:19,470 --> 00:05:22,330
+How do I sort of I've come about this and sort of thought about
+
+116
+00:05:22,440 --> 00:05:22,750
+well
+
+117
+00:05:22,750 --> 00:05:23,770
+what is blockchain
+
+118
+00:05:23,790 --> 00:05:24,790
+What is it really about
+
+119
+00:05:24,790 --> 00:05:24,890
+Well
+
+120
+00:05:24,890 --> 00:05:30,050
+the internet started many decades ago before most of you were born
+
+121
+00:05:30,060 --> 00:05:32,050
+But 1974
+
+122
+00:05:32,060 --> 00:05:32,420
+I mean
+
+123
+00:05:32,420 --> 00:05:33,810
+there's some predecessors
+
+124
+00:05:33,810 --> 00:05:35,280
+even from the late sixty's
+
+125
+00:05:35,290 --> 00:05:36,240
+the Ethernet
+
+126
+00:05:36,250 --> 00:05:39,060
+which is really how two computers communicate
+
+127
+00:05:39,720 --> 00:05:41,850
+And then you had TCP IP
+
+128
+00:05:41,850 --> 00:05:46,880
+which is really the internet protocol of multiple computers
+
+129
+00:05:46,890 --> 00:05:51,000
+Compute talking to each other
+
+130
+00:05:52,500 --> 00:05:55,400
+And then later on in 1990
+
+131
+00:05:55,410 --> 00:05:56,710
+how do we move forward
+
+132
+00:05:56,710 --> 00:05:58,790
+Does anybody know what Http is
+
+133
+00:05:58,870 --> 00:06:00,120
+Where at MIT
+
+134
+00:06:00,550 --> 00:06:01,960
+Your first name would be helpful
+
+135
+00:06:01,970 --> 00:06:11,740
+Eric Eric is a is a probable for communicate the the web content web content type protects the transportation
+
+136
+00:06:11,850 --> 00:06:11,990
+right
+
+137
+00:06:13,200 --> 00:06:13,960
+You know who
+
+138
+00:06:13,970 --> 00:06:16,420
+Who's associated with the invention
+
+139
+00:06:16,780 --> 00:06:17,490
+And I don't remember right now
+
+140
+00:06:17,960 --> 00:06:18,630
+Anybody else
+
+141
+00:06:18,960 --> 00:06:21,530
+Anybody know who it's not In the readings running
+
+142
+00:06:21,540 --> 00:06:22,750
+Tim spurred league
+
+143
+00:06:25,240 --> 00:06:28,150
+Anybody know who's associated with TCP IP
+
+144
+00:06:32,210 --> 00:06:35,950
+It was a company initiated by MIT Acrylic
+
+145
+00:06:36,360 --> 00:06:40,950
+I think the bubble bag or something
+
+146
+00:06:42,310 --> 00:06:44,910
+I don't know if it was a company associated with MIT
+
+147
+00:06:44,920 --> 00:06:49,530
+but Vince Surf may have had some association with MIT
+
+148
+00:06:51,950 --> 00:06:54,000
+So these are the first three layers
+
+149
+00:06:54,000 --> 00:06:56,000
+And then there were companies commercialization
+
+150
+00:06:56,000 --> 00:06:57,290
+3Com and Cisco
+
+151
+00:06:57,440 --> 00:06:58,310
+And of course
+
+152
+00:06:58,340 --> 00:06:59,950
+Amazon is still around today
+
+153
+00:07:00,760 --> 00:07:02,760
+But there is something else going on
+
+154
+00:07:02,770 --> 00:07:04,700
+How do we commercialize the internet
+
+155
+00:07:04,700 --> 00:07:06,570
+Does anybody know what this scene is from
+
+156
+00:07:07,650 --> 00:07:09,760
+This is the first pizza sold by with Bitcoin
+
+157
+00:07:12,850 --> 00:07:14,110
+Good thought
+
+158
+00:07:14,820 --> 00:07:15,640
+Good thought
+
+159
+00:07:15,650 --> 00:07:17,240
+First pizza sold by Bitcoin
+
+160
+00:07:17,250 --> 00:07:18,720
+But no
+
+161
+00:07:20,670 --> 00:07:22,490
+Is it from that movie hackers or something
+
+162
+00:07:22,620 --> 00:07:23,010
+Alright
+
+163
+00:07:23,010 --> 00:07:24,260
+movie hackers
+
+164
+00:07:24,500 --> 00:07:26,650
+I do from net the net
+
+165
+00:07:26,890 --> 00:07:27,290
+Do you know
+
+166
+00:07:27,320 --> 00:07:28,280
+Have you ever seen the movie
+
+167
+00:07:28,280 --> 00:07:29,240
+It's not a good movie
+
+168
+00:07:31,650 --> 00:07:34,130
+So this is the opening scene of the net
+
+169
+00:07:34,560 --> 00:07:35,080
+And yes
+
+170
+00:07:35,090 --> 00:07:36,230
+that's Sander Bullock
+
+171
+00:07:37,500 --> 00:07:39,730
+And the year is 1995
+
+172
+00:07:39,740 --> 00:07:42,320
+It's a cyber thriller
+
+173
+00:07:43,280 --> 00:07:43,770
+You know
+
+174
+00:07:43,790 --> 00:07:45,070
+a presidents involved
+
+175
+00:07:45,070 --> 00:07:47,130
+the defense departments involved and so forth
+
+176
+00:07:47,820 --> 00:07:48,880
+But actually
+
+177
+00:07:48,890 --> 00:07:56,020
+Pizza Hut is associated with the very first sale online sale anywhere in the world
+
+178
+00:07:56,470 --> 00:07:58,620
+They started something called Pizza nut
+
+179
+00:07:58,630 --> 00:07:59,750
+This was the screen
+
+180
+00:07:59,750 --> 00:08:00,450
+by the way
+
+181
+00:08:00,620 --> 00:08:01,880
+If you wanted to go on
+
+182
+00:08:01,880 --> 00:08:03,050
+you could order your pizza
+
+183
+00:08:03,790 --> 00:08:06,900
+And and but there was one problem
+
+184
+00:08:06,900 --> 00:08:09,360
+Does anybody know what the problem was with pizza Net
+
+185
+00:08:09,900 --> 00:08:10,080
+I mean
+
+186
+00:08:10,280 --> 00:08:11,750
+maybe there were multiple problems
+
+187
+00:08:13,190 --> 00:08:13,510
+No
+
+188
+00:08:13,510 --> 00:08:13,770
+a lot
+
+189
+00:08:13,770 --> 00:08:14,600
+I've caught on you
+
+190
+00:08:14,960 --> 00:08:15,810
+You couldn't pay
+
+191
+00:08:16,000 --> 00:08:16,490
+All right
+
+192
+00:08:16,510 --> 00:08:17,940
+You couldn't pay online
+
+193
+00:08:17,950 --> 00:08:20,490
+Nobody figured out how to move money online
+
+194
+00:08:20,510 --> 00:08:22,900
+You had to pay when you showed up with the pizza
+
+195
+00:08:24,270 --> 00:08:27,386
+So now I'm going to talk a little bit about cryptography
+
+196
+00:08:27,386 --> 00:08:30,320
+We're going to spend a lot of time on cryptography
+
+197
+00:08:30,320 --> 00:08:32,336
+It's is cryptocurrencies and and the like
+
+198
+00:08:33,560 --> 00:08:34,100
+What's your name
+
+199
+00:08:34,330 --> 00:08:36,100
+GG
+
+200
+00:08:36,100 --> 00:08:36,390
+GE
+
+201
+00:08:36,440 --> 00:08:36,980
+GE
+
+202
+00:08:36,990 --> 00:08:37,330
+GE
+
+203
+00:08:37,330 --> 00:08:38,320
+what's cryptography
+
+204
+00:08:41,090 --> 00:08:43,860
+Assume that the something crafty
+
+205
+00:08:45,460 --> 00:08:45,890
+cryptic
+
+206
+00:08:45,900 --> 00:08:46,140
+Alright
+
+207
+00:08:46,140 --> 00:08:46,540
+now you got it
+
+208
+00:08:46,650 --> 00:08:47,980
+You gotta start there
+
+209
+00:08:48,310 --> 00:08:50,000
+Anybody want to help GE out
+
+210
+00:08:50,190 --> 00:08:51,470
+Does anybody want to help GE out
+
+211
+00:08:52,760 --> 00:08:53,140
+Yeah
+
+212
+00:08:53,180 --> 00:08:54,090
+tell me your first aid
+
+213
+00:08:54,090 --> 00:08:54,910
+We're going to ask
+
+214
+00:08:54,920 --> 00:08:58,650
+We're going to figure out how to have everybody have name plates by next week
+
+215
+00:08:58,660 --> 00:09:00,840
+But we'll work with Ryan and do it that way
+
+216
+00:09:00,880 --> 00:09:01,540
+But idea
+
+217
+00:09:02,310 --> 00:09:03,100
+Yeah
+
+218
+00:09:03,420 --> 00:09:08,730
+it's the technology or the science behind encryption and decryption codification
+
+219
+00:09:08,730 --> 00:09:13,930
+So how do you encrypt a particular Texas that is not readable by someone else without having the decryption
+
+220
+00:09:14,690 --> 00:09:14,840
+Okay
+
+221
+00:09:14,840 --> 00:09:18,010
+so it's how do you encrypt something
+
+222
+00:09:18,010 --> 00:09:21,600
+So it's not detectable by others or in essence
+
+223
+00:09:21,610 --> 00:09:25,480
+its communications in the presence of adversaries
+
+224
+00:09:26,570 --> 00:09:33,830
+You have an adversary who wants the communication you want to communicate and not let your adversaries know that communications
+
+225
+00:09:34,560 --> 00:09:37,270
+And this is this is true for ancient times
+
+226
+00:09:38,430 --> 00:09:39,850
+So in ancient times
+
+227
+00:09:39,850 --> 00:09:41,470
+there was something called the cipher
+
+228
+00:09:41,910 --> 00:09:55,840
+And this was a way that you take a piece of leather or piece of cloth and have a lot of letters and both sides you'd encrypt and decrypt because they were measurements of the cylinder
+
+229
+00:09:57,170 --> 00:10:00,620
+Has anybody seen the the movie imitation games
+
+230
+00:10:02,250 --> 00:10:02,610
+Alright
+
+231
+00:10:03,280 --> 00:10:04,580
+the Enigma machine
+
+232
+00:10:05,620 --> 00:10:11,960
+Now the movie was wonderful because it said touring cracked it and he did help crack it in an automated way
+
+233
+00:10:11,960 --> 00:10:12,500
+But actually
+
+234
+00:10:12,500 --> 00:10:18,990
+the Polish government had cracked it in the S before they fell to the Germans
+
+235
+00:10:18,990 --> 00:10:22,880
+But and and touring built on all of that and and cracked it
+
+236
+00:10:23,990 --> 00:10:26,220
+And then in the 1970s
+
+237
+00:10:26,300 --> 00:10:28,120
+And this was here at MIT
+
+238
+00:10:28,120 --> 00:10:29,130
+To some extent
+
+239
+00:10:29,160 --> 00:10:31,960
+There is private key public key cryptography
+
+240
+00:10:31,960 --> 00:10:34,660
+which I'm not going to dive into today
+
+241
+00:10:34,670 --> 00:10:38,540
+But it's the heart of Bitcoin and blockchain
+
+242
+00:10:38,690 --> 00:10:40,650
+It's at the heart of the Internet
+
+243
+00:10:41,530 --> 00:10:47,120
+But it's about the key thing is communications in the presence of adversaries
+
+244
+00:10:47,410 --> 00:10:51,770
+How do you keep a secret when everybody wants in and get that information
+
+245
+00:10:52,850 --> 00:10:54,560
+And there's a long history
+
+246
+00:10:54,960 --> 00:10:57,900
+And MIT is at the center of a lot of that
+
+247
+00:10:58,500 --> 00:11:04,720
+A lot of early cryptography failed on the Internet in the early 90s and late 80s
+
+248
+00:11:04,720 --> 00:11:06,970
+David Chum and others tried to do things
+
+249
+00:11:06,970 --> 00:11:08,460
+And we're not going to debate these today
+
+250
+00:11:08,460 --> 00:11:10,220
+But you all have one reading
+
+251
+00:11:10,230 --> 00:11:14,880
+I think it's either next week which will give you that history
+
+252
+00:11:14,880 --> 00:11:17,800
+And it's worthwhile knowing about the history of failure
+
+253
+00:11:19,320 --> 00:11:22,740
+But cryptography is the reason why the Internet works today
+
+254
+00:11:22,750 --> 00:11:26,150
+Does anybody want to tell me what SSL and TL
+
+255
+00:11:26,310 --> 00:11:27,340
+TLS is
+
+256
+00:11:28,070 --> 00:11:31,180
+We have any computer scientists remind me your first name
+
+257
+00:11:31,550 --> 00:11:31,890
+Eric
+
+258
+00:11:33,390 --> 00:11:33,540
+That's
+
+259
+00:11:34,230 --> 00:11:40,810
+the protocol that Madam Sun top of the TCP IP stack to description using asymmetric case
+
+260
+00:11:40,810 --> 00:11:43,460
+which is public infrastructure cryptography
+
+261
+00:11:43,460 --> 00:11:46,180
+That's a cube socket layer is trying to lose it
+
+262
+00:11:46,600 --> 00:11:50,380
+So it basically uses asymmetric cryptography
+
+263
+00:11:50,380 --> 00:11:53,620
+which we're gonna talk about two lectures from now
+
+264
+00:11:54,570 --> 00:11:56,590
+But it secures the whole internet
+
+265
+00:11:59,740 --> 00:12:00,640
+So all of a sudden
+
+266
+00:12:00,640 --> 00:12:03,710
+you could deliver the pizza and get APS code
+
+267
+00:12:04,150 --> 00:12:05,220
+And I have to tell you
+
+268
+00:12:05,220 --> 00:12:08,400
+I never knew how this worked before I was at MIT
+
+269
+00:12:09,170 --> 00:12:12,520
+So PayPal came along in 1998
+
+270
+00:12:13,410 --> 00:12:17,770
+I mentioned this a whole bunch of other digital currencies then failed
+
+271
+00:12:20,320 --> 00:12:23,130
+But some of these people who will read later
+
+272
+00:12:23,130 --> 00:12:27,420
+like we'll read Nick Sabo piece on smart contracts later
+
+273
+00:12:27,700 --> 00:12:28,860
+Adam back
+
+274
+00:12:28,870 --> 00:12:30,780
+who created Hashcash
+
+275
+00:12:30,790 --> 00:12:35,580
+Some of these innovations were what Satoshi Nakamoto later used to
+
+276
+00:12:38,120 --> 00:12:43,980
+Some innovations which were really helpful and worked were Alipay and M Pesa
+
+277
+00:12:44,030 --> 00:12:45,780
+Does anybody know what MP says
+
+278
+00:12:48,380 --> 00:12:52,150
+I think it's used in Kenya as like mobile cellular enabled cash
+
+279
+00:12:52,160 --> 00:12:52,370
+right
+
+280
+00:12:53,660 --> 00:12:54,160
+In essence
+
+281
+00:12:54,160 --> 00:12:55,460
+they found out in Kenya
+
+282
+00:12:57,400 --> 00:13:02,000
+This was 1012 years ago that people were trading mobile minutes
+
+283
+00:13:02,390 --> 00:13:04,030
+They were unbanked
+
+284
+00:13:04,040 --> 00:13:09,960
+but they had cellular phones and they were trading their minutes as a form of currency and safari
+
+285
+00:13:09,960 --> 00:13:15,750
+Khan realized that and said we could help people be part of the digital economy
+
+286
+00:13:16,060 --> 00:13:17,550
+even if they are unbanked
+
+287
+00:13:18,060 --> 00:13:19,390
+And in Africa today
+
+288
+00:13:19,940 --> 00:13:22,370
+a half of the adult population
+
+289
+00:13:22,750 --> 00:13:24,090
+according to World Bank figures
+
+290
+00:13:24,090 --> 00:13:25,380
+is still unbacked
+
+291
+00:13:26,200 --> 00:13:30,380
+But half of that half has mobile phones
+
+292
+00:13:32,620 --> 00:13:35,680
+MP says 20 million customers in Kenya right now
+
+293
+00:13:36,450 --> 00:13:37,230
+So it's A
+
+294
+00:13:37,240 --> 00:13:41,360
+it's a form of money that's kind of swapping mobile minutes
+
+295
+00:13:42,860 --> 00:13:44,080
+But the riddle remained
+
+296
+00:13:44,080 --> 00:13:46,120
+How do you move money on the internet
+
+297
+00:13:46,130 --> 00:13:46,810
+Or in essence
+
+298
+00:13:46,810 --> 00:13:51,720
+how do you move value peer to peer without a centralized intermediary
+
+299
+00:13:51,720 --> 00:13:52,440
+And that's the
+
+300
+00:13:54,690 --> 00:13:56,370
+Of blockchain technology
+
+301
+00:13:57,510 --> 00:14:02,220
+So who solved the riddle and everybody to tell me who solve the riddle
+
+302
+00:14:03,660 --> 00:14:06,930
+Who solve this riddle now
+
+303
+00:14:06,930 --> 00:14:07,180
+Yeah
+
+304
+00:14:07,190 --> 00:14:07,460
+yeah
+
+305
+00:14:09,130 --> 00:14:09,620
+You're
+
+306
+00:14:09,630 --> 00:14:12,510
+you're wearing a tshirt that says Quentin Tarantino
+
+307
+00:14:12,520 --> 00:14:15,050
+So I think Quentin Tarantino should solve a riddle
+
+308
+00:14:15,160 --> 00:14:16,190
+What's that
+
+309
+00:14:16,340 --> 00:14:17,140
+What's your name
+
+310
+00:14:17,370 --> 00:14:18,120
+Ruth is
+
+311
+00:14:18,500 --> 00:14:20,340
+And who saw this riddle
+
+312
+00:14:22,700 --> 00:14:24,530
+So appear to peer cash
+
+313
+00:14:24,560 --> 00:14:28,510
+This is the actual dock top of an email that was sent out on Halloween
+
+314
+00:14:28,580 --> 00:14:33,070
+2008 by Satoshi Nakamoto
+
+315
+00:14:35,710 --> 00:14:39,270
+We don't actually know who Satoshi Nakamoto is
+
+316
+00:14:39,480 --> 00:14:45,590
+but it's a study question in a few lectures from now to ask you to tell me who you think Satoshi Nakamoto is
+
+317
+00:14:45,600 --> 00:14:47,110
+So I want to ask you that now
+
+318
+00:14:48,660 --> 00:14:52,560
+And he started with a very simple sentence in his email
+
+319
+00:14:52,630 --> 00:14:59,030
+I've been working on a new electronic cash system that fully peer-to-peer with no trusted third
+
+320
+00:15:00,960 --> 00:15:03,310
+It's kind of a modest statement
+
+321
+00:15:05,210 --> 00:15:06,240
+And so the question is
+
+322
+00:15:06,240 --> 00:15:08,710
+is this another internet layer
+
+323
+00:15:10,400 --> 00:15:12,760
+We're going to explore that this whole semester
+
+324
+00:15:12,780 --> 00:15:13,260
+I don't
+
+325
+00:15:13,270 --> 00:15:14,670
+I don't really have the answer
+
+326
+00:15:14,670 --> 00:15:22,630
+I don't think the best minds at MIT could really yet tell you there are some who are maximized and say
+
+327
+00:15:22,630 --> 00:15:23,070
+yes
+
+328
+00:15:23,150 --> 00:15:24,260
+it will be
+
+329
+00:15:25,290 --> 00:15:26,540
+And there are others who will say
+
+330
+00:15:26,550 --> 00:15:27,620
+no
+
+331
+00:15:27,650 --> 00:15:28,500
+And in this course
+
+332
+00:15:28,500 --> 00:15:28,940
+we're going to
+
+333
+00:15:29,030 --> 00:15:31,330
+we're going to review the minimalist and the Maximus
+
+334
+00:15:31,590 --> 00:15:32,110
+We're not
+
+335
+00:15:32,360 --> 00:15:34,620
+we're not going to try to center it in one place
+
+336
+00:15:34,750 --> 00:15:36,970
+But that's the key kind of question
+
+337
+00:15:37,720 --> 00:15:39,300
+So what is a block chain
+
+338
+00:15:39,650 --> 00:15:42,767
+We're going to do this in a lot of lectures
+
+339
+00:15:42,767 --> 00:15:46,330
+but I'm going to try to do it in in a short version
+
+340
+00:15:46,330 --> 00:15:48,335
+So it's time to stamp append logs
+
+341
+00:15:48,335 --> 00:15:53,500
+meaning you can add a little bit of information to this
+
+342
+00:15:53,590 --> 00:15:54,910
+And it's time stamped
+
+343
+00:15:55,250 --> 00:15:57,760
+So these are these blocks being added
+
+344
+00:15:59,440 --> 00:16:02,380
+Satoshi did not invent blockchain
+
+345
+00:16:04,490 --> 00:16:06,440
+This way earlier
+
+346
+00:16:06,550 --> 00:16:07,900
+does anybody want to guess what
+
+347
+00:16:07,910 --> 00:16:08,770
+what it was
+
+348
+00:16:08,790 --> 00:16:10,530
+You're going to have a reading about this later
+
+349
+00:16:10,530 --> 00:16:13,860
+But early 1990s
+
+350
+00:16:16,190 --> 00:16:16,810
+On the Stewart
+
+351
+00:16:17,730 --> 00:16:18,450
+What's that
+
+352
+00:16:18,460 --> 00:16:20,180
+Madores Stuart Hammer
+
+353
+00:16:20,520 --> 00:16:21,800
+Stewart Haber
+
+354
+00:16:22,240 --> 00:16:24,090
+Stewart Haber worked for Bell Labs
+
+355
+00:16:24,090 --> 00:16:24,540
+right
+
+356
+00:16:25,400 --> 00:16:26,950
+So one of your assignments
+
+357
+00:16:26,950 --> 00:16:28,330
+It's not gonna be a graded assignment
+
+358
+00:16:28,420 --> 00:16:29,710
+Just gonna be a fun assignment
+
+359
+00:16:30,580 --> 00:16:35,570
+Could any of you are going to say by next Thursday just could have some fun
+
+360
+00:16:35,910 --> 00:16:38,900
+Find the longest in time wise
+
+361
+00:16:38,900 --> 00:16:40,680
+longest running blockchain
+
+362
+00:16:41,140 --> 00:16:41,950
+It's not Bitcoin
+
+363
+00:16:44,070 --> 00:16:46,440
+And it's been running since the mid 90s
+
+364
+00:16:46,860 --> 00:16:49,340
+And your clue is The New York Times
+
+365
+00:16:51,480 --> 00:16:53,690
+And and we'll discuss it next Thursday
+
+366
+00:16:55,290 --> 00:17:00,106
+But this timestamped block block
+
+367
+00:17:00,106 --> 00:17:04,190
+block block of data creates a database
+
+368
+00:17:04,190 --> 00:17:06,050
+an auditable database
+
+369
+00:17:06,220 --> 00:17:07,700
+And we'll talk about ledgers
+
+370
+00:17:07,700 --> 00:17:08,890
+particularly next week
+
+371
+00:17:08,890 --> 00:17:13,270
+But we'll talk about ledgers all throughout this course and how it changes the world of finance
+
+372
+00:17:13,760 --> 00:17:21,070
+Now it's secured by cryptography because cryptography remembers communications and making sure adversaries can't pick you off
+
+373
+00:17:21,080 --> 00:17:27,170
+We're going to learn about hash functions and hatch functions that are a really important part of cryptography
+
+374
+00:17:27,580 --> 00:17:33,400
+And initially for databases and how to search and store information and databases
+
+375
+00:17:33,940 --> 00:17:35,420
+But in this circumstances
+
+376
+00:17:35,420 --> 00:17:44,080
+hash functions were the way to not only append the next block to the prior blocks
+
+377
+00:17:44,090 --> 00:17:51,880
+but really importantly to compress data to make it more manipulative and verify it
+
+378
+00:17:51,960 --> 00:17:53,740
+And as I've written here
+
+379
+00:17:53,750 --> 00:17:55,900
+tamper resistance and the integrity
+
+380
+00:17:56,360 --> 00:17:57,640
+digital signatures
+
+381
+00:17:57,640 --> 00:17:59,360
+which has to do the public key
+
+382
+00:17:59,370 --> 00:18:01,220
+Private key cryptography
+
+383
+00:18:01,250 --> 00:18:02,860
+There is no prerequisite this course
+
+384
+00:18:02,860 --> 00:18:07,820
+You do not have had to have taken computer science cryptography algorithms
+
+385
+00:18:08,380 --> 00:18:13,930
+If I could learn a little bit about hash functions and asymmetric cryptography
+
+386
+00:18:14,800 --> 00:18:19,260
+these are the two key important sides
+
+387
+00:18:19,270 --> 00:18:19,810
+And we
+
+388
+00:18:19,820 --> 00:18:25,500
+we have enough computer scientists in this room that can sort us out if I say the wrong thing
+
+389
+00:18:26,830 --> 00:18:27,210
+right
+
+390
+00:18:27,210 --> 00:18:29,030
+Maduras hopefully
+
+391
+00:18:30,210 --> 00:18:31,800
+And then consensus
+
+392
+00:18:31,810 --> 00:18:38,990
+So there's a really important part of blockchain is how do you decide who appends that next block
+
+393
+00:18:39,000 --> 00:18:40,500
+Because when I went back here
+
+394
+00:18:40,560 --> 00:18:42,890
+there's block of block each of these blocks
+
+395
+00:18:42,890 --> 00:18:44,980
+Somebody has to decide who appends
+
+396
+00:18:44,990 --> 00:18:46,230
+who gets to pick the
+
+397
+00:18:47,490 --> 00:18:49,900
+And that's what's called consensus protocol
+
+398
+00:18:49,910 --> 00:18:53,360
+And there's wide debates about consensus protocol
+
+399
+00:18:53,370 --> 00:18:56,200
+And we'll talk a lot about consensus protocol
+
+400
+00:18:56,550 --> 00:18:57,380
+But in essence
+
+401
+00:18:57,380 --> 00:18:58,660
+it addresses something
+
+402
+00:18:58,670 --> 00:19:00,410
+a term called the cost of trust
+
+403
+00:19:00,410 --> 00:19:03,080
+And we'll talk about Byzantine general's problems
+
+404
+00:19:03,080 --> 00:19:04,570
+which is another reading
+
+405
+00:19:04,650 --> 00:19:10,100
+The Byzantine generals problem was laid out as a sort of mathematical game theory issue
+
+406
+00:19:10,410 --> 00:19:12,120
+Some 30th years
+
+407
+00:19:15,500 --> 00:19:17,980
+That's what Satoshi Nakamoto Soft was
+
+408
+00:19:17,980 --> 00:19:20,950
+This last part that the Byzantine general's from
+
+409
+00:19:22,970 --> 00:19:24,580
+Pizza for bitcoins
+
+410
+00:19:26,950 --> 00:19:33,770
+A year and a half after Satoshi Nakamoto laid out blockchain Bitcoin
+
+411
+00:19:34,310 --> 00:19:37,780
+somebody sent an email and you'll get these slides
+
+412
+00:19:37,780 --> 00:19:39,220
+But this is the real live email
+
+413
+00:19:39,240 --> 00:19:42,050
+I'll pay you 10000 bitcoins for a couple of pizzas
+
+414
+00:19:43,240 --> 00:19:45,110
+I just want some pizzas
+
+415
+00:19:45,550 --> 00:19:46,930
+The guy who sent this
+
+416
+00:19:46,940 --> 00:19:47,370
+he says
+
+417
+00:19:47,370 --> 00:19:48,190
+I like onions
+
+418
+00:19:48,190 --> 00:19:48,570
+pepper
+
+419
+00:19:48,570 --> 00:19:49,120
+sausage
+
+420
+00:19:49,120 --> 00:19:49,880
+mushrooms
+
+421
+00:19:50,480 --> 00:19:51,380
+Lazlo
+
+422
+00:19:52,370 --> 00:19:53,695
+Now catch the date
+
+423
+00:19:53,695 --> 00:19:54,755
+This is May 18th
+
+424
+00:19:54,755 --> 00:19:59,900
+And he's offering 10000 bitcoins of 2010
+
+425
+00:20:00,620 --> 00:20:06,650
+But the key line is what I'm aiming for is getting food deliver in exchange for bitcoins
+
+426
+00:20:06,650 --> 00:20:10,260
+Nobody had used bitcoins as a medium of exchange
+
+427
+00:20:10,270 --> 00:20:12,660
+16 months into its existence
+
+428
+00:20:12,660 --> 00:20:15,340
+nobody had used it to buy something
+
+429
+00:20:15,350 --> 00:20:19,530
+And last low as a computer scientist in Florida was just kind of interested
+
+430
+00:20:19,530 --> 00:20:23,820
+And he put this ad on a on a an email list
+
+431
+00:20:24,750 --> 00:20:25,950
+Three days later
+
+432
+00:20:25,950 --> 00:20:27,610
+he still doesn't have his two pizzas
+
+433
+00:20:28,450 --> 00:20:30,370
+so nobody wants to buy me a pizza
+
+434
+00:20:30,470 --> 00:20:32,350
+Is the Bitcoin amount I'm offering too
+
+435
+00:20:34,990 --> 00:20:36,620
+Another day goes by
+
+436
+00:20:36,630 --> 00:20:40,290
+He gets his pizzas and he post pictures
+
+437
+00:20:41,070 --> 00:20:45,720
+So here's a picture of his child reaching for those Papa John pizzas
+
+438
+00:20:48,600 --> 00:20:53,140
+Anybody know what those 10000 bitcoins were worth back in back then
+
+439
+00:20:53,150 --> 00:20:54,000
+Chicago
+
+440
+00:20:54,020 --> 00:20:55,050
+I like the work now
+
+441
+00:20:56,630 --> 00:20:58,090
+Anybody want to say back that
+
+442
+00:20:59,860 --> 00:21:00,600
+What's that
+
+443
+00:21:01,880 --> 00:21:03,170
+$41
+
+444
+00:21:04,220 --> 00:21:09,810
+And Lasla was saying two pizzas are probably worth 25 to 30 because there's a whole email thread
+
+445
+00:21:09,810 --> 00:21:10,430
+He kept saying
+
+446
+00:21:10,430 --> 00:21:12,100
+why won't anybody get me my pizzas
+
+447
+00:21:12,100 --> 00:21:15,920
+You can make money on this today
+
+448
+00:21:16,570 --> 00:21:17,860
+Who are earlier
+
+449
+00:21:17,870 --> 00:21:19,050
+late yet last night
+
+450
+00:21:19,060 --> 00:21:20,710
+$66 billion
+
+451
+00:21:22,340 --> 00:21:22,680
+Yeah
+
+452
+00:21:22,680 --> 00:21:24,960
+So it's a kind of a cute story
+
+453
+00:21:26,280 --> 00:21:27,620
+May 22
+
+454
+00:21:27,620 --> 00:21:32,030
+Every year is called Pizza Day or Bitcoin Pizza Day or something
+
+455
+00:21:33,240 --> 00:21:35,050
+So what is blockchain technology
+
+456
+00:21:35,050 --> 00:21:36,070
+These are my words
+
+457
+00:21:36,070 --> 00:21:38,910
+But they're sort of picked from the literature and so forth
+
+458
+00:21:39,390 --> 00:21:53,430
+It verifiably moves data on a decentralized network and the economics of blockchain technology are are really around that verification in the economics of verification and the economics of networking
+
+459
+00:21:54,680 --> 00:21:56,040
+And in many ways
+
+460
+00:21:56,040 --> 00:22:03,510
+blockchain adds certain costs to the verification through this consensus protocol that will be studying
+
+461
+00:22:04,560 --> 00:22:10,490
+But it lowers some other costs of verification because you're not relying on a centralized authority
+
+462
+00:22:10,550 --> 00:22:13,780
+So it's really a trade off of cost of verification
+
+463
+00:22:13,840 --> 00:22:14,950
+I don't think it's
+
+464
+00:22:14,960 --> 00:22:15,810
+I'm not a purest
+
+465
+00:22:15,810 --> 00:22:17,250
+It says it's better or worse
+
+466
+00:22:17,250 --> 00:22:22,310
+but it's it's a tradeoff of cost of verification through decentralized networks
+
+467
+00:22:24,080 --> 00:22:25,750
+The data can be value
+
+468
+00:22:25,760 --> 00:22:28,310
+Like Bitcoin was a money system
+
+469
+00:22:28,780 --> 00:22:31,740
+Or the data can be actually computer code
+
+470
+00:22:32,460 --> 00:22:35,440
+And we'll learn a lot about smart contracts
+
+471
+00:22:35,450 --> 00:22:38,110
+And you could have the data being verified
+
+472
+00:22:38,120 --> 00:22:40,770
+computer code and algorithms and
+
+473
+00:22:42,810 --> 00:22:44,460
+My world finance
+
+474
+00:22:44,470 --> 00:22:53,630
+This directly goes to the plumbing of finance because finance is fundamentally about moving money and risk through a network
+
+475
+00:22:53,640 --> 00:22:57,310
+And that network is the 7 billion people that live in this world
+
+476
+00:22:58,140 --> 00:23:01,020
+It's moving money and risk
+
+477
+00:23:01,190 --> 00:23:03,470
+And you've all taken finance courses
+
+478
+00:23:03,470 --> 00:23:05,000
+or many of you have
+
+479
+00:23:05,030 --> 00:23:09,440
+And it's the intermediation of money and risks throughout our economy
+
+480
+00:23:12,390 --> 00:23:14,220
+But there's a whole host of challenges
+
+481
+00:23:14,760 --> 00:23:16,650
+And over the course of this semester
+
+482
+00:23:16,650 --> 00:23:18,550
+we'll talk about this challenges technical
+
+483
+00:23:18,550 --> 00:23:20,620
+commercial and public policy hurdles
+
+484
+00:23:21,140 --> 00:23:22,440
+Will they be solved
+
+485
+00:23:22,910 --> 00:23:24,130
+Will they not be soft
+
+486
+00:23:25,060 --> 00:23:26,820
+But it could be a catalyst
+
+487
+00:23:28,410 --> 00:23:33,660
+But we're not sure yet for change in the world of money and finance
+
+488
+00:23:34,360 --> 00:23:39,260
+So does anybody want to tell me the the role of money in society
+
+489
+00:23:43,110 --> 00:23:44,460
+And tell me your first name
+
+490
+00:23:44,530 --> 00:23:46,000
+Tomas Tomas
+
+491
+00:23:46,390 --> 00:23:46,560
+Basically
+
+492
+00:23:46,880 --> 00:23:47,680
+it's a way to
+
+493
+00:23:48,080 --> 00:23:50,620
+exchange things themselves between people
+
+494
+00:23:50,880 --> 00:23:51,270
+Alright
+
+495
+00:23:51,470 --> 00:23:52,890
+medium of exchange
+
+496
+00:23:52,900 --> 00:23:54,900
+Got that one without doing battery
+
+497
+00:23:54,900 --> 00:23:55,510
+I mean
+
+498
+00:23:55,980 --> 00:23:56,270
+exchange
+
+499
+00:23:56,270 --> 00:23:57,890
+This is a medium of exchange
+
+500
+00:23:58,110 --> 00:23:59,470
+So when you give me a second
+
+501
+00:23:59,820 --> 00:24:00,730
+yellow shirt
+
+502
+00:24:00,900 --> 00:24:01,090
+Yeah
+
+503
+00:24:01,400 --> 00:24:04,190
+medium of saving savings
+
+504
+00:24:04,200 --> 00:24:04,570
+All right
+
+505
+00:24:04,570 --> 00:24:06,310
+so that would be a store of value
+
+506
+00:24:07,450 --> 00:24:08,110
+Third
+
+507
+00:24:08,140 --> 00:24:08,630
+I'm sorry
+
+508
+00:24:08,630 --> 00:24:09,550
+the gentleman here
+
+509
+00:24:10,090 --> 00:24:10,840
+You need to account
+
+510
+00:24:11,420 --> 00:24:12,160
+You need to have account
+
+511
+00:24:12,780 --> 00:24:13,750
+Wow
+
+512
+00:24:13,770 --> 00:24:14,100
+alright
+
+513
+00:24:15,270 --> 00:24:15,870
+there we go
+
+514
+00:24:16,650 --> 00:24:17,130
+Here we go
+
+515
+00:24:17,520 --> 00:24:23,180
+So we're going to spend some time next Tuesday talking more about money and the role of money in the history of money
+
+516
+00:24:23,940 --> 00:24:27,630
+Which I think is sort of lays a foundational piece of this
+
+517
+00:24:28,150 --> 00:24:29,740
+What about the role of finance
+
+518
+00:24:29,740 --> 00:24:32,940
+I've already sort of said a few things about that
+
+519
+00:24:32,950 --> 00:24:35,166
+But and I'm
+
+520
+00:24:35,166 --> 00:24:35,912
+I'm sorry
+
+521
+00:24:35,912 --> 00:24:37,405
+I don't know your name
+
+522
+00:24:37,405 --> 00:24:38,648
+but I'm right here
+
+523
+00:24:38,648 --> 00:24:39,146
+woman
+
+524
+00:24:39,146 --> 00:24:39,395
+Yeah
+
+525
+00:24:39,395 --> 00:24:40,390
+role of finance
+
+526
+00:24:45,310 --> 00:24:45,640
+Sorry
+
+527
+00:24:45,640 --> 00:24:49,170
+I'm not going to tell any financial finance professor what your answer is
+
+528
+00:24:51,310 --> 00:24:52,450
+To raise money
+
+529
+00:24:53,290 --> 00:24:55,330
+So keep
+
+530
+00:24:55,330 --> 00:24:56,020
+keep going
+
+531
+00:24:56,020 --> 00:24:58,090
+I'm going to anybody else want it
+
+532
+00:24:58,960 --> 00:24:59,130
+Connect
+
+533
+00:24:59,270 --> 00:25:01,090
+connect savers and borrowers
+
+534
+00:25:01,100 --> 00:25:02,920
+Can you connect savers and bars
+
+535
+00:25:03,500 --> 00:25:06,270
+So connecting is sort of moving money
+
+536
+00:25:06,560 --> 00:25:06,980
+moving
+
+537
+00:25:08,670 --> 00:25:09,715
+make valuations
+
+538
+00:25:09,715 --> 00:25:10,499
+valuations
+
+539
+00:25:10,499 --> 00:25:13,635
+So that's the pieces of it sort of moving
+
+540
+00:25:13,635 --> 00:25:14,942
+making valuations
+
+541
+00:25:14,942 --> 00:25:16,772
+I use the words moving
+
+542
+00:25:16,772 --> 00:25:18,340
+allocating and pricing
+
+543
+00:25:18,340 --> 00:25:22,330
+Pricing is the valuations of money
+
+544
+00:25:23,410 --> 00:25:24,470
+But let's not forget
+
+545
+00:25:24,470 --> 00:25:27,220
+it's also about risk when you buy insurance
+
+546
+00:25:27,230 --> 00:25:30,690
+That's a transference of risk when you buy an equity stock
+
+547
+00:25:30,700 --> 00:25:32,800
+that's a transference of risk
+
+548
+00:25:33,070 --> 00:25:36,730
+If you enter into a complex credit to fault swap
+
+549
+00:25:36,740 --> 00:25:38,600
+it's a transference of risk
+
+550
+00:25:38,640 --> 00:25:41,380
+So finance is not just the movement of money
+
+551
+00:25:41,380 --> 00:25:48,010
+it's the movement of risk as well throughout the economy
+
+552
+00:25:48,030 --> 00:25:49,550
+And I always think finance
+
+553
+00:25:51,180 --> 00:25:54,610
+I always have thought this when I was at Goldman Sachs for 18 years
+
+554
+00:25:54,840 --> 00:25:58,650
+that finance sits at the neck of an hour glass
+
+555
+00:25:58,730 --> 00:26:03,320
+And it's why it collects so much economic rents from society
+
+556
+00:26:03,410 --> 00:26:07,600
+Because when you sit at the neck of an hour glass and billions
+
+557
+00:26:07,740 --> 00:26:11,520
+literally trillions of grains of sand go by
+
+558
+00:26:11,620 --> 00:26:21,880
+If you collect some of those grains as you get Uber wealth and that's those are for other classes
+
+559
+00:26:21,880 --> 00:26:25,130
+But finance can collect a lot of economic rents
+
+560
+00:26:26,020 --> 00:26:27,120
+The financial sector
+
+561
+00:26:27,120 --> 00:26:27,280
+though
+
+562
+00:26:27,280 --> 00:26:28,610
+has a bunch of challenges
+
+563
+00:26:28,610 --> 00:26:32,260
+We'll have one lecture later in the semester about some of those challenges
+
+564
+00:26:32,290 --> 00:26:33,140
+And we have a reading
+
+565
+00:26:33,150 --> 00:26:37,410
+I think Sheila Bear wrote something recently that I asked you all to read later in the semester
+
+566
+00:26:37,410 --> 00:26:41,250
+But we will talk about the financial crisis and some of the problems
+
+567
+00:26:41,350 --> 00:26:43,030
+But it's had a lot of crises
+
+568
+00:26:43,040 --> 00:26:45,710
+Fiat currencies have a lot of instabilities
+
+569
+00:26:45,710 --> 00:26:46,720
+Of course
+
+570
+00:26:46,870 --> 00:26:49,470
+we have centralized intermediaries
+
+571
+00:26:49,470 --> 00:26:51,310
+as I laid out
+
+572
+00:26:51,310 --> 00:26:54,210
+And we'll talk about collect a lot of economic rents
+
+573
+00:26:54,210 --> 00:26:56,830
+And so there's there's opportunity
+
+574
+00:26:56,830 --> 00:27:03,420
+Blockchain has real opportunity to kind of come under this world of finance and maybe do some things better
+
+575
+00:27:04,210 --> 00:27:11,660
+Central banking also have a bunch of legacy payment systems and those legacy payment systems are slowly adapting
+
+576
+00:27:11,660 --> 00:27:12,760
+but it's slow
+
+577
+00:27:14,150 --> 00:27:18,610
+And why did Alipay do so well in China is part of the story
+
+578
+00:27:18,610 --> 00:27:20,180
+Because there were so many unbanked
+
+579
+00:27:20,190 --> 00:27:22,530
+just like M Pesa in Kenya
+
+580
+00:27:22,770 --> 00:27:24,080
+But here in the us
+
+581
+00:27:24,080 --> 00:27:29,720
+we still pay two and a half to 3% for our interchange charges for Visa
+
+582
+00:27:29,730 --> 00:27:31,920
+MasterCard and and the like
+
+583
+00:27:32,360 --> 00:27:35,870
+And a lot of clearing and settlement still has a lot of counterparty risk
+
+584
+00:27:36,360 --> 00:27:39,740
+And one that I care deeply about financial inclusion
+
+585
+00:27:39,740 --> 00:27:41,270
+There's still 1
+
+586
+00:27:41,270 --> 00:27:43,970
+7 billion people in this world who are unbanked
+
+587
+00:27:44,860 --> 00:27:48,120
+And so we don't think of it as much in the developed countries
+
+588
+00:27:48,140 --> 00:27:51,380
+But it's certainly true in many products
+
+589
+00:27:51,380 --> 00:27:52,660
+even here in the US
+
+590
+00:27:54,690 --> 00:27:57,490
+And these are to be the opportunities
+
+591
+00:27:57,500 --> 00:28:00,080
+Finance is 7 1/2 percent of the US economy
+
+592
+00:28:00,090 --> 00:28:01,840
+That's $1
+
+593
+00:28:01,840 --> 00:28:02,250
+5 trillion of revenues
+
+594
+00:28:02,960 --> 00:28:06,840
+So any of you that are think about entrepreneurial opportunities
+
+595
+00:28:08,050 --> 00:28:12,400
+the payment system just here in the U S is a half a percent to 1% of our economy
+
+596
+00:28:12,400 --> 00:28:14,910
+That's 100 to $200 billion of revenues
+
+597
+00:28:15,910 --> 00:28:18,450
+I think Visa is about 18 billion just
+
+598
+00:28:18,710 --> 00:28:18,840
+you know
+
+599
+00:28:19,030 --> 00:28:20,330
+But you know
+
+600
+00:28:20,360 --> 00:28:22,530
+when you add up the whole payment system
+
+601
+00:28:22,530 --> 00:28:25,130
+that's 100 to $200 billion in payment revenues
+
+602
+00:28:25,830 --> 00:28:27,640
+So that's kind of the opportunity
+
+603
+00:28:27,650 --> 00:28:29,790
+Can blockchain technology come in
+
+604
+00:28:30,240 --> 00:28:31,290
+It's got problems
+
+605
+00:28:31,290 --> 00:28:32,030
+It's slow
+
+606
+00:28:32,060 --> 00:28:34,360
+It's it's performance issues still
+
+607
+00:28:34,730 --> 00:28:36,120
+But can it compete with that
+
+608
+00:28:37,370 --> 00:28:40,720
+Here are some of the problems the financial sector would say with blockchain
+
+609
+00:28:41,170 --> 00:28:45,350
+These are real live things that we're going to study later in the semester
+
+610
+00:28:45,520 --> 00:28:47,290
+They say it doesn't have the performance
+
+611
+00:28:47,300 --> 00:28:48,100
+scalability
+
+612
+00:28:48,110 --> 00:28:50,340
+a modern payment system
+
+613
+00:28:50,340 --> 00:28:53,710
+You need to be able to move about 100000 payments a second
+
+614
+00:28:53,810 --> 00:28:55,980
+a modern securities clearing
+
+615
+00:28:55,990 --> 00:28:59,860
+the Depository Trust Corporation
+
+616
+00:29:00,000 --> 00:29:05,410
+the Securities and Exchange Commission says you do about 30000 transactions a second
+
+617
+00:29:05,410 --> 00:29:10,360
+But we need you to scale and your computers and everything have to be resilient to a transactions
+
+618
+00:29:10,360 --> 00:29:13,740
+A second Bitcoin
+
+619
+00:29:13,740 --> 00:29:15,510
+you can do about 7 transactions
+
+620
+00:29:15,510 --> 00:29:23,700
+A second visa currently depends on the the second does anywhere from 20 to 70000 a second
+
+621
+00:29:24,930 --> 00:29:25,110
+you know
+
+622
+00:29:25,110 --> 00:29:28,620
+So it's just a sense of scalability and performance
+
+623
+00:29:28,660 --> 00:29:29,630
+We might get there
+
+624
+00:29:29,630 --> 00:29:31,690
+It might be 3 to 7 years away
+
+625
+00:29:32,780 --> 00:29:33,390
+optimistic
+
+626
+00:29:33,390 --> 00:29:36,640
+but there's still a bunch of performance and scalability issues
+
+627
+00:29:36,750 --> 00:29:39,530
+Privacy and security blockchains
+
+628
+00:29:39,530 --> 00:29:41,070
+by their nature or public
+
+629
+00:29:42,390 --> 00:29:45,140
+So they're not fully censorship resistant
+
+630
+00:29:45,250 --> 00:29:48,840
+but there's a lot of innovation about making them more private
+
+631
+00:29:49,300 --> 00:29:53,600
+But then that makes the public sector a little nervous
+
+632
+00:29:54,040 --> 00:29:55,070
+Interoperability
+
+633
+00:29:55,070 --> 00:30:00,630
+They don't necessarily work yet with other legacy systems or with each other
+
+634
+00:30:00,780 --> 00:30:01,610
+The Internet
+
+635
+00:30:01,610 --> 00:30:03,490
+one of the great innovations of the Internet
+
+636
+00:30:03,490 --> 00:30:09,850
+It became interoperable that that all of these different websites could kind of speak with each other
+
+637
+00:30:11,450 --> 00:30:13,860
+Governance is a very big issue we'll talk about
+
+638
+00:30:14,670 --> 00:30:19,950
+And one of the things about governance is it's hard to update the software of a block j
+
+639
+00:30:21,700 --> 00:30:25,450
+because if you create a decentralized where no one's in control
+
+640
+00:30:25,460 --> 00:30:28,040
+no one can collect economic rents
+
+641
+00:30:28,070 --> 00:30:35,070
+You also don't have sort of somebody with the ability to necessarily update the software
+
+642
+00:30:35,080 --> 00:30:42,000
+And we'll talk later about how Bitcoin updates its software and what Bitcoin core developers are and so forth
+
+643
+00:30:42,650 --> 00:30:44,490
+But FaceBook
+
+644
+00:30:44,490 --> 00:30:45,620
+you do know one thing
+
+645
+00:30:45,680 --> 00:30:45,990
+though
+
+646
+00:30:46,030 --> 00:30:54,130
+They're they're a company that collects a lot of profits and economic rents offer their 2 billion members
+
+647
+00:30:54,650 --> 00:30:56,660
+They know how to update their software
+
+648
+00:30:59,050 --> 00:30:59,510
+It's
+
+649
+00:30:59,520 --> 00:31:00,790
+it's a governance issue
+
+650
+00:31:00,790 --> 00:31:04,050
+That's a real life challenge
+
+651
+00:31:04,060 --> 00:31:05,800
+And that's why the financial sector says
+
+652
+00:31:05,800 --> 00:31:07,370
+I'm not sure this works
+
+653
+00:31:07,370 --> 00:31:08,610
+This is ready yet for me
+
+654
+00:31:09,740 --> 00:31:10,670
+And then thus
+
+655
+00:31:10,680 --> 00:31:14,460
+what are the commercial use cases and what are the public policy issues
+
+656
+00:31:15,090 --> 00:31:16,030
+So right now
+
+657
+00:31:16,030 --> 00:31:20,230
+the financial sector favors permission blockchains versus permission list
+
+658
+00:31:20,230 --> 00:31:23,450
+This is going to be about four weeks from now
+
+659
+00:31:23,450 --> 00:31:25,410
+We'll kind of go through these two differences
+
+660
+00:31:25,410 --> 00:31:28,430
+But I want to just frame this briefly
+
+661
+00:31:28,610 --> 00:31:29,230
+Permission
+
+662
+00:31:29,230 --> 00:31:33,990
+Blockchains have a known group of people who actually participate
+
+663
+00:31:35,770 --> 00:31:37,930
+The half of you that said you've owned Bitcoin
+
+664
+00:31:37,930 --> 00:31:43,820
+you know it to be something where anybody can update the ledger permission blockchains
+
+665
+00:31:44,030 --> 00:31:45,240
+You can't do that
+
+666
+00:31:45,660 --> 00:31:46,610
+In essence
+
+667
+00:31:46,620 --> 00:31:48,740
+you pick the three or 20
+
+668
+00:31:48,810 --> 00:31:52,740
+The Australian Stock Exchange is updating their clearing and settling
+
+669
+00:31:52,770 --> 00:31:55,040
+They announced they're doing a blockchain project
+
+670
+00:31:55,040 --> 00:32:01,000
+They're doing it with digital assets and they're using the Hyperledger blockchain
+
+671
+00:32:01,000 --> 00:32:05,020
+which is an IBM software open source software
+
+672
+00:32:05,920 --> 00:32:09,690
+But the Australian Stock Exchange is going to put it on three computers
+
+673
+00:32:09,690 --> 00:32:12,590
+which is called three nodes that they control
+
+674
+00:32:12,590 --> 00:32:13,540
+all three of them
+
+675
+00:32:15,020 --> 00:32:22,240
+The Depository Trust Corporation is looking at blockchain inspired solutions for some of their data warehouses
+
+676
+00:32:22,250 --> 00:32:24,470
+But they too are going to control the notes
+
+677
+00:32:25,170 --> 00:32:26,020
+I'm just giving it
+
+678
+00:32:26,090 --> 00:32:27,240
+That's permission
+
+679
+00:32:27,240 --> 00:32:27,880
+blockchains
+
+680
+00:32:27,900 --> 00:32:29,090
+There's nothing wrong with that
+
+681
+00:32:29,090 --> 00:32:32,250
+That's just how they are looking at this
+
+682
+00:32:32,510 --> 00:32:35,920
+Permissionless blockchains are like Bitcoin unknown participants
+
+683
+00:32:35,920 --> 00:32:37,910
+securities based on incentives
+
+684
+00:32:38,140 --> 00:32:41,050
+a cryptocurrency and crypto economics
+
+685
+00:32:42,740 --> 00:32:44,970
+Crypto finance is about 200 billion
+
+686
+00:32:44,970 --> 00:32:45,130
+But
+
+687
+00:32:45,150 --> 00:32:45,390
+you know
+
+688
+00:32:45,390 --> 00:32:47,420
+you have to update these slides daily
+
+689
+00:32:47,430 --> 00:32:48,130
+Two days ago
+
+690
+00:32:48,140 --> 00:32:49,710
+it was 230 billion
+
+691
+00:32:51,940 --> 00:32:56,040
+And this little pie chart is a little over half
+
+692
+00:32:56,040 --> 00:32:57,070
+Is Bitcoin
+
+693
+00:32:58,290 --> 00:33:01,090
+The next slice is something called Ethereum and then Ripple
+
+694
+00:33:01,090 --> 00:33:02,270
+And down the line
+
+695
+00:33:02,290 --> 00:33:05,550
+we're not going to spend a lot of time in this this semester
+
+696
+00:33:05,570 --> 00:33:06,010
+If you
+
+697
+00:33:06,020 --> 00:33:12,810
+if your goal is to how can you profit and trade day trade bitcoin and day trade ether
+
+698
+00:33:12,820 --> 00:33:13,910
+God bless
+
+699
+00:33:13,980 --> 00:33:15,170
+Good prosper
+
+700
+00:33:15,180 --> 00:33:16,850
+You could stay in the class
+
+701
+00:33:16,860 --> 00:33:18,800
+I just won't give you much advice on it
+
+702
+00:33:19,660 --> 00:33:20,060
+You know
+
+703
+00:33:20,060 --> 00:33:24,500
+this is not a crypto investing centered class
+
+704
+00:33:25,530 --> 00:33:27,160
+but I'm okay if that's what you're doing
+
+705
+00:33:28,610 --> 00:33:31,570
+Does anybody know what the worldwide capital market size is
+
+706
+00:33:33,310 --> 00:33:35,070
+Anybody want to guess
+
+707
+00:33:35,290 --> 00:33:35,570
+You know
+
+708
+00:33:35,570 --> 00:33:37,090
+this is 200 billion
+
+709
+00:33:37,100 --> 00:33:38,140
+What's it look like
+
+710
+00:33:38,150 --> 00:33:39,580
+I've already said it's modest
+
+711
+00:33:41,070 --> 00:33:41,590
+Hundreds of trillions
+
+712
+00:33:41,990 --> 00:33:43,290
+hundreds of trillions
+
+713
+00:33:43,300 --> 00:33:48,240
+Global equity about global bond and debt markets
+
+714
+00:33:48,240 --> 00:33:49,150
+250 trio
+
+715
+00:33:51,810 --> 00:33:59,880
+So it's still quite modest compared to that broad breadth of of capital formation and gold
+
+716
+00:34:02,150 --> 00:34:04,370
+If if bitcoins digital gold
+
+717
+00:34:04,430 --> 00:34:05,910
+what's the value of gold
+
+718
+00:34:06,240 --> 00:34:08,250
+All the goal that's ever been time
+
+719
+00:34:08,690 --> 00:34:09,170
+6 or 7 trillion
+
+720
+00:34:09,530 --> 00:34:09,700
+Yeah
+
+721
+00:34:09,780 --> 00:34:10,420
+7 trillion
+
+722
+00:34:10,520 --> 00:34:10,780
+yeah
+
+723
+00:34:13,450 --> 00:34:15,370
+So just give you a sense of scale
+
+724
+00:34:16,100 --> 00:34:22,290
+So there's also something that's interesting about this space is that it's outsize public attention
+
+725
+00:34:22,690 --> 00:34:29,950
+even as evidenced by the hundred of you in this room versus the size
+
+726
+00:34:29,950 --> 00:34:32,830
+It is real relative to the capital markets today
+
+727
+00:34:33,310 --> 00:34:33,840
+Yeah
+
+728
+00:34:34,450 --> 00:34:36,230
+there's a bunch of public policy issues
+
+729
+00:34:36,230 --> 00:34:37,520
+Will have a lecture
+
+730
+00:34:37,520 --> 00:34:38,780
+I'm a former regulator
+
+731
+00:34:38,780 --> 00:34:41,290
+I ran the commodity future trading commission
+
+732
+00:34:41,300 --> 00:34:41,920
+So
+
+733
+00:34:41,930 --> 00:34:44,170
+but this course is not about regulation
+
+734
+00:34:44,170 --> 00:34:44,390
+though
+
+735
+00:34:44,390 --> 00:34:46,320
+We have to always come back to regulation
+
+736
+00:34:46,410 --> 00:34:51,030
+We always have to infuse what we're doing with the regulation
+
+737
+00:34:51,570 --> 00:34:53,470
+But let me just give you a little framework
+
+738
+00:34:53,470 --> 00:34:57,640
+And then you have to be bored in a handful of weeks and read
+
+739
+00:34:57,640 --> 00:34:59,820
+I gave some congressional testimony on it
+
+740
+00:34:59,820 --> 00:35:00,060
+Yes
+
+741
+00:35:00,060 --> 00:35:01,400
+it will be required reading
+
+742
+00:35:01,400 --> 00:35:02,480
+Sorry
+
+743
+00:35:03,750 --> 00:35:07,100
+but it's guarding against illicit activity
+
+744
+00:35:07,310 --> 00:35:18,200
+A lot of Bitcoin and cryptocurrencies started out in the cyber punk sort of movement and libertarian movement
+
+745
+00:35:18,210 --> 00:35:19,180
+so forth
+
+746
+00:35:19,310 --> 00:35:20,300
+And it is true
+
+747
+00:35:20,300 --> 00:35:22,490
+You can use this for illicit activity
+
+748
+00:35:22,500 --> 00:35:23,280
+absolutely
+
+749
+00:35:23,620 --> 00:35:26,120
+But I would say crime is not new
+
+750
+00:35:26,130 --> 00:35:27,950
+Just the mechanisms and means are new
+
+751
+00:35:28,920 --> 00:35:31,920
+And so the criminals
+
+752
+00:35:32,000 --> 00:35:32,560
+yes
+
+753
+00:35:32,560 --> 00:35:35,390
+will use this and have used it for illicit activity
+
+754
+00:35:35,500 --> 00:35:37,010
+financial stability
+
+755
+00:35:37,020 --> 00:35:39,200
+Central bankers around the globe sort of
+
+756
+00:35:39,200 --> 00:35:42,070
+Will this shape finance
+
+757
+00:35:42,070 --> 00:35:42,250
+Well
+
+758
+00:35:42,250 --> 00:35:43,990
+it's only 200 billion
+
+759
+00:35:44,330 --> 00:35:49,400
+The financial markets are 300 trillion plus not yet is generally what they're saying
+
+760
+00:35:49,460 --> 00:35:51,290
+But for some countries
+
+761
+00:35:51,680 --> 00:35:54,330
+it's a way to get around capital controls
+
+762
+00:35:54,340 --> 00:35:57,130
+And so for those countries worried about capital controls
+
+763
+00:35:57,140 --> 00:36:00,030
+it's a very real and live set of issues
+
+764
+00:36:00,360 --> 00:36:02,640
+And then protecting the investing public
+
+765
+00:36:03,850 --> 00:36:05,900
+And when we do this in a few weeks
+
+766
+00:36:05,980 --> 00:36:07,320
+I'll go through each of these
+
+767
+00:36:07,320 --> 00:36:09,030
+the investor protection issues
+
+768
+00:36:09,030 --> 00:36:09,500
+And yes
+
+769
+00:36:09,500 --> 00:36:10,220
+the SEC
+
+770
+00:36:10,230 --> 00:36:16,650
+how we test and and and the like for those who wish to do their own initial coin offering
+
+771
+00:36:16,650 --> 00:36:18,660
+I'll give some
+
+772
+00:36:18,690 --> 00:36:19,070
+you know
+
+773
+00:36:19,080 --> 00:36:23,030
+broad sense of what the Sec is trying to accomplish
+
+774
+00:36:24,340 --> 00:36:25,500
+But it's a moving target
+
+775
+00:36:25,500 --> 00:36:31,920
+So this is a very interesting thing as opposed to many of your Sloan classes or your C cell classes or media lab classes
+
+776
+00:36:31,990 --> 00:36:36,320
+This is a very unsettled area of public policy
+
+777
+00:36:36,340 --> 00:36:41,460
+So it makes it and and and and if you all go off and form companies
+
+778
+00:36:41,470 --> 00:36:46,830
+you will actually be helping sort of set the the the edge of that public policy
+
+779
+00:36:46,840 --> 00:36:47,460
+At day 8
+
+780
+00:36:47,660 --> 00:36:48,550
+I would always say
+
+781
+00:36:48,560 --> 00:36:50,760
+just remember poet Riley
+
+782
+00:36:50,770 --> 00:36:51,500
+the duck test
+
+783
+00:36:51,500 --> 00:36:52,140
+This is a poet
+
+784
+00:36:52,240 --> 00:36:53,370
+Indiana poet
+
+785
+00:36:53,370 --> 00:36:56,360
+So those are from the US might not know the duck test
+
+786
+00:36:56,370 --> 00:36:59,450
+But basically if it quacks like a duck and it walks like a duck
+
+787
+00:36:59,450 --> 00:36:59,840
+it's a duck
+
+788
+00:37:00,160 --> 00:37:02,780
+So whenever you're thinking about public policy
+
+789
+00:37:03,310 --> 00:37:07,160
+folks like myself who once was a regulator
+
+790
+00:37:07,170 --> 00:37:09,320
+we think in the duck test
+
+791
+00:37:09,950 --> 00:37:15,490
+And then we secondarily think about the actual words in the Congressional Act
+
+792
+00:37:16,880 --> 00:37:17,360
+You know
+
+793
+00:37:17,370 --> 00:37:18,790
+where's the common sense
+
+794
+00:37:18,790 --> 00:37:20,340
+And if it quacks and walks like a duck
+
+795
+00:37:20,810 --> 00:37:25,840
+it's probably a security or it's probably this or that
+
+796
+00:37:27,250 --> 00:37:33,940
+The incumbents like this lioness in the corner are eyeing this space because there's a lot of volatility
+
+797
+00:37:33,950 --> 00:37:36,290
+And Wall Street makes money on volatility
+
+798
+00:37:36,350 --> 00:37:38,090
+Volatility is the friend of wall
+
+799
+00:37:39,220 --> 00:37:40,940
+It might not be the friend of investors
+
+800
+00:37:40,940 --> 00:37:42,100
+but it's a friend of Wall Street
+
+801
+00:37:42,300 --> 00:37:45,830
+And they also like the trading volumes and the spreads
+
+802
+00:37:46,160 --> 00:37:47,110
+Coinbase
+
+803
+00:37:47,110 --> 00:37:51,410
+the largest crypto exchange here in the USS 20 million accounts
+
+804
+00:37:52,450 --> 00:37:53,900
+They might not all be active
+
+805
+00:37:53,910 --> 00:37:56,830
+but that's the size of Fidelity's membership or account list
+
+806
+00:37:56,950 --> 00:38:00,620
+And twice D E Shaw and Robin Hood
+
+807
+00:38:00,950 --> 00:38:02,040
+How many of you have ever used
+
+808
+00:38:02,080 --> 00:38:04,230
+Robin Hood is a trading app
+
+809
+00:38:04,240 --> 00:38:05,150
+Wow
+
+810
+00:38:05,210 --> 00:38:06,000
+half of you
+
+811
+00:38:06,060 --> 00:38:07,100
+So you know
+
+812
+00:38:07,110 --> 00:38:08,510
+free trading
+
+813
+00:38:08,530 --> 00:38:09,060
+right
+
+814
+00:38:09,190 --> 00:38:10,610
+5 million members
+
+815
+00:38:10,680 --> 00:38:11,710
+For those who don't know
+
+816
+00:38:11,720 --> 00:38:16,280
+you can download Robin Hood and you can trade stocks for free
+
+817
+00:38:16,530 --> 00:38:20,690
+No commission if anybody's interested
+
+818
+00:38:20,690 --> 00:38:22,560
+Show up and I'll do office hours
+
+819
+00:38:22,560 --> 00:38:25,040
+Wonder how Robin Hood commercializes
+
+820
+00:38:25,060 --> 00:38:31,600
+They commercialize your order flow and they make money without charging your commissions
+
+821
+00:38:31,960 --> 00:38:33,770
+But it's a sort of wonderful app
+
+822
+00:38:34,150 --> 00:38:35,400
+Millennials love it
+
+823
+00:38:35,420 --> 00:38:38,060
+5 million members already
+
+824
+00:38:38,070 --> 00:38:42,560
+So you better believe DE Shaw and the incumbents are worried about things like that
+
+825
+00:38:43,030 --> 00:38:47,170
+The startups are also more willing to beg for forgiveness from regulators
+
+826
+00:38:47,170 --> 00:38:50,280
+They're willing to sort of take risks and beg for forgiveness
+
+827
+00:38:50,280 --> 00:38:53,940
+whereas incumbents tend to have to ask for permission
+
+828
+00:38:54,040 --> 00:38:56,860
+So there's an unlevel field that always
+
+829
+00:38:56,870 --> 00:39:02,900
+it's an asymmetric business set of risk about regulatory risk
+
+830
+00:39:03,260 --> 00:39:04,650
+Not always
+
+831
+00:39:04,710 --> 00:39:07,020
+I'm not like crying for JP Morgan
+
+832
+00:39:09,320 --> 00:39:10,020
+I mean
+
+833
+00:39:10,020 --> 00:39:16,820
+the big incumbents have also they have their and Coinbase is becoming an incumbent rather than just a
+
+834
+00:39:17,140 --> 00:39:17,440
+you know
+
+835
+00:39:17,440 --> 00:39:18,700
+Startup in a sense
+
+836
+00:39:19,540 --> 00:39:23,241
+And we'll talk during the semester about some of the incumbents
+
+837
+00:39:23,241 --> 00:39:25,915
+We're we're probably going to get Jeff Sp
+
+838
+00:39:25,915 --> 00:39:27,560
+Reckers here in mid November
+
+839
+00:39:27,560 --> 00:39:35,991
+He's going to talk to you about what Intercontinental exchange in the New York Stock Exchange is doing with Starbucks and Microsoft and the like
+
+840
+00:39:35,991 --> 00:39:37,842
+The financial sector use cases
+
+841
+00:39:37,842 --> 00:39:39,899
+I'm not going to go through these
+
+842
+00:39:39,899 --> 00:39:44,423
+but this is the second half of the course is going to go through each of these
+
+843
+00:39:44,423 --> 00:39:47,714
+And we'll do one to two sessions on each payment system
+
+844
+00:39:47,714 --> 00:39:48,330
+Central bank
+
+845
+00:39:48,330 --> 00:39:49,359
+digital currency
+
+846
+00:39:49,359 --> 00:39:50,798
+secondary market trading
+
+847
+00:39:50,798 --> 00:39:55,940
+the venture capital and initial coin offering space will do two course on that and move through
+
+848
+00:39:57,360 --> 00:39:59,740
+So what are we going to do in this whole course
+
+849
+00:39:59,750 --> 00:40:00,780
+Basically
+
+850
+00:40:00,790 --> 00:40:03,370
+our goal is to learn the fundamentals
+
+851
+00:40:03,380 --> 00:40:06,210
+That's about roughly the first half of the course
+
+852
+00:40:06,530 --> 00:40:09,400
+Pivot to two sessions on the economics
+
+853
+00:40:09,400 --> 00:40:12,560
+We're going to be talking about the economics throughout the whole course
+
+854
+00:40:12,570 --> 00:40:13,010
+But I want to
+
+855
+00:40:13,010 --> 00:40:14,700
+I want to really just focus
+
+856
+00:40:14,710 --> 00:40:23,410
+drill down on the economics on two of the discussions and then riff through the financial space for the second half
+
+857
+00:40:23,420 --> 00:40:25,080
+That's our journey together
+
+858
+00:40:27,130 --> 00:40:27,440
+To me
+
+859
+00:40:27,690 --> 00:40:31,140
+it's for anybody who wants to gain critical reasoning skills
+
+860
+00:40:31,140 --> 00:40:33,950
+This is not just kind of a
+
+861
+00:40:34,160 --> 00:40:34,550
+hey
+
+862
+00:40:34,550 --> 00:40:38,090
+this is going to change the world and revolutionize everything class
+
+863
+00:40:39,960 --> 00:40:46,240
+And so I basically think of an old Defense Department term called ground truths
+
+864
+00:40:46,340 --> 00:40:49,190
+It's when the general doesn't really know what's going on
+
+865
+00:40:49,190 --> 00:40:51,920
+but needs to figure it out and needs to talk to that
+
+866
+00:40:51,920 --> 00:40:54,820
+You know that that corporal on the ground
+
+867
+00:40:55,090 --> 00:40:56,260
+there's got dirt
+
+868
+00:40:56,330 --> 00:40:56,700
+you know
+
+869
+00:40:56,700 --> 00:40:59,190
+all over them and it's been shot up and says
+
+870
+00:40:59,190 --> 00:41:00,390
+Here's the real ground truth
+
+871
+00:41:01,020 --> 00:41:03,630
+We're going to try to talk about ground truth in this
+
+872
+00:41:03,640 --> 00:41:04,230
+in this
+
+873
+00:41:04,240 --> 00:41:17,880
+in this class and separate the mere assertion from the hype And some of your readings will be some real Bitcoin and blockchain minimalists from Noriel Rubini that uses words
+
+874
+00:41:17,880 --> 00:41:23,040
+I'm not supposed to repeat on a recording about this stuff to Paul Krugman
+
+875
+00:41:23,040 --> 00:41:27,940
+who and Joe Stiglitz and other Nobel laureates who say
+
+876
+00:41:28,650 --> 00:41:28,730
+no
+
+877
+00:41:28,730 --> 00:41:32,310
+It's not going to work or Warren Buffett to to Maximus
+
+878
+00:41:32,740 --> 00:41:35,570
+We're gonna try to cover both sides
+
+879
+00:41:36,110 --> 00:41:40,040
+Larry Lessig is honoring me because he's in the back of the class
+
+880
+00:41:40,240 --> 00:41:44,620
+who is an enormously esteemed professor from Harvard
+
+881
+00:41:44,630 --> 00:41:46,520
+I didn't know Larry was going to be here
+
+882
+00:41:46,530 --> 00:41:47,930
+And I did the slide before
+
+883
+00:41:47,930 --> 00:41:49,390
+But in 1909
+
+884
+00:41:49,390 --> 00:41:50,510
+I think you wrote this book
+
+885
+00:41:50,510 --> 00:41:51,100
+Larry
+
+886
+00:41:52,230 --> 00:41:52,880
+Is that right
+
+887
+00:41:54,470 --> 00:41:56,420
+Code and other laws of cyberspace
+
+888
+00:41:56,420 --> 00:41:57,380
+I put you on them
+
+889
+00:41:57,400 --> 00:42:03,380
+but I think it's worthwhile to think about Larry's 4 b here
+
+890
+00:42:03,400 --> 00:42:04,070
+And I don't know
+
+891
+00:42:04,080 --> 00:42:04,400
+Larry
+
+892
+00:42:04,410 --> 00:42:05,360
+if you want to say anything
+
+893
+00:42:05,360 --> 00:42:07,800
+but I'm going to try to infuse this course
+
+894
+00:42:07,810 --> 00:42:10,180
+And just how you think about this
+
+895
+00:42:10,400 --> 00:42:11,860
+the tech we're at MIT
+
+896
+00:42:12,270 --> 00:42:13,360
+the technology
+
+897
+00:42:13,370 --> 00:42:21,670
+And we're going to get you a lot of technology if you want more than I can give you is is a former finance sort of tight my whole life
+
+898
+00:42:23,030 --> 00:42:26,560
+There's going to be a bunch of computer science people in the class
+
+899
+00:42:26,560 --> 00:42:35,430
+we're going to hook and you up together with the folks from the media lab and sea sale and try to connect you to the technology side
+
+900
+00:42:35,440 --> 00:42:38,090
+If you want to swim deeper in that pond
+
+901
+00:42:38,140 --> 00:42:40,210
+But the technology really
+
+902
+00:42:40,220 --> 00:42:41,810
+really matters
+
+903
+00:42:42,340 --> 00:42:47,740
+And that's why we are going to go through hash functions and go through asymmetric cryptography and so forth
+
+904
+00:42:48,240 --> 00:42:49,790
+From a business perspective
+
+905
+00:42:50,450 --> 00:42:51,960
+markets matter
+
+906
+00:42:51,970 --> 00:42:56,770
+Why is it that incumbents or startups or are not doing this and that
+
+907
+00:42:56,770 --> 00:42:58,130
+Why is it 10 years in
+
+908
+00:42:58,130 --> 00:43:03,590
+And nobody's got an enterprisewide solution yet to payments that use block J
+
+909
+00:43:04,430 --> 00:43:05,410
+The law matters
+
+910
+00:43:05,420 --> 00:43:06,610
+The public policy
+
+911
+00:43:06,620 --> 00:43:08,720
+side manners
+
+912
+00:43:08,780 --> 00:43:13,290
+And the fourth of Larrys layout social norms
+
+913
+00:43:13,760 --> 00:43:15,950
+That's a little harder for me to teach
+
+914
+00:43:15,960 --> 00:43:17,840
+That's not what this class is about
+
+915
+00:43:17,850 --> 00:43:19,810
+But it also affects all this
+
+916
+00:43:19,810 --> 00:43:21,590
+It's not just the technology
+
+917
+00:43:21,590 --> 00:43:22,680
+the markets in the law
+
+918
+00:43:23,180 --> 00:43:24,940
+So it's not just a three legged stool
+
+919
+00:43:24,940 --> 00:43:26,180
+It's kind of a four legged stool
+
+920
+00:43:26,460 --> 00:43:27,150
+How do I do
+
+921
+00:43:27,170 --> 00:43:27,580
+Larry
+
+922
+00:43:27,670 --> 00:43:28,170
+I suppose
+
+923
+00:43:28,580 --> 00:43:28,600
+yeah
+
+924
+00:43:28,670 --> 00:43:28,720
+Alright
+
+925
+00:43:30,010 --> 00:43:32,180
+I really didn't know how he was going to be here
+
+926
+00:43:32,180 --> 00:43:32,370
+So
+
+927
+00:43:33,540 --> 00:43:43,400
+but I wanted to give you a framework for how your faculty member thinks and will be on this journey together
+
+928
+00:43:43,800 --> 00:43:44,930
+Range of perspectives
+
+929
+00:43:44,930 --> 00:43:47,880
+We're not going to be a Bitcoin minimalist or maximalist
+
+930
+00:43:48,530 --> 00:43:52,780
+I'm probably to be self-disclosed here a little bit
+
+931
+00:43:52,850 --> 00:43:59,500
+Center minimalist on bitcoin Smart contract minimalist max list
+
+932
+00:43:59,520 --> 00:44:01,330
+I'm probably pretty center
+
+933
+00:44:01,760 --> 00:44:05,380
+Larry is probably a little bit center max malice
+
+934
+00:44:05,440 --> 00:44:06,300
+I'm guessing
+
+935
+00:44:08,300 --> 00:44:08,680
+First off
+
+936
+00:44:10,360 --> 00:44:11,370
+I'm hoping I can be
+
+937
+00:44:11,390 --> 00:44:12,810
+but you're going to teach me whether I can do
+
+938
+00:44:13,930 --> 00:44:14,350
+Oh
+
+939
+00:44:14,440 --> 00:44:15,220
+so you're still
+
+940
+00:44:15,230 --> 00:44:17,700
+you're still center or center minimalist
+
+941
+00:44:19,110 --> 00:44:23,350
+What smart contracts and then blockchain
+
+942
+00:44:23,360 --> 00:44:25,490
+Maximalist or minimalist
+
+943
+00:44:25,560 --> 00:44:27,290
+I'd say a few weeks ago
+
+944
+00:44:27,290 --> 00:44:29,150
+I was kind of center maximum list
+
+945
+00:44:29,150 --> 00:44:31,190
+And I'm sort of skidding back to the middle
+
+946
+00:44:34,700 --> 00:44:36,260
+Permissioned blockchain
+
+947
+00:44:36,520 --> 00:44:38,060
+I'm a little bit more
+
+948
+00:44:39,100 --> 00:44:45,400
+And there is some in here alone is one of your Sloan cohort that you might know
+
+949
+00:44:46,140 --> 00:44:49,580
+Six months ago when we met was working on a permissionless system
+
+950
+00:44:50,630 --> 00:44:53,280
+And now you're working on a permission system
+
+951
+00:44:53,280 --> 00:44:54,300
+You have a stored up
+
+952
+00:44:55,540 --> 00:44:55,880
+Yeah
+
+953
+00:44:55,890 --> 00:44:56,620
+because like you
+
+954
+00:44:56,630 --> 00:45:11,410
+you bounce up into the market realities and we're going to talk a lot in this course about critical thinking about when do you really need the advantage of a decentralized peer to peer system where the costs of trust or such
+
+955
+00:45:13,090 --> 00:45:14,310
+But that's the right way to go
+
+956
+00:45:16,230 --> 00:45:21,340
+But I am 1 who thinks that there's also so much economic rents in the financial system
+
+957
+00:45:21,340 --> 00:45:23,560
+That's that $1
+
+958
+00:45:23,560 --> 00:45:28,680
+5 trillion of revenues or seven and a half percent of our economy or just 200 billion in the payment systems
+
+959
+00:45:28,700 --> 00:45:29,370
+for instance
+
+960
+00:45:29,790 --> 00:45:34,480
+that there may be times that you don't really need a decentralized system
+
+961
+00:45:34,750 --> 00:45:41,030
+But it just might be your opportunity to tuck in underneath all those economic rents and all those revenues
+
+962
+00:45:42,300 --> 00:45:43,040
+Now
+
+963
+00:45:43,050 --> 00:45:45,160
+incumbents will react
+
+964
+00:45:45,170 --> 00:45:49,200
+You poke an incumbent commercially Pokemon
+
+965
+00:45:49,200 --> 00:45:49,720
+I mean
+
+966
+00:45:49,950 --> 00:45:51,160
+and they're going to react
+
+967
+00:45:51,170 --> 00:45:55,080
+And that's why I think blockchain may well be a catalyst for change
+
+968
+00:45:55,090 --> 00:46:02,030
+even if incumbents then adopt a lot of that inside the requirements of the course
+
+969
+00:46:02,050 --> 00:46:05,650
+class participation is a hard thing to judge is a faculty member
+
+970
+00:46:05,650 --> 00:46:06,790
+When I have this many people
+
+971
+00:46:07,880 --> 00:46:11,000
+but I always think class participation matters
+
+972
+00:46:12,800 --> 00:46:13,070
+We
+
+973
+00:46:13,080 --> 00:46:16,200
+we made it 30% it which
+
+974
+00:46:17,860 --> 00:46:20,710
+if you have any advice on this next semester
+
+975
+00:46:21,260 --> 00:46:23,730
+30% to 2 individual write ups
+
+976
+00:46:23,730 --> 00:46:25,190
+one in the first half
+
+977
+00:46:25,190 --> 00:46:25,860
+which is up to
+
+978
+00:46:25,860 --> 00:46:26,180
+I think
+
+979
+00:46:26,180 --> 00:46:27,710
+lecture 10
+
+980
+00:46:27,720 --> 00:46:30,320
+which is basically the blockchain fundamentals
+
+981
+00:46:30,330 --> 00:46:31,510
+You pick a topic
+
+982
+00:46:31,520 --> 00:46:32,730
+I don't care which one
+
+983
+00:46:32,740 --> 00:46:34,220
+but it's you'll get
+
+984
+00:46:34,220 --> 00:46:37,820
+you'll get a much better grade if it's about critical reasoning
+
+985
+00:46:37,830 --> 00:46:48,450
+If it's really taking whatever those sets of writings are and and and not just repeating that which is in the readings
+
+986
+00:46:48,670 --> 00:46:52,220
+but really going the next step and saying here's what's going on
+
+987
+00:46:52,730 --> 00:46:54,220
+And this is a business score
+
+988
+00:46:54,220 --> 00:46:54,790
+You don't have to
+
+989
+00:46:54,900 --> 00:46:55,610
+you know
+
+990
+00:46:56,790 --> 00:47:00,050
+convinced me that you know something about computer science
+
+991
+00:47:00,050 --> 00:47:03,970
+It's like critical reasoning about the economic opportunities
+
+992
+00:47:03,970 --> 00:47:04,950
+the strengths
+
+993
+00:47:05,090 --> 00:47:05,880
+the weaknesses
+
+994
+00:47:05,880 --> 00:47:06,850
+the opportunities
+
+995
+00:47:06,860 --> 00:47:10,100
+the threats that old business schools are saying of swats
+
+996
+00:47:11,000 --> 00:47:13,090
+With regard to that weeks
+
+997
+00:47:13,100 --> 00:47:22,300
+whether it's about hash functions early on cryptography or you sort of wait during the foundational period to permission versus permission less you
+
+998
+00:47:23,820 --> 00:47:27,520
+But to please hand it in before that class is lecture
+
+999
+00:47:27,530 --> 00:47:28,990
+because I might during the lecture say
+
+1000
+00:47:28,990 --> 00:47:29,700
+who wrote today
+
+1001
+00:47:29,910 --> 00:47:31,560
+Do you want to tell us what you think
+
+1002
+00:47:31,570 --> 00:47:34,840
+And it might help spur the class participation
+
+1003
+00:47:35,080 --> 00:47:41,420
+And then a second right up in the second half when we're riffing through the use cases
+
+1004
+00:47:41,450 --> 00:47:42,050
+again
+
+1005
+00:47:42,060 --> 00:47:43,290
+critical reasoning
+
+1006
+00:47:43,430 --> 00:47:44,620
+And then lastly
+
+1007
+00:47:45,400 --> 00:47:48,860
+the usual approach of teams of up to 4
+
+1008
+00:47:49,990 --> 00:47:50,400
+No
+
+1009
+00:47:50,400 --> 00:47:52,220
+I don't want teams of five
+
+1010
+00:47:52,430 --> 00:47:54,030
+I'll handle that right now
+
+1011
+00:47:54,600 --> 00:48:03,250
+Three or 4 just and somewhere in the second half of this semester will talk about more of the content
+
+1012
+00:48:03,250 --> 00:48:08,110
+And there's a couple of you in here that worked with me last semester in a smaller group
+
+1013
+00:48:09,610 --> 00:48:10,230
+You know
+
+1014
+00:48:10,240 --> 00:48:11,670
+I want you to do well
+
+1015
+00:48:11,680 --> 00:48:13,730
+So I'm going to sort of give you a sense of like
+
+1016
+00:48:13,740 --> 00:48:14,660
+what do we want to do
+
+1017
+00:48:14,660 --> 00:48:16,630
+But it's basically the ideas
+
+1018
+00:48:17,040 --> 00:48:19,720
+You're an entrepreneur or you're an incumbent
+
+1019
+00:48:19,850 --> 00:48:23,380
+And what sort of use case are you going to pick
+
+1020
+00:48:23,410 --> 00:48:28,500
+And and whether it's permissioned or permissionless sort of make a proposal
+
+1021
+00:48:28,640 --> 00:48:29,960
+do a use case
+
+1022
+00:48:30,020 --> 00:48:33,790
+Use your critical reasoning around this new technology
+
+1023
+00:48:33,800 --> 00:48:36,740
+Somewhere in the broad world of finance
+
+1024
+00:48:37,740 --> 00:48:38,600
+I mean
+
+1025
+00:48:38,610 --> 00:48:38,770
+you know
+
+1026
+00:48:38,770 --> 00:48:41,560
+and I'm glad to define finance really broad
+
+1027
+00:48:42,010 --> 00:48:42,320
+you know
+
+1028
+00:48:42,330 --> 00:48:43,010
+yield pick
+
+1029
+00:48:44,420 --> 00:48:50,180
+So that's that's kind of the piece act 1 or the fundamentals
+
+1030
+00:48:50,440 --> 00:48:52,010
+I won't go through each of the pieces
+
+1031
+00:48:52,010 --> 00:48:52,400
+but
+
+1032
+00:48:52,440 --> 00:48:52,800
+you know
+
+1033
+00:48:52,810 --> 00:48:54,290
+that's in the syllabus
+
+1034
+00:48:54,290 --> 00:48:55,250
+Of course
+
+1035
+00:48:55,330 --> 00:48:58,930
+Act 2 is the pivot of the economics
+
+1036
+00:48:59,700 --> 00:49:00,530
+And act 3
+
+1037
+00:49:01,450 --> 00:49:04,120
+our financial sector use cases
+
+1038
+00:49:04,810 --> 00:49:09,810
+And hopefully throughout we'll we'll have a lot of fun
+
+1039
+00:49:10,170 --> 00:49:13,070
+So the study questions for next Tuesday
+
+1040
+00:49:13,830 --> 00:49:14,700
+Real quick
+
+1041
+00:49:14,700 --> 00:49:16,820
+what are the roles and characteristics of money
+
+1042
+00:49:16,820 --> 00:49:29,450
+So I really want to sort of dig behind money is but a social construct or social convention medium of exchange store of value unit of account
+
+1043
+00:49:30,090 --> 00:49:32,060
+There's some readings about the debate
+
+1044
+00:49:32,450 --> 00:49:43,390
+whether money first came from the barter system or a really good set of anthropologists and archaeologists and everything say no
+
+1045
+00:49:43,390 --> 00:49:46,900
+It actually came as a ledger system and no one knows for sure
+
+1046
+00:49:46,910 --> 00:49:56,720
+10 and 15000 years ago whether money came from the out of the barter system or more as a unit of account keeping account of credits and ledger
+
+1047
+00:49:57,040 --> 00:49:59,320
+But I'd say when you read through some of those readings
+
+1048
+00:49:59,320 --> 00:50:00,050
+you start to think
+
+1049
+00:50:00,050 --> 00:50:00,150
+well
+
+1050
+00:50:00,160 --> 00:50:02,360
+this is just a societal construct
+
+1051
+00:50:03,760 --> 00:50:04,970
+And so we'll
+
+1052
+00:50:04,980 --> 00:50:05,820
+we'll get behind that
+
+1053
+00:50:05,820 --> 00:50:07,440
+What is fiat currency
+
+1054
+00:50:07,480 --> 00:50:08,280
+Fiat currency
+
+1055
+00:50:08,280 --> 00:50:11,050
+which is an invention really only of the last few hundred years
+
+1056
+00:50:11,050 --> 00:50:12,740
+And we take for granted now
+
+1057
+00:50:12,750 --> 00:50:15,720
+But how does that fit into that whole history
+
+1058
+00:50:15,730 --> 00:50:16,660
+And importantly
+
+1059
+00:50:16,660 --> 00:50:17,920
+had a ledgers
+
+1060
+00:50:19,120 --> 00:50:20,000
+accounting ledgers
+
+1061
+00:50:20,000 --> 00:50:21,770
+I know boring stuff
+
+1062
+00:50:22,350 --> 00:50:25,300
+but it's probably why we came out of the dark ages
+
+1063
+00:50:25,390 --> 00:50:28,980
+About 5 or 600 years ago with double entry bookkeeping
+
+1064
+00:50:30,860 --> 00:50:30,950
+Sorry
+
+1065
+00:50:31,340 --> 00:50:32,670
+I like ledgers
+
+1066
+00:50:34,610 --> 00:50:39,880
+We'll talk a little bit about ledgers and how that fits into money and securities and so forth
+
+1067
+00:50:40,240 --> 00:50:48,290
+And then layering in how Bitcoin fits on top of that history next Tuesday is not deeply about Bitcoin
+
+1068
+00:50:48,300 --> 00:50:51,480
+It's just a little dollop on that
+
+1069
+00:50:51,690 --> 00:50:53,540
+There will be 5 or six readings
+
+1070
+00:50:53,540 --> 00:50:56,210
+One of them is a three minute video
+
+1071
+00:50:56,220 --> 00:50:57,070
+The 3rd one
+
+1072
+00:50:57,080 --> 00:50:58,510
+it's fun watch
+
+1073
+00:50:58,520 --> 00:51:02,360
+It's just a funny little video on what money is
+
+1074
+00:51:03,070 --> 00:51:05,960
+There's no need to read Knock Moto's full paper
+
+1075
+00:51:05,960 --> 00:51:07,270
+When I said the email
+
+1076
+00:51:07,270 --> 00:51:09,100
+I mean just the cover email
+
+1077
+00:51:09,190 --> 00:51:10,390
+It's one paragraph
+
+1078
+00:51:10,870 --> 00:51:11,670
+My goal
+
+1079
+00:51:11,670 --> 00:51:17,740
+In the readings each week was not in each session was by and large try to keep less than 50 pages
+
+1080
+00:51:17,740 --> 00:51:18,970
+You say you're going to look
+
+1081
+00:51:18,970 --> 00:51:19,580
+Sometimes you go
+
+1082
+00:51:19,700 --> 00:51:21,780
+it looks like it's more and maybe it is
+
+1083
+00:51:22,190 --> 00:51:28,640
+I figure you're all going to figure out for yourself how to sort through the depth of your knowledge
+
+1084
+00:51:28,650 --> 00:51:39,170
+But I will predict that some of you maybe as much as a quarter or a third of you are going to go down a rabbit hole one day and you're going to be doing blockchain for the next 48 hours
+
+1085
+00:51:39,170 --> 00:51:48,630
+And you won't know where the time went because it is an addiction at some point that some of you will get because it's a curious notion
+
+1086
+00:51:48,700 --> 00:51:51,610
+I'm not predicting that infirmity for all of you
+
+1087
+00:51:51,610 --> 00:51:54,420
+I'm saying some of you will have that happen to you
+
+1088
+00:51:54,430 --> 00:51:58,010
+So occasionally I have readings just like a lot of you
+
+1089
+00:51:58,700 --> 00:51:59,560
+I think so
+
+1090
+00:52:00,800 --> 00:52:05,170
+Let me just conclude and then take any other questions and write up their blockchain
+
+1091
+00:52:05,800 --> 00:52:06,370
+I think
+
+1092
+00:52:06,370 --> 00:52:09,130
+does provide a peer to peer alternative
+
+1093
+00:52:09,140 --> 00:52:10,280
+I think that
+
+1094
+00:52:10,800 --> 00:52:11,120
+I hope
+
+1095
+00:52:11,130 --> 00:52:11,520
+Larry
+
+1096
+00:52:11,570 --> 00:52:17,130
+I'll be able to convince it does provide and that peer to peer alternative addresses
+
+1097
+00:52:17,130 --> 00:52:18,080
+cost of trust
+
+1098
+00:52:18,090 --> 00:52:20,620
+It doesn't mean it's the only way to address cost of trust
+
+1099
+00:52:20,620 --> 00:52:22,300
+But address is cost to trust
+
+1100
+00:52:23,470 --> 00:52:26,130
+The financial sector does have challenges
+
+1101
+00:52:26,870 --> 00:52:27,790
+Not just that
+
+1102
+00:52:27,790 --> 00:52:33,560
+It has 7 1/2 percent of our economy in the US and similar ratios around the globe
+
+1103
+00:52:34,700 --> 00:52:36,110
+But resilience
+
+1104
+00:52:36,120 --> 00:52:37,090
+How it survives
+
+1105
+00:52:37,330 --> 00:52:42,890
+shocks the financial crisis and things like that are are real and inclusion
+
+1106
+00:52:42,890 --> 00:52:44,330
+1
+
+1107
+00:52:44,330 --> 00:52:45,350
+7 billion people unbanked
+
+1108
+00:52:45,360 --> 00:52:47,740
+But then if you look at other products
+
+1109
+00:52:48,260 --> 00:52:51,350
+who has access to credit cards and mortgages in the like
+
+1110
+00:52:51,990 --> 00:52:59,730
+And then fiat currencies can rogue off and others have written a lot about the instabilities that come that fiat currencies
+
+1111
+00:52:59,800 --> 00:53:04,890
+And we'll talk about some of the history and why central banks exist and how they they came about it
+
+1112
+00:53:06,780 --> 00:53:10,180
+Next key point is we already live in an electronic age
+
+1113
+00:53:10,190 --> 00:53:13,300
+Satoshi Nakamoto and Bitcoin didn't create it
+
+1114
+00:53:13,980 --> 00:53:15,440
+Electronic cash
+
+1115
+00:53:15,450 --> 00:53:16,870
+electronic cash
+
+1116
+00:53:17,790 --> 00:53:18,430
+I mean
+
+1117
+00:53:18,590 --> 00:53:21,720
+Sandra Bullock couldn't pay electronically
+
+1118
+00:53:21,820 --> 00:53:23,900
+That was 90 95
+
+1119
+00:53:23,900 --> 00:53:27,600
+They did a sort of B rated movie about it
+
+1120
+00:53:27,610 --> 00:53:28,460
+But by today
+
+1121
+00:53:30,240 --> 00:53:32,960
+you pay your tuition online
+
+1122
+00:53:32,970 --> 00:53:35,910
+Those of you who work get paid online
+
+1123
+00:53:35,910 --> 00:53:38,240
+You pay your auto loans online
+
+1124
+00:53:38,970 --> 00:53:43,880
+Most of our lives are electronic cash
+
+1125
+00:53:44,390 --> 00:53:45,400
+not 100 percent
+
+1126
+00:53:46,270 --> 00:53:48,320
+But in some countries like Sweden
+
+1127
+00:53:48,520 --> 00:53:50,690
+it's getting very close to 100%
+
+1128
+00:53:53,490 --> 00:53:59,010
+We'll learn together and discover that money is but a social and economic consensus
+
+1129
+00:54:01,440 --> 00:54:05,630
+Blockchain technology along the crypto finance might be a catalyst for change
+
+1130
+00:54:06,140 --> 00:54:09,190
+And then much masquerades as fact
+
+1131
+00:54:09,910 --> 00:54:11,750
+But it's only mere assertion
+
+1132
+00:54:11,760 --> 00:54:13,430
+We're going to try to sort through
+
+1133
+00:54:13,680 --> 00:54:14,000
+you know
+
+1134
+00:54:14,010 --> 00:54:16,330
+that those differences
+
+1135
+00:54:16,340 --> 00:54:26,340
+That doesn't mean that all of you are going to walk out agreeing with Paul Krugman and Nobel laureate or or that this is just a a bunch of nonsense
+
+1136
+00:54:27,470 --> 00:54:30,570
+The sum of you might by the but
+
+1137
+00:54:30,580 --> 00:54:34,340
+but I think you'll come out with real critical thinking skills
+
+1138
+00:54:34,350 --> 00:54:36,150
+And I hope that some of you will say
+
+1139
+00:54:36,160 --> 00:54:47,200
+I figured out actually where there's a real opportunity in the world of finance to use blockchain technology and make it a better financial sector
+
+1140
+00:54:47,700 --> 00:54:53,036
+democratizing finance or somehow providing a service at a lower cost
+
+1141
+00:54:53,036 --> 00:54:55,170
+A better service throughout
+
+1142
+00:54:55,170 --> 00:54:58,372
+I hope throughout that will learn together
+
+1143
+00:54:58,372 --> 00:55:01,841
+And we'll have a A bit of fun along the way
+
+1144
+00:55:01,841 --> 00:55:04,242
+So that's kind of my thoughts
+
+1145
+00:55:04,242 --> 00:55:05,042
+questions
+
+1146
+00:55:05,042 --> 00:55:07,100
+We have exactly what
+
+1147
+00:55:08,820 --> 00:55:09,760
+18 minutes
+
+1148
+00:55:09,760 --> 00:55:10,510
+There we go
+
+1149
+00:55:10,510 --> 00:55:12,070
+But we can cut it short too
+
+1150
+00:55:12,120 --> 00:55:12,810
+I don't care
+
+1151
+00:55:14,710 --> 00:55:15,410
+There we go
+
+1152
+00:55:15,450 --> 00:55:15,890
+Excuse you
+
+1153
+00:55:15,890 --> 00:55:16,520
+Tell me your name
+
+1154
+00:55:16,530 --> 00:55:17,830
+And we're gonna do placards
+
+1155
+00:55:17,830 --> 00:55:19,620
+Ryan's going to work to figure out
+
+1156
+00:55:19,860 --> 00:55:19,920
+you know
+
+1157
+00:55:19,960 --> 00:55:22,660
+and do placards cause it's young here
+
+1158
+00:55:22,850 --> 00:55:26,120
+I wonder how hard to form the final project
+
+1159
+00:55:27,010 --> 00:55:28,450
+How are the teams formed
+
+1160
+00:55:30,240 --> 00:55:31,130
+Traditionally
+
+1161
+00:55:32,080 --> 00:55:34,720
+anybody at Sloan can can speak to this too
+
+1162
+00:55:34,720 --> 00:55:40,630
+but students do it their own so that the faculty doesn't sort of try to insert themselves to help you
+
+1163
+00:55:40,640 --> 00:55:41,220
+But we
+
+1164
+00:55:41,230 --> 00:55:44,520
+we tend towards the latter half to say
+
+1165
+00:55:44,520 --> 00:55:44,700
+well
+
+1166
+00:55:44,700 --> 00:55:48,400
+who's formed up in in groups And when you know
+
+1167
+00:55:48,400 --> 00:55:49,530
+if it's a smaller group
+
+1168
+00:55:49,530 --> 00:55:49,900
+it's like
+
+1169
+00:55:49,900 --> 00:55:50,030
+well
+
+1170
+00:55:50,030 --> 00:55:51,910
+anybody is not yet formed in a team
+
+1171
+00:55:51,910 --> 00:55:54,720
+Why don't you move to the left hand side in the room and just get together
+
+1172
+00:55:54,720 --> 00:55:56,200
+But we could do that electronically
+
+1173
+00:55:56,210 --> 00:55:56,630
+too
+
+1174
+00:55:56,950 --> 00:55:58,130
+And you know
+
+1175
+00:55:58,130 --> 00:55:59,840
+whether Toledo and Sabrina
+
+1176
+00:55:59,950 --> 00:56:00,380
+who have
+
+1177
+00:56:00,790 --> 00:56:01,260
+you know
+
+1178
+00:56:01,270 --> 00:56:02,710
+good help and turn it
+
+1179
+00:56:03,130 --> 00:56:08,650
+basically have a social network to help form the teams because this is a big group
+
+1180
+00:56:08,660 --> 00:56:09,240
+You're right
+
+1181
+00:56:09,250 --> 00:56:10,620
+But that's traditionally people
+
+1182
+00:56:10,940 --> 00:56:12,250
+Students do it on their own
+
+1183
+00:56:14,340 --> 00:56:15,460
+Other questions
+
+1184
+00:56:17,030 --> 00:56:20,520
+Is anybody going to go out and sell their Bitcoin now or Okay
+
+1185
+00:56:22,270 --> 00:56:22,860
+Larry
+
+1186
+00:56:22,860 --> 00:56:23,320
+what
+
+1187
+00:56:23,320 --> 00:56:24,440
+Why are you here
+
+1188
+00:56:29,280 --> 00:56:29,320
+No
+
+1189
+00:56:29,320 --> 00:56:29,540
+no
+
+1190
+00:56:29,540 --> 00:56:30,910
+Let the payment
+
+1191
+00:56:31,290 --> 00:56:31,420
+she said
+
+1192
+00:56:33,570 --> 00:56:33,590
+No
+
+1193
+00:56:33,630 --> 00:56:34,120
+but I
+
+1194
+00:56:34,260 --> 00:56:40,200
+I'm here because I think we're gonna bring a critical skepticism to the whole field
+
+1195
+00:56:41,100 --> 00:56:44,160
+And you're incredibly informed about the finance side
+
+1196
+00:56:44,160 --> 00:56:46,460
+So I want to see the combination of those and whether at the end
+
+1197
+00:56:47,400 --> 00:56:50,108
+I'm still convinced there is a there there
+
+1198
+00:56:50,108 --> 00:57:00,360
+I I am convinced that there is a there there as we've spoken because I do think it periodically change the cost of trust around the world and that will benefit developing nations
+
+1199
+00:57:01,480 --> 00:57:05,320
+But I think there's a lot of questions I still have in see how this conversation
+
+1200
+00:57:07,440 --> 00:57:07,540
+Well
+
+1201
+00:57:07,670 --> 00:57:09,530
+I thank you for coming in any week
+
+1202
+00:57:09,530 --> 00:57:10,440
+You could be here any day
+
+1203
+00:57:10,670 --> 00:57:11,540
+We benefit
+
+1204
+00:57:11,580 --> 00:57:13,140
+And I hope it's really
+
+1205
+00:57:13,180 --> 00:57:14,870
+this is meant to be a conversation
+
+1206
+00:57:14,880 --> 00:57:16,800
+I'm not that far ahead of you
+
+1207
+00:57:16,810 --> 00:57:19,430
+Simon Johnson approached me last October and said
+
+1208
+00:57:19,430 --> 00:57:21,150
+what do you think about coming up to MIT
+
+1209
+00:57:22,130 --> 00:57:23,630
+And Tom knows this story
+
+1210
+00:57:23,640 --> 00:57:26,590
+And and and we were sitting down for lunch in DC
+
+1211
+00:57:27,550 --> 00:57:29,030
+And it was a good time in my life
+
+1212
+00:57:29,030 --> 00:57:29,840
+My 3 girls
+
+1213
+00:57:29,840 --> 00:57:30,790
+I have three daughters
+
+1214
+00:57:30,800 --> 00:57:32,360
+and I'm a single dad
+
+1215
+00:57:32,650 --> 00:57:36,820
+And they were two were in grad school and one undergrad
+
+1216
+00:57:36,820 --> 00:57:37,840
+It was a good time in my life
+
+1217
+00:57:37,840 --> 00:57:38,230
+I said
+
+1218
+00:57:38,470 --> 00:57:39,270
+why not
+
+1219
+00:57:39,320 --> 00:57:39,690
+You know
+
+1220
+00:57:39,700 --> 00:57:44,400
+come up here and get engaged in this digital currency initiative over at the media lab
+
+1221
+00:57:45,840 --> 00:57:46,840
+And I've spent a life
+
+1222
+00:57:46,850 --> 00:57:51,050
+I was 18 years ago in sacks on the investment banking side
+
+1223
+00:57:51,050 --> 00:57:54,380
+helping people buy and sell companies called mergers and acquisitions
+
+1224
+00:57:54,570 --> 00:57:56,270
+And then I went to the trading side
+
+1225
+00:57:56,270 --> 00:58:00,150
+fixed income and went off to Asia and did a bunch of Iran
+
+1226
+00:58:00,150 --> 00:58:03,080
+The fixed incoming currency and swap trading in Asia
+
+1227
+00:58:03,480 --> 00:58:07,440
+And then my last job was the cofinance officer
+
+1228
+00:58:07,440 --> 00:58:10,820
+So we were about a quarter of a trillion dollar balance sheet at that time
+
+1229
+00:58:10,840 --> 00:58:11,920
+The gohman sacks
+
+1230
+00:58:11,920 --> 00:58:14,210
+This is we were so private
+
+1231
+00:58:14,220 --> 00:58:16,010
+which meant if we lost money
+
+1232
+00:58:16,010 --> 00:58:17,280
+we were personally
+
+1233
+00:58:17,280 --> 00:58:19,620
+I was a general partner was caput
+
+1234
+00:58:20,650 --> 00:58:21,800
+That's a technical word
+
+1235
+00:58:22,330 --> 00:58:24,810
+And but we had
+
+1236
+00:58:24,820 --> 00:58:31,680
+we had 700 legal entities and 1000 people who could commit the capital of the firm
+
+1237
+00:58:31,690 --> 00:58:32,630
+Those are people
+
+1238
+00:58:32,630 --> 00:58:35,010
+We generally called traders
+
+1239
+00:58:36,580 --> 00:58:36,690
+But
+
+1240
+00:58:36,700 --> 00:58:36,940
+you know
+
+1241
+00:58:36,940 --> 00:58:38,800
+as a fascinating period of time
+
+1242
+00:58:38,810 --> 00:58:45,250
+I then went on to public service because Bob Rubin knew that I'd be a soft touch to service
+
+1243
+00:58:45,260 --> 00:58:46,960
+He was the treasury secretary
+
+1244
+00:58:46,960 --> 00:58:49,300
+I was a former partner at Goldman Sachs
+
+1245
+00:58:49,380 --> 00:58:54,280
+And I went off to the US Treasury as assistant secretary and under sector in the late 90s
+
+1246
+00:58:54,280 --> 00:58:57,530
+little different times than we have now for many reasons
+
+1247
+00:58:58,520 --> 00:58:59,860
+But we were paying down the debt
+
+1248
+00:59:00,360 --> 00:59:02,600
+We were dealing with the Asian debt crisis
+
+1249
+00:59:02,610 --> 00:59:04,480
+long term capital management
+
+1250
+00:59:04,480 --> 00:59:06,030
+that Russian debt crisis
+
+1251
+00:59:06,360 --> 00:59:09,460
+It was sort of a fascinating period of time
+
+1252
+00:59:09,500 --> 00:59:12,020
+I worked on a bill with John McCain
+
+1253
+00:59:12,940 --> 00:59:15,730
+I didn't get to know Senator McCain that well
+
+1254
+00:59:15,730 --> 00:59:17,580
+But it was just remarkable to work with
+
+1255
+00:59:17,580 --> 00:59:20,570
+even for a short period of time called E signature
+
+1256
+00:59:20,580 --> 00:59:24,120
+It was a bill that basically said you could sign everything electronically
+
+1257
+00:59:24,380 --> 00:59:27,570
+And he was the chair of the Senate Commerce Committee at the time
+
+1258
+00:59:27,580 --> 00:59:28,340
+It was wonderful
+
+1259
+00:59:28,520 --> 00:59:30,310
+It's a little sometimes in government
+
+1260
+00:59:30,400 --> 00:59:30,970
+you can work
+
+1261
+00:59:31,130 --> 00:59:32,270
+work on small things
+
+1262
+00:59:32,270 --> 00:59:34,260
+I worked on the redesign of the currency
+
+1263
+00:59:34,780 --> 00:59:41,000
+And I could tell you stories about why it looks the way it does and how you can redesign paper currency
+
+1264
+00:59:41,350 --> 00:59:43,360
+And for a future lecture
+
+1265
+00:59:43,360 --> 00:59:51,800
+I'll tell you the one design feature that I is still in the currency and you can visually see it because and and when I asked for it
+
+1266
+00:59:51,850 --> 00:59:53,980
+the fellow that ran the Bureau of Engraving said why
+
+1267
+00:59:53,990 --> 00:59:54,380
+And I said
+
+1268
+00:59:54,380 --> 00:59:55,460
+because it looks better
+
+1269
+00:59:55,510 --> 00:59:57,460
+And I'm the guy that's approving it
+
+1270
+00:59:57,460 --> 01:00:02,040
+And maybe could we get it done because we worked this out and it did look better
+
+1271
+01:00:02,050 --> 01:00:02,890
+And he loved it
+
+1272
+01:00:02,900 --> 01:00:05,410
+He was worried about the political risk of doing it
+
+1273
+01:00:05,500 --> 01:00:07,020
+It was a better design
+
+1274
+01:00:07,030 --> 01:00:07,350
+You just
+
+1275
+01:00:07,620 --> 01:00:09,260
+I said I'll cover you politically
+
+1276
+01:00:09,260 --> 01:00:09,620
+Let's do it
+
+1277
+01:00:11,600 --> 01:00:13,480
+But then I worked with Paul Sarbanes
+
+1278
+01:00:13,480 --> 01:00:15,420
+What became Sarbanes Oxley
+
+1279
+01:00:15,520 --> 01:00:17,270
+I was a senior adviser
+
+1280
+01:00:17,290 --> 01:00:19,870
+I worked and kicked around some political campaigns
+
+1281
+01:00:19,870 --> 01:00:20,910
+We lost two of them
+
+1282
+01:00:21,680 --> 01:00:24,940
+That would be the O 8 Hillary campaign and the 16 Hillary campaign
+
+1283
+01:00:24,940 --> 01:00:26,900
+I was her chief financial officer
+
+1284
+01:00:27,250 --> 01:00:32,990
+I was in OA to senior advisor doing economic policy and outreach and handholding
+
+1285
+01:00:33,010 --> 01:00:35,210
+And oh gosh
+
+1286
+01:00:35,866 --> 01:00:39,717
+and And then in the middle of those two campaigns
+
+1287
+01:00:39,717 --> 01:00:44,338
+I read something called the Commodity Futures Trading Commission
+
+1288
+01:00:44,338 --> 01:00:45,878
+which was postcrisis
+
+1289
+01:00:45,878 --> 01:00:50,242
+What do we do with this is a real public policy shortcoming
+
+1290
+01:00:50,242 --> 01:00:53,322
+And I looked at as an opportunity to
+
+1291
+01:00:53,322 --> 01:00:53,579
+to
+
+1292
+01:00:53,579 --> 01:00:54,349
+as I said
+
+1293
+01:00:54,349 --> 01:00:57,430
+democratize finance a bit and lower risk
+
+1294
+01:00:57,780 --> 01:01:03,180
+And so we tried to bring transparency to a 3 or $400 trillion market caught swaps
+
+1295
+01:01:04,580 --> 01:01:08,230
+which are just contracts for transference of risk
+
+1296
+01:01:08,540 --> 01:01:11,758
+And they are a form of derivative that that that we're unregulated
+
+1297
+01:01:11,758 --> 01:01:16,050
+And we were trying to bring transparency to that and lower risk through central clearing
+
+1298
+01:01:17,640 --> 01:01:20,260
+So that's sort of my professional life
+
+1299
+01:01:20,260 --> 01:01:20,810
+And as I said
+
+1300
+01:01:20,810 --> 01:01:23,994
+I got three daughters and they were well situated
+
+1301
+01:01:23,994 --> 01:01:25,008
+So when Simon said
+
+1302
+01:01:25,008 --> 01:01:25,617
+come on up
+
+1303
+01:01:25,617 --> 01:01:26,022
+I said
+
+1304
+01:01:26,022 --> 01:01:26,428
+great
+
+1305
+01:01:26,428 --> 01:01:27,240
+And I love MIT
+
+1306
+01:01:27,240 --> 01:01:28,254
+It's just terrific
+
+1307
+01:01:28,254 --> 01:01:28,660
+terrific
+
+1308
+01:01:29,260 --> 01:01:32,400
+And and you all are great
+
+1309
+01:01:32,450 --> 01:01:34,980
+Unless there's other questions I'm going to let you go early
+
+1310
+01:01:35,050 --> 01:01:35,280
+I don't
+
+1311
+01:01:35,290 --> 01:01:35,660
+you know
+
+1312
+01:01:35,750 --> 01:01:36,050
+I don't
+

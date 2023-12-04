@@ -1,0 +1,5896 @@
+0
+00:00:00,790 --> 00:00:04,340
+The following content is provided under a Creative Commons license 
+
+1
+00:00:04,350 --> 00:00:10,570
+Your support will help MIT Open courseware continue to offer high quality educational resources for free 
+
+2
+00:00:10,730 --> 00:00:15,190
+To make a donation or to view additional materials from hundreds of MIT courses
+
+3
+00:00:15,540 --> 00:00:20,350
+ visit MIT Open Courseware at OCW dot MIT e d U 
+
+4
+00:00:23,440 --> 00:00:23,850
+Hello
+
+5
+00:00:23,850 --> 00:00:24,710
+ everybody 
+
+6
+00:00:24,720 --> 00:00:25,260
+Good weekend
+
+7
+00:00:25,760 --> 00:00:26,260
+ everybody 
+
+8
+00:00:26,260 --> 00:00:27,470
+Staying dry
+
+9
+00:00:27,480 --> 00:00:28,230
+ I hope
+
+10
+00:00:32,660 --> 00:00:38,910
+ Sort of a dive back into blockchain money 
+
+11
+00:00:40,350 --> 00:00:41,360
+And we didn't
+
+12
+00:00:41,370 --> 00:00:46,890
+ we didn't lose too many people when we did cryptographic hash functions and digital signatures last week 
+
+13
+00:00:48,740 --> 00:00:51,010
+So I thank you for all being back 
+
+14
+00:00:52,150 --> 00:00:54,360
+So what we're today's study questions again 
+
+15
+00:00:56,420 --> 00:00:59,160
+What's the Byzantine general's problem 
+
+16
+00:00:59,170 --> 00:01:02,430
+Anybody want to tell me what the Byzantine general problem is
+
+17
+00:01:03,720 --> 00:01:03,920
+ Ben 
+
+18
+00:01:06,230 --> 00:01:09,160
+So this is the general problem is
+
+19
+00:01:09,260 --> 00:01:12,228
+ was a sort of general method puzzle 
+
+20
+00:01:12,228 --> 00:01:15,690
+And basically what it is is how you coordinate 
+
+21
+00:01:18,440 --> 00:01:19,100
+And they might be 
+
+22
+00:01:21,090 --> 00:01:22,780
+So he's not acting in the best interest of the 
+
+23
+00:01:24,040 --> 00:01:25,150
+I hadn't thought of that 
+
+24
+00:01:26,140 --> 00:01:26,530
+Yeah
+
+25
+00:01:26,530 --> 00:01:26,590
+ get it 
+
+26
+00:01:28,130 --> 00:01:28,836
+So there
+
+27
+00:01:28,836 --> 00:01:29,307
+ there
+
+28
+00:01:29,307 --> 00:01:36,400
+ there might be how to coordinate when somebody's not acting in good faith is a malicious actor 
+
+29
+00:01:37,870 --> 00:01:42,750
+But it also might be just somebody that doesn't get the communication
+
+30
+00:01:42,760 --> 00:01:43,980
+ somebody that is
+
+31
+00:01:43,980 --> 00:01:46,230
+ there's a fault whether it's malicious or not 
+
+32
+00:01:46,970 --> 00:01:47,490
+How are we doing
+
+33
+00:01:47,730 --> 00:01:48,070
+ Eileen 
+
+34
+00:01:48,080 --> 00:01:48,480
+Yeah
+
+35
+00:01:50,560 --> 00:01:54,090
+ how does proof of work and mining in Bitcoin address it 
+
+36
+00:01:54,100 --> 00:01:55,740
+We're going to walk through this 
+
+37
+00:01:56,600 --> 00:01:59,760
+I'm going to give you my sense of it 
+
+38
+00:01:59,760 --> 00:02:05,330
+But does anybody want to give a short short version of prepared for
+
+39
+00:02:06,520 --> 00:02:07,110
+ oh
+
+40
+00:02:07,940 --> 00:02:08,750
+ brotish 
+
+41
+00:02:11,650 --> 00:02:14,191
+The proposal book is essentially a solid stick 
+
+42
+00:02:14,191 --> 00:02:15,208
+If you have a problem
+
+43
+00:02:15,208 --> 00:02:15,716
+ stick with
+
+44
+00:02:15,716 --> 00:02:17,411
+ or then I determine to speak with
+
+45
+00:02:18,360 --> 00:02:19,080
+ by using
+
+46
+00:02:19,790 --> 00:02:22,924
+ I want the CPU power to solve a problem
+
+47
+00:02:22,924 --> 00:02:29,864
+ a certain complexity to prove that one consensus has been reached by a majority of the part of the business 
+
+48
+00:02:29,864 --> 00:02:30,312
+Alright
+
+49
+00:02:30,312 --> 00:02:33,222
+ so what brothers said is it's probabilistic 
+
+50
+00:02:33,222 --> 00:02:37,560
+Instead of deterministic that you use CPU power
+
+51
+00:02:39,550 --> 00:02:41,610
+ to form some consensus 
+
+52
+00:02:42,030 --> 00:02:43,590
+I think that's what you said 
+
+53
+00:02:43,810 --> 00:02:46,360
+I'm going to walk through this in more detail 
+
+54
+00:02:47,900 --> 00:02:50,660
+But does anybody want to give a
+
+55
+00:02:51,630 --> 00:02:53,160
+ another shot at it 
+
+56
+00:02:54,370 --> 00:02:54,680
+I could say 
+
+57
+00:02:56,800 --> 00:03:00,700
+One of is posted and my nurse
+
+58
+00:03:01,640 --> 00:03:03,840
+ as I described to solving
+
+59
+00:03:05,090 --> 00:03:05,470
+ I'm more forgetful
+
+60
+00:03:07,420 --> 00:03:07,440
+ oh 
+
+61
+00:03:10,900 --> 00:03:13,210
+I would also say it requires a lot of work 
+
+62
+00:03:15,740 --> 00:03:19,190
+Suck me kind of pulling me cup 
+
+63
+00:03:20,640 --> 00:03:20,820
+Okay
+
+64
+00:03:22,130 --> 00:03:22,370
+ so easy 
+
+65
+00:03:23,480 --> 00:03:24,430
+Take computers 
+
+66
+00:03:25,860 --> 00:03:27,310
+So there is a fucking round 
+
+67
+00:03:31,860 --> 00:03:32,470
+So
+
+68
+00:03:32,940 --> 00:03:36,510
+ remind me your first name rehab 
+
+69
+00:03:37,446 --> 00:03:39,282
+Rehab says it's about
+
+70
+00:03:39,588 --> 00:03:43,874
+ people called miners or computers called miners
+
+71
+00:03:43,874 --> 00:03:49,383
+ which we'll talk about today using computer power again 
+
+72
+00:03:49,383 --> 00:03:56,117
+But transactions were part of of that as as well as to how it comes together 
+
+73
+00:03:57,040 --> 00:03:58,400
+I'm not going to torture you 
+
+74
+00:03:58,400 --> 00:03:59,440
+And I ask a bunch more 
+
+75
+00:03:59,450 --> 00:04:00,340
+But Diane
+
+76
+00:04:01,310 --> 00:04:07,970
+ one of the other important ideas is that even though solving the problem is really hard validating that the solution is corrected by 
+
+77
+00:04:08,560 --> 00:04:14,727
+So what this ensures is that even though miners are taking a lot of computing power to solve once the person has been sold
+
+78
+00:04:14,727 --> 00:04:16,970
+ it can be propagated to the most unvalidated 
+
+79
+00:04:17,960 --> 00:04:18,460
+So
+
+80
+00:04:18,890 --> 00:04:21,970
+ a key point that a giant
+
+81
+00:04:23,020 --> 00:04:27,830
+ a giant raises is that once somebody solves the puzzle
+
+82
+00:04:27,860 --> 00:04:33,550
+ it can be propagated across a network and then others on the network can validate it 
+
+83
+00:04:34,370 --> 00:04:35,010
+So what 
+
+84
+00:04:35,010 --> 00:04:40,110
+We'll talk about a little bit later is that it's a hard puzzle to solve
+
+85
+00:04:40,790 --> 00:04:45,180
+ but an easy puzzle to verify 
+
+86
+00:04:45,200 --> 00:04:49,270
+And this is an important asymmetry in essence
+
+87
+00:04:49,660 --> 00:04:52,760
+ that there's a lot of resources to solve a puzzle 
+
+88
+00:04:53,200 --> 00:04:55,290
+But once knowing the answer
+
+89
+00:04:55,300 --> 00:05:00,410
+ there's very limited resources to verify that it's the right answer is
+
+90
+00:05:01,410 --> 00:05:02,950
+ if it was not a symmetric
+
+91
+00:05:03,000 --> 00:05:04,780
+ it would not work as well 
+
+92
+00:05:04,790 --> 00:05:09,710
+So it's a key part of the design of many cryptographic things
+
+93
+00:05:09,890 --> 00:05:18,470
+ but particularly Adam backs sort of novelty in the 1990s of a proof of work 
+
+94
+00:05:19,440 --> 00:05:24,150
+I don't know if that's just a relaxed a bit for you or you have your hands up
+
+95
+00:05:24,290 --> 00:05:24,870
+ Derek 
+
+96
+00:05:25,770 --> 00:05:27,590
+That's just a relaxed pose 
+
+97
+00:05:27,970 --> 00:05:28,860
+I like it 
+
+98
+00:05:30,600 --> 00:05:34,650
+We're going to talk about other consensus protocols as well 
+
+99
+00:05:34,680 --> 00:05:37,230
+Proof of work is not the only consensus protocol
+
+100
+00:05:37,230 --> 00:05:43,720
+ but how to address ourselves to Byzantine fought tolerance and then some of the economic incentives 
+
+101
+00:05:43,720 --> 00:05:45,590
+So we'll talk about the native currency 
+
+102
+00:05:45,590 --> 00:05:49,660
+What's the native currency of the first blockchain application 
+
+103
+00:05:51,670 --> 00:05:53,560
+Bitcoin
+
+104
+00:05:53,600 --> 00:05:57,080
+ How many of you in this room owned a Bitcoin at some point in time 
+
+105
+00:05:58,040 --> 00:06:03,130
+So you've all owned the native currency that helps a blockchain 
+
+106
+00:06:05,390 --> 00:06:12,100
+You got the opportunity to read a paper that a group of us here at MIT coauthored
+
+107
+00:06:13,730 --> 00:06:16,610
+ I hope some of you actually were able to download it 
+
+108
+00:06:16,610 --> 00:06:16,750
+And then
+
+109
+00:06:17,410 --> 00:06:17,830
+ yeah
+
+110
+00:06:17,840 --> 00:06:18,100
+ go ahead 
+
+111
+00:06:19,060 --> 00:06:19,250
+Ahh
+
+112
+00:06:20,290 --> 00:06:20,750
+ apparently
+
+113
+00:06:20,750 --> 00:06:22,010
+ even when you write something
+
+114
+00:06:22,010 --> 00:06:24,160
+ it still goes behind a copyright wall 
+
+115
+00:06:24,160 --> 00:06:25,910
+So I'm glad to know that it was actually 
+
+116
+00:06:28,230 --> 00:06:34,871
+And then back to the National Institute of Standards and Technology Paper as well 
+
+117
+00:06:35,148 --> 00:06:35,701
+This time
+
+118
+00:06:35,701 --> 00:06:42,342
+ the next chapters and then a paper from about 25 years ago on the Byzantine
+
+119
+00:06:42,896 --> 00:06:44,279
+ general's problem
+
+120
+00:06:44,279 --> 00:06:45,110
+ it itself 
+
+121
+00:06:47,670 --> 00:06:48,940
+So what are we going to do today 
+
+122
+00:06:48,940 --> 00:06:51,530
+We're going to go back through the design 
+
+123
+00:06:51,540 --> 00:06:54,310
+We're going to talk about consensus through proof of work
+
+124
+00:06:55,720 --> 00:06:57,140
+ Bitcoin mining 
+
+125
+00:06:57,780 --> 00:06:58,960
+It's important
+
+126
+00:06:59,000 --> 00:06:59,790
+ it's relevant
+
+127
+00:06:59,790 --> 00:07:02,560
+ but it's kind of some fun facts about that as well 
+
+128
+00:07:02,670 --> 00:07:04,070
+The native currency
+
+129
+00:07:04,090 --> 00:07:04,590
+ of course
+
+130
+00:07:04,600 --> 00:07:05,820
+ Bitcoin of the first 
+
+131
+00:07:05,820 --> 00:07:09,370
+But there's now at least 1600 different native currencies 
+
+132
+00:07:09,960 --> 00:07:11,500
+What does it mean to have a network 
+
+133
+00:07:11,560 --> 00:07:13,050
+And why do networks matter
+
+134
+00:07:13,060 --> 00:07:15,330
+ particularly for blockchain
+
+135
+00:07:15,900 --> 00:07:18,000
+ some of the other consensus protocols
+
+136
+00:07:18,000 --> 00:07:19,060
+ and then just wrap up 
+
+137
+00:07:20,350 --> 00:07:22,240
+So just going back to the review 
+
+138
+00:07:22,240 --> 00:07:25,610
+And this is what we talked about a bit on Thursday 
+
+139
+00:07:25,620 --> 00:07:28,840
+But I think it's relevant to just kind of bring it back 
+
+140
+00:07:29,510 --> 00:07:31,720
+I found when I was first learning this
+
+141
+00:07:32,070 --> 00:07:35,290
+ it's hard to keep all the moving parts Remember
+
+142
+00:07:35,290 --> 00:07:37,170
+ There's how many so that graphic 
+
+143
+00:07:37,170 --> 00:07:38,770
+You'll see all semester 
+
+144
+00:07:39,780 --> 00:07:42,300
+But it's all the different blocks 
+
+145
+00:07:42,310 --> 00:07:44,240
+And it's a pen only 
+
+146
+00:07:44,260 --> 00:07:45,020
+What is a pen 
+
+147
+00:07:45,040 --> 00:07:45,750
+Only mean
+
+148
+00:07:45,760 --> 00:07:46,460
+ Andrew
+
+149
+00:07:46,470 --> 00:07:47,750
+ what it was that matter 
+
+150
+00:07:47,750 --> 00:07:48,250
+This word 
+
+151
+00:07:48,260 --> 00:07:50,950
+A pen only that we talked about last Thursday 
+
+152
+00:07:50,960 --> 00:07:52,620
+And so that's beautiful
+
+153
+00:07:53,970 --> 00:07:54,180
+ right 
+
+154
+00:07:54,600 --> 00:07:56,590
+So it's immutable now
+
+155
+00:07:56,620 --> 00:07:57,250
+ of course
+
+156
+00:07:57,250 --> 00:08:00,030
+ because cryptography maybe can be broken 
+
+157
+00:08:00,590 --> 00:08:04,000
+But we use the word immutable that it cannot be changed
+
+158
+00:08:04,320 --> 00:08:07,040
+ except for maybe as Elaine 
+
+159
+00:08:07,040 --> 00:08:08,450
+So I like
+
+160
+00:08:08,450 --> 00:08:09,200
+ that's in his book 
+
+161
+00:08:09,710 --> 00:08:11,080
+You all have to see this 
+
+162
+00:08:11,310 --> 00:08:12,800
+This is very clever 
+
+163
+00:08:12,990 --> 00:08:13,290
+You know
+
+164
+00:08:15,290 --> 00:08:19,500
+ a little in the standard of how to do a flag 
+
+165
+00:08:20,950 --> 00:08:25,010
+Maybe it's immutable except for one out of 10 to the 40th times 
+
+166
+00:08:25,010 --> 00:08:28,610
+It could be broken or something like can I interject and actually surveys 
+
+167
+00:08:29,180 --> 00:08:29,960
+It's not that good
+
+168
+00:08:29,960 --> 00:08:30,130
+ actually 
+
+169
+00:08:30,240 --> 00:08:31,100
+So technically
+
+170
+00:08:31,970 --> 00:08:34,360
+ Bitcoin and all of these permissions with their currencies
+
+171
+00:08:34,460 --> 00:08:36,400
+ one way to attack them is to combine
+
+172
+00:08:37,510 --> 00:08:39,010
+ get a lot of money and power in mind 
+
+173
+00:08:39,220 --> 00:08:41,840
+But another way to attract them is just take control over the actual network
+
+174
+00:08:42,280 --> 00:08:42,780
+ like the internet 
+
+175
+00:08:43,160 --> 00:08:45,780
+So if you're an internet service provider or through China
+
+176
+00:08:46,460 --> 00:08:50,230
+ you can actually cork Bitcoin with 0 mining power by just controlling the network 
+
+177
+00:08:50,800 --> 00:08:51,390
+So it's actually
+
+178
+00:08:52,600 --> 00:08:54,400
+ an assumption behind how this thing works
+
+179
+00:08:54,450 --> 00:08:59,763
+ which is that the network works because everybody sees the messages that I agree with you 
+
+180
+00:08:59,763 --> 00:09:02,408
+But there's also some assumptions 
+
+181
+00:09:02,408 --> 00:09:07,110
+Let's say that China or any state actor chose to fork
+
+182
+00:09:08,980 --> 00:09:10,130
+ one of these
+
+183
+00:09:11,150 --> 00:09:21,883
+ if it's considerably less than a majority you can focus your heights if you control the network 
+
+184
+00:09:21,883 --> 00:09:24,762
+If you control the worldwide network or just the network
+
+185
+00:09:24,762 --> 00:09:25,914
+ the actual internet 
+
+186
+00:09:25,914 --> 00:09:26,681
+I understand 
+
+187
+00:09:26,681 --> 00:09:32,056
+So are you talking about the worldwide internet or are you talking about why countries in China 
+
+188
+00:09:32,056 --> 00:09:34,551
+There's there's 50% of Chinese miners 
+
+189
+00:09:34,551 --> 00:09:35,127
+I'm China 
+
+190
+00:09:35,127 --> 00:09:38,390
+I forbid these Chinese miners to broadcast the blockchain 
+
+191
+00:09:39,020 --> 00:09:40,750
+They find the block goes here 
+
+192
+00:09:40,850 --> 00:09:41,510
+They find another block 
+
+193
+00:09:41,830 --> 00:09:42,190
+It goes here it goes 
+
+194
+00:09:42,250 --> 00:09:42,480
+Here it goes here 
+
+195
+00:09:42,820 --> 00:09:45,620
+And the rest of the world will find the block goes here 
+
+196
+00:09:45,990 --> 00:09:48,020
+And I have two forks goes here here 
+
+197
+00:09:48,100 --> 00:09:48,600
+And I have two forks 
+
+198
+00:09:48,730 --> 00:09:48,750
+2
+
+199
+00:09:49,800 --> 00:09:50,060
+ we don't see 
+
+200
+00:09:50,740 --> 00:09:52,940
+So we're gonna talk about forks a little later 
+
+201
+00:09:52,950 --> 00:09:55,390
+Can we hold a lean's point until that 
+
+202
+00:09:55,820 --> 00:10:01,900
+And then I'm going to share with you what Satoshi Nakamoto wrote about this very issue back in 2010
+
+203
+00:10:01,900 --> 00:10:04,750
+ and he was writing to your back where you have mining power 
+
+204
+00:10:05,220 --> 00:10:07,400
+He was assuming the network works out again
+
+205
+00:10:07,590 --> 00:10:09,130
+ just to clarify it 
+
+206
+00:10:11,850 --> 00:10:20,670
+Aleen's raising a point as to whether somebody captures part of the and if the internet itself by capturing part of the internet
+
+207
+00:10:21,300 --> 00:10:22,270
+ you fork 
+
+208
+00:10:24,070 --> 00:10:26,040
+The blockchain 
+
+209
+00:10:27,260 --> 00:10:30,340
+And what I was just said
+
+210
+00:10:30,340 --> 00:10:31,360
+ I would hold for later
+
+211
+00:10:31,360 --> 00:10:32,160
+ but instead
+
+212
+00:10:32,160 --> 00:10:33,020
+ I'll cover 
+
+213
+00:10:33,020 --> 00:10:47,480
+Now is this question was raised in an email exchange with whomever Satoshi Nakamoto was back in around 2010 and his his answer to Lean's question 
+
+214
+00:10:48,960 --> 00:10:51,420
+That I'm just helping share with you all 
+
+215
+00:10:51,480 --> 00:11:00,050
+Is that as long as is that part of the internet that was walled off was less than a majority 
+
+216
+00:11:00,060 --> 00:11:00,830
+And in fact
+
+217
+00:11:00,830 --> 00:11:01,780
+ if it was China
+
+218
+00:11:01,790 --> 00:11:04,980
+ because that was in the example even eight years ago
+
+219
+00:11:05,870 --> 00:11:11,870
+ it would be considered with less than 50% of that within a reasonable amount of time 
+
+220
+00:11:11,870 --> 00:11:13,700
+Maybe it would take a few hours
+
+221
+00:11:13,700 --> 00:11:16,250
+ but within a reasonable amount of time
+
+222
+00:11:18,430 --> 00:11:20,130
+ one chain would be
+
+223
+00:11:21,880 --> 00:11:26,310
+ where the majority of the mining power was and that
+
+224
+00:11:26,590 --> 00:11:26,820
+ that
+
+225
+00:11:27,010 --> 00:11:28,680
+ that it could take a while 
+
+226
+00:11:28,680 --> 00:11:31,790
+But the other one would would probably stop that 
+
+227
+00:11:31,790 --> 00:11:39,630
+People would stop investing electricity and CPU time within China because they would realize some way 
+
+228
+00:11:39,660 --> 00:11:41,860
+Now that was the theory
+
+229
+00:11:41,860 --> 00:11:42,670
+ at least 
+
+230
+00:11:42,910 --> 00:11:44,210
+And just get out on to that 
+
+231
+00:11:44,220 --> 00:11:46,830
+Something to realize is like if you
+
+232
+00:11:46,840 --> 00:11:47,010
+ I mean
+
+233
+00:11:47,010 --> 00:11:48,560
+ you said we'll go into forks
+
+234
+00:11:48,590 --> 00:11:51,770
+ but just people who don't know 1
+
+235
+00:11:51,770 --> 00:11:52,360
+ 1
+
+236
+00:11:52,360 --> 00:11:52,950
+ 4
+
+237
+00:11:53,350 --> 00:11:54,270
+ anything after that
+
+238
+00:11:54,330 --> 00:11:54,870
+ you go on hologram 
+
+239
+00:11:55,020 --> 00:11:57,980
+So it's like if you lose connection to the main Bitcoin network
+
+240
+00:11:59,620 --> 00:12:02,009
+ you still have that as long as you have your private keys 
+
+241
+00:12:02,009 --> 00:12:05,422
+So if somebody in China realizes that they're on the wrong chain
+
+242
+00:12:05,422 --> 00:12:09,450
+ it's not like you've lost your actual big one for they don't 
+
+243
+00:12:09,530 --> 00:12:10,190
+That's correct 
+
+244
+00:12:10,340 --> 00:12:12,370
+They don't want to lose it up to 
+
+245
+00:12:12,510 --> 00:12:16,440
+And what if I can use the term prior to the four 
+
+246
+00:12:17,520 --> 00:12:19,140
+Because a question 
+
+247
+00:12:21,290 --> 00:12:22,010
+Brutish
+
+248
+00:12:22,730 --> 00:12:24,900
+ so just to add to alliance point
+
+249
+00:12:25,270 --> 00:12:26,230
+ essentially 
+
+250
+00:12:26,230 --> 00:12:28,151
+So the way he says to be
+
+251
+00:12:28,151 --> 00:12:28,631
+ in fact
+
+252
+00:12:28,631 --> 00:12:28,871
+ yeah
+
+253
+00:12:28,871 --> 00:12:30,792
+ so to add to Adam's point
+
+254
+00:12:30,792 --> 00:12:31,512
+ actually 
+
+255
+00:12:31,512 --> 00:12:31,753
+So
+
+256
+00:12:31,993 --> 00:12:37,035
+ since the assumption underlying assumption for the president in general
+
+257
+00:12:37,035 --> 00:12:45,679
+ problem in the context of a blockchain is you have the assumption that the network can actually verify that the what is being
+
+258
+00:12:47,380 --> 00:12:50,790
+ to watch us over the network is actually a valid information 
+
+259
+00:12:50,830 --> 00:12:53,830
+So that is kind of an underlying assumption If the network is contaminated
+
+260
+00:12:54,370 --> 00:12:58,610
+ then the premise on which the problem is being solved or the or the protocol that is being
+
+261
+00:12:59,820 --> 00:13:02,710
+ given here as a solution to the problem is actually not valid
+
+262
+00:13:02,750 --> 00:13:04,030
+ if the network is
+
+263
+00:13:04,230 --> 00:13:04,730
+ on time network 
+
+264
+00:13:05,410 --> 00:13:10,560
+So that way it is indeed a so I think because I didn't pick up every word 
+
+265
+00:13:10,580 --> 00:13:15,490
+You're just saying that there is an underlying assumption that the network protocol
+
+266
+00:13:15,500 --> 00:13:20,840
+ the communication protocol of the internet is not compromised or walled off
+
+267
+00:13:20,850 --> 00:13:22,180
+ but also that it's working 
+
+268
+00:13:23,320 --> 00:13:32,950
+It creates a database we've talked about it through hash functions and digital signatures and then consensus 
+
+269
+00:13:33,750 --> 00:13:35,490
+So what were the technical features 
+
+270
+00:13:35,490 --> 00:13:41,300
+I thought about it a little bit from our last class to help just thinking through in three buckets
+
+271
+00:13:42,130 --> 00:13:45,840
+ the cryptography and time stamping that we talked about last Thursday 
+
+272
+00:13:47,430 --> 00:13:48,940
+What we're going to talk about today
+
+273
+00:13:48,940 --> 00:13:54,090
+ the decentralized consensus protocols and the network of course
+
+274
+00:13:54,090 --> 00:13:55,190
+ in the native currency 
+
+275
+00:13:55,190 --> 00:13:55,980
+And then lastly
+
+276
+00:13:55,980 --> 00:14:00,100
+ transaction script that we are going to talk about this coming Thursday 
+
+277
+00:14:00,540 --> 00:14:00,770
+Now
+
+278
+00:14:00,770 --> 00:14:04,000
+ it's not just three buckets because it's three lectures
+
+279
+00:14:04,420 --> 00:14:08,750
+ but it's 3 buckets because they have something to do with each other
+
+280
+00:14:08,840 --> 00:14:09,900
+ the cryptography
+
+281
+00:14:09,900 --> 00:14:14,750
+ which is at the core of cryptocurrencies and blockchains 
+
+282
+00:14:14,780 --> 00:14:17,410
+And it's just the core of a lot of things on the internet today 
+
+283
+00:14:17,410 --> 00:14:20,240
+And the consensus mechanism 
+
+284
+00:14:20,490 --> 00:14:23,040
+And then the transaction script itself 
+
+285
+00:14:23,050 --> 00:14:25,000
+Cryptography is
+
+286
+00:14:25,010 --> 00:14:28,890
+ as we've talked about communications in the presence of adversaries
+
+287
+00:14:28,890 --> 00:14:31,580
+ also a form of ways to make commitments 
+
+288
+00:14:32,880 --> 00:14:38,591
+And secure computation hash functions 
+
+289
+00:14:38,591 --> 00:14:41,994
+If you recall what we talked about
+
+290
+00:14:42,335 --> 00:14:43,696
+ what's the key 
+
+291
+00:14:44,036 --> 00:14:50,880
+Of of a hash function here joke in to keep your touch on one 
+
+292
+00:14:50,880 --> 00:14:52,280
+The elevator pitch 
+
+293
+00:14:52,280 --> 00:14:53,020
+You just have to
+
+294
+00:14:53,490 --> 00:14:53,900
+ you know
+
+295
+00:14:54,340 --> 00:14:55,870
+ make sure that your sibling knows 
+
+296
+00:14:56,290 --> 00:14:57,230
+What's it 
+
+297
+00:14:57,230 --> 00:14:59,620
+Do you have to the private and the public key
+
+298
+00:14:59,650 --> 00:14:59,970
+ right 
+
+299
+00:14:59,970 --> 00:15:00,280
+That
+
+300
+00:15:00,290 --> 00:15:00,590
+ that
+
+301
+00:15:00,600 --> 00:15:01,610
+ that's a good
+
+302
+00:15:01,620 --> 00:15:02,770
+ that's cryptography
+
+303
+00:15:02,770 --> 00:15:04,230
+ but not a hash function 
+
+304
+00:15:07,350 --> 00:15:12,870
+It's a fingerprint of a fixed length of any amount of data 
+
+305
+00:15:14,300 --> 00:15:15,770
+I like that one way 
+
+306
+00:15:15,780 --> 00:15:17,160
+Data compression 
+
+307
+00:15:18,050 --> 00:15:19,700
+A crossword puzzle 
+
+308
+00:15:19,710 --> 00:15:23,350
+Anybody here do the New York Times crossword puzzle in a mobile app 
+
+309
+00:15:24,590 --> 00:15:24,920
+Good
+
+310
+00:15:26,140 --> 00:15:30,430
+ So if you do a Wednesday's New York Times crossword puzzle
+
+311
+00:15:30,600 --> 00:15:35,500
+ does it tell you whether you're correct on Wednesday or does it not tell you you're correct 
+
+312
+00:15:35,510 --> 00:15:35,810
+When
+
+313
+00:15:35,810 --> 00:15:36,350
+ when does it 
+
+314
+00:15:36,350 --> 00:15:38,740
+I don't do the New York Times crossword puzzles
+
+315
+00:15:38,750 --> 00:15:38,890
+ but I 
+
+316
+00:15:41,390 --> 00:15:41,800
+Aaron
+
+317
+00:15:41,950 --> 00:15:42,510
+ yeah
+
+318
+00:15:42,530 --> 00:15:43,420
+ I'm actually
+
+319
+00:15:43,430 --> 00:15:44,800
+ I usually do one in the past
+
+320
+00:15:44,810 --> 00:15:47,750
+ but I think it will tell you maybe either that day or the next day 
+
+321
+00:15:48,160 --> 00:15:48,630
+Or maybe
+
+322
+00:15:48,630 --> 00:15:48,670
+ I mean
+
+323
+00:15:48,870 --> 00:15:49,020
+ Stephanie
+
+324
+00:15:50,020 --> 00:15:52,193
+ so it tells you as soon as you finish the puzzle
+
+325
+00:15:52,193 --> 00:15:53,590
+ whether or not you have any errors 
+
+326
+00:15:54,240 --> 00:15:54,960
+But it won't 
+
+327
+00:15:55,450 --> 00:16:02,000
+But you can't actually check what the errors are unless you wanna like invalidate your streak for that day 
+
+328
+00:16:02,030 --> 00:16:02,280
+So basically
+
+329
+00:16:02,460 --> 00:16:03,470
+ you go to streak every time you go 
+
+330
+00:16:03,630 --> 00:16:07,110
+I don't actually know if the New York Times use hash functions
+
+331
+00:16:07,120 --> 00:16:07,700
+ but they could
+
+332
+00:16:09,160 --> 00:16:15,250
+ they could because they could stick the whole entire crossword puzzle into a hash function 
+
+333
+00:16:16,720 --> 00:16:18,320
+And it's a commitment scheme 
+
+334
+00:16:19,250 --> 00:16:24,120
+And remember if you change even one thing in the input data
+
+335
+00:16:24,400 --> 00:16:26,070
+ the hash will come out differently 
+
+336
+00:16:26,680 --> 00:16:32,700
+So the New York Times could use a hash function so that Stephanie could find out
+
+337
+00:16:32,740 --> 00:16:33,070
+ right 
+
+338
+00:16:33,070 --> 00:16:36,910
+Because you can only push to see if it's correct when you finish the whole 
+
+339
+00:16:38,170 --> 00:16:40,340
+And it either tells you have it or not
+
+340
+00:16:40,360 --> 00:16:40,930
+ right 
+
+341
+00:16:41,630 --> 00:16:43,390
+It's so I'm just
+
+342
+00:16:43,610 --> 00:16:46,890
+ I'm bringing it to real life that a hash function 
+
+343
+00:16:46,900 --> 00:16:49,140
+Just think of the New York Times crossword puzzle 
+
+344
+00:16:49,150 --> 00:16:50,990
+And if you don't remember
+
+345
+00:16:50,990 --> 00:16:51,970
+ ask Stephanie
+
+346
+00:16:53,240 --> 00:16:54,590
+ we talked about a pen
+
+347
+00:16:54,640 --> 00:17:01,160
+ only logs and recall that in blockchain and Bitcoin
+
+348
+00:17:01,170 --> 00:17:02,530
+ there's a bunch of information 
+
+349
+00:17:02,530 --> 00:17:05,880
+And the head of the block and that which is in the head of the block of 
+
+350
+00:17:08,190 --> 00:17:11,350
+Is put together like the New York Times crossword puzzle 
+
+351
+00:17:14,020 --> 00:17:15,810
+And we have a chain of blocks 
+
+352
+00:17:17,540 --> 00:17:18,640
+Most of the data
+
+353
+00:17:18,640 --> 00:17:18,700
+ though
+
+354
+00:17:19,050 --> 00:17:24,280
+ is stored efficiently in something called a Merkel tray 
+
+355
+00:17:26,730 --> 00:17:27,230
+Again
+
+356
+00:17:27,230 --> 00:17:30,190
+ it uses a whole lot of hash functions 
+
+357
+00:17:33,520 --> 00:17:36,800
+And so it's a way to be efficient 
+
+358
+00:17:37,390 --> 00:17:39,390
+But it's also a way to secure the data 
+
+359
+00:17:41,310 --> 00:17:44,050
+So now we're going to get back to your favorite thing
+
+360
+00:17:44,060 --> 00:17:45,460
+ Digital signatures 
+
+361
+00:17:45,930 --> 00:17:47,850
+So what's a digital signature deal 
+
+362
+00:17:48,320 --> 00:17:50,230
+You group 
+
+363
+00:17:51,380 --> 00:18:01,350
+That you are signing something like a transaction with your private key and the other person on the other side could prove that you were the one designed it with your publication 
+
+364
+00:18:02,210 --> 00:18:02,640
+Perfect
+
+365
+00:18:03,050 --> 00:18:06,360
+ so it guards against tampering and impersonation 
+
+366
+00:18:07,790 --> 00:18:10,810
+I didn't go through this last Thursday
+
+367
+00:18:10,810 --> 00:18:12,380
+ but think of digital signatures 
+
+368
+00:18:12,380 --> 00:18:13,460
+Two different ways 
+
+369
+00:18:13,470 --> 00:18:20,000
+A digital signature that you use without a hash and in Bitcoin and blockchain often 
+
+370
+00:18:20,000 --> 00:18:22,500
+It's actually it's combined with a hash 
+
+371
+00:18:22,510 --> 00:18:26,000
+And so as Joe Quinn just went through
+
+372
+00:18:26,010 --> 00:18:35,520
+ you could have a private key that you sign something with the center's public key and a signature and exactly that 
+
+373
+00:18:36,670 --> 00:18:40,520
+But it's also able to do it where you have a hash as well 
+
+374
+00:18:40,530 --> 00:18:41,710
+You take all the data
+
+375
+00:18:41,710 --> 00:18:46,850
+ all the message that you put it into into it with a signature 
+
+376
+00:18:46,900 --> 00:18:47,700
+And
+
+377
+00:18:48,880 --> 00:18:50,710
+ this is a little bit too complex 
+
+378
+00:18:50,710 --> 00:18:52,310
+And it was last Thursday's lecture 
+
+379
+00:18:52,310 --> 00:19:00,350
+But it's important to know that what blockchain is basically doing most blockchains do is they take a lot of information
+
+380
+00:19:00,460 --> 00:19:01,720
+ a transaction
+
+381
+00:19:01,720 --> 00:19:02,550
+ for instance
+
+382
+00:19:02,560 --> 00:19:04,890
+ and hash that information 
+
+383
+00:19:06,310 --> 00:19:07,980
+And why do we hash it again
+
+384
+00:19:09,550 --> 00:19:10,410
+ Kelly
+
+385
+00:19:10,550 --> 00:19:11,900
+ to protect it from other 
+
+386
+00:19:14,120 --> 00:19:15,730
+Sort of like we have awesome Bob
+
+387
+00:19:17,450 --> 00:19:21,010
+ how one has to be aware of each other's key and then verify the incoming 
+
+388
+00:19:23,450 --> 00:19:23,887
+And it
+
+389
+00:19:23,887 --> 00:19:25,857
+ it also compresses some of the data 
+
+390
+00:19:25,857 --> 00:19:26,295
+But it's
+
+391
+00:19:26,514 --> 00:19:28,046
+ it's a commitment scheme 
+
+392
+00:19:28,046 --> 00:19:28,703
+It's like
+
+393
+00:19:28,703 --> 00:19:29,360
+ this is it 
+
+394
+00:19:29,720 --> 00:19:36,810
+This is actually the New York Times crossword puzzle that answers all the questions 
+
+395
+00:19:39,200 --> 00:19:41,590
+So usually it first hashes it
+
+396
+00:19:42,230 --> 00:19:45,860
+ meaning it's a commitment and then put a digital signature on it 
+
+397
+00:19:48,220 --> 00:19:51,100
+And there was one last thing we talked about last week 
+
+398
+00:19:51,110 --> 00:19:52,850
+What are Bitcoin addresses 
+
+399
+00:19:55,080 --> 00:19:55,900
+Isabella
+
+400
+00:19:55,910 --> 00:19:58,170
+ can you tell me what a Bitcoin address is 
+
+401
+00:20:04,680 --> 00:20:04,820
+I guess
+
+402
+00:20:06,080 --> 00:20:07,430
+ tell me where the Bitcoins can be sent 
+
+403
+00:20:08,560 --> 00:20:10,380
+So it tells you where Bitcoin is being said 
+
+404
+00:20:10,530 --> 00:20:10,710
+Ben
+
+405
+00:20:10,710 --> 00:20:11,890
+ you want to help out a little 
+
+406
+00:20:12,590 --> 00:20:13,540
+So it's the 
+
+407
+00:20:16,470 --> 00:20:17,070
+Public key
+
+408
+00:20:17,200 --> 00:20:17,740
+ public cashier 
+
+409
+00:20:18,850 --> 00:20:20,610
+So it's closed 
+
+410
+00:20:21,160 --> 00:20:25,065
+So it's basically that between Isabel and Ben
+
+411
+00:20:25,065 --> 00:20:26,366
+ you've got it 
+
+412
+00:20:26,366 --> 00:20:27,017
+It it 
+
+413
+00:20:27,017 --> 00:20:33,851
+It's basically how any of the native currency Bitcoin can be identified
+
+414
+00:20:33,851 --> 00:20:44,630
+ but it is a public key with a couple extra hashes and a little bit other fancy footwork to make it compressed and smaller 
+
+415
+00:20:44,710 --> 00:20:47,150
+But it is literally what the
+
+416
+00:20:48,350 --> 00:20:51,340
+ you can send bitcoins to 
+
+417
+00:20:51,580 --> 00:20:53,540
+So it's determined by the public key 
+
+418
+00:20:53,540 --> 00:20:54,830
+But it's not identical to 
+
+419
+00:20:54,830 --> 00:20:58,390
+And I found a fancy little chart chart to define it 
+
+420
+00:20:58,800 --> 00:21:02,930
+A private key leads to a public key 
+
+421
+00:21:05,250 --> 00:21:07,610
+Through some form and in Bitcoin
+
+422
+00:21:07,620 --> 00:21:10,930
+ it's called elliptic curve multiplication 
+
+423
+00:21:10,940 --> 00:21:14,200
+But there are other forms of public and private keys 
+
+424
+00:21:15,240 --> 00:21:16,380
+The public key 
+
+425
+00:21:16,390 --> 00:21:17,610
+Then it gets hashed 
+
+426
+00:21:17,610 --> 00:21:22,540
+And then it goes through a code that makes it shorter
+
+427
+00:21:22,670 --> 00:21:26,820
+ which is the Bitcoin address part of the reason it was hashed 
+
+428
+00:21:26,830 --> 00:21:31,120
+And part of the reason it goes through that extra code is to make it even more secure for
+
+429
+00:21:33,200 --> 00:21:36,160
+ it's not the only reason it also compresses it a bit more
+
+430
+00:21:37,840 --> 00:21:40,570
+ but those of you who have ever owned Bitcoin
+
+431
+00:21:40,570 --> 00:21:45,840
+ you have a wallet and the wallet keeps those Bitcoin addresses 
+
+432
+00:21:45,900 --> 00:21:46,200
+All right
+
+433
+00:21:46,210 --> 00:21:48,580
+ so now let's talk about decentralized networks 
+
+434
+00:21:48,580 --> 00:21:49,540
+The topic of today
+
+435
+00:21:49,880 --> 00:21:49,970
+ Sil ver 
+
+436
+00:21:50,460 --> 00:21:53,030
+Any questions about the review for last Thursday 
+
+437
+00:21:53,030 --> 00:21:54,120
+I know it was quick a lot 
+
+438
+00:21:54,120 --> 00:21:56,440
+I've always been about double hash part 
+
+439
+00:21:56,930 --> 00:22:01,230
+Does that mean that it's now less invisible to be 
+
+440
+00:22:01,770 --> 00:22:03,633
+And like the last immutable 
+
+441
+00:22:03,633 --> 00:22:06,028
+Because if you take a 21st digit
+
+442
+00:22:06,294 --> 00:22:09,550
+ cash and you contract it to a or digit 
+
+443
+00:22:11,670 --> 00:22:12,360
+A few other options 
+
+444
+00:22:15,140 --> 00:22:16,110
+I think that your
+
+445
+00:22:16,120 --> 00:22:16,920
+ the question is
+
+446
+00:22:16,920 --> 00:22:17,450
+ is this
+
+447
+00:22:17,460 --> 00:22:21,210
+ if the output of a hash function is shorter
+
+448
+00:22:22,010 --> 00:22:25,840
+ is it possibly can more breakable 
+
+449
+00:22:28,220 --> 00:22:31,010
+I think mathematically that might be correct 
+
+450
+00:22:31,030 --> 00:22:32,070
+However
+
+451
+00:22:32,080 --> 00:22:34,810
+ this actually goes through two hashes
+
+452
+00:22:34,820 --> 00:22:35,610
+ one
+
+453
+00:22:36,080 --> 00:22:41,040
+ which is this mechanism called Shah 2 56 and the other one 
+
+454
+00:22:43,780 --> 00:22:44,820
+I'm going to mispronounce 
+
+455
+00:22:44,820 --> 00:22:46,640
+But down to 1 60 
+
+456
+00:22:47,670 --> 00:22:50,790
+So I think because it's going through two different hashes 
+
+457
+00:22:50,800 --> 00:22:55,790
+The answer is it's even harder to break both that 
+
+458
+00:22:58,000 --> 00:23:00,970
+Any other questions about the review now
+
+459
+00:23:02,280 --> 00:23:02,810
+ please
+
+460
+00:23:03,450 --> 00:23:04,390
+ Derek 
+
+461
+00:23:04,400 --> 00:23:05,290
+So he said
+
+462
+00:23:05,870 --> 00:23:07,610
+ hashing the public key makes it more secure 
+
+463
+00:23:08,320 --> 00:23:08,870
+I'm just wondering
+
+464
+00:23:08,910 --> 00:23:10,790
+ cause like the public key is for the public
+
+465
+00:23:10,870 --> 00:23:11,090
+ right 
+
+466
+00:23:11,090 --> 00:23:11,380
+So like
+
+467
+00:23:11,390 --> 00:23:12,050
+ what is the
+
+468
+00:23:12,050 --> 00:23:13,390
+ where does the audit security come up 
+
+469
+00:23:14,630 --> 00:23:16,690
+So the only thing that you're actually
+
+470
+00:23:17,030 --> 00:23:22,010
+ showing is a Bitcoin address until later 
+
+471
+00:23:22,020 --> 00:23:25,980
+And we'll talk a lot about this on Thursday when you actually do a transaction
+
+472
+00:23:25,980 --> 00:23:26,730
+ you have to do
+
+473
+00:23:27,140 --> 00:23:29,050
+ then disclose your public key 
+
+474
+00:23:30,970 --> 00:23:32,490
+So initially
+
+475
+00:23:32,500 --> 00:23:38,740
+ the storage is around Bitcoin addresses and some will advise 
+
+476
+00:23:38,740 --> 00:23:44,270
+And it's why many wallets do this that you should never use the same public key twice
+
+477
+00:23:45,160 --> 00:23:48,460
+ though numerous people do in blockchains
+
+478
+00:23:48,930 --> 00:23:50,630
+ but to be most secure
+
+479
+00:23:50,910 --> 00:23:54,100
+ you would constantly be creating new public key 
+
+480
+00:23:54,110 --> 00:23:55,560
+Private key pairs are 
+
+481
+00:23:56,550 --> 00:23:57,970
+And once you've used it
+
+482
+00:23:58,390 --> 00:24:01,530
+ move on and get a new Philip Keys 
+
+483
+00:24:03,360 --> 00:24:03,740
+Got it 
+
+484
+00:24:05,940 --> 00:24:07,530
+So distributed networks 
+
+485
+00:24:07,540 --> 00:24:10,230
+We talked about Byzantine generals problem 
+
+486
+00:24:10,240 --> 00:24:16,290
+So I found some Byzantine generals and they want to all attack that cat 
+
+487
+00:24:17,180 --> 00:24:18,150
+Castle 
+
+488
+00:24:18,170 --> 00:24:20,360
+Or what if only three of them do 
+
+489
+00:24:21,220 --> 00:24:22,860
+And two of them say retreat
+
+490
+00:24:24,250 --> 00:24:25,680
+ that that's the visual 
+
+491
+00:24:25,680 --> 00:24:26,050
+That's
+
+492
+00:24:26,050 --> 00:24:26,810
+ that's the problem 
+
+493
+00:24:28,020 --> 00:24:34,860
+The only way to win it in this mathematical game theory paper that was written some 25 years ago
+
+494
+00:24:34,870 --> 00:24:37,540
+ as if they all said attack or all said retreat 
+
+495
+00:24:38,950 --> 00:24:43,230
+But the same thing sort of came to computers 
+
+496
+00:24:44,300 --> 00:24:49,930
+And the core thing about a permissionless system is there is no central authority 
+
+497
+00:24:50,110 --> 00:24:52,100
+And if there is no central authority
+
+498
+00:24:52,140 --> 00:24:59,050
+ had as a distributed network like the distributed set of generals come to some agreement
+
+499
+00:24:59,410 --> 00:25:00,510
+ do we attack 
+
+500
+00:25:00,520 --> 00:25:01,530
+Do we retreat 
+
+501
+00:25:02,770 --> 00:25:03,060
+Well
+
+502
+00:25:03,130 --> 00:25:06,410
+ it's based on a consensus protocol and a native currency
+
+503
+00:25:07,700 --> 00:25:08,210
+ though
+
+504
+00:25:08,220 --> 00:25:09,060
+ that's the key 
+
+505
+00:25:09,060 --> 00:25:13,130
+Innovation of Satoshi Nakamoto is to pull it all together 
+
+506
+00:25:16,580 --> 00:25:18,910
+But it was built on the backs of other people 
+
+507
+00:25:20,520 --> 00:25:20,970
+Adam
+
+508
+00:25:21,140 --> 00:25:22,990
+ back in 1997
+
+509
+00:25:24,610 --> 00:25:27,380
+ he proposed a way to address email
+
+510
+00:25:27,380 --> 00:25:28,080
+ spam
+
+511
+00:25:28,810 --> 00:25:33,170
+ and other types of computer problems called denial service attacks 
+
+512
+00:25:35,710 --> 00:25:37,650
+Now it ultimately wasn't used 
+
+513
+00:25:37,660 --> 00:25:37,850
+I mean
+
+514
+00:25:37,850 --> 00:25:38,660
+ he proposed it 
+
+515
+00:25:38,660 --> 00:25:42,430
+It was used for a short while and then it wasn't subsequently used
+
+516
+00:25:43,000 --> 00:25:48,370
+ but it's important to understand that the proof of work in the middle of Bitcoin was
+
+517
+00:25:49,010 --> 00:25:52,680
+ created 11 or 12 years before the Bitcoin paper 
+
+518
+00:25:54,220 --> 00:26:02,810
+And the key was basically require a bunch of computational work using hash functions 
+
+519
+00:26:03,860 --> 00:26:06,560
+And so the email or the header of the email
+
+520
+00:26:06,560 --> 00:26:07,660
+ this is Adam backs
+
+521
+00:26:07,660 --> 00:26:08,690
+ not Bitcoin
+
+522
+00:26:08,700 --> 00:26:10,670
+ but the email or the header of the email
+
+523
+00:26:11,730 --> 00:26:14,660
+ went into the hash function creates a hash 
+
+524
+00:26:15,720 --> 00:26:23,710
+But the difficulty of finding whether it's confirmed was
+
+525
+00:26:24,420 --> 00:26:26,970
+ was it in a certain range of hashes 
+
+526
+00:26:28,020 --> 00:26:31,660
+And he did that by the quote leading zeros 
+
+527
+00:26:31,780 --> 00:26:39,690
+Does anybody want to guess why he did it this way Or or Orleans just going to tell us probably and not guess 
+
+528
+00:26:39,700 --> 00:26:43,270
+But who hasn't spoken yet 
+
+529
+00:26:45,400 --> 00:26:45,870
+Emily
+
+530
+00:26:45,870 --> 00:26:47,750
+ you want to try it out 
+
+531
+00:26:49,100 --> 00:26:49,770
+I'm not totally sure
+
+532
+00:26:51,410 --> 00:26:51,860
+ Daniel 
+
+533
+00:26:54,063 --> 00:26:58,550
+And move on just just like preserve some privacy around the emails 
+
+534
+00:26:58,980 --> 00:26:59,150
+Well
+
+535
+00:26:59,150 --> 00:27:00,950
+ so it definitely preserved privacy 
+
+536
+00:27:00,950 --> 00:27:03,840
+But he was trying to put some computational work 
+
+537
+00:27:04,810 --> 00:27:13,865
+Every email that would set be set would take one to 2 or three seconds of computational work that that was his in his original paper 
+
+538
+00:27:13,865 --> 00:27:15,520
+It would take a few seconds 
+
+539
+00:27:19,920 --> 00:27:20,450
+The fact
+
+540
+00:27:20,810 --> 00:27:28,210
+ the fact that we earlier we were talking about the fact that we need a way in which we to make the puzzles
+
+541
+00:27:29,312 --> 00:27:30,884
+ difficult to solve
+
+542
+00:27:30,884 --> 00:27:32,456
+ but easy to validate 
+
+543
+00:27:32,456 --> 00:27:36,910
+This is exactly how the whole thing is accomplished by
+
+544
+00:27:37,550 --> 00:27:41,130
+ setting the hash into a fixed characteristic
+
+545
+00:27:41,140 --> 00:27:52,340
+ like leading a number of giving zeros to what you get is to modify a small piece of all the information and try and try until you get that specific hash 
+
+546
+00:27:53,600 --> 00:27:56,600
+And that makes it really computational intensive 
+
+547
+00:27:56,730 --> 00:27:58,800
+But validating is just running one 
+
+548
+00:27:59,650 --> 00:28:00,130
+And I have some 
+
+549
+00:28:02,750 --> 00:28:03,110
+Here
+
+550
+00:28:03,110 --> 00:28:03,240
+ Bill
+
+551
+00:28:03,720 --> 00:28:04,075
+ I mean
+
+552
+00:28:04,075 --> 00:28:07,100
+ it comes back to what we talked about last time with the nances 
+
+553
+00:28:07,430 --> 00:28:13,650
+You need to try out a bunch of different random numbers in order to get the right number of leading zeros 
+
+554
+00:28:13,650 --> 00:28:14,654
+And it could be
+
+555
+00:28:14,654 --> 00:28:15,657
+ I don't know 
+
+556
+00:28:15,657 --> 00:28:18,266
+I think it could be like leading anything
+
+557
+00:28:18,266 --> 00:28:20,800
+ but he chose zero cuz it's nice
+
+558
+00:28:20,820 --> 00:28:20,900
+ right 
+
+559
+00:28:21,430 --> 00:28:25,020
+But like you need to try to like move around numbers in order to get the right number of 
+
+560
+00:28:25,690 --> 00:28:27,440
+And in the email circumstance
+
+561
+00:28:27,850 --> 00:28:34,055
+ his thought was it will take two or three seconds for anyone sending an email to do this proof of work 
+
+562
+00:28:34,055 --> 00:28:37,380
+But it will take a nanosecond or less to confirm it it 
+
+563
+00:28:37,780 --> 00:28:45,010
+But if you were sending spam and you had a computers who said millions of spam times two or three seconds apiece
+
+564
+00:28:45,020 --> 00:28:47,010
+ that would be too much for the spammer 
+
+565
+00:28:47,020 --> 00:28:47,940
+That that was it 
+
+566
+00:28:47,950 --> 00:28:49,300
+So any one
+
+567
+00:28:49,700 --> 00:28:51,850
+ any person sending one email
+
+568
+00:28:52,410 --> 00:28:53,290
+ it won't be too bad 
+
+569
+00:28:54,050 --> 00:28:55,970
+Anyone sending millions of emails 
+
+570
+00:28:55,970 --> 00:28:57,380
+It would be lousy 
+
+571
+00:28:58,330 --> 00:29:02,210
+And so that's why this concept was in the midst of emails 
+
+572
+00:29:03,720 --> 00:29:05,830
+And it could be efficiently proved 
+
+573
+00:29:05,830 --> 00:29:07,510
+So back to blockchain
+
+574
+00:29:07,620 --> 00:29:09,330
+ the innovation was basically
+
+575
+00:29:09,330 --> 00:29:11,260
+ how do we do this with a chain 
+
+576
+00:29:11,270 --> 00:29:13,610
+How do we do this with a chain set of works 
+
+577
+00:29:13,610 --> 00:29:16,030
+And remember Stuart Haber
+
+578
+00:29:16,040 --> 00:29:18,920
+ that whole thing about the blockchain and the that 
+
+579
+00:29:18,920 --> 00:29:22,270
+What's in the New York times this was
+
+580
+00:29:22,280 --> 00:29:23,950
+ was that chain of information 
+
+581
+00:29:23,950 --> 00:29:24,410
+But here
+
+582
+00:29:24,410 --> 00:29:27,670
+ why don't we do a proof of work between the chain 
+
+583
+00:29:28,140 --> 00:29:30,140
+And I found a little graphic 
+
+584
+00:29:31,120 --> 00:29:31,610
+But
+
+585
+00:29:31,620 --> 00:29:33,700
+ but the Shah 2 56
+
+586
+00:29:33,700 --> 00:29:40,380
+ that's the formula which is is used to hash the header
+
+587
+00:29:40,490 --> 00:29:41,390
+ the previous hash
+
+588
+00:29:42,690 --> 00:29:44,150
+ the transaction hash
+
+589
+00:29:45,740 --> 00:29:46,850
+ a time stamp
+
+590
+00:29:46,860 --> 00:29:47,480
+ and a knots 
+
+591
+00:29:50,140 --> 00:29:53,560
+Can you find a hash that has a certain number of leading zeros 
+
+592
+00:29:54,570 --> 00:29:56,510
+This was the key innovation
+
+593
+00:29:57,170 --> 00:29:58,080
+ in a sense 
+
+594
+00:29:58,090 --> 00:30:04,630
+Or maybe Satoshi Nakamoto was just taking Adam Beck's email proof of work 
+
+595
+00:30:09,200 --> 00:30:12,320
+Remember the reading for last week 
+
+596
+00:30:12,670 --> 00:30:16,170
+A blocks this
+
+597
+00:30:16,180 --> 00:30:21,360
+ this is colored green because each of them have hashes that
+
+598
+00:30:21,360 --> 00:30:23,210
+ in this case have leading 
+
+599
+00:30:23,390 --> 00:30:23,990
+If I'm right
+
+600
+00:30:23,990 --> 00:30:28,010
+ is this it leading 4 zeros and leading four zeros 
+
+601
+00:30:30,130 --> 00:30:31,760
+What if we change one thing 
+
+602
+00:30:31,760 --> 00:30:32,630
+What's going to happen 
+
+603
+00:30:36,540 --> 00:30:37,660
+Is it alpha 
+
+604
+00:30:38,810 --> 00:30:39,100
+What 
+
+605
+00:30:39,100 --> 00:30:41,110
+What happens if we change one thing 
+
+606
+00:30:42,020 --> 00:30:43,540
+The hash will change completely 
+
+607
+00:30:43,960 --> 00:30:45,170
+The hash will change completely 
+
+608
+00:30:45,740 --> 00:30:47,850
+So what happened 
+
+609
+00:30:47,860 --> 00:30:49,570
+What did we change here 
+
+610
+00:30:49,570 --> 00:30:50,770
+I'll go back and forth 
+
+611
+00:30:55,550 --> 00:30:56,350
+You change the pull up 
+
+612
+00:30:57,060 --> 00:30:57,820
+What's that
+
+613
+00:30:57,830 --> 00:30:58,520
+ Zad 
+
+614
+00:30:59,040 --> 00:31:00,830
+You changed the point of use transaction 
+
+615
+00:31:01,230 --> 00:31:03,360
+So that's hundred dollars
+
+616
+00:31:03,370 --> 00:31:05,440
+ I guess in this example went to you instead of anger 
+
+617
+00:31:06,450 --> 00:31:06,658
+Well
+
+618
+00:31:06,658 --> 00:31:07,075
+ I why
+
+619
+00:31:07,075 --> 00:31:07,283
+ why 
+
+620
+00:31:07,283 --> 00:31:10,410
+Why should I be able to get 100 dollars for free 
+
+621
+00:31:10,410 --> 00:31:10,619
+Well
+
+622
+00:31:10,619 --> 00:31:11,453
+ in this example
+
+623
+00:31:11,453 --> 00:31:13,954
+ I guess the Coinbase is for the miner
+
+624
+00:31:13,954 --> 00:31:14,371
+ right 
+
+625
+00:31:14,371 --> 00:31:19,375
+So there is one transaction dedicated for whoever validates the block gets right 
+
+626
+00:31:19,375 --> 00:31:20,000
+Right now
+
+627
+00:31:20,000 --> 00:31:21,042
+ 12
+
+628
+00:31:21,042 --> 00:31:21,459
+5 Bitcoin 
+
+629
+00:31:21,459 --> 00:31:26,463
+And so you add that in addition to all the other transactions that you're validating 
+
+630
+00:31:26,463 --> 00:31:27,297
+But in this case
+
+631
+00:31:27,297 --> 00:31:29,173
+ you're not actually this minor 
+
+632
+00:31:29,173 --> 00:31:29,381
+So
+
+633
+00:31:29,381 --> 00:31:29,798
+ you know
+
+634
+00:31:29,798 --> 00:31:31,466
+ shouldn't be getting that much 
+
+635
+00:31:31,466 --> 00:31:36,052
+So the little 18 minute video of it was assigned for last Thursday 
+
+636
+00:31:36,052 --> 00:31:38,137
+I just went in and I was trying to
+
+637
+00:31:38,137 --> 00:31:39,388
+ I was trying to get
+
+638
+00:31:39,596 --> 00:31:41,890
+ I was trying to get the money for me 
+
+639
+00:31:42,820 --> 00:31:44,080
+And it
+
+640
+00:31:44,570 --> 00:31:46,890
+ it invalidated the rest of the chain 
+
+641
+00:31:46,890 --> 00:31:48,140
+And that's really
+
+642
+00:31:48,150 --> 00:31:48,920
+ that's the
+
+643
+00:31:48,990 --> 00:31:51,410
+ that's the sort of innovation or genius is
+
+644
+00:31:51,410 --> 00:31:55,000
+ is if you try to go into a former block
+
+645
+00:31:55,010 --> 00:32:07,510
+ whether it's the last block or block 100000 blocks away and change one little whisker of information or one letter on that crossword puzzle
+
+646
+00:32:07,990 --> 00:32:10,440
+ it's going to change the entire blockchain 
+
+647
+00:32:12,740 --> 00:32:16,800
+And I bring it back to the crossword puzzles or a whisker on a cat 
+
+648
+00:32:17,340 --> 00:32:20,550
+It's just any little bit of information about 
+
+649
+00:32:22,410 --> 00:32:30,910
+So an innovation about hash functions became an innovation about timestamp and blocks 
+
+650
+00:32:30,950 --> 00:32:35,180
+All of a sudden came with this proof of work innovation 
+
+651
+00:32:36,910 --> 00:32:39,340
+So now to the chains themselves
+
+652
+00:32:42,740 --> 00:32:47,280
+ The consensus of blockchains and many people would say that
+
+653
+00:32:47,280 --> 00:32:47,770
+ in fact
+
+654
+00:32:47,770 --> 00:32:54,580
+ the reality of blockchain is only the longest chain is the one that other miners
+
+655
+00:32:54,580 --> 00:32:56,770
+ other people will build a pot 
+
+656
+00:32:57,690 --> 00:32:58,730
+As I understand
+
+657
+00:32:58,730 --> 00:32:58,840
+ though
+
+658
+00:32:58,840 --> 00:33:03,540
+ it's not written into the base computational code
+
+659
+00:33:03,660 --> 00:33:09,660
+ it's really just a consensus that comes about This is an example
+
+660
+00:33:09,660 --> 00:33:14,590
+ the purple block and the black blocks are
+
+661
+00:33:16,000 --> 00:33:18,390
+ the purple blocks are kind of stale blocks 
+
+662
+00:33:18,390 --> 00:33:19,520
+They were mined 
+
+663
+00:33:20,600 --> 00:33:22,640
+They were computationally solved 
+
+664
+00:33:22,640 --> 00:33:23,670
+A proof of work
+
+665
+00:33:23,680 --> 00:33:25,380
+ but nobody mined on top of them 
+
+666
+00:33:26,890 --> 00:33:29,100
+And if somebody doesn't mind on top of them
+
+667
+00:33:29,270 --> 00:33:30,810
+ then eventually
+
+668
+00:33:32,200 --> 00:33:36,110
+ they're ignored some people call orphan blocks 
+
+669
+00:33:37,440 --> 00:33:41,190
+But I'll call them stale blocks because they were actually created
+
+670
+00:33:42,220 --> 00:33:45,650
+ but the information that's in them are is kind of worthless 
+
+671
+00:33:45,670 --> 00:33:50,390
+It's not needed in the actual Bitcoin technology 
+
+672
+00:33:50,400 --> 00:33:52,050
+This happens from time to time
+
+673
+00:33:52,050 --> 00:33:54,010
+ but it hasn't happened in over a year 
+
+674
+00:33:54,780 --> 00:33:55,700
+The technology
+
+675
+00:33:55,700 --> 00:34:00,310
+ it's and you can look on various websites to find this out 
+
+676
+00:34:00,950 --> 00:34:02,760
+Probably at the maximum
+
+677
+00:34:02,770 --> 00:34:05,400
+ the longest stale chain 
+
+678
+00:34:05,400 --> 00:34:07,240
+Get it out to two or three blocks 
+
+679
+00:34:07,240 --> 00:34:08,560
+But it's very
+
+680
+00:34:08,570 --> 00:34:09,780
+ very rare 
+
+681
+00:34:11,970 --> 00:34:13,720
+So back to Lean's question
+
+682
+00:34:13,720 --> 00:34:18,120
+ what if China carved off and had 
+
+683
+00:34:20,390 --> 00:34:21,360
+The presumption 
+
+684
+00:34:21,370 --> 00:34:22,630
+It may not work
+
+685
+00:34:22,640 --> 00:34:23,950
+ but the presumption is
+
+686
+00:34:24,120 --> 00:34:36,090
+ let's say China is the purple blocks because China's wat off its entire network is the presumption is there'll be some communication outside of the network 
+
+687
+00:34:36,290 --> 00:34:37,510
+It might be on television 
+
+688
+00:34:37,510 --> 00:34:45,660
+It might be by courier that the Chinese miners would know that they're not in the majority
+
+689
+00:34:46,220 --> 00:34:56,570
+ and they would stop expending electricity to even mine in that circumstance is because whether it's a few hours or a few weeks or a few months
+
+690
+00:34:56,570 --> 00:34:59,000
+ they know that their expenditures would be like
+
+691
+00:35:00,550 --> 00:35:02,090
+ be worthless 
+
+692
+00:35:04,780 --> 00:35:07,870
+Tom and these sale wax 
+
+693
+00:35:08,000 --> 00:35:12,800
+These four blocks are the miners receiving Bitcoins 
+
+694
+00:35:15,020 --> 00:35:17,100
+So in the purple blocks
+
+695
+00:35:18,200 --> 00:35:20,990
+ there will be if I can go back to this
+
+696
+00:35:20,990 --> 00:35:23,250
+ there will be a Coinbase transaction 
+
+697
+00:35:26,880 --> 00:35:35,760
+But it will be worthless because it's a Coinbase transaction and a block that's not on the main block 
+
+698
+00:35:36,430 --> 00:35:39,730
+And it won't be usable later 
+
+699
+00:35:42,540 --> 00:35:45,010
+But in Bitcoin itself
+
+700
+00:35:45,010 --> 00:35:48,380
+ there's software that says you cannot use a Coinbase 
+
+701
+00:35:48,390 --> 00:35:51,320
+They output for 100 blocks 
+
+702
+00:35:51,870 --> 00:35:53,780
+It's written right into the base code 
+
+703
+00:35:55,750 --> 00:35:57,640
+And it has been since the beginning 
+
+704
+00:35:59,040 --> 00:36:00,615
+So we do not verify
+
+705
+00:36:00,615 --> 00:36:01,140
+ though
+
+706
+00:36:01,140 --> 00:36:01,402
+ that 
+
+707
+00:36:01,402 --> 00:36:05,340
+So in the situation where network is walled off
+
+708
+00:36:06,140 --> 00:36:13,980
+ people start mining on top of this segmented block when they not realize that their Bitcoins are invalid for 100 years 
+
+709
+00:36:14,990 --> 00:36:15,550
+Hey
+
+710
+00:36:15,560 --> 00:36:17,670
+ say save for some external now
+
+711
+00:36:18,170 --> 00:36:18,750
+ yes 
+
+712
+00:36:22,940 --> 00:36:24,830
+Let me just go back to the
+
+713
+00:36:25,020 --> 00:36:25,440
+ sorry
+
+714
+00:36:25,440 --> 00:36:26,200
+ the chain 
+
+715
+00:36:27,980 --> 00:36:30,070
+You're saying that the Tom's question is
+
+716
+00:36:30,070 --> 00:36:34,420
+ is what if the purple side chain goes on for 100 blocks 
+
+717
+00:36:35,780 --> 00:36:37,220
+What happens 
+
+718
+00:36:37,240 --> 00:36:37,860
+And in fact
+
+719
+00:36:37,870 --> 00:36:39,610
+ we have circumstances of that 
+
+720
+00:36:39,620 --> 00:36:44,040
+Bitcoin has split between Bitcoin and Bitcoin cash 
+
+721
+00:36:44,120 --> 00:36:48,585
+It was called a hard fork last year and for a moment
+
+722
+00:36:48,585 --> 00:36:51,470
+ let's call the purple chain Bitcoin cache 
+
+723
+00:36:51,780 --> 00:36:53,800
+It's not only gone on for hundred blocks
+
+724
+00:36:53,800 --> 00:36:56,790
+ it's now gone on for tens of thousands of blocks 
+
+725
+00:36:57,690 --> 00:37:02,380
+It is now its own native currency within that community
+
+726
+00:37:02,390 --> 00:37:12,230
+ That purple blockchain is so long now that people have found value in that and it is its own native currency 
+
+727
+00:37:12,890 --> 00:37:16,440
+And the reason I share that is to Tom's question of
+
+728
+00:37:16,440 --> 00:37:16,560
+ well
+
+729
+00:37:16,560 --> 00:37:19,210
+ what if China was walled off so long 
+
+730
+00:37:19,480 --> 00:37:20,930
+It's plausible
+
+731
+00:37:20,950 --> 00:37:22,150
+ unlikely
+
+732
+00:37:22,160 --> 00:37:23,100
+ but plausible
+
+733
+00:37:23,100 --> 00:37:31,690
+ that there would become some value and call it the Bitcoin China blockchain versus the Bitcoin global blockchain 
+
+734
+00:37:33,370 --> 00:37:35,280
+It would be as what is money
+
+735
+00:37:35,280 --> 00:37:36,900
+ but a social consensus 
+
+736
+00:37:37,630 --> 00:37:40,840
+So who goes beside the award 
+
+737
+00:37:40,850 --> 00:37:41,220
+I mean
+
+738
+00:37:41,340 --> 00:37:45,350
+ as it fades into the amount for a top there
+
+739
+00:37:46,460 --> 00:37:47,490
+ I think the other question that I
+
+740
+00:37:48,490 --> 00:37:49,350
+ who decides it 
+
+741
+00:37:49,460 --> 00:37:51,540
+So is it supporting the man music community 
+
+742
+00:37:52,580 --> 00:37:53,830
+And what is the form of being 
+
+743
+00:37:56,730 --> 00:37:59,050
+The question is of the reward 
+
+744
+00:37:59,060 --> 00:38:04,510
+I'm going to hold a part of part of it for a little bit when we talk about native currency
+
+745
+00:38:05,530 --> 00:38:11,123
+ but the reward is in nearly every blockchain is
+
+746
+00:38:11,123 --> 00:38:15,505
+ is a new native currency of that blockchain 
+
+747
+00:38:15,505 --> 00:38:17,190
+Bitcoin for Bitcoin
+
+748
+00:38:17,190 --> 00:38:20,898
+ F or ETH for if the Ethereum
+
+749
+00:38:22,780 --> 00:38:23,070
+ XRP
+
+750
+00:38:23,670 --> 00:38:26,520
+ or for each blockchain
+
+751
+00:38:26,520 --> 00:38:27,600
+ there's a native currency 
+
+752
+00:38:28,260 --> 00:38:30,450
+Who the second question was
+
+753
+00:38:30,450 --> 00:38:31,630
+ who decides it 
+
+754
+00:38:31,730 --> 00:38:32,740
+It's generally
+
+755
+00:38:32,740 --> 00:38:36,620
+ but not always hard programmed into the first release 
+
+756
+00:38:38,350 --> 00:38:40,230
+Of that blockchain 
+
+757
+00:38:41,700 --> 00:38:41,916
+Yeah
+
+758
+00:38:41,916 --> 00:38:45,812
+ so back to a question on back to the question on a Bitcoin
+
+759
+00:38:45,812 --> 00:38:46,895
+ a Bitcoin cash gift
+
+760
+00:38:46,895 --> 00:38:48,843
+ The Bitcoin cash is the purple line 
+
+761
+00:38:48,843 --> 00:38:49,492
+If you see
+
+762
+00:38:49,709 --> 00:38:50,791
+ on the channel here
+
+763
+00:38:50,791 --> 00:38:54,038
+ does that mean cause it's shorter compared to the block 
+
+764
+00:38:54,254 --> 00:38:55,120
+Bitcoin chain 
+
+765
+00:38:55,120 --> 00:38:56,636
+Does that make the under the
+
+766
+00:38:56,852 --> 00:38:58,151
+ the assumption of the
+
+767
+00:38:58,367 --> 00:39:00,099
+ the majority consensus
+
+768
+00:39:00,099 --> 00:39:01,181
+ the value of
+
+769
+00:39:01,181 --> 00:39:03,130
+ which is essentially the real 
+
+770
+00:39:03,950 --> 00:39:04,800
+The question is
+
+771
+00:39:04,930 --> 00:39:05,470
+ is
+
+772
+00:39:05,480 --> 00:39:07,830
+ is if it's shorter
+
+773
+00:39:08,980 --> 00:39:09,840
+ does it 
+
+774
+00:39:10,240 --> 00:39:11,280
+So there's no
+
+775
+00:39:11,280 --> 00:39:12,060
+ there was
+
+776
+00:39:12,060 --> 00:39:16,742
+ there's no validity in that in that chain and they'll put it down 
+
+777
+00:39:16,742 --> 00:39:17,002
+So
+
+778
+00:39:17,002 --> 00:39:17,782
+ so there's
+
+779
+00:39:17,782 --> 00:39:18,562
+ there's two
+
+780
+00:39:18,823 --> 00:39:21,684
+ in using this chart just as an example
+
+781
+00:39:21,684 --> 00:39:22,724
+ there's two ways
+
+782
+00:39:23,244 --> 00:39:28,186
+ there was the main point of this chart was to say that the black
+
+783
+00:39:28,186 --> 00:39:29,486
+ the black chain
+
+784
+00:39:29,486 --> 00:39:31,567
+ as represented in black
+
+785
+00:39:31,567 --> 00:39:32,867
+ is the main chain 
+
+786
+00:39:32,867 --> 00:39:36,249
+And that is where the social consensus will stay 
+
+787
+00:39:36,249 --> 00:39:38,590
+That's where the consensus is 
+
+788
+00:39:38,970 --> 00:39:40,860
+And generally speaking
+
+789
+00:39:40,870 --> 00:39:43,300
+ the stale blocks don't mean anything 
+
+790
+00:39:43,300 --> 00:39:44,850
+And the stale blocks go away 
+
+791
+00:39:44,860 --> 00:39:53,520
+And occasionally there is something called a hard fork where the social consensus continues to maintain 
+
+792
+00:39:53,960 --> 00:40:03,640
+And I was using this chart as a rough answer to Tom's earlier question about Bitcoin cash 
+
+793
+00:40:04,090 --> 00:40:08,460
+And if the purple chain kept going for thousands of blocks 
+
+794
+00:40:08,460 --> 00:40:12,310
+And there was a social consensus to keep both chains going
+
+795
+00:40:12,810 --> 00:40:14,460
+ you'd start to see separate
+
+796
+00:40:15,660 --> 00:40:16,490
+ currencies 
+
+797
+00:40:16,490 --> 00:40:19,150
+And as you have seen with Bitcoin cash
+
+798
+00:40:19,180 --> 00:40:19,860
+ does that help 
+
+799
+00:40:19,860 --> 00:40:21,020
+So I was
+
+800
+00:40:21,030 --> 00:40:25,710
+ I was using a graphic to answer a separate question 
+
+801
+00:40:26,140 --> 00:40:29,260
+I'm going to take two more questions and then go to native currencies 
+
+802
+00:40:30,080 --> 00:40:31,720
+I haven't heard from Daniel yet 
+
+803
+00:40:32,740 --> 00:40:34,120
+What a question is similar to the mining 
+
+804
+00:40:34,120 --> 00:40:36,650
+So if your transaction is on one of the purple box
+
+805
+00:40:36,650 --> 00:40:38,820
+ does that transaction boy
+
+806
+00:40:38,880 --> 00:40:41,892
+ so is the it's not so much void 
+
+807
+00:40:41,892 --> 00:40:42,395
+It's just
+
+808
+00:40:42,395 --> 00:40:43,654
+ it's meaningless 
+
+809
+00:40:43,654 --> 00:40:43,905
+It's
+
+810
+00:40:43,905 --> 00:40:44,157
+ yes
+
+811
+00:40:44,157 --> 00:40:45,164
+ in a sense 
+
+812
+00:40:45,164 --> 00:40:46,675
+Effectively it's void 
+
+813
+00:40:46,675 --> 00:40:48,688
+So I guess with somebody
+
+814
+00:40:48,688 --> 00:40:51,206
+ if you initiated that transaction
+
+815
+00:40:51,206 --> 00:40:53,220
+ would you be aware of it 
+
+816
+00:40:53,740 --> 00:40:54,230
+And reinitiated 
+
+817
+00:40:56,250 --> 00:40:57,490
+Very good question 
+
+818
+00:40:58,810 --> 00:41:00,550
+The transactions 
+
+819
+00:41:02,280 --> 00:41:03,010
+Will
+
+820
+00:41:04,530 --> 00:41:10,680
+ still be in what's called the memory pool of anybody who's mining on the on the main chain 
+
+821
+00:41:11,030 --> 00:41:12,450
+So transactions
+
+822
+00:41:12,450 --> 00:41:16,900
+ which we'll talk a lot about on Thursday is coming lecture 
+
+823
+00:41:17,340 --> 00:41:18,900
+Go in through the network 
+
+824
+00:41:18,900 --> 00:41:22,940
+They're propagated through the network to the entire node network 
+
+825
+00:41:22,940 --> 00:41:23,530
+And Bitcoin
+
+826
+00:41:23,530 --> 00:41:25,900
+ There's about 10000 nodes 
+
+827
+00:41:26,810 --> 00:41:29,800
+And they will receive those coins 
+
+828
+00:41:29,810 --> 00:41:31,140
+And those two
+
+829
+00:41:31,400 --> 00:41:33,400
+ those proposed transactions 
+
+830
+00:41:33,410 --> 00:41:36,820
+So anything in the purple chain will still be in the other chains 
+
+831
+00:41:36,830 --> 00:41:37,910
+Memory pool
+
+832
+00:41:38,430 --> 00:41:38,668
+ 1
+
+833
+00:41:38,668 --> 00:41:40,100
+ 1 more than I went in 
+
+834
+00:41:40,380 --> 00:41:42,423
+You can make use of the hot name 
+
+835
+00:41:42,423 --> 00:41:42,679
+Yes
+
+836
+00:41:42,679 --> 00:41:42,934
+ yes
+
+837
+00:41:42,934 --> 00:41:43,190
+ yes 
+
+838
+00:41:43,520 --> 00:41:45,152
+In the case of the heart post 
+
+839
+00:41:45,152 --> 00:41:46,785
+So between Bitcoin and Bitcoin cash
+
+840
+00:41:46,785 --> 00:41:48,054
+ what are the differences 
+
+841
+00:41:48,054 --> 00:41:48,236
+And
+
+842
+00:41:48,417 --> 00:41:51,320
+ whatever the differences in value between those two 
+
+843
+00:41:54,180 --> 00:41:55,920
+That's a much longer question 
+
+844
+00:41:55,950 --> 00:41:56,740
+And the question is
+
+845
+00:41:56,740 --> 00:42:00,130
+ is what are the differences of value between Bitcoin and Bitcoin cash 
+
+846
+00:42:00,130 --> 00:42:00,660
+And though
+
+847
+00:42:00,670 --> 00:42:08,050
+ I think Bitcoin is trading around $6300 and Bitcoin cash is what
+
+848
+00:42:08,670 --> 00:42:09,007
+ 4
+
+849
+00:42:09,007 --> 00:42:12,046
+ 3435 
+
+850
+00:42:12,046 --> 00:42:13,060
+Thank you
+
+851
+00:42:13,060 --> 00:42:13,397
+ Zan 
+
+852
+00:42:14,410 --> 00:42:17,112
+That gives you the monetary
+
+853
+00:42:17,787 --> 00:42:21,164
+ difference of about 15 to 1 
+
+854
+00:42:22,180 --> 00:42:27,180
+But it would take more conversations about why that happened in background and so forth 
+
+855
+00:42:28,840 --> 00:42:29,490
+So let me
+
+856
+00:42:29,520 --> 00:42:30,170
+ let me
+
+857
+00:42:30,990 --> 00:42:33,180
+ talk about the difficulty factor 
+
+858
+00:42:33,200 --> 00:42:34,610
+So proof of work
+
+859
+00:42:35,210 --> 00:42:42,990
+ at least in Bitcoins cays has a difficulty factor with regard to these leading zeros in the hash 
+
+860
+00:42:43,390 --> 00:42:46,970
+And Satoshi Nakomoto said
+
+861
+00:42:46,970 --> 00:42:48,580
+ let's change that every 10 minutes 
+
+862
+00:42:49,140 --> 00:42:54,070
+Let's ensure that every block comes on average every 10 minutes 
+
+863
+00:42:55,380 --> 00:42:56,940
+And to do that
+
+864
+00:42:58,590 --> 00:43:03,050
+ define how many leading zeros there needs to be 
+
+865
+00:43:04,520 --> 00:43:06,730
+And it had just about every two weeks 
+
+866
+00:43:07,140 --> 00:43:09,060
+Every blockchain can be different 
+
+867
+00:43:09,340 --> 00:43:12,190
+It doesn't have to adjust every two weeks 
+
+868
+00:43:12,520 --> 00:43:14,120
+This is just what Bitcoin did 
+
+869
+00:43:14,120 --> 00:43:18,790
+This is what Nakamura did to maintain an average of 10 minutes 
+
+870
+00:43:21,250 --> 00:43:21,910
+So what 
+
+871
+00:43:21,920 --> 00:43:22,650
+What has happened 
+
+872
+00:43:22,650 --> 00:43:23,230
+Currently 
+
+873
+00:43:23,240 --> 00:43:25,450
+It takes 18 leading zeros 
+
+874
+00:43:28,280 --> 00:43:30,430
+And because this is in a 60
+
+875
+00:43:30,900 --> 00:43:34,520
+ it's in a hexadecimal character system 
+
+876
+00:43:34,610 --> 00:43:39,080
+Every decimal it is 
+
+877
+00:43:39,090 --> 00:43:40,911
+What's that in 4 b 
+
+878
+00:43:40,911 --> 00:43:41,782
+So it's 61st
+
+879
+00:43:41,782 --> 00:43:43,525
+ maybe zeros and bits 
+
+880
+00:43:43,525 --> 00:43:45,559
+And 18 in Exodus
+
+881
+00:43:45,559 --> 00:43:46,140
+ Is it 
+
+882
+00:43:46,940 --> 00:43:48,560
+So it's 2 to the 64th 
+
+883
+00:43:49,010 --> 00:43:52,130
+The probability of finding a block is one over two to the -6 
+
+884
+00:43:54,410 --> 00:44:03,830
+So what Eileen just said was that it's a very small chance of finding a block because this is the equivalent of 18 leading zeros 
+
+885
+00:44:04,920 --> 00:44:06,250
+So it's more than 64 
+
+886
+00:44:06,260 --> 00:44:08,250
+It's 18 times 4 
+
+887
+00:44:08,270 --> 00:44:08,740
+Oh
+
+888
+00:44:08,750 --> 00:44:08,790
+ that's
+
+889
+00:44:08,840 --> 00:44:09,110
+ yeah
+
+890
+00:44:09,260 --> 00:44:09,280
+ No
+
+891
+00:44:09,410 --> 00:44:09,690
+ sorry
+
+892
+00:44:09,690 --> 00:44:10,780
+ I can't do it with present with it 
+
+893
+00:44:11,390 --> 00:44:11,830
+Ya
+
+894
+00:44:11,840 --> 00:44:12,180
+ ya
+
+895
+00:44:13,120 --> 00:44:15,580
+ his Phd in computer science
+
+896
+00:44:15,980 --> 00:44:16,550
+ but can't do arithmetic 
+
+897
+00:44:17,400 --> 00:44:22,490
+So this is the most recent block I grabbed off the blockchain this morning 
+
+898
+00:44:24,020 --> 00:44:26,030
+And it has 18 leading zeros 
+
+899
+00:44:26,030 --> 00:44:27,730
+And then all those other digits
+
+900
+00:44:29,190 --> 00:44:33,980
+ that's block number 541974
+
+901
+00:44:35,160 --> 00:44:36,890
+ 18 leading zeros
+
+902
+00:44:37,800 --> 00:44:38,850
+ the Genesis block
+
+903
+00:44:38,920 --> 00:44:43,740
+ the very first block in January 2009 had 10 
+
+904
+00:44:43,750 --> 00:44:44,870
+Leading zeros are
+
+905
+00:44:45,430 --> 00:44:51,700
+ but the requirement that Satoshi Nakamoto actually put into the computer code was you only needed 8 leading zeroes 
+
+906
+00:44:52,100 --> 00:44:55,510
+So the probabilities have gone way up 
+
+907
+00:44:55,670 --> 00:44:58,150
+So let me take it off of a fancy
+
+908
+00:44:58,160 --> 00:44:58,460
+ you know
+
+909
+00:44:58,460 --> 00:44:59,620
+ numbers like that 
+
+910
+00:44:59,630 --> 00:45:07,170
+And just say this is the actual Bitcoin mining difficulties on a logarithmic scale because if it weren't logarithmic
+
+911
+00:45:07,170 --> 00:45:08,580
+ you couldn't really read it 
+
+912
+00:45:08,590 --> 00:45:08,650
+And it
+
+913
+00:45:09,690 --> 00:45:11,940
+ the difficulty was set at one 
+
+914
+00:45:11,950 --> 00:45:13,710
+This is all scaled to 
+
+915
+00:45:13,720 --> 00:45:19,580
+How difficult was it for the first year and a half of mining in 2009 in early 2010
+
+916
+00:45:19,580 --> 00:45:20,380
+ 100 
+
+917
+00:45:20,970 --> 00:45:27,070
+And now it is at 1 trillion 
+
+918
+00:45:27,490 --> 00:45:30,260
+It's actually more than 1 trillion because it's logarithmic 
+
+919
+00:45:30,260 --> 00:45:32,040
+It's at about 7 trillion 
+
+920
+00:45:32,550 --> 00:45:43,340
+It is currently 7 trillion times harder to find the answer to the puzzle than it was in 2009 
+
+921
+00:45:49,550 --> 00:45:53,920
+And that's because there's a lot of computers trying to hash all of this stuff 
+
+922
+00:45:54,300 --> 00:45:54,563
+Yeah
+
+923
+00:45:54,563 --> 00:45:57,458
+ so is that where the collectors are 
+
+924
+00:45:57,458 --> 00:46:03,290
+The pools of mining nodes work to be able to more efficient
+
+925
+00:46:04,160 --> 00:46:04,270
+ correct
+
+926
+00:46:04,710 --> 00:46:05,130
+ correct 
+
+927
+00:46:06,970 --> 00:46:09,330
+And the hash rate is now somewhere around 
+
+928
+00:46:11,900 --> 00:46:13,380
+50
+
+929
+00:46:14,920 --> 00:46:18,835
+ it's not Terra hash is i'm trying to remember what the
+
+930
+00:46:18,835 --> 00:46:23,020
+ what's at 50 hexa hash per second
+
+931
+00:46:24,660 --> 00:46:31,620
+ which is like 1000 trillion hashes because a Tara hashes a trillion hashes 
+
+932
+00:46:31,630 --> 00:46:32,260
+Zan
+
+933
+00:46:32,540 --> 00:46:33,600
+ I think it's worth noting
+
+934
+00:46:33,600 --> 00:46:33,620
+ though
+
+935
+00:46:34,050 --> 00:46:38,290
+ it it didn't scale linearly as like number of computers got on the network 
+
+936
+00:46:38,300 --> 00:46:41,810
+It's also the hardware has gotten incredibly more sophisticated 
+
+937
+00:46:41,810 --> 00:46:44,820
+So it's not that you can just assume there is
+
+938
+00:46:44,830 --> 00:46:45,180
+ you know
+
+939
+00:46:45,190 --> 00:46:48,200
+ 15 trillion number of people that are mining Bitcoin 
+
+940
+00:46:48,200 --> 00:46:50,070
+It's just the same people that are doing it better 
+
+941
+00:46:50,080 --> 00:46:52,790
+I can't ask for a better setup than that 
+
+942
+00:46:53,270 --> 00:46:55,630
+Bitcoin mining evolution did you 
+
+943
+00:46:55,640 --> 00:46:57,300
+Did you see my slides 
+
+944
+00:46:59,220 --> 00:46:59,810
+And you know
+
+945
+00:47:00,190 --> 00:47:00,800
+ so what 
+
+946
+00:47:00,810 --> 00:47:01,830
+What's the evolution 
+
+947
+00:47:01,830 --> 00:47:05,060
+So it started with central processing units and Cpus 
+
+948
+00:47:05,540 --> 00:47:12,880
+And I'm not sure my numbers are accurate because I might be using Cpu power today and not Cpu power in twenty O nine 
+
+949
+00:47:13,350 --> 00:47:16,460
+Apologies for those who know CPU power better than mine 
+
+950
+00:47:16,660 --> 00:47:23,290
+You could do about 2 to 20 million hashes a second on a CPU properly geared
+
+951
+00:47:23,310 --> 00:47:23,590
+ apparently
+
+952
+00:47:23,590 --> 00:47:23,940
+ I think 
+
+953
+00:47:26,180 --> 00:47:29,230
+They didn't last that long by 2010 
+
+954
+00:47:29,250 --> 00:47:32,540
+Some folks figured out there was something faster and it was called the
+
+955
+00:47:33,980 --> 00:47:35,550
+ a graphics processing unit 
+
+956
+00:47:36,040 --> 00:47:41,460
+We all use Gpus all day long because that's what gives us all our quick graphics 
+
+957
+00:47:41,460 --> 00:47:47,080
+If you live stream something that on your laptop and graphics processing units
+
+958
+00:47:47,080 --> 00:47:51,020
+ somebody figured out you can use that and you could hash faster 
+
+959
+00:47:51,340 --> 00:47:52,200
+And then all of a sudden
+
+960
+00:47:53,640 --> 00:47:57,200
+ hobbyists started to wire the Gpus together 
+
+961
+00:47:57,250 --> 00:48:02,160
+And they could figure out a way to get between 20 million hashes to 300 million hashes 
+
+962
+00:48:02,170 --> 00:48:02,900
+A second
+
+963
+00:48:03,090 --> 00:48:11,890
+ I'm told that even today you could maybe get up closer to 1000 million hash is a second or a billion hash is a second 
+
+964
+00:48:11,890 --> 00:48:14,160
+If you did a GPU rig 
+
+965
+00:48:15,460 --> 00:48:18,720
+But that's yesteryear on Bitcoin 
+
+966
+00:48:18,910 --> 00:48:23,850
+Now there's something called an application specific integrated circuit
+
+967
+00:48:23,860 --> 00:48:25,020
+ an ASIC 
+
+968
+00:48:25,030 --> 00:48:31,210
+Just think about a circuit that the only thing the circuit does is create hashes for 
+
+969
+00:48:32,690 --> 00:48:33,290
+In fact
+
+970
+00:48:33,290 --> 00:48:35,040
+ the circuit is wired 
+
+971
+00:48:35,360 --> 00:48:39,720
+I use the word wired because I'm old enough to remember wires
+
+972
+00:48:40,220 --> 00:48:52,320
+ but it's the circuit board is manufactured in a way that all it does is the Shah 2 56 hash function to bit quite mine 
+
+973
+00:48:53,000 --> 00:48:55,010
+And the first A six
+
+974
+00:48:55,410 --> 00:48:57,540
+ which are dedicated circuit boards 
+
+975
+00:48:57,540 --> 00:48:58,050
+To do this
+
+976
+00:48:58,050 --> 00:49:01,400
+ mining came out in 2013
+
+977
+00:49:01,400 --> 00:49:02,660
+ and even since then
+
+978
+00:49:02,660 --> 00:49:12,440
+ they have moved up the scale the most expensive that sells for about 3 or $4000 in Asac can do 16 terra hashes per second
+
+979
+00:49:12,570 --> 00:49:14,420
+ or at least that's what it's rated for 
+
+980
+00:49:14,430 --> 00:49:18,010
+If you go on Amazon and try to buy it and you could do that you
+
+981
+00:49:19,780 --> 00:49:23,150
+ but you'd be competing with something like that looks like this 
+
+982
+00:49:24,030 --> 00:49:31,380
+A modern mining factory for Bitcoin has thousands of Asics 
+
+983
+00:49:31,390 --> 00:49:34,560
+They have water cooling systems to keep it cooled
+
+984
+00:49:35,740 --> 00:49:40,310
+ and they're probably buying their electricity for less than 3 kW
+
+985
+00:49:41,050 --> 00:49:42,790
+ 3 cents per kilowatt 
+
+986
+00:49:44,180 --> 00:49:53,130
+And they might even be paying off the local government officials and not even paying the electricity company and just bribing to get their electricity 
+
+987
+00:49:53,140 --> 00:49:53,760
+Emily
+
+988
+00:49:54,580 --> 00:49:55,070
+ double question 
+
+989
+00:49:55,070 --> 00:50:01,260
+But in terms of like an economic opportunity cost using all this processing power just for mining Bitcoin
+
+990
+00:50:01,260 --> 00:50:06,390
+ like is there a more efficient allocation of that processing capability in terms of like a more
+
+991
+00:50:06,720 --> 00:50:08,730
+ a more stable economic usage 
+
+992
+00:50:10,180 --> 00:50:12,460
+There are certainly tradeoffs here 
+
+993
+00:50:12,470 --> 00:50:17,040
+And the aggregate electricity for all of Bitcoin mining 
+
+994
+00:50:17,200 --> 00:50:22,860
+Now that it's 7 trillion times harder than it was in 2009
+
+995
+00:50:23,680 --> 00:50:30,790
+ has been compared to the electricity use of countries like Ireland along the way to the electricity use of countries like Denmark 
+
+996
+00:50:30,790 --> 00:50:33,750
+I think it's somewhere between Ireland and Denmark 
+
+997
+00:50:33,900 --> 00:50:34,290
+See
+
+998
+00:50:34,290 --> 00:50:34,860
+ Larry
+
+999
+00:50:36,980 --> 00:50:37,780
+ a lot of that 
+
+1000
+00:50:37,790 --> 00:50:51,490
+The cost is make less assuming $10 or whatever he had currency and the reward is in Bitcoin volatility of Bitcoin makes it hard to answer that question because you don't know if there is an economy
+
+1001
+00:50:52,751 --> 00:50:56,680
+ value for you because you don't have a little bit more 
+
+1002
+00:50:56,680 --> 00:50:59,561
+So I said in our first class
+
+1003
+00:50:59,561 --> 00:51:04,013
+ I'm neither a blockchain maximist or blockchain minimalist 
+
+1004
+00:51:04,013 --> 00:51:08,990
+And you all will have a chance through this course to form your own views 
+
+1005
+00:51:10,000 --> 00:51:12,620
+But one of the debates is all right
+
+1006
+00:51:12,630 --> 00:51:15,290
+ The Emily's debate is this a good use of economic 
+
+1007
+00:51:18,370 --> 00:51:19,940
+A good use of resources 
+
+1008
+00:51:20,760 --> 00:51:22,860
+But I would note that all
+
+1009
+00:51:25,100 --> 00:51:26,750
+ strong currencies
+
+1010
+00:51:26,780 --> 00:51:32,860
+ strong monies for centuries have had something to limit the supply 
+
+1011
+00:51:33,290 --> 00:51:35,790
+And so now we're doing it electronically 
+
+1012
+00:51:35,890 --> 00:51:37,490
+And through this mining
+
+1013
+00:51:37,930 --> 00:51:40,352
+ it doesn't mean it's the best use 
+
+1014
+00:51:40,352 --> 00:51:42,774
+I'm just saying it's another way 
+
+1015
+00:51:42,774 --> 00:51:46,710
+So extracting gold out of the ground is very hard 
+
+1016
+00:51:46,710 --> 00:51:48,526
+And in the 19th century
+
+1017
+00:51:48,526 --> 00:51:55,490
+ to have big vault doors and security guards with rifles was a way to insure it 
+
+1018
+00:51:55,780 --> 00:51:59,350
+And one could even say that a having central banks takes cost 
+
+1019
+00:52:00,390 --> 00:52:10,540
+So I think of it as as a tradeoff of how you ensure a currency is a harder currency to create 
+
+1020
+00:52:11,060 --> 00:52:13,940
+But it doesn't mean that proof of work is the best way
+
+1021
+00:52:14,410 --> 00:52:14,890
+ which is
+
+1022
+00:52:14,890 --> 00:52:15,300
+ of course
+
+1023
+00:52:15,300 --> 00:52:16,740
+ then the setup to
+
+1024
+00:52:19,290 --> 00:52:22,640
+ the question of are there other ways to do consensus 
+
+1025
+00:52:23,040 --> 00:52:26,550
+So one other thing is all of this hashing
+
+1026
+00:52:26,660 --> 00:52:27,920
+ How is it distributed 
+
+1027
+00:52:27,930 --> 00:52:30,370
+And this I pulled off the internet this morning 
+
+1028
+00:52:30,380 --> 00:52:32,780
+You can see these statistics every day
+
+1029
+00:52:37,710 --> 00:52:40,240
+ Proof of work and mining has
+
+1030
+00:52:42,820 --> 00:52:44,550
+ formed mining pools 
+
+1031
+00:52:44,560 --> 00:52:53,330
+And these mining pools come together for simple economic reason that it's so unlikely to solve the riddle 
+
+1032
+00:52:53,340 --> 00:52:55,320
+Solve the puzzle of mining 
+
+1033
+00:52:55,330 --> 00:52:58,640
+And that if you can only solve it once a year
+
+1034
+00:52:58,650 --> 00:53:01,160
+ or maybe even once every 10 years
+
+1035
+00:53:01,480 --> 00:53:03,950
+ you weren't going to invest in mining 
+
+1036
+00:53:04,360 --> 00:53:11,180
+So mining pools started around 2010 to smooth out the revenue 
+
+1037
+00:53:13,700 --> 00:53:18,440
+So if Amanda doesn't want to get it once every 10 years
+
+1038
+00:53:18,440 --> 00:53:19,100
+ she might say
+
+1039
+00:53:19,100 --> 00:53:19,130
+ well
+
+1040
+00:53:19,130 --> 00:53:22,130
+ why doesn't all the 80 people in this room 
+
+1041
+00:53:22,490 --> 00:53:23,210
+You might
+
+1042
+00:53:23,220 --> 00:53:23,650
+ Amanda
+
+1043
+00:53:23,650 --> 00:53:24,400
+ I don't know
+
+1044
+00:53:24,450 --> 00:53:26,960
+ say why don't we all form a pool 
+
+1045
+00:53:26,960 --> 00:53:28,910
+And we'll are going to use our laptops 
+
+1046
+00:53:28,910 --> 00:53:34,460
+And now this is still 2009 or 2010 when you can mind Bitcoin on your laptop 
+
+1047
+00:53:35,200 --> 00:53:35,950
+But we could say
+
+1048
+00:53:35,950 --> 00:53:38,020
+ why don't we all do that together 
+
+1049
+00:53:38,180 --> 00:53:39,560
+And then all of us could say
+
+1050
+00:53:39,560 --> 00:53:39,710
+ well
+
+1051
+00:53:39,710 --> 00:53:40,170
+ Amanda
+
+1052
+00:53:40,170 --> 00:53:41,470
+ that's a bright idea 
+
+1053
+00:53:41,470 --> 00:53:47,290
+But could you create the Merkel route for us 
+
+1054
+00:53:47,290 --> 00:53:52,490
+Could you do some other things so that our computer doesn't have to do all that other fancy stuff 
+
+1055
+00:53:53,150 --> 00:53:55,080
+So then Amanda might say
+
+1056
+00:53:55,080 --> 00:53:55,220
+ well
+
+1057
+00:53:55,580 --> 00:53:57,450
+ I want to charge all of you a little bit 
+
+1058
+00:53:57,450 --> 00:54:06,020
+How about if I charge you 1% of the take and a man who would call herself a mining pool operator 
+
+1059
+00:54:06,930 --> 00:54:26,930
+That's what's happened is basically the economics of mining have clumped around mining pool operators and the standard fees range from 1 to 3% that the mining pool operator provides a number of services to the miners themselves
+
+1060
+00:54:27,500 --> 00:54:29,900
+ and those services are compensated
+
+1061
+00:54:29,930 --> 00:54:30,610
+ as I say
+
+1062
+00:54:30,610 --> 00:54:33,110
+ somewhere between 1 and 3% of the returns 
+
+1063
+00:54:33,320 --> 00:54:36,760
+But mostly it smooths out the economics for all the miners 
+
+1064
+00:54:36,770 --> 00:54:36,850
+It 
+
+1065
+00:54:36,850 --> 00:54:38,710
+It does some other things as well 
+
+1066
+00:54:39,320 --> 00:54:41,270
+But that's the primary 
+
+1067
+00:54:41,600 --> 00:54:41,870
+Sorry
+
+1068
+00:54:42,400 --> 00:54:47,190
+ I also had one question there because then you laid out the difficulty of mining has become increasingly difficult
+
+1069
+00:54:48,090 --> 00:54:50,090
+ and the cost of the electricity rate
+
+1070
+00:54:50,210 --> 00:54:56,090
+ the breakeven for the breakeven point has actually becoming a lower and lower in terms of electricity cost 
+
+1071
+00:54:56,590 --> 00:54:58,220
+So with that in mind
+
+1072
+00:54:58,230 --> 00:54:59,490
+ over the next couple of years
+
+1073
+00:54:59,500 --> 00:55:00,770
+ if that's the case
+
+1074
+00:55:01,850 --> 00:55:04,880
+ people will start to lose incentive and keep it doing the mining 
+
+1075
+00:55:04,880 --> 00:55:05,520
+And once that happened
+
+1076
+00:55:05,530 --> 00:55:07,750
+ once that happened to audio
+
+1077
+00:55:09,120 --> 00:55:09,450
+ well
+
+1078
+00:55:09,480 --> 00:55:10,320
+ it could go either way 
+
+1079
+00:55:11,230 --> 00:55:12,230
+As we said
+
+1080
+00:55:12,990 --> 00:55:13,870
+ just Bitcoin
+
+1081
+00:55:13,870 --> 00:55:20,570
+ this is Bitcoin adjusts the difficulty of mining every two weeks 
+
+1082
+00:55:20,700 --> 00:55:22,910
+So if there is fewer people mining
+
+1083
+00:55:22,930 --> 00:55:24,430
+ the difficulty will go down 
+
+1084
+00:55:24,710 --> 00:55:25,630
+And if you remember
+
+1085
+00:55:25,630 --> 00:55:29,100
+ I said you had to have 18 leading zeros
+
+1086
+00:55:29,510 --> 00:55:33,330
+ it might go back to 17 leading zeros or 16 leading zeros 
+
+1087
+00:55:33,330 --> 00:55:41,600
+And every two weeks it adjusts based upon the prior 2016 blocks 
+
+1088
+00:55:42,370 --> 00:55:43,910
+Did it average 10 minutes 
+
+1089
+00:55:43,910 --> 00:55:44,830
+If it averaged
+
+1090
+00:55:44,830 --> 00:55:45,800
+ for instance
+
+1091
+00:55:45,810 --> 00:55:47,320
+ 14 minutes
+
+1092
+00:55:47,330 --> 00:55:51,800
+ then it will lower the difficulty if it averages 6 minutes
+
+1093
+00:55:51,800 --> 00:55:53,620
+ it will increase the difficulty 
+
+1094
+00:55:57,000 --> 00:55:57,390
+Kelly
+
+1095
+00:55:58,630 --> 00:56:00,880
+ is this for the steak comes in like
+
+1096
+00:56:01,110 --> 00:56:07,500
+ does BTC always get their 19% because they have the largest stake in the system 
+
+1097
+00:56:07,520 --> 00:56:11,780
+And so Kelly is asking whether this is where proof of steak comes in 
+
+1098
+00:56:12,170 --> 00:56:13,760
+What is proof of steak 
+
+1099
+00:56:13,770 --> 00:56:16,690
+Anybody who read the Coindesk article
+
+1100
+00:56:17,650 --> 00:56:19,450
+ see when you hide your first name
+
+1101
+00:56:19,530 --> 00:56:21,560
+ I can just call your US Air Force 
+
+1102
+00:56:23,730 --> 00:56:24,600
+That it's true 
+
+1103
+00:56:24,610 --> 00:56:28,110
+Bose Bo's name Cart says US Air Force 
+
+1104
+00:56:28,620 --> 00:56:28,910
+That's true 
+
+1105
+00:56:30,650 --> 00:56:32,400
+So proof of stake is the coins 
+
+1106
+00:56:32,410 --> 00:56:33,470
+All the coins are dispersed 
+
+1107
+00:56:35,730 --> 00:56:41,650
+And the verification allocation is allocate how to place it 
+
+1108
+00:56:43,040 --> 00:56:46,470
+So proof of stake is an alternative consensus mechanism 
+
+1109
+00:56:48,330 --> 00:56:50,560
+And Bo described it well
+
+1110
+00:56:50,810 --> 00:56:51,390
+ But Kelly
+
+1111
+00:56:51,390 --> 00:56:53,890
+ it's not related to this chart here 
+
+1112
+00:56:53,900 --> 00:56:55,750
+This is all proof of work 
+
+1113
+00:56:57,060 --> 00:57:11,250
+BTC has 19% of the hash rate that that means that they literally have about if the total hash power on Bitcoin is 60 Hexa 
+
+1114
+00:57:11,760 --> 00:57:12,560
+Do I have this word 
+
+1115
+00:57:12,570 --> 00:57:13,010
+Heck
+
+1116
+00:57:13,040 --> 00:57:17,090
+ substance exa hash
+
+1117
+00:57:17,680 --> 00:57:20,150
+ then 19% of that are about 12 
+
+1118
+00:57:20,150 --> 00:57:21,070
+I'm going to do 
+
+1119
+00:57:21,510 --> 00:57:24,300
+That's not the stake that they already correct 
+
+1120
+00:57:24,850 --> 00:57:28,030
+Most Bitcoin miners sell their coins 
+
+1121
+00:57:29,110 --> 00:57:41,220
+So the coins that are created the coins that are created each year are sold into the a broad
+
+1122
+00:57:42,740 --> 00:57:44,370
+ very few miners 
+
+1123
+00:57:44,370 --> 00:57:48,140
+Hold on to their coins for great lengths of time 
+
+1124
+00:57:49,150 --> 00:57:49,460
+I mean
+
+1125
+00:57:49,460 --> 00:57:50,740
+ they might for days they might
+
+1126
+00:57:50,760 --> 00:57:50,990
+ for
+
+1127
+00:57:51,290 --> 00:57:54,600
+ they might keep some for all sorts of reasons 
+
+1128
+00:57:54,920 --> 00:57:56,760
+And as I truly believe
+
+1129
+00:57:56,760 --> 00:58:12,535
+ but can't factually prove a number of of the biggest mining pools or miners are in places where they're doing illicit activity they're getting their electricity for less than what it's really costing on the grid 
+
+1130
+00:58:12,798 --> 00:58:13,587
+By bad act
+
+1131
+00:58:13,587 --> 00:58:13,850
+ actor 
+
+1132
+00:58:16,540 --> 00:58:17,660
+But nonetheless
+
+1133
+00:58:17,670 --> 00:58:22,140
+ they have a choice whether to sell their coins or keep their coins a question over here 
+
+1134
+00:58:22,140 --> 00:58:23,310
+And then I wanna keep going 
+
+1135
+00:58:23,580 --> 00:58:27,950
+If if the mining industry is like so formalized like you've got so many pools
+
+1136
+00:58:28,000 --> 00:58:31,030
+ what prevents all the pools from coming together and saying that
+
+1137
+00:58:31,490 --> 00:58:33,680
+ let's just like sort of lesser puzzle 
+
+1138
+00:58:33,880 --> 00:58:35,390
+So the difficulty becomes lower 
+
+1139
+00:58:35,390 --> 00:58:37,210
+And then the charge is much lower to each and everyone 
+
+1140
+00:58:37,630 --> 00:58:38,700
+So the question is
+
+1141
+00:58:38,700 --> 00:58:39,050
+ is
+
+1142
+00:58:39,060 --> 00:58:47,380
+ is what happens if the mining pools collude and come together either as a giant says to
+
+1143
+00:58:47,450 --> 00:58:48,030
+ let's say
+
+1144
+00:58:48,040 --> 00:58:48,290
+ well
+
+1145
+00:58:48,320 --> 00:58:57,070
+ why should we have a good so much mining capacity lets as a cartel like OPEC
+
+1146
+00:58:57,070 --> 00:59:02,380
+ the oil cartel say we should constrain supply and so forth 
+
+1147
+00:59:03,560 --> 00:59:07,850
+I think what constraints that is is it's an open system
+
+1148
+00:59:08,240 --> 00:59:08,460
+ right 
+
+1149
+00:59:08,730 --> 00:59:09,910
+But it's possible 
+
+1150
+00:59:09,920 --> 00:59:10,960
+It's plausible 
+
+1151
+00:59:11,060 --> 00:59:12,410
+I think the bigger question 
+
+1152
+00:59:12,410 --> 00:59:13,710
+And there's been a numerous echo 
+
+1153
+00:59:14,090 --> 00:59:24,240
+Numerous academic papers around this is what happens if the mining pools come together and try to do what's called a 51% attack and try to take over the blockchain 
+
+1154
+00:59:25,950 --> 00:59:28,170
+And that's a more interesting challenge 
+
+1155
+00:59:28,180 --> 00:59:31,510
+And we'll talk about that throughout the semester 
+
+1156
+00:59:32,320 --> 00:59:36,760
+And it hasn't happened as of yet 
+
+1157
+00:59:37,290 --> 00:59:37,630
+Let me
+
+1158
+00:59:37,660 --> 00:59:39,800
+ let me talk about the native currencies 
+
+1159
+00:59:39,990 --> 00:59:41,820
+Native currency helps 
+
+1160
+00:59:41,830 --> 00:59:42,710
+Do all of this 
+
+1161
+00:59:42,720 --> 00:59:45,530
+What's Nakamoto said is it was an incentive system 
+
+1162
+00:59:45,630 --> 00:59:46,860
+It was an incentive system
+
+1163
+00:59:46,860 --> 00:59:54,480
+ but it was also peer-to-peer way to create a new money and embedded in most blockchains
+
+1164
+00:59:54,480 --> 00:59:55,780
+ not 100% of them 
+
+1165
+00:59:56,200 --> 00:59:57,970
+There is something I put quotes around it 
+
+1166
+00:59:57,970 --> 00:59:59,440
+Monetary policy
+
+1167
+00:59:59,450 --> 01:00:00,050
+ in essence
+
+1168
+01:00:00,050 --> 01:00:04,970
+ that limits the supply of the currency 
+
+1169
+01:00:06,390 --> 01:00:08,860
+Not every blockchain has this
+
+1170
+01:00:08,870 --> 01:00:10,970
+ but the vast majority do 
+
+1171
+01:00:11,220 --> 01:00:13,650
+And when we start talking about ownership coin offerings
+
+1172
+01:00:13,650 --> 01:00:15,090
+ you'll find some that don't think
+
+1173
+01:00:16,340 --> 01:00:18,570
+ but Bitcoin limits it 
+
+1174
+01:00:18,590 --> 01:00:20,420
+And I'm just going to say what it is 
+
+1175
+01:00:20,430 --> 01:00:23,760
+It's created in a Coinbase transaction in each block 
+
+1176
+01:00:26,290 --> 01:00:29,140
+It was initially 50 bitcoins per block 
+
+1177
+01:00:29,820 --> 01:00:35,380
+But now now because it's halved every 210000 blocks
+
+1178
+01:00:35,380 --> 01:00:36,560
+ it's just 12
+
+1179
+01:00:36,570 --> 01:00:37,060
+5 bitcoins 
+
+1180
+01:00:38,190 --> 01:00:38,710
+That's
+
+1181
+01:00:38,720 --> 01:00:41,970
+ that's the number of bitcoins you earn each time 
+
+1182
+01:00:41,990 --> 01:00:46,650
+If you mine a block that's approximately $75000 in value 
+
+1183
+01:00:46,650 --> 01:00:46,840
+Today
+
+1184
+01:00:46,980 --> 01:00:49,350
+ a giver taker 80000
+
+1185
+01:00:49,360 --> 01:00:51,540
+ roughly to mine a bloc 
+
+1186
+01:00:52,210 --> 01:00:56,040
+The inflation rate for Bitcoin right now is 41% 
+
+1187
+01:00:57,170 --> 01:01:09,360
+So think for any of you that have taken monetary policy courses or financial courses that talk about the federal reserve Bitcoin is growing about 4% a year right now
+
+1188
+01:01:09,370 --> 01:01:14,210
+ but it has every 210000 blocks 
+
+1189
+01:01:14,220 --> 01:01:16,440
+So the inflation rate will go down to 2% 
+
+1190
+01:01:16,770 --> 01:01:19,940
+And then later to about 1% and later about a half a percent 
+
+1191
+01:01:20,560 --> 01:01:23,110
+And it caps around the year 2040 
+
+1192
+01:01:23,120 --> 01:01:29,900
+And so whether Satoshi was one person or a team of people back in 2008
+
+1193
+01:01:31,140 --> 01:01:36,780
+ they put in place a monetary policy that is hardcoded into the computer base code 
+
+1194
+01:01:37,850 --> 01:01:45,290
+And it's supposedly gonna be there forever to cap Bitcoin at 21 million Bitcoin 
+
+1195
+01:01:46,350 --> 01:01:57,390
+I'm going to throw up ether just because it's an alternative currently that minds three F per block and the inflation rates about 7
+
+1196
+01:01:57,400 --> 01:02:00,240
+5 percent in that's a different stage
+
+1197
+01:02:00,250 --> 01:02:01,010
+ a development
+
+1198
+01:02:01,010 --> 01:02:02,630
+ different inflation rate 
+
+1199
+01:02:03,300 --> 01:02:06,610
+But there's been a proposal recently to literally
+
+1200
+01:02:06,610 --> 01:02:08,970
+ it was a proposal by the programmers 
+
+1201
+01:02:08,980 --> 01:02:11,590
+We should really lower the inflation rate 
+
+1202
+01:02:12,330 --> 01:02:13,400
+And if it's accepted
+
+1203
+01:02:13,400 --> 01:02:15,140
+ it will be adopted in November 
+
+1204
+01:02:17,930 --> 01:02:29,320
+The fees the fees in Ethereum are largely paid in something called gas gas is just a small unit of Ethereum
+
+1205
+01:02:30,950 --> 01:02:32,950
+ what's the small unit of Bitcoin
+
+1206
+01:02:34,030 --> 01:02:35,230
+ Satoshi 
+
+1207
+01:02:35,560 --> 01:02:39,030
+So gas and Satoshi are very similar British 
+
+1208
+01:02:39,580 --> 01:02:42,769
+I think the limit of 21 million is wished at 29th
+
+1209
+01:02:42,769 --> 01:02:43,301
+ 14
+
+1210
+01:02:43,301 --> 01:02:44,010
+ not 24 
+
+1211
+01:02:44,760 --> 01:02:45,170
+Wait
+
+1212
+01:02:45,340 --> 01:02:46,700
+ did it's not 2040
+
+1213
+01:02:46,730 --> 01:02:47,270
+ 21 point 
+
+1214
+01:02:47,810 --> 01:02:48,170
+Oh
+
+1215
+01:02:48,180 --> 01:02:49,000
+ yes
+
+1216
+01:02:49,910 --> 01:02:50,420
+ Wait
+
+1217
+01:02:50,430 --> 01:02:53,830
+ you think it's 21 40 closing out 
+
+1218
+01:02:55,380 --> 01:02:56,100
+What's that 
+
+1219
+01:02:57,600 --> 01:02:57,850
+All right 
+
+1220
+01:02:59,630 --> 01:03:00,950
+So I typed poorly 
+
+1221
+01:03:02,520 --> 01:03:03,010
+Aviva
+
+1222
+01:03:03,010 --> 01:03:03,900
+ did you have question 
+
+1223
+01:03:06,100 --> 01:03:06,450
+I
+
+1224
+01:03:07,410 --> 01:03:10,070
+ this means Bitcoin is a deflationary currency 
+
+1225
+01:03:11,690 --> 01:03:12,050
+Well
+
+1226
+01:03:12,060 --> 01:03:14,880
+ Eileen says it's Bitcoin and deflationary currency
+
+1227
+01:03:14,890 --> 01:03:16,110
+ depending upon
+
+1228
+01:03:18,010 --> 01:03:19,300
+ your use of that word 
+
+1229
+01:03:19,300 --> 01:03:24,390
+But others have written that Bitcoin is a deflationary currency because it's not growing 
+
+1230
+01:03:24,400 --> 01:03:31,360
+If the economy is growing at explicit and x percent is bigger than how Bitcoin is growing
+
+1231
+01:03:31,370 --> 01:03:31,930
+ that would
+
+1232
+01:03:31,940 --> 01:03:35,340
+ that would sort of define it as deflationary 
+
+1233
+01:03:36,760 --> 01:03:44,210
+I would just note that those who are fond and there's a lot of academic literature 
+
+1234
+01:03:44,210 --> 01:03:45,780
+And this goes back decades
+
+1235
+01:03:45,920 --> 01:03:47,030
+ if not centuries
+
+1236
+01:03:47,150 --> 01:03:48,840
+ for hard currencies
+
+1237
+01:03:48,840 --> 01:03:52,450
+ where monetary policy is absolutely formula driven
+
+1238
+01:03:52,450 --> 01:03:54,900
+ whether it's the Taylor rule or other rules
+
+1239
+01:03:55,120 --> 01:04:02,490
+ rulebased monetary policy would have a fondness for what you could maybe put in computer code 
+
+1240
+01:04:02,580 --> 01:04:06,220
+Those who think that humans should be involved 
+
+1241
+01:04:06,290 --> 01:04:13,570
+And many people think there is a need for some human involvement would say this is too hard coded
+
+1242
+01:04:13,570 --> 01:04:17,080
+ and you'd want something where you could modify and change it
+
+1243
+01:04:17,090 --> 01:04:18,820
+ and it would be dangerous
+
+1244
+01:04:19,160 --> 01:04:30,320
+ in times of war and times of stress and times of economic peril or like the 2008 crisis that this would make a crisis worse 
+
+1245
+01:04:30,350 --> 01:04:46,010
+And so the academic literature and the real life reality in the last couple of hundred years of hard currencies hard monetary policies versus human involvement and some judgment is kind of an an interesting debate that goes right in the middle of all of this
+
+1246
+01:04:46,830 --> 01:04:51,273
+ what we consider it is a reincarnation of art is an aspect 
+
+1247
+01:04:51,273 --> 01:04:54,977
+It's a class of asset that has some aspects of the cars 
+
+1248
+01:04:54,977 --> 01:04:56,458
+So the question is
+
+1249
+01:04:56,458 --> 01:04:58,433
+ is this is a real currency 
+
+1250
+01:04:58,433 --> 01:05:03,150
+Or is it just a asset that has aspects of of the currency 
+
+1251
+01:05:03,310 --> 01:05:03,450
+Ben
+
+1252
+01:05:03,450 --> 01:05:04,290
+ what do you think 
+
+1253
+01:05:05,740 --> 01:05:09,600
+So there were the three rolls and or three places you could define a currency 
+
+1254
+01:05:09,610 --> 01:05:11,540
+It was the unit of account store value
+
+1255
+01:05:13,350 --> 01:05:14,090
+ medium of exchange 
+
+1256
+01:05:14,960 --> 01:05:17,780
+So I guess this has all of those attributes you could call it accounts 
+
+1257
+01:05:18,710 --> 01:05:21,781
+You're saying if it has all of those
+
+1258
+01:05:21,781 --> 01:05:22,619
+ it does that 
+
+1259
+01:05:22,619 --> 01:05:23,456
+All right
+
+1260
+01:05:23,456 --> 01:05:23,736
+ DOS
+
+1261
+01:05:23,736 --> 01:05:24,294
+ alright
+
+1262
+01:05:24,294 --> 01:05:24,573
+ DOS
+
+1263
+01:05:24,573 --> 01:05:25,970
+ so Ben thinks yes 
+
+1264
+01:05:25,970 --> 01:05:27,924
+How many people were within 
+
+1265
+01:05:27,924 --> 01:05:29,600
+As of September 18th
+
+1266
+01:05:30,410 --> 01:05:31,690
+ 2018
+
+1267
+01:05:31,690 --> 01:05:32,360
+ not 21
+
+1268
+01:05:32,360 --> 01:05:32,790
+ 18 
+
+1269
+01:05:34,530 --> 01:05:37,530
+So Isabelle is there Zen 
+
+1270
+01:05:38,480 --> 01:05:39,650
+So how many people think
+
+1271
+01:05:39,680 --> 01:05:39,960
+ Tom 
+
+1272
+01:05:40,130 --> 01:05:41,130
+How many people think 
+
+1273
+01:05:41,140 --> 01:05:43,700
+Not right 
+
+1274
+01:05:44,480 --> 01:05:45,010
+I don't 
+
+1275
+01:05:45,260 --> 01:05:48,150
+I think that you all get to decide yourself 
+
+1276
+01:05:48,560 --> 01:05:49,600
+Mark Carney
+
+1277
+01:05:49,600 --> 01:05:53,810
+ who is the governor of the Bank of England
+
+1278
+01:05:54,030 --> 01:05:57,460
+ gave a speech earlier in the year
+
+1279
+01:05:57,460 --> 01:06:00,510
+ which is assigned at a later class 
+
+1280
+01:06:00,510 --> 01:06:01,330
+And he says
+
+1281
+01:06:01,340 --> 01:06:03,260
+ I don't think we should call him cryptocurrency 
+
+1282
+01:06:03,260 --> 01:06:05,210
+So they should be called crypto assets 
+
+1283
+01:06:05,220 --> 01:06:08,910
+They're not yet evidencing all three of these things 
+
+1284
+01:06:10,170 --> 01:06:11,840
+So that's Mark Carney
+
+1285
+01:06:11,850 --> 01:06:13,730
+ who I have great respect for 
+
+1286
+01:06:13,850 --> 01:06:14,800
+But there are others that say
+
+1287
+01:06:14,800 --> 01:06:15,030
+ no
+
+1288
+01:06:15,030 --> 01:06:16,060
+ it's evidencing enough 
+
+1289
+01:06:16,860 --> 01:06:17,800
+I would say this
+
+1290
+01:06:17,800 --> 01:06:18,290
+ though 
+
+1291
+01:06:18,330 --> 01:06:21,940
+It's plausible that they will they and this
+
+1292
+01:06:21,940 --> 01:06:22,180
+ this
+
+1293
+01:06:22,180 --> 01:06:23,840
+ if you take nothing else from the class
+
+1294
+01:06:23,840 --> 01:06:27,720
+ it's plausible in my view that they could not provide
+
+1295
+01:06:27,720 --> 01:06:32,380
+ you could have digital currency that does not have a central authority 
+
+1296
+01:06:33,440 --> 01:06:33,680
+I mean
+
+1297
+01:06:33,800 --> 01:06:35,790
+ I think that innovation is there
+
+1298
+01:06:35,800 --> 01:06:39,930
+ whether you call it a cryptocurrency or cryptoasset at this point in time
+
+1299
+01:06:40,140 --> 01:06:41,440
+ I leave to all of you
+
+1300
+01:06:41,520 --> 01:06:43,880
+ there won't be a right answer to that on any paper 
+
+1301
+01:06:43,880 --> 01:06:45,680
+You submit you can use whichever term 
+
+1302
+01:06:45,680 --> 01:06:48,960
+You think fits your thinking 
+
+1303
+01:06:50,300 --> 01:06:51,820
+I want to talk about the network 
+
+1304
+01:06:51,830 --> 01:06:52,720
+We only have 10 minutes
+
+1305
+01:06:52,770 --> 01:06:54,210
+ but the network is important 
+
+1306
+01:06:55,130 --> 01:06:57,820
+And a lot of times when you talk about Bitcoin and blockchain
+
+1307
+01:06:57,820 --> 01:06:59,170
+ folks aren't going to talk about it
+
+1308
+01:06:59,170 --> 01:07:02,890
+ But I want to quickly hit 8 or 9 players on the network 
+
+1309
+01:07:04,200 --> 01:07:05,470
+There are full nodes 
+
+1310
+01:07:05,470 --> 01:07:06,710
+A full node is
+
+1311
+01:07:06,720 --> 01:07:08,990
+ is a group is a computer 
+
+1312
+01:07:08,990 --> 01:07:13,290
+I should say that stores the full blockchain technology
+
+1313
+01:07:14,860 --> 01:07:17,470
+ and is able to validate all transactions 
+
+1314
+01:07:17,470 --> 01:07:18,800
+It doesn't have to 
+
+1315
+01:07:18,870 --> 01:07:20,420
+It's a volunteer thing
+
+1316
+01:07:20,420 --> 01:07:23,910
+ but it can validate all transactions are a pruning node 
+
+1317
+01:07:24,360 --> 01:07:25,920
+You're not going to read a lot about it
+
+1318
+01:07:26,040 --> 01:07:27,390
+ But I just have it 
+
+1319
+01:07:27,550 --> 01:07:32,090
+It prunes transactions once they've validated and they have a certain age 
+
+1320
+01:07:32,100 --> 01:07:32,470
+You're saying
+
+1321
+01:07:32,470 --> 01:07:32,710
+ you know
+
+1322
+01:07:32,710 --> 01:07:36,360
+ all of those early transactions were not going to focus 
+
+1323
+01:07:36,760 --> 01:07:37,340
+There's been 
+
+1324
+01:07:40,470 --> 01:07:49,940
+Probably six times the number of transactions that have happened compared to the actual extent transactions right now 
+
+1325
+01:07:49,950 --> 01:07:52,500
+So all the transactions that have ever happened
+
+1326
+01:07:52,670 --> 01:07:53,200
+ 5
+
+1327
+01:07:53,200 --> 01:07:55,430
+ 6 of them have already been used 
+
+1328
+01:07:55,430 --> 01:07:56,660
+They're not around anymore 
+
+1329
+01:07:56,660 --> 01:07:59,230
+Why do we have to lug it around in our dataset 
+
+1330
+01:07:59,950 --> 01:08:01,270
+So you could have a pruning node
+
+1331
+01:08:02,880 --> 01:08:03,760
+ lightweight nodes
+
+1332
+01:08:04,090 --> 01:08:07,690
+ which if any of you have a Bitcoin wallet or any other wallet
+
+1333
+01:08:07,690 --> 01:08:09,330
+ you probably have a lightweight
+
+1334
+01:08:09,620 --> 01:08:13,280
+ some form of lightweight node or what's called an SPV node 
+
+1335
+01:08:13,970 --> 01:08:23,310
+It stores just those blockchain headers rather than all this detail underneath a lot less storage 
+
+1336
+01:08:24,730 --> 01:08:31,170
+But a lightweight node has to rely on the full nodes for verification because the lightweight node is not going to be doing that 
+
+1337
+01:08:31,330 --> 01:08:32,020
+And so on 
+
+1338
+01:08:32,190 --> 01:08:32,930
+Miners
+
+1339
+01:08:32,930 --> 01:08:34,460
+ we talked about miners 
+
+1340
+01:08:35,570 --> 01:08:39,440
+I want to just mention miners don't have to be full nodes 
+
+1341
+01:08:40,190 --> 01:08:41,010
+Amanda
+
+1342
+01:08:41,380 --> 01:08:46,300
+ you're running this mining operation for the whole class
+
+1343
+01:08:47,910 --> 01:08:49,930
+ and we're paying you 1 to 3% 
+
+1344
+01:08:50,930 --> 01:08:53,010
+But you're so you're Sloan
+
+1345
+01:08:53,010 --> 01:08:53,740
+ right 
+
+1346
+01:08:53,830 --> 01:08:55,720
+You're probably charging at the high end
+
+1347
+01:08:55,730 --> 01:08:56,240
+ right 
+
+1348
+01:08:58,220 --> 01:08:59,590
+So do you think that Amanda
+
+1349
+01:08:59,610 --> 01:09:04,150
+ as a mining pool operators operating a full node 
+
+1350
+01:09:06,580 --> 01:09:06,620
+Hi
+
+1351
+01:09:06,660 --> 01:09:07,290
+ Tom
+
+1352
+01:09:07,640 --> 01:09:07,670
+ Yes
+
+1353
+01:09:08,580 --> 01:09:09,880
+ saying it tentatively 
+
+1354
+01:09:09,880 --> 01:09:10,880
+But Tom
+
+1355
+01:09:10,880 --> 01:09:14,260
+ you're paying a man to 2% of your fees 
+
+1356
+01:09:14,260 --> 01:09:17,210
+Don't you want to make sure she's validating everything 
+
+1357
+01:09:18,070 --> 01:09:18,300
+Yeah
+
+1358
+01:09:18,320 --> 01:09:18,950
+ what's that 
+
+1359
+01:09:19,280 --> 01:09:19,840
+She just thinks
+
+1360
+01:09:20,800 --> 01:09:20,980
+ oh
+
+1361
+01:09:20,980 --> 01:09:21,990
+ she thinks three per cent 
+
+1362
+01:09:22,920 --> 01:09:23,190
+But
+
+1363
+01:09:23,190 --> 01:09:25,620
+ but any of you who are just miners
+
+1364
+01:09:25,620 --> 01:09:26,430
+ remember
+
+1365
+01:09:26,430 --> 01:09:28,590
+ Amanda is our pool operator
+
+1366
+01:09:28,590 --> 01:09:29,940
+ anybody's Andrew
+
+1367
+01:09:29,940 --> 01:09:32,370
+ do you think you need a full note 
+
+1368
+01:09:32,370 --> 01:09:34,730
+If if Amanda is no
+
+1369
+01:09:35,030 --> 01:09:38,000
+ so a lot of miners are not operating full nodes
+
+1370
+01:09:39,090 --> 01:09:41,230
+ they've got all those racks of Asics 
+
+1371
+01:09:41,230 --> 01:09:45,390
+They're running all their electricity and they are paying a man at a check on it 
+
+1372
+01:09:46,740 --> 01:09:48,930
+Don't let them down a link 
+
+1373
+01:09:48,970 --> 01:09:51,890
+I think this is a terrible thing because in principle
+
+1374
+01:09:52,150 --> 01:09:53,780
+ you have like 2030 mining codes
+
+1375
+01:09:54,390 --> 01:09:56,170
+ which means you have 2030 computers
+
+1376
+01:09:56,330 --> 01:10:04,540
+ which validate the neural deposit block and sort of the thing that everybody wants to believe is that these systems are decentralized and you have thousands 
+
+1377
+01:10:07,190 --> 01:10:10,260
+So I might start calling you Norio Rabbini
+
+1378
+01:10:10,360 --> 01:10:10,810
+ but I won't 
+
+1379
+01:10:11,290 --> 01:10:12,420
+But Norio Rabbini
+
+1380
+01:10:12,620 --> 01:10:14,570
+ who is an economist
+
+1381
+01:10:14,570 --> 01:10:16,350
+ he sometimes called Dr Doom
+
+1382
+01:10:16,580 --> 01:10:20,970
+ and he likes that phrase because he caused downturns in the market 
+
+1383
+01:10:21,180 --> 01:10:21,650
+There's
+
+1384
+01:10:21,670 --> 01:10:31,320
+ there's a later reading and I might have even done a video of Rabbi has this video that it's not decentralized in mining pools or at Achilles heel of the system
+
+1385
+01:10:32,400 --> 01:10:33,710
+ but the full nodes
+
+1386
+01:10:33,710 --> 01:10:36,690
+ the 10000 nodes actually still do validation 
+
+1387
+01:10:36,690 --> 01:10:41,950
+And there's an interesting social construct where there's a lot of nodes doing in innocence
+
+1388
+01:10:41,960 --> 01:10:43,580
+ noncompensated work
+
+1389
+01:10:43,600 --> 01:10:52,910
+ validating transactions beyond Amanda and any minor Andrew could could validate if he wants to 
+
+1390
+01:10:53,720 --> 01:10:58,430
+So there's a lot of free riding that goes along and the economics of free riding 
+
+1391
+01:10:59,430 --> 01:11:01,090
+And then there's wallets
+
+1392
+01:11:01,100 --> 01:11:05,400
+ which probably 30 or 40 of you have when your computer somewhere
+
+1393
+01:11:05,830 --> 01:11:09,300
+ they store and view and send all the transactions 
+
+1394
+01:11:09,300 --> 01:11:10,010
+But importantly
+
+1395
+01:11:10,010 --> 01:11:11,960
+ also create the key pairs 
+
+1396
+01:11:14,070 --> 01:11:16,910
+So a lot to cover 
+
+1397
+01:11:16,960 --> 01:11:19,550
+There's one that's not a node itself at all 
+
+1398
+01:11:19,550 --> 01:11:21,990
+It's called the mempool or the memory pool 
+
+1399
+01:11:22,100 --> 01:11:23,950
+And we're going to talk about this more on Thursday 
+
+1400
+01:11:23,950 --> 01:11:31,760
+But the memory poll stores all the unconfirmed and but yet already validated 
+
+1401
+01:11:31,760 --> 01:11:33,650
+So they've been validated by somebody 
+
+1402
+01:11:33,650 --> 01:11:36,840
+A transaction goes out into the network 
+
+1403
+01:11:36,920 --> 01:11:38,930
+A full node validates it is
+
+1404
+01:11:39,350 --> 01:11:40,950
+ and it's put in a memory pool 
+
+1405
+01:11:41,090 --> 01:11:46,860
+And Amanda grabs the memory pool and sends it out to everybody in this class in a block 
+
+1406
+01:11:47,230 --> 01:11:48,180
+And then we mine it 
+
+1407
+01:11:50,560 --> 01:11:53,550
+We're not going to chat much about these right now 
+
+1408
+01:11:53,560 --> 01:11:56,690
+But we talked about there was a Coindesk article 
+
+1409
+01:11:56,690 --> 01:11:58,050
+How many of you actually skimmed 
+
+1410
+01:11:58,050 --> 01:11:58,820
+It looked at it 
+
+1411
+01:11:58,930 --> 01:12:03,410
+And did it mean anything to you or just meant that there's some alternative 
+
+1412
+01:12:05,510 --> 01:12:05,810
+What's that 
+
+1413
+01:12:05,880 --> 01:12:06,480
+Priya 
+
+1414
+01:12:07,030 --> 01:12:09,180
+Is that there's some alternative 
+
+1415
+01:12:09,180 --> 01:12:10,110
+That's what it meant to me 
+
+1416
+01:12:10,110 --> 01:12:13,840
+The first time I looked into this about 6 months ago 
+
+1417
+01:12:14,100 --> 01:12:17,510
+But I want to just mention what the alternatives come down to 
+
+1418
+01:12:17,520 --> 01:12:21,880
+They generally randomized or delegate the selection 
+
+1419
+01:12:21,890 --> 01:12:29,230
+So rather than rather than saying any one of 10000 nodes can prove that this works and it
+
+1420
+01:12:29,580 --> 01:12:37,270
+ they use various mathematical means randomized or delegated 
+
+1421
+01:12:37,460 --> 01:12:44,940
+And sometimes they do a little bit of delegation and randomization to pick who's going to validate the next block 
+
+1422
+01:12:44,970 --> 01:12:49,110
+It all comes down to who is picking the next block 
+
+1423
+01:12:49,990 --> 01:12:54,550
+Is it by Adam Beck's sort of as Satoshi Nakamoto 
+
+1424
+01:12:56,230 --> 01:12:57,670
+Put out there 
+
+1425
+01:12:57,680 --> 01:13:00,940
+We'll call it Nakamoto consensus proof of work 
+
+1426
+01:13:02,170 --> 01:13:06,660
+And you'll you'll have a paper for Thursday that talks about Nakamoto consensus
+
+1427
+01:13:06,660 --> 01:13:07,860
+ the Clark paper 
+
+1428
+01:13:08,510 --> 01:13:14,220
+But or is there some other randomized delegated way to do it 
+
+1429
+01:13:17,260 --> 01:13:18,310
+In some of them
+
+1430
+01:13:18,310 --> 01:13:19,620
+ they have a second check 
+
+1431
+01:13:19,620 --> 01:13:22,720
+If there's a delegated person to validate something
+
+1432
+01:13:22,730 --> 01:13:30,620
+ They put a second check in there that there is another group that that officiates and says whether it's correct 
+
+1433
+01:13:32,160 --> 01:13:34,060
+And so there's proof of stake
+
+1434
+01:13:34,060 --> 01:13:37,300
+ which is based on the stake you have in the underlying currency 
+
+1435
+01:13:37,300 --> 01:13:38,960
+There's proof of activity
+
+1436
+01:13:38,960 --> 01:13:42,190
+ which is kind of a high bread of proof of work and proof of stake 
+
+1437
+01:13:42,600 --> 01:13:43,510
+Proof of burn 
+
+1438
+01:13:44,210 --> 01:13:46,230
+Are you willing to give up coins 
+
+1439
+01:13:46,660 --> 01:13:48,020
+A proof of capacity 
+
+1440
+01:13:48,020 --> 01:13:49,750
+Do you have storage capacity 
+
+1441
+01:13:51,800 --> 01:13:53,640
+And you might have a tiered system 
+
+1442
+01:13:54,250 --> 01:13:54,980
+And the major
+
+1443
+01:13:54,980 --> 01:13:58,280
+ permissionless blockchains all use proof of work 
+
+1444
+01:13:58,290 --> 01:14:02,820
+And the reason is nobody's really solved all of these other alternatives 
+
+1445
+01:14:03,580 --> 01:14:07,300
+No one's really solved for a couple of problems in them 
+
+1446
+01:14:09,010 --> 01:14:17,550
+But they usually find a way to be more efficient through delegation and randomization and might have a backup set of checks on it 
+
+1447
+01:14:18,000 --> 01:14:21,390
+Dash and Neo will say that they use proof of steak
+
+1448
+01:14:21,400 --> 01:14:28,190
+ but they're actually kind of using some form of of master nodes or or or set up professional nodes 
+
+1449
+01:14:29,510 --> 01:14:31,190
+But Dash and Neo are kind of
+
+1450
+01:14:31,230 --> 01:14:36,370
+ I think the 13th and 15th largest market value cryptos
+
+1451
+01:14:36,500 --> 01:14:39,240
+ which means everything else kind of and ripple
+
+1452
+01:14:39,240 --> 01:14:39,700
+ doesn't 
+
+1453
+01:14:39,710 --> 01:14:39,840
+It 
+
+1454
+01:14:39,860 --> 01:14:44,030
+Ripples really almost like a permission system rather than permissionless 
+
+1455
+01:14:44,040 --> 01:14:44,280
+I mean
+
+1456
+01:14:44,470 --> 01:14:46,500
+ they would say they're permissionless
+
+1457
+01:14:46,510 --> 01:14:52,640
+ but it's a confirm firm set of nodes that in the node system 
+
+1458
+01:14:53,880 --> 01:14:55,170
+So that's it for today 
+
+1459
+01:14:55,470 --> 01:14:57,090
+We're going to do transactions 
+
+1460
+01:14:57,090 --> 01:14:58,060
+On Thursday
+
+1461
+01:14:58,610 --> 01:15:00,250
+ I moved that study question 
+
+1462
+01:15:01,610 --> 01:15:05,510
+And then I'm going to ask you to read through the Clark paper
+
+1463
+01:15:05,510 --> 01:15:08,480
+ which is really the academic pedigree 
+
+1464
+01:15:08,480 --> 01:15:09,740
+Where is this built on 
+
+1465
+01:15:09,750 --> 01:15:10,820
+What's the background 
+
+1466
+01:15:10,880 --> 01:15:13,190
+But I think it's a good way to bring it all together 
+
+1467
+01:15:13,340 --> 01:15:14,130
+And remember
+
+1468
+01:15:14,130 --> 01:15:15,020
+ on Thursday
+
+1469
+01:15:15,020 --> 01:15:17,300
+ you all come in to answer this question
+
+1470
+01:15:17,300 --> 01:15:20,560
+ your own view as to who Satoshi Nakamoto is 
+
+1471
+01:15:20,560 --> 01:15:22,700
+There is no right answer 
+
+1472
+01:15:22,750 --> 01:15:27,160
+But of MIT S blockchain money class can answer that 
+
+1473
+01:15:27,250 --> 01:15:29,650
+I'm sure that we'll get a right up somewhere about it 
+
